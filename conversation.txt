@@ -1,0 +1,23 @@
+system: You are a helpful assistant.
+user: Give me ten examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]
+assistant: 
+
+1. Input: Find the largest value in an array. Output: A[Start] --> B[Initialize largest value]B --> C[Iterate through the array] C --> D{Current value > largest value?} D -- No --> C D -- Yes --> E[Update largest value] E --> C C -- Reached end of array --> F[Output the largest value] F --> G[End]
+
+2. Input: Sort a list of numbers in ascending order. Output: A[Start] --> B[Initialize sorted list] B --> C[Find the smallest number] C --> D{There are more numbers to compare?} D -- Yes --> C D -- No --> E[Add smallest number to sorted list] E --> B B -- Reached end of unsorted list --> F[Output sorted list] F --> G[End]
+
+3. Input: Calculate the average of a set of grades. Output: A[Start] --> B[Initialize sum and count variables] B --> C[Retrieve a grade] C --> D[Add grade to sum] D --> E[Increment count] E --> F{There are more grades to process?} F -- Yes --> C F -- No --> G[Calculate average] G --> H[Output average] H --> I[End]
+
+4. Input: Play a game of rock-paper-scissors until there is a winner. Output: A[Start] --> B[Player 1 chooses a move] B --> C[Player 2 chooses a move] C --> D{Player 1 wins?} D -- Yes --> E[Output Player 1 as winner] E --> F[End] D -- No --> G{Player 2 wins?} G -- Yes --> H[Output Player 2 as winner] H --> F[End] G -- No --> I[Continue the game] I --> B
+
+5. Input: Calculate the factorial of a given number. Output: A[Start] --> B[Initialize product variable] B --> C[Retrieve a number] C --> D{Number > 1?} D -- Yes --> E[Multiply number by product] E --> C D -- No --> F[Output product] F --> G[End]
+
+6. Input: Convert a decimal number to binary. Output: A[Start] --> B[Retrieve decimal number] B --> C[Apply modulo operation] C --> D[Output binary digit] D --> E[Divide decimal number by 2] E --> F{Decimal number > 0?} F -- Yes --> C F -- No --> G[Output the binary number] G --> H[End]
+
+7. Input: Encode a message using a Caesar cipher. Output: A[Start] --> B[Retrieve message and shift value] B --> C[Iterate through each character] C --> D{Character is an alphabet?} D -- No --> C D -- Yes --> E[Apply shift to character] E --> C C -- Reached end of message --> F[Output the encoded message] F --> G[End]
+
+8. Input: Check if a given number is prime. Output: A[Start] --> B[Retrieve a number] B --> C[Divide number by potential factors] C --> D{Remainder = 0 for any factor?} D -- Yes --> E[Output number is not prime] E --> F[End] D -- No --> G[Output number is prime] G --> F[End]
+
+9. Input: Find the smallest common multiple of two numbers. Output: A[Start] --> B[Retrieve two numbers] B --> C[Compute the greatest common divisor] C --> D[Compute the LCM using GCD] D --> E[Output the LCM] E --> F[End]
+
+10. Input: Convert a sentence to title case. Output: A[Start] --> B[Retrieve a sentence] B --> C[Split sentence into words] C --> D{Word is the first or not an article/preposition/conjunction?} D -- Yes --> E[Capitalize word] E --> C D -- No --> C C -- Reached end of sentence --> F[Output the title-cased sentence] F --> G[End]

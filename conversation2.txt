@@ -1,0 +1,201 @@
+system: test
+user: Give me 100 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]
+assistant: Input1: Calculate the average of a list of numbers. Output1: A[Start] --> B[Calculate the average] B --> C[End]
+
+Input2: Sort a list of names in alphabetical order. Output2: A[Start] --> B[Sort the list] B --> C[End]
+
+Input3: Determine if a number is prime or not. Output3: A[Start] --> B[Determine if the number is prime] B --> C[End]
+
+Input4: Find the largest element in an array. Output4: A[Start] --> B[Find the largest element] B --> C[End]
+
+Input5: Reverse a given string. Output5: A[Start] --> B[Reverse the string] B --> C[End]
+
+Input6: Check if a given year is a leap year or not. Output6: A[Start] --> B[Check if it's a leap year] B --> C[End]
+
+Input7: Convert a decimal number to binary. Output7: A[Start] --> B[Convert to binary] B --> C[End]
+
+Input8: Find the factorial of a given number. Output8: A[Start] --> B[Calculate the factorial] B --> C[End]
+
+Input9: Determine if a string is a palindrome or not. Output9: A[Start] --> B[Check if it's a palindrome] B --> C[End]
+
+Input10: Replace all occurrences of a substring in a string. Output10: A[Start] --> B[Replace the substring] B --> C[End]
+
+Input11: Sum all elements in a given list. Output11: A[Start] --> B[Sum all the elements] B --> C[End]
+
+Input12: Find the median of a set of numbers. Output12: A[Start] --> B[Find the median] B --> C[End]
+
+Input13: Determine if a given string is a valid email address. Output13: A[Start] --> B[Check if it's a valid email] B --> C[End]
+
+Input14: Remove all duplicates from a list. Output14: A[Start] --> B[Remove duplicates] B --> C[End]
+
+Input15: Convert a string to title case. Output15: A[Start] --> B[Convert to title case] B --> C[End]
+
+Input16: Encrypt a message using a Caesar cipher. Output16: A[Start] --> B[Encrypt using Caesar cipher] B --> C[End]
+
+Input17: Find the greatest common divisor of two numbers. Output17: A[Start] --> B[Find the greatest common divisor] B --> C[End]
+
+Input18: Remove all punctuation marks from a string. Output18: A[Start] --> B[Remove punctuation marks] B --> C[End]
+
+Input19: Calculate the area of a triangle. Output19: A[Start] --> B[Calculate the area of the triangle] B --> C[End]
+
+Input20: Generate a random password. Output20: A[Start] --> B[Generate a random password] B --> C[End]
+
+Input21: Determine if a given number is even or odd. Output21: A[Start] --> B[Check if it's even or odd] B --> C[End]
+
+Input22: Convert a string to uppercase. Output22: A[Start] --> B[Convert to uppercase] B --> C[End]
+
+Input23: Validate a credit card number. Output23: A[Start] --> B[Validate the credit card number] B --> C[End]
+
+Input24: Encrypt a message using a Vigenere cipher. Output24: A[Start] --> B[Encrypt using Vigenere cipher] B --> C[End]
+
+Input25: Calculate the square root of a number. Output25: A[Start] --> B[Calculate the square root] B --> C[End]
+
+Input26: Convert a binary number to decimal. Output26: A[Start] --> B[Convert to decimal] B --> C[End]
+
+Input27: Find the second-largest element in an array. Output27: A[Start] --> B[Find the second-largest element] B --> C[End]
+
+Input28: Count the number of vowels in a string. Output28: A[Start] --> B[Count the vowels] B --> C[End]
+
+Input29: Determine if a string is a valid URL. Output29: A[Start] --> B[Check if it's a valid URL] B --> C[End]
+
+Input30: Convert a temperature from Celsius to Fahrenheit. Output30: A[Start] --> B[Convert Celsius to Fahrenheit] B --> C[End]
+
+Input31: Find the mode of a given list. Output31: A[Start] --> B[Find the mode] B --> C[End]
+
+Input32: Check if a given string contains only numeric characters. Output32: A[Start] --> B[Check if it's numeric] B --> C[End]
+
+Input33: Calculate the perimeter of a rectangle. Output33: A[Start] --> B[Calculate the perimeter of the rectangle] B --> C[End]
+
+Input34: Extract the file extension from a filename. Output34: A[Start] --> B[Extract the file extension] B --> C[End]
+
+Input35: Determine if two strings are anagrams. Output35: A[Start] --> B[Check if they are anagrams] B --> C[End]
+
+Input36: Convert a string to lowercase. Output36: A[Start] --> B[Convert to lowercase] B --> C[End]
+
+Input37: Find the number of words in a sentence. Output37: A[Start] --> B[Count the words] B --> C[End]
+
+Input38: Validate a password based on specific criteria. Output38: A[Start] --> B[Validate the password] B --> C[End]
+
+Input39: Compute the average of an array of numbers. Output39: A[Start] --> B[Compute the average] B --> C[End]
+
+Input40: Check if a given string is a valid IP address. Output40: A[Start] --> B[Check if it's a valid IP address] B --> C[End]
+
+Input41: Determine the number of days between two dates. Output41: A[Start] --> B[Calculate the number of days] B --> C[End]
+
+Input42: Find the index of a specific element in an array. Output42: A[Start] --> B[Find the element's index] B --> C[End]
+
+Input43: Calculate the area of a circle. Output43: A[Start] --> B[Calculate the area of the circle] B --> C[End]
+
+Input44: Remove all whitespace from a string. Output44: A[Start] --> B[Remove whitespace] B --> C[End]
+
+Input45: Convert a number to Roman numerals. Output45: A[Start] --> B[Convert to Roman numerals] B --> C[End]
+
+Input46: Sort a list of integers in descending order. Output46: A[Start] --> B[Sort the list in descending order] B --> C[End]
+
+Input47: Determine if a given number is a perfect square. Output47: A[Start] --> B[Check if it's a perfect square] B --> C[End]
+
+Input48: Replace all spaces in a string with underscores. Output48: A[Start] --> B[Replace spaces with underscores] B --> C[End]
+
+Input49: Calculate the cosine of an angle. Output49: A[Start] --> B[Calculate the cosine] B --> C[End]
+
+Input50: Determine if a string is a valid hexadecimal number. Output50: A[Start] --> B[Check if it's a valid hexadecimal number] B --> C[End]
+
+Input51: Find the minimum element in an array. Output51: A[Start] --> B[Find the minimum element] B --> C[End]
+
+Input52: Remove the first occurrence of a substring in a string. Output52: A[Start] --> B[Remove the first occurrence of the substring] B --> C[End]
+
+Input53: Determine if a given number is positive, negative, or zero. Output53: A[Start] --> B[Check if it's positive, negative, or zero] B --> C[End]
+
+Input54: Convert a decimal number to hexadecimal. Output54: A[Start] --> B[Convert to hexadecimal] B --> C[End]
+
+Input55: Find all prime numbers within a given range. Output55: A[Start] --> B[Find prime numbers within the range] B --> C[End]
+
+Input56: Calculate the absolute value of a number. Output56: A[Start] --> B[Calculate the absolute value] B --> C[End]
+
+Input57: Capitalize the first letter of each word in a string. Output57: A[Start] --> B[Capitalize the first letter of each word] B --> C[End]
+
+Input58: Determine if a given string is a valid palindrome. Output58: A[Start] --> B[Check if it's a palindrome] B --> C[End]
+
+Input59: Remove the last element from a list. Output59: A[Start] --> B[Remove the last element] B --> C[End]
+
+Input60: Calculate the sum of all even numbers in a list. Output60: A[Start] --> B[Calculate the sum of even numbers] B --> C[End]
+
+Input61: Sort a list of objects based on a specific attribute. Output61: A[Start] --> B[Sort the list based on the attribute] B --> C[End]
+
+Input62: Determine the number of digits in a given number. Output62: A[Start] --> B[Count the number of digits] B --> C[End]
+
+Input63: Find the index of the last occurrence of a substring in a string. Output63: A[Start] --> B[Find the last occurrence of the substring] B --> C[End]
+
+Input64: Check if a given year is a leap year according to the Gregorian calendar. Output64: A[Start] --> B[Check if it's a leap year (Gregorian)] B --> C[End]
+
+Input65: Concatenate two strings together. Output65: A[Start] --> B[Concatenate the strings] B --> C[End]
+
+Input66: Find the mode and frequency of each element in a list. Output66: A[Start] --> B[Find the mode and frequencies] B --> C[End]
+
+Input67: Determine if a string is a valid ISBN. Output67: A[Start] --> B[Check if it's a valid ISBN] B --> C[End]
+ 
+Input68: Remove all non-alphanumeric characters from a string. Output68: A[Start] --> B[Remove non-alphanumeric characters] B --> C[End]
+
+Input69: Calculate the power of a number to a given exponent. Output69: A[Start] --> B[Calculate the power] B --> C[End]
+
+Input70: Shuffle the elements of a list. Output70: A[Start] --> B[Shuffle the list] B --> C[End]
+
+Input71: Determine if a given string is a valid credit card number. Output71: A[Start] --> B[Check if it's a valid credit card number] B --> C[End]
+
+Input72: Find the middle element in an array. Output72: A[Start] --> B[Find the middle element] B --> C[End]
+
+Input73: Replace all lowercase letters with uppercase and vice versa in a string. Output73: A[Start] --> B[Replace uppercase and lowercase letters] B --> C[End]
+
+Input74: Determine if a given string is a valid palindrome ignoring spaces. Output74: A[Start] --> B[Check if it's a palindrome (ignoring spaces)] B --> C[End]
+
+Input75: Remove the first element from a list. Output75: A[Start] --> B[Remove the first element] B --> C[End]
+
+Input76: Calculate the sum of all odd numbers in a list. Output76: A[Start] --> B[Calculate the sum of odd numbers] B --> C[End]
+
+Input77: Sort a list of integers in ascending order. Output77: A[Start] --> B[Sort the list in ascending order] B --> C[End]
+
+Input78: Determine if a given number is a perfect number. Output78: A[Start] --> B[Check if it's a perfect number] B --> C[End]
+
+Input79: Generate a Fibonacci sequence up to a given number. Output79: A[Start] --> B[Generate the Fibonacci sequence] B --> C[End]
+
+Input80: Check if a given string is a palindrome ignoring case. Output80: A[Start] --> B[Check if it's a palindrome (ignoring case)] B --> C[End]
+
+Input81: Rotate the elements of a list to the left by a given number of positions. Output81: A[Start] --> B[Rotate the list to the left] B --> C[End]
+
+Input82: Determine if a given string is a valid JSON object. Output82: A[Start] --> B[Check if it's a valid JSON object] B --> C[End]
+
+Input83: Find the sum of digits in a given number. Output83: A[Start] --> B[Find the sum of digits] B --> C[End]
+
+Input84: Calculate the area of a trapezoid. Output84: A[Start] --> B[Calculate the area of the trapezoid] B --> C[End]
+
+Input85: Remove the last occurrence of a substring in a string. Output85: A[Start] --> B[Remove the last occurrence of the substring] B --> C[End]
+
+Input86: Determine if a given number is a power of two. Output86: A[Start] --> B[Check if it's a power of two] B --> C[End]
+
+Input87: Replace all vowels in a string with a specified character. Output87: A[Start] --> B[Replace vowels with a specified character] B --> C[End]
+
+Input88: Determine if a given string is a valid XML document. Output88: A[Start] --> B[Check if it's a valid XML document] B --> C[End]
+
+Input89: Find the sum of all elements at even indices in an array. Output89: A[Start] --> B[Calculate the sum of elements at even indices] B --> C[End]
+
+Input90: Reverse the order of words in a sentence. Output90: A[Start] --> B[Reverse the order of words] B --> C[End]
+
+Input91: Determine if a given string is a valid phone number. Output91: A[Start] --> B[Check if it's a valid phone number] B --> C[End]
+
+Input92: Calculate the greatest common divisor of three numbers. Output92: A[Start] --> B[Calculate the greatest common divisor] B --> C[End]
+
+Input93: Remove the first and last characters from a string. Output93: A[Start] --> B[Remove the first and last characters] B --> C[End]
+
+Input94: Determine if a given triangle is equilateral, isosceles, or scalene. Output94: A[Start] --> B[Check the triangle type] B --> C[End]
+
+Input95: Reverse the order of elements in an array. Output95: A[Start] --> B[Reverse the order of elements] B --> C[End]
+
+Input96: Determine if a given string is a valid IPv4 address. Output96: A[Start] --> B[Check if it's a valid IPv4 address] B --> C[End]
+
+Input97: Remove the specified element from a list. Output97: A[Start] --> B[Remove the specified element] B --> C[End]
+
+Input98: Determine the number of trailing zeros in the factorial of a given number. Output98: A[Start] --> B[Count the trailing zeros in the factorial] B --> C[End]
+
+Input99: Multiply two matrices. Output99: A[Start] --> B[Multiply the matrices] B --> C[End]
+
+Input100: Determine if a given string is a valid IPv6 address. Output100: A[Start] --> B[Check if it's a valid IPv6 address] B --> C[End]
