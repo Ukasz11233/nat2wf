@@ -1,0 +1,20 @@
+user: Give me 10 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the largest number in a list of integers. Output1: A[Start] --> B[Search the list] B --> C{Largest number found?} C -- No --> B C -- Yes --> D[Remove the number] D --> E[End].
+
+Input2: Search a list of songs for the one with the highest number of plays. Output2: A[Start] --> B[Search the list] B --> C{Song with highest number of plays found?} C -- No --> B C -- Yes --> D[Remove the song] D --> E[End].
+
+Input3: Look for the highest score in a game leaderboard. Output3: A[Start] --> B[Search the leaderboard] B --> C{Highest score found?} C -- No --> B C -- Yes --> D[Remove the score] D --> E[End].
+
+Input4: Find the largest file in a folder. Output4: A[Start] --> B[Search the folder] B --> C{Largest file found?} C -- No --> B C -- Yes --> D[Remove the file] D --> E[End].
+
+Input5: Scan a list of prices until finding the one with the highest value. Output5: A[Start] --> B[Search the list] B --> C{Price with highest value found?} C -- No --> B C -- Yes --> D[Remove the price] D --> E[End].
+
+Input6: Traverse through a tree to locate the node with the highest value. Output6: A[Start] --> B[Search the tree] B --> C{Node with highest value found?} C -- No --> B C -- Yes --> D[Remove the node] D --> E[End].
+
+Input7: Analyze a dataset to identify the outlier with the highest value. Output7: A[Start] --> B[Search the dataset] B --> C{Outlier with highest value found?} C -- No --> B C -- Yes --> D[Remove the outlier] D --> E[End].
+
+Input8: Look through a list of movies until finding the one with the highest rating. Output8: A[Start] --> B[Search the list] B --> C{Movie with highest rating found?} C -- No --> B C -- Yes --> D[Remove the movie] D --> E[End].
+
+Input9: Find the oldest person in a group. Output9: A[Start] --> B[Search the group] B --> C{Oldest person found?} C -- No --> B C -- Yes --> D[Remove the person] D --> E[End].
+
+Input10: Explore a map to locate the city with the highest population. Output10: A[Start] --> B[Search the map] B --> C{City with highest population found?} C -- No --> B C -- Yes --> D[Remove the city] D --> E[End].

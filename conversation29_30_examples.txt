@@ -1,0 +1,91 @@
+system: test
+user: Give me 30 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the largest number in an array. Remove the number.
+Output1: A[Start] --> B[Search the array] B --> C{Largest number found?} C -- No --> B C -- Yes --> D[Remove the number] D --> E[End]
+
+Input2: Search a linked list for the longest string. Delete the node containing the string.
+Output2: A[Start] --> B[Search the linked list] B --> C{Longest string found?} C -- No --> B C -- Yes --> D[Delete the node] D --> E[End]
+
+Input3: Traverse a binary tree until a leaf node with the highest value is found. Remove the leaf node.
+Output3: A[Start] --> B[Traverse the binary tree] B --> C{Leaf node with highest value found?} C -- No --> B C -- Yes --> D[Remove the leaf node] D --> E[End]
+
+Input4: Iterate through a dictionary until a key with the largest value is found. Remove the key-value pair.
+Output4: A[Start] --> B[Iterate through the dictionary] B --> C{Key with largest value found?} C -- No --> B C -- Yes --> D[Remove the key-value pair] D --> E[End]
+
+Input5: Keep searching a stack until an element with the highest priority is found. Pop the element.
+Output5: A[Start] --> B[Search the stack] B --> C{Element with highest priority found?} C -- No --> B C -- Yes --> D[Pop the element] D --> E[End]
+
+Input6: Find the longest substring in a string. Remove the substring.
+Output6: A[Start] --> B[Find the longest substring] B --> C{Longest substring found?} C -- No --> B C -- Yes --> D[Remove the substring] D --> E[End]
+
+Input7: Continuously search a queue until an element with the highest value is found. Dequeue the element.
+Output7: A[Start] --> B[Search the queue] B --> C{Element with highest value found?} C -- No --> B C -- Yes --> D[Dequeue the element] D --> E[End]
+
+Input8: Discover the largest prime number in a given range. Remove the prime number.
+Output8: A[Start] --> B[Discover prime numbers in the range] B --> C{Largest prime number found?} C -- No --> B C -- Yes --> D[Remove the prime number] D --> E[End]
+
+Input9: Keep searching a matrix until a cell with the highest value is found. Clear the cell.
+Output9: A[Start] --> B[Search the matrix] B --> C{Cell with highest value found?} C -- No --> B C -- Yes --> D[Clear the cell] D --> E[End]
+
+Input10: Traverse a graph until a node with the maximum degree is found. Delete the node.
+Output10: A[Start] --> B[Traverse the graph] B --> C{Node with maximum degree found?} C -- No --> B C -- Yes --> D[Delete the node] D --> E[End]
+
+Input11: Search an array of objects for the oldest person. Remove the person's object.
+Output11: A[Start] --> B[Search the array of objects] B --> C{Oldest person found?} C -- No --> B C -- Yes --> D[Remove the person's object] D --> E[End]
+
+Input12: Keep searching a linked list until a node with the smallest value is found. Delete the node.
+Output12: A[Start] --> B[Search the linked list] B --> C{Node with the smallest value found?} C -- No --> B C -- Yes --> D[Delete the node] D --> E[End]
+
+Input13: Traverse a binary tree until a leaf node with the shortest path is found. Remove the leaf node.
+Output13: A[Start] --> B[Traverse the binary tree] B --> C{Leaf node with shortest path found?} C -- No --> B C -- Yes --> D[Remove the leaf node] D --> E[End]
+
+Input14: Iterate through a dictionary until a key with the smallest value is found. Remove the key-value pair.
+Output14: A[Start] --> B[Iterate through the dictionary] B --> C{Key with smallest value found?} C -- No --> B C -- Yes --> D[Remove the key-value pair] D --> E[End]
+
+Input15: Keep searching a stack until an element with the lowest priority is found. Pop the element.
+Output15: A[Start] --> B[Search the stack] B --> C{Element with lowest priority found?} C -- No --> B C -- Yes --> D[Pop the element] D --> E[End]
+
+Input16: Find the first occurrence of a specific character in a string. Remove the character.
+Output16: A[Start] --> B[Find the occurrence of the character] B --> C{Character found?} C -- No --> B C -- Yes --> D[Remove the character] D --> E[End]
+
+Input17: Continuously search a queue until an element with the lowest value is found. Dequeue the element.
+Output17: A[Start] --> B[Search the queue] B --> C{Element with lowest value found?} C -- No --> B C -- Yes --> D[Dequeue the element] D --> E[End]
+
+Input18: Discover the smallest prime number in a given range. Remove the prime number.
+Output18: A[Start] --> B[Discover prime numbers in the range] B --> C{Smallest prime number found?} C -- No --> B C -- Yes --> D[Remove the prime number] D --> E[End]
+
+Input19: Keep searching a matrix until a cell with the smallest value is found. Clear the cell.
+Output19: A[Start] --> B[Search the matrix] B --> C{Cell with smallest value found?} C -- No --> B C -- Yes --> D[Clear the cell] D --> E[End]
+
+Input20: Traverse a graph until a node with the minimum degree is found. Delete the node.
+Output20: A[Start] --> B[Traverse the graph] B --> C{Node with minimum degree found?} C -- No --> B C -- Yes --> D[Delete the node] D --> E[End]
+
+Input21: Search an array of objects for the youngest person. Remove the person's object.
+Output21: A[Start] --> B[Search the array of objects] B --> C{Youngest person found?} C -- No --> B C -- Yes --> D[Remove the person's object] D --> E[End]
+
+Input22: Keep searching a linked list until a node with a specific value is found. Delete the node.
+Output22: A[Start] --> B[Search the linked list] B --> C{Node with specific value found?} C -- No --> B C -- Yes --> D[Delete the node] D --> E[End]
+
+Input23: Traverse a binary tree until a leaf node with a specific attribute is found. Remove the leaf node.
+Output23: A[Start] --> B[Traverse the binary tree] B --> C{Leaf node with specific attribute found?} C -- No --> B C -- Yes --> D[Remove the leaf node] D --> E[End]
+
+Input24: Iterate through a dictionary until a key with a specific value is found. Remove the key-value pair.
+Output24: A[Start] --> B[Iterate through the dictionary] B --> C{Key with specific value found?} C -- No --> B C -- Yes --> D[Remove the key-value pair] D --> E[End]
+
+Input25: Keep searching a stack until an element with a certain condition is found. Pop the element.
+Output25: A[Start] --> B[Search the stack] B --> C{Element with specific condition found?} C -- No --> B C -- Yes --> D[Pop the element] D --> E[End]
+
+Input26: Find the last occurrence of a specific character in a string. Remove the character.
+Output26: A[Start] --> B[Find the occurrence of the character] B --> C{Character found?} C -- No --> B C -- Yes --> D[Remove the character] D --> E[End]
+
+Input27: Continuously search a queue until an element with a specific value is found. Dequeue the element.
+Output27: A[Start] --> B[Search the queue] B --> C{Element with specific value found?} C -- No --> B C -- Yes --> D[Dequeue the element] D --> E[End]
+
+Input28: Discover the first odd number in a given range. Remove the number.
+Output28: A[Start] --> B[Discover odd numbers in the range] B --> C{First odd number found?} C -- No --> B C -- Yes --> D[Remove the number] D --> E[End]
+
+Input29: Keep searching a matrix until a cell with a specific condition is found. Clear the cell.
+Output29: A[Start] --> B[Search the matrix] B --> C{Cell with specific condition found?} C -- No --> B C -- Yes --> D[Clear the cell] D --> E[End]
+
+Input30: Traverse a graph until a node with a certain attribute is found. Delete the node.
+Output30: A[Start] --> B[Traverse the graph] B --> C{Node with certain attribute found?} C -- No --> B C -- Yes --> D[Delete the node] D --> E[End]

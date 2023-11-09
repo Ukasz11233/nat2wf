@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Wake up and get out of bed. Take a shower and get dressed. Eat breakfast. Brush teeth. Leave the house.
+Output1: A[Start] --> B[Wake up and get out of bed] B --> C[Take a shower and get dressed] C --> D[Eat breakfast] D --> E[Brush teeth] E --> F[Leave the house] F --> G[End]
+
+Input2: Turn on the TV. Select the desired channel or program. Adjust the volume as needed. Watch the TV show or movie. Turn off the TV.
+Output2: A[Start] --> B[Turn on the TV] B --> C[Select desired channel or program] C --> D[Adjust volume as needed] D --> E[Watch the TV show or movie] E --> F[Turn off the TV] F --> G[End]
+
+Input3: Open the refrigerator. Take out the required ingredients. Prepare the recipe. Cook the meal. Serve the food. Clean up the kitchen.
+Output3: A[Start] --> B[Open the refrigerator] B --> C[Take out required ingredients] C --> D[Prepare the recipe] D --> E[Cook the meal] E --> F[Serve the food] F --> G[Clean up the kitchen] G --> H[End]
+
+Input4: Wake up and stretch. Go for a morning run. Do some warm-up exercises. Start jogging. Cool down and stretch again. Finish the run.
+Output4: A[Start] --> B[Wake up and stretch] B --> C[Go for a morning run] C --> D[Do some warm-up exercises] D --> E[Start jogging] E --> F[Cool down and stretch again] F --> G[Finish the run] G --> H[End]
+
+Input5: Open the book. Read the first chapter. Take notes on important points. Continue reading the next chapters. Finish reading the book. Close the book.
+Output5: A[Start] --> B[Open the book] B --> C[Read the first chapter] C --> D[Take notes on important points] D --> E[Continue reading the next chapters] E --> F[Finish reading the book] F --> G[Close the book] G --> H[End]
+
+Input6: Turn on the car engine. Adjust the mirrors and seat position. Fasten the seatbelt. Start driving. Follow the traffic rules. Park the car. Turn off the engine.
+Output6: A[Start] --> B[Turn on the car engine] B --> C[Adjust mirrors and seat position] C --> D[Fasten the seatbelt] D --> E[Start driving] E --> F[Follow the traffic rules] F --> G[Park the car] G --> H[Turn off the engine] H --> I[End]
+
+Input7: Wake up and make the bed. Get dressed in work attire. Have breakfast. Pack necessary items for work. Leave the house and lock the door behind. Start the commute.
+Output7: A[Start] --> B[Wake up and make the bed] B --> C[Get dressed in work attire] C --> D[Have breakfast] D --> E[Pack necessary items for work] E --> F[Leave the house and lock the door behind] F --> G[Start the commute] G --> H[End]
+
+Input8: Turn on the gaming console. Insert the game disc or select a downloaded game. Choose the desired game mode or level. Play the game. Quit the game and turn off the console.
+Output8: A[Start] --> B[Turn on the gaming console] B --> C[Insert game disc or select downloaded game] C --> D[Choose desired game mode or level] D --> E[Play the game] E --> F[Quit the game and turn off the console] F --> G[End]
+
+Input9: Wake up and stretch. Prepare a healthy breakfast. Consume the meal. Wash the dishes. Start the day's activities. Relax in the evening. Go to bed.
+Output9: A[Start] --> B[Wake up and stretch] B --> C[Prepare a healthy breakfast] C --> D[Consume the meal] D --> E[Wash the dishes] E --> F[Start the day's activities] F --> G[Relax in the evening] G --> H[Go to bed] H --> I[End]
+
+Input10: Turn on the stereo system. Select a favorite music playlist. Adjust the volume to a comfortable level. Listen to the music. Turn off the stereo.
+Output10: A[Start] --> B[Turn on the stereo system] B --> C[Select a favorite music playlist] C --> D[Adjust volume to a comfortable level] D --> E[Listen to the music] E --> F[Turn off the stereo] F --> G[End]
+
+Input11: Wake up and meditate. Stretch the body to improve flexibility. Practice deep breathing exercises. Perform yoga poses. Finish the yoga session. Relax and take a break.
+Output11: A[Start] --> B[Wake up and meditate] B --> C[Stretch the body to improve flexibility] C --> D[Practice deep breathing exercises] D --> E[Perform yoga poses] E --> F[Finish the yoga session] F --> G[Relax and take a break] G --> H[End]
+
+Input12: Turn on the laptop. Log in to the user account. Open the web browser. Browse favorite websites. Close the browser and shut down the laptop.
+Output12: A[Start] --> B[Turn on the laptop] B --> C[Log in to the user account] C --> D[Open the web browser] D --> E[Browse favorite websites] E --> F[Close the browser and shut down the laptop] F --> G[End]
+
+Input13: Wake up and have a glass of water. Do some morning stretches. Take a quick shower. Get ready for the day. Leave home and start the morning commute. Reach the workplace.
+Output13: A[Start] --> B[Wake up and have a glass of water] B --> C[Do some morning stretches] C --> D[Take a quick shower] D --> E[Get ready for the day] E --> F[Leave home and start the morning commute] F --> G[Reach the workplace] G --> H[End]
+
+Input14: Turn on the coffee machine. Add coffee grounds and water. Adjust the settings. Wait for the coffee to brew. Pour and enjoy the coffee. Clean the coffee machine.
+Output14: A[Start] --> B[Turn on the coffee machine] B --> C[Add coffee grounds and water] C --> D[Adjust the settings] D --> E[Wait for the coffee to brew] E --> F[Pour and enjoy the coffee] F --> G[Clean the coffee machine] G --> H[End]
+
+Input15: Wake up and check the phone for notifications. Get out of bed and freshen up. Have a nutritious breakfast. Pack the essentials for the day. Lock the house and begin the daily commute. Arrive at the destination.
+Output15: A[Start] --> B[Wake up and check the phone for notifications] B --> C[Get out of bed and freshen up] C --> D[Have a nutritious breakfast] D --> E[Pack the essentials for the day] E --> F[Lock the house and begin the daily commute] F --> G[Arrive at the destination] G --> H[End]
+
+Input16: Turn on the washing machine. Sort the laundry by color and fabric type. Load the clothes into the machine. Add detergent and set the desired wash cycle. Start the washing process. Hang or fold the clean laundry.
+Output16: A[Start] --> B[Turn on the washing machine] B --> C[Sort the laundry by color and fabric type] C --> D[Load the clothes into the machine] D --> E[Add detergent and set the desired wash cycle] E --> F[Start the washing process] F --> G[Hang or fold the clean laundry] G --> H[End]
+
+Input17: Wake up and write in the journal. Meditate for a few minutes. Practice gratitude exercises. Plan the day's tasks. Start completing the planned tasks. Wind down before bedtime.
+Output17: A[Start] --> B[Wake up and write in the journal] B --> C[Meditate for a few minutes] C --> D[Practice gratitude exercises] D --> E[Plan the day's tasks] E --> F[Start completing the planned tasks] F --> G[Wind down before bedtime] G --> H[End]
+
+Input18: Turn on the radio. Tune in to a favorite radio station. Increase or decrease the volume. Listen to the music or radio show. Turn off the radio.
+Output18: A[Start] --> B[Turn on the radio] B --> C[Tune in to a favorite radio station] C --> D[Increase or decrease the volume] D --> E[Listen to the music or radio show] E --> F[Turn off the radio] F --> G[End]
+
+Input19: Wake up and drink a glass of lemon water. Do some light stretching exercises. Take a quick shower. Get dressed for the day. Leave the house and start the day's activities. Relax in the evening before bed.
+Output19: A[Start] --> B[Wake up and drink a glass of lemon water] B --> C[Do some light stretching exercises] C --> D[Take a quick shower] D --> E[Get dressed for the day] E --> F[Leave the house and start the day's activities] F --> G[Relax in the evening before bed] G --> H[End]
+
+Input20: Turn on the PlayStation. Insert the game disc or choose a downloaded game. Select the desired game mode or level. Play the game with friends or alone. Exit the game and turn off the console.
+Output20: A[Start] --> B[Turn on the PlayStation] B --> C[Insert game disc or choose downloaded game] C --> D[Select the desired game mode or level] D --> E[Play the game with friends or alone] E --> F[Exit the game and turn off the console] F --> G[End]

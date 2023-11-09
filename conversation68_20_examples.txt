@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Make a cup of coffee. Drink it while reading the morning newspaper.
+Output1: A[Start] --> B[Make a cup of coffee] B --> C[Drink coffee while reading newspaper] C --> D[End]
+
+Input2: Get dressed. Brush your teeth and comb your hair. Put on your shoes.
+Output2: A[Start] --> B[Get dressed] B --> C[Brush teeth and comb hair] C --> D[Put on shoes] D --> E[End]
+
+Input3: Wake up early. Stretch and exercise. Take a shower to freshen up. Have a healthy breakfast.
+Output3: A[Start] --> B[Wake up early] B --> C[Stretch and exercise] C --> D[Take a shower] D --> E[Have a healthy breakfast] E --> F[End]
+
+Input4: Pack your bags for a trip. Check if you have all the essentials. Lock the house and get into the car. Start the journey.
+Output4: A[Start] --> B[Pack bags for a trip] B --> C[Check essentials] C --> D[Lock the house] D --> E[Get into the car] E --> F[Start the journey] F --> G[End]
+
+Input5: Buy groceries from the supermarket. Make a shopping list. Find all the items on the list. Pay for the groceries and return home.
+Output5: A[Start] --> B[Buy groceries] B --> C[Make a shopping list] C --> D[Find items on the list] D --> E[Pay for groceries] E --> F[Return home] F --> G[End]
+
+Input6: Study for an exam. Review the material. Solve practice questions. Take a break and relax afterwards.
+Output6: A[Start] --> B[Study for an exam] B --> C[Review material] C --> D[Solve practice questions] D --> E[Take a break] E --> F[End]
+
+Input7: Cook dinner. Choose a recipe. Gather the necessary ingredients. Follow the cooking instructions. Serve the meal.
+Output7: A[Start] --> B[Cook dinner] B --> C[Choose a recipe] C --> D[Gather ingredients] D --> E[Follow cooking instructions] E --> F[Serve the meal] F --> G[End]
+
+Input8: Write a blog post. Research the topic. Outline the content. Write the post. Proofread and edit for any mistakes.
+Output8: A[Start] --> B[Write a blog post] B --> C[Research the topic] C --> D[Outline the content] D --> E[Write the post] E --> F[Proofread and edit] F --> G[End]
+
+Input9: Take a walk in the park. Put on comfortable shoes. Enjoy the scenery. Have a picnic on a grassy spot.
+Output9: A[Start] --> B[Take a walk in the park] B --> C[Put on comfortable shoes] C --> D[Enjoy the scenery] D --> E[Have a picnic] E --> F[End]
+
+Input10: Clean the house. Declutter each room. Vacuum the floors. Wipe the surfaces. Take out the trash.
+Output10: A[Start] --> B[Clean the house] B --> C[Declutter each room] C --> D[Vacuum the floors] D --> E[Wipe the surfaces] E --> F[Take out the trash] F --> G[End]
+
+Input11: Learn a new language. Enroll in language classes. Practice vocabulary and grammar. Speak with native speakers to improve fluency.
+Output11: A[Start] --> B[Learn a new language] B --> C[Enroll in language classes] C --> D[Practice vocabulary and grammar] D --> E[Speak with native speakers] E --> F[End]
+
+Input12: Rearrange the furniture in the living room. Measure the space. Move the heavy items carefully. Arrange the new layout.
+Output12: A[Start] --> B[Rearrange furniture in living room] B --> C[Measure the space] C --> D[Move heavy items] D --> E[Arrange new layout] E --> F[End]
+
+Input13: Start a new hobby. Research various options. Buy the necessary supplies. Begin practicing or creating.
+Output13: A[Start] --> B[Start a new hobby] B --> C[Research various options] C --> D[Buy necessary supplies] D --> E[Begin practicing or creating] E --> F[End]
+
+Input14: Plan a trip. Choose the destination. Book accommodations and transportation. Create an itinerary. Pack your bags.
+Output14: A[Start] --> B[Plan a trip] B --> C[Choose the destination] C --> D[Book accommodations and transportation] D --> E[Create an itinerary] E --> F[Pack bags] F --> G[End]
+
+Input15: Volunteer at a local charity. Research organizations in need. Contact the chosen charity. Attend training sessions. Start contributing to the cause.
+Output15: A[Start] --> B[Volunteer at a local charity] B --> C[Research organizations in need] C --> D[Contact chosen charity] D --> E[Attend training sessions] E -> F[Start contributing] F -> G[End]
+
+Input16: Learn to play a musical instrument. Choose an instrument. Find a teacher or online tutorials. Practice regularly. Perform for others.
+Output16: A[Start] -> B[Learn to play a musical instrument] B -> C[Choose an instrument] C -> D[Find a teacher or online tutorials] D -> E[Practice regularly] E -> F[Perform for others] F -> G[End]
+
+Input17: Organize your workspace. Sort through files and documents. Clean and dust surfaces. Arrange essentials for easy access. Create a comfortable working environment.
+Output17: A[Start] -> B[Organize your workspace] B -> C[Sort through files and documents] C -> D[Clean and dust surfaces] D -> E[Arrange essentials] E -> F[Create a comfortable working environment] F -> G[End]
+
+Input18: Start a garden. Choose plants you want to grow. Prepare the soil and pots. Plant the seeds or seedlings. Water and care for the plants regularly.
+Output18: A[Start] -> B[Start a garden] B -> C[Choose plants] C -> D[Prepare soil and pots] D -> E[Plant seeds or seedlings] E -> F[Water and care for plants] F -> G[End]
+
+Input19: Learn to cook a new recipe. Find a recipe online or in a cookbook. Gather all the ingredients. Follow the cooking instructions step by step. Enjoy the finished dish.
+Output19: A[Start] -> B[Learn to cook a new recipe] B -> C[Find a recipe] C -> D[Gather ingredients] D -> E[Follow cooking instructions] E -> F[Enjoy the finished dish] F -> G[End]
+
+Input20: Build a piece of furniture. Purchase all the required materials. Read the instructions carefully. Assemble the furniture according to the steps. Admire your creation.
+Output20: A[Start] -> B[Build a piece of furniture] B -> C[Purchase required materials] C -> D[Read instructions] D -> E[Assemble furniture] E -> F[Admire the creation] F -> G[End]

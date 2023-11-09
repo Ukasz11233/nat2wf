@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: 
+Input: Wake up. Get out of bed. Brush your teeth. Take a shower. Get dressed. Have breakfast. Leave the house. Go to work. Output: A[Start] --> B[Wake up] B --> C[Get out of bed] C --> D[Brush your teeth] D --> E[Take a shower] E --> F[Get dressed] F --> G[Have breakfast] G --> H[Leave the house] H --> I[Go to work] I --> J[End]
+
+Input2: 
+Input: Turn on the lights. Make a cup of coffee. Check your emails. Attend morning meetings. Start working on tasks. Take a lunch break. Continue working. Output: A[Start] --> B[Turn on the lights] B --> C[Make a cup of coffee] C --> D[Check your emails] D --> E[Attend morning meetings] E --> F[Start working on tasks] F --> G[Take a lunch break] G --> H[Continue working] H --> I[End]
+
+Input3: 
+Input: Wake up. Stretch your body. Meditate for 10 minutes. Read a book. Prepare breakfast. Eat breakfast. Clean up the kitchen. Go for a walk. Output: A[Start] --> B[Wake up] B --> C[Stretch your body] C --> D[Meditate for 10 minutes] D --> E[Read a book] E --> F[Prepare breakfast] F --> G[Eat breakfast] G --> H[Clean up the kitchen] H --> I[Go for a walk] I --> J[End]
+
+Input4: 
+Input: Turn on the TV. Browse through channels. Find a TV show to watch. Grab a snack. Sit on the couch. Enjoy the TV show. Turn off the TV. Output: A[Start] --> B[Turn on the TV] B --> C[Browse through channels] C --> D[Find a TV show to watch] D --> E[Grab a snack] E --> F[Sit on the couch] F --> G[Enjoy the TV show] G --> H[Turn off the TV] H --> I[End]
+
+Input5: 
+Input: Wake up. Do some stretches. Prepare a healthy breakfast. Drink a glass of water. Check your schedule for the day. Get ready for work. Commute to the office. Output: A[Start] --> B[Wake up] B --> C[Do some stretches] C --> D[Prepare a healthy breakfast] D --> E[Drink a glass of water] E --> F[Check your schedule for the day] F --> G[Get ready for work] G --> H[Commute to the office] H --> I[End]
+
+Input6: 
+Input: Turn on the oven. Preheat it to the desired temperature. Prepare the ingredients for baking. Mix the ingredients together. Pour the batter into a baking dish. Place the dish in the oven. Bake for the recommended time. Output: A[Start] --> B[Turn on the oven] B --> C[Preheat it to the desired temperature] C --> D[Prepare the ingredients for baking] D --> E[Mix the ingredients together] E --> F[Pour the batter into a baking dish] F --> G[Place the dish in the oven] G --> H[Bake for the recommended time] H --> I[End]
+
+Input7: 
+Input: Wake up. Do some stretching exercises. Prepare a cup of tea. Write in your journal. Plan your day. Start working on tasks. Take a break. Continue working. Output: A[Start] --> B[Wake up] B --> C[Do some stretching exercises] C --> D[Prepare a cup of tea] D --> E[Write in your journal] E --> F[Plan your day] F --> G[Start working on tasks] G --> H[Take a break] H --> I[Continue working] I --> J[End]
+
+Input8: 
+Input: Turn on the radio. Tune it to your favorite station. Dance to the music. Sing along to your favorite songs. Make a cup of coffee. Enjoy the music. Turn off the radio. Output: A[Start] --> B[Turn on the radio] B --> C[Tune it to your favorite station] C --> D[Dance to the music] D --> E[Sing along to your favorite songs] E --> F[Make a cup of coffee] F --> G[Enjoy the music] G --> H[Turn off the radio] H --> I[End]
+
+Input9:
+Input: Wake up. Stretch your muscles. Do a quick workout. Take a refreshing shower. Get dressed. Have a nutritious breakfast. Pack your bag. Head to the gym. Output: A[Start] --> B[Wake up] B --> C[Stretch your muscles] C --> D[Do a quick workout] D --> E[Take a refreshing shower] E --> F[Get dressed] F --> G[Have a nutritious breakfast] G --> H[Pack your bag] H --> I[Head to the gym] I --> J[End]
+
+Input10: 
+Input: Turn on the washing machine. Sort the laundry based on colors. Add detergent and fabric softener. Start the washing cycle. Hang the clothes to dry. Fold and put away the clean laundry. Turn off the washing machine. Output: A[Start] --> B[Turn on the washing machine] B --> C[Sort the laundry based on colors] C --> D[Add detergent and fabric softener] D --> E[Start the washing cycle] E --> F[Hang the clothes to dry] F --> G[Fold and put away the clean laundry] G --> H[Turn off the washing machine] H --> I[End]
+
+Input11: 
+Input: Wake up. Drink a glass of water. Do a morning yoga session. Make a healthy smoothie. Read a chapter from a book. Write in your journal. Prepare for the day. Output: A[Start] --> B[Wake up] B --> C[Drink a glass of water] C --> D[Do a morning yoga session] D --> E[Make a healthy smoothie] E --> F[Read a chapter from a book] F --> G[Write in your journal] G --> H[Prepare for the day] H --> I[End]
+
+Input12: 
+Input: Turn on the car engine. Adjust the mirrors and seat. Fasten your seatbelt. Enter the destination in the GPS. Start driving. Follow the traffic rules. Reach the destination. Output: A[Start] --> B[Turn on the car engine] B --> C[Adjust the mirrors and seat] C --> D[Fasten your seatbelt] D --> E[Enter the destination in the GPS] E --> F[Start driving] F --> G[Follow the traffic rules] G --> H[Reach the destination] H --> I[End]
+
+Input13:
+Input: Wake up. Open the curtains. Make your bed. Do some light exercises. Have a healthy breakfast. Pack your lunch. Leave for work. Output: A[Start] --> B[Wake up] B --> C[Open the curtains] C --> D[Make your bed] D --> E[Do some light exercises] E --> F[Have a healthy breakfast] F --> G[Pack your lunch] G --> H[Leave for work] H --> I[End]
+
+Input14:
+Input: Turn on the computer. Enter the login credentials. Check emails and messages. Open the necessary applications. Start working on pending tasks. Attend virtual meetings. Finish the work for the day. Output: A[Start] --> B[Turn on the computer] B --> C[Enter the login credentials] C --> D[Check emails and messages] D --> E[Open the necessary applications] E --> F[Start working on pending tasks] F --> G[Attend virtual meetings] G --> H[Finish the work for the day] H --> I[End]
+
+Input15: 
+Input: Wake up. Wash your face. Brush your teeth. Apply skincare products. Get dressed for the day. Style your hair. Put on makeup. Output: A[Start] --> B[Wake up] B --> C[Wash your face] C --> D[Brush your teeth] D --> E[Apply skincare products] E --> F[Get dressed for the day] F --> G[Style your hair] G --> H[Put on makeup] H --> I[End]
+
+Input16:
+Input: Turn on the blender. Gather ingredients for a smoothie. Add the ingredients to the blender. Blend until smooth. Pour the smoothie into a glass. Enjoy the refreshing drink. Turn off the blender. Output: A[Start] --> B[Turn on the blender] B --> C[Gather ingredients for a smoothie] C --> D[Add the ingredients to the blender] D --> E[Blend until smooth] E --> F[Pour the smoothie into a glass] F --> G[Enjoy the refreshing drink] G --> H[Turn off the blender] H --> I[End]
+
+Input17: 
+Input: Wake up. Do some stretching exercises. Perform a quick meditation session. Read a motivational quote. Plan out your goals for the day. Get ready for work. Commute to the office. Output: A[Start] --> B[Wake up] B --> C[Do some stretching exercises] C --> D[Perform a quick meditation session] D --> E[Read a motivational quote] E --> F[Plan out your goals for the day] F --> G[Get ready for work] G --> H[Commute to the office] H --> I[End]
+
+Input18: 
+Input: Turn on the stereo. Choose a playlist to listen to. Dance to your favorite songs. Sing along with the music. Make a cup of tea. Relax and enjoy the music. Turn off the stereo. Output: A[Start] --> B[Turn on the stereo] B --> C[Choose a playlist to listen to] C --> D[Dance to your favorite songs] D --> E[Sing along with the music] E --> F[Make a cup of tea] F --> G[Relax and enjoy the music] G --> H[Turn off the stereo] H --> I[End]
+
+Input19:
+Input: Wake up. Stretch your body. Practice deep breathing exercises. Write down your gratitude list. Have a healthy breakfast. Plan your schedule for the day. Start working on important tasks. Take short breaks throughout the day. Output: A[Start] --> B[Wake up] B --> C[Stretch your body] C --> D[Practice deep breathing exercises] D --> E[Write down your gratitude list] E --> F[Have a healthy breakfast] F --> G[Plan your schedule for the day] G --> H[Start working on important tasks] H --> I[Take short breaks throughout the day] I --> J[End]
+
+Input20:
+Input: Turn on the TV. Surf through various channels. Find a movie to watch. Grab some snacks. Sit back and relax. Enjoy the movie. Turn off the TV. Output: A[Start] --> B[Turn on the TV] B --> C[Surf through various channels] C --> D[Find a movie to watch] D --> E[Grab some snacks] E --> F[Sit back and relax] F --> G[Enjoy the movie] G --> H[Turn off the TV] H --> I[End]

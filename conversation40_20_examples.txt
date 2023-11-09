@@ -1,0 +1,41 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the minimum number in an array. Output1: A[Start] --> B[Search the array] B --> C{Minimum number found?} C -- No --> B C -- Yes --> D[Remove the number] D --> E[End].
+
+Input2: Count the occurrences of a specific element in a list. Output2: A[Start] --> B[Search the list] B --> C{Element found?} C -- No --> B C -- Yes --> D[Increase count] D --> E{End of list?} E -- No --> B E -- Yes --> F[Display count] F --> G[End].
+
+Input3: Find the average of a set of numbers. Output3: A[Start] --> B[Get the first number] B --> C{End of set?} C -- No --> D[Add the number to sum] D --> E[Increase count] E --> B C -- Yes --> F[Calculate average] F --> G[Display average] G --> H[End].
+
+Input4: Sort a list of names in alphabetical order. Output4: A[Start] --> B[Choose the first name] B --> C{End of list?} C -- No --> D[Compare with the next name] D --> E{Swap required?} E -- Yes --> F[Swap names] F -- No --> D C -- Yes --> G[Display sorted list] G --> H[End].
+
+Input5: Find the longest word in a sentence. Output5: A[Start] --> B[Split the sentence into words] B --> C{End of sentence?} C -- No --> D[Compare with the next word] D --> E{Current word is longer?} E -- No --> D E -- Yes --> F[Set current word as longest] F --> C C -- Yes --> G[Display longest word] G --> H[End].
+
+Input6: Calculate the factorial of a given number. Output6: A[Start] --> B[Set the factorial as 1] B --> C[Get the number] C --> D{Number is zero?} D -- Yes --> E[Display factorial] E --> F[End] D -- No --> G[Multiply the factorial by the number] G --> H[Decrease the number by 1] H --> C.
+
+Input7: Find the median of a list of numbers. Output7: A[Start] --> B[Sort the list in ascending order] B --> C{Odd number of elements?} C -- Yes --> D[Find middle element] D --> E[Display median] E --> F[End] C -- No --> G[Find two middle elements] G --> H[Calculate average of middle elements] H --> E.
+
+Input8: Check if a string is a palindrome. Output8: A[Start] --> B[Split the string into characters] B --> C{End of string?} C -- No --> D[Compare with the opposite character] D --> E{Characters are equal?} E -- No --> F[Not a palindrome] F --> G[End] E -- Yes --> C C -- Yes --> H[Palindrome found] H --> G.
+
+Input9: Determine the largest prime number within a given range. Output9: A[Start] --> B[Get the lower boundary] B --> C[Get the upper boundary] C --> D[Set current number as lower boundary] D --> E{Current number is prime?} E -- No --> F[Increase current number] F --> E E -- Yes --> G[Set current number as largest prime] G --> F F -- Yes --> H[Display largest prime] H --> I[End].
+
+Input10: Find the longest increasing subsequence in a sequence of numbers. Output10: A[Start] --> B[Set the longest subsequence as empty] B --> C[Set the current subsequence as empty] C --> D[Get the first number] D --> E{Number is greater than previous number?} E -- No --> D E -- Yes --> F[Add number to current subsequence] F --> G{Current subsequence is longer?} G -- No --> D G -- Yes --> B B -- Yes --> H[Display longest increasing subsequence] H --> I[End].
+
+Input11: Calculate the sum of digits in a number. Output11: A[Start] --> B[Get the number] B --> C[Set sum as zero] C --> D{Number is zero?} D -- Yes --> E[Display sum] E --> F[End] D -- No --> G[Get the last digit] G --> H[Add digit to sum] H --> I[Remove last digit] I --> D.
+
+Input12: Reverse a string. Output12: A[Start] --> B[Split the string into characters] B --> C{End of string?} C -- No --> D[Set the current character as first] D --> E[Move to next character] E --> F[Add current character at the beginning] F --> C C -- Yes --> G[Display reversed string] G --> H[End].
+
+Input13: Find the common elements in two arrays. Output13: A[Start] --> B[Get first array] B --> C[Get second array] C --> D[Set common elements as empty] D --> E{Elements in first array?} E -- Yes --> F[Compare with elements in second array] F --> G{Element found?} G -- No --> E G -- Yes --> H[Add element to common elements] H --> E E -- No --> I[Display common elements] I --> J[End].
+
+Input14: Determine if a number is prime. Output14: A[Start] --> B[Get the number] B --> C[Set is prime as true] C --> D[Set divisor as 2] D --> E{Divisor is less than the number?} E -- Yes --> F{Number is divisible by divisor?} F -- Yes --> C{Number is not prime} C -- No --> G[Increase divisor] G --> E E -- No --> H{Number is prime} H --> I[End].
+
+Input15: Calculate the Fibonacci sequence up to a given number. Output15: A[Start] --> B[Get the limit] B --> C[Set sequence as empty] C --> D[Add first and second terms] D --> E{Term is less than or equal to the limit?} E -- Yes --> F[Add term to sequence] F --> G[Update first and second terms] G --> D E -- No --> H[Display Fibonacci sequence] H --> I[End].
+
+Input16: Find the second smallest number in an array. Output16: A[Start] --> B[Get first two numbers] B --> C{First number is smaller?} C -- Yes --> D[Swap numbers] D --> E{Current number is smaller than second smallest?} E -- Yes --> F[Update second smallest] F --> G{End of array?} G -- No --> H[Get next number] H --> E G -- Yes --> I[Display second smallest] I --> J[End].
+
+Input17: Determine if a string is an anagram of another string. Output17: A[Start] --> B[Get first string] B --> C[Get second string] C --> D[Sort characters in first string] D --> E[Sort characters in second string] E --> F{Sorted strings are equal?} F -- Yes --> G[Anagram found] G --> H[End] F -- No --> I[Not an anagram] I --> H.
+
+Input18: Count the number of vowels in a sentence. Output18: A[Start] --> B[Split the sentence into words] B --> C{End of sentence?} C -- No --> D[Count vowels in word] D --> E[Increase total count] E --> C C -- Yes --> F[Display total count] F --> G[End].
+
+Input19: Check if a number is a perfect square. Output19: A[Start] --> B[Get the number] B --> C[Set square root as integer part of number] C --> D{Square root squared equals number?} D -- Yes --> E[Perfect square] E --> F[End] D -- No --> G[Not a perfect square] G --> F.
+
+Input20: Find the mode (most frequent element) in a list. Output20: A[Start] --> B[Get the list] B --> C[Set mode as first element] C --> D[Set max count as zero] D --> E{End of list?} E -- No --> F[Count occurrences of element] F --> G{Occurrences are greater than max count?} G -- No --> E G -- Yes --> H[Update mode and max count] H --> E E -- Yes --> I[Display mode] I --> J[End].

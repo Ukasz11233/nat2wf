@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Wake up from sleep. Brush your teeth and wash your face. Get dressed. Have breakfast. Leave for work.
+Output1: A[Start] --> B[Wake up from sleep] B --> C[Brush teeth and wash face] C --> D[Get dressed] D --> E[Have breakfast] E --> F[Leave for work] F --> G[End]
+
+Input2: Pour hot water into a cup. Add a tea bag or coffee grounds. Stir in sugar or cream if desired. Wait for the beverage to steep. Enjoy the drink.
+Output2: A[Start] --> B[Pour hot water into a cup] B --> C[Add tea bag or coffee grounds] C --> D[Stir in sugar or cream] D --> E[Wait for beverage to steep] E --> F[Enjoy the drink] F --> G[End]
+
+Input3: Turn on the television. Change the channel to your favorite show. Adjust the volume as desired. Sit back and relax. Turn off the television when done.
+Output3: A[Start] --> B[Turn on the television] B --> C[Change channel to favorite show] C --> D[Adjust volume as desired] D --> E[Sit back and relax] E --> F[Turn off the television] F --> G[End]
+
+Input4: Open a book or ebook. Read the table of contents to get an overview. Choose a chapter or section to start reading. Read and comprehend the content. Take breaks if needed. Close the book when finished.
+Output4: A[Start] --> B[Open book or ebook] B --> C[Read table of contents] C --> D[Choose chapter or section] D --> E[Read and comprehend content] E --> F[Take breaks if needed] F --> G[Close the book] G --> H[End]
+
+Input5: Start a workout session. Warm up with stretching exercises. Perform cardio exercises for at least 20 minutes. Engage in strength training exercises. Cool down with stretching and deep breathing. End the workout session.
+Output5: A[Start] --> B[Start workout session] B --> C[Warm up with stretching exercises] C --> D[Perform cardio exercises] D --> E[Engage in strength training exercises] E --> F[Cool down with stretching and deep breathing] F --> G[End workout session] G --> H[End]
+
+Input6: Turn on the car engine. Adjust the seat and mirrors for comfortable driving. Fasten the seatbelt. Start driving towards the destination. Follow traffic rules and signs. Reach the destination safely. Turn off the car engine.
+Output6: A[Start] --> B[Turn on car engine] B --> C[Adjust seat and mirrors] C --> D[Fasten seatbelt] D --> E[Start driving towards destination] E --> F[Follow traffic rules and signs] F --> G[Reach destination safely] G --> H[Turn off car engine] H --> I[End]
+
+Input7: Unlock your smartphone. Go to the messaging app. Select the contact to message. Compose and type your message. Send the message. Lock your smartphone when done.
+Output7: A[Start] --> B[Unlock smartphone] B --> C[Go to messaging app] C --> D[Select contact to message] D --> E[Compose and type message] E --> F[Send message] F --> G[Lock smartphone] G --> H[End]
+
+Input8: Start the washing machine. Sort the laundry by color and fabric type. Add detergent and fabric softener. Set the desired wash cycle and temperature. Load the laundry into the machine. Start the washing cycle. Remove and hang the clothes to dry when done.
+Output8: A[Start] --> B[Start washing machine] B --> C[Sort laundry by color and fabric type] C --> D[Add detergent and fabric softener] D --> E[Set wash cycle and temperature] E --> F[Load laundry into machine] F --> G[Start washing cycle] G --> H[Remove and hang clothes to dry] H --> I[End]
+
+Input9: Turn on the oven. Preheat the oven to the desired temperature. Prepare the ingredients for baking. Follow the recipe instructions. Place the dish in the oven and set the timer. Remove the dish from the oven when cooked. Turn off the oven.
+Output9: A[Start] --> B[Turn on the oven] B --> C[Preheat oven to desired temperature] C --> D[Prepare ingredients for baking] D --> E[Follow recipe instructions] E --> F[Place dish in oven and set timer] F --> G[Remove dish from oven] G --> H[Turn off oven] H --> I[End]
+
+Input10: Wake up your computer from sleep mode. Enter the password to unlock the screen. Open the web browser. Browse and navigate to a desired website. Interact with the website or perform online tasks. Close the web browser. Put the computer back to sleep.
+Output10: A[Start] --> B[Wake up computer from sleep mode] B --> C[Enter password to unlock screen] C --> D[Open web browser] D --> E[Browse and navigate to desired website] E --> F[Interact with website or perform online tasks] F --> G[Close web browser] G --> H[Put computer back to sleep] H --> I[End]
+
+Input11: Start a new painting. Prepare the canvas and painting tools. Apply an underpainting or base layer. Mix and apply colors on the canvas. Add details and highlight the painting. Let the painting dry. Sign the painting and frame it.
+Output11: A[Start] --> B[Start a new painting] B --> C[Prepare canvas and painting tools] C --> D[Apply underpainting or base layer] D --> E[Mix and apply colors on canvas] E --> F[Add details and highlight painting] F --> G[Let painting dry] G --> H[Sign painting and frame it] H --> I[End]
+
+Input12: Turn on the stereo system. Select your favorite music album or playlist. Adjust the volume to a comfortable level. Sit back and enjoy the music. Turn off the stereo system when finished.
+Output12: A[Start] --> B[Turn on stereo system] B --> C[Select favorite music album or playlist] C --> D[Adjust volume to comfortable level] D --> E[Sit back and enjoy music] E --> F[Turn off stereo system] F --> G[End]
+
+Input13: Start a cooking session. Gather all the required ingredients. Wash, peel, and chop ingredients as necessary. Follow the recipe instructions. Cook the dish on the stove or in the oven. Plate the cooked dish. Serve and enjoy the meal.
+Output13: A[Start] --> B[Start cooking session] B --> C[Gather all required ingredients] C --> D[Wash, peel, and chop ingredients] D --> E[Follow recipe instructions] E --> F[Cook dish on stove or in oven] F --> G[Plate cooked dish] G --> H[Serve and enjoy meal] H --> I[End]
+
+Input14: Wake up your smartphone. Go to the camera app. Adjust camera settings if desired. Frame the shot and take the photo. Preview the captured image. Save the photo to the gallery. Lock your smartphone when done.
+Output14: A[Start] --> B[Wake up smartphone] B --> C[Go to camera app] C --> D[Adjust camera settings if desired] D --> E[Frame shot and take photo] E --> F[Preview captured image] F --> G[Save photo to gallery] G --> H[Lock smartphone] H --> I[End]
+
+Input15: Turn on the air conditioner. Set the desired temperature and fan speed. Adjust the air vents for optimal airflow. Relax in the cooled room. Turn off the air conditioner when no longer needed.
+Output15: A[Start] --> B[Turn on air conditioner] B --> C[Set desired temperature and fan speed] C --> D[Adjust air vents for optimal airflow] D --> E[Relax in cooled room] E --> F[Turn off air conditioner] F --> G[End]
+
+Input16: Start a video game. Navigate to the main menu. Select the desired game mode or level. Play and progress through the game. Save the game progress if available. Quit the game when finished playing.
+Output16: A[Start] --> B[Start video game] B --> C[Navigate to main menu] C --> D[Select desired game mode or level] D --> E[Play and progress through game] E --> F[Save game progress if available] F --> G[Quit game] G --> H[End]
+
+Input17: Wake up early. Drink a glass of water. Stretch and do some light exercises. Take a refreshing shower. Get dressed for the day. Begin your daily activities.
+Output17: A[Start] --> B[Wake up early] B --> C[Drink glass of water] C --> D[Stretch and do light exercises] D --> E[Take refreshing shower] E --> F[Get dressed for the day] F --> G[Begin daily activities] G --> H[End]
+
+Input18: Start a video conference. Join the virtual meeting room. Test audio and video settings. Introduce yourself when prompted. Engage in the conference discussion. End the video conference when finished.
+Output18: A[Start] --> B[Start video conference] B --> C[Join virtual meeting room] C --> D[Test audio and video settings] D --> E[Introduce yourself when prompted] E --> F[Engage in conference discussion] F --> G[End video conference] G --> H[End]
+
+Input19: Wake up your tablet device. Open the e-reader app. Choose and open a book or document to read. Adjust the font size or settings if desired. Read and navigate through the content. Bookmark or highlight important sections. Put the tablet to sleep when done.
+Output19: A[Start] --> B[Wake up tablet device] B --> C[Open e-reader app] C --> D[Choose and open book or document] D --> E[Adjust font size or settings] E --> F[Read and navigate through content] F --> G[Bookmark or highlight important sections] G --> H[Put tablet to sleep] H --> I[End]
+
+Input20: Enable Bluetooth on your smartphone. Scan for nearby devices. Pair your smartphone with the desired device. Enter the authentication code if required. Use the connected device for data transfer or communication. Disconnect or turn off Bluetooth when finished.
+Output20: A[Start] --> B[Enable Bluetooth on smartphone] B --> C[Scan for nearby devices] C --> D[Pair smartphone with desired device] D --> E[Enter authentication code if required] E --> F[Use connected device for data transfer or communication] F --> G[Disconnect or turn off Bluetooth] G --> H[End]

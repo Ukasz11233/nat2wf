@@ -1,0 +1,96 @@
+system: test
+user: Give me 100 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Sort a list of numbers in ascending order. Output1: A[Start] --> B[Sort the list in ascending order] B --> C[End].
+
+Input2: Check if a given number is prime. Output2: A[Start] --> B[Check if the number is divisible by any number from 2 to its square root] B --> C{Number divisible?} C -- Yes --> D[Not Prime] D --> E[End] C -- No --> F[Prime] F --> E.
+
+Input3: Find the factorial of a given number. Output3: A[Start] --> B[Initialize a counter variable] B --> C[Initialize a product variable to 1] C --> D{Counter <= given number?} D -- Yes --> E[Multiply the product by the counter] E --> F[Increment the counter] F --> D D -- No --> G[End].
+
+Input4: Multiply two matrices. Output4: A[Start] --> B[Check if the number of columns in matrix A is equal to the number of rows in matrix B] B -- No --> C[Invalid operation] C --> D[End] B -- Yes --> E[Multiply the corresponding elements of the matrices] E --> F[Sum the products for each row and column] F --> G[Store the result in a new matrix] G --> H[End].
+
+Input5: Search for a specific key in a dictionary. Output5: A[Start] --> B[Search for the key in the dictionary] B --> C{Key found?} C -- Yes --> D[Return the corresponding value] D --> E[End] C -- No --> F[Key not found] F --> E.
+
+Input6: Convert a decimal number to binary. Output6: A[Start] --> B[Divide the decimal number by 2] B --> C[Store the remainder] C --> D{Number greater than 0?} D -- Yes --> B D -- No --> E[Reverse the remainders to form the binary representation] E --> F[End].
+
+Input7: Find the maximum element in an array. Output7: A[Start] --> B[Set the maximum value as the first element of the array] B --> C[Iterate through the array] C --> D{Current element > maximum value?} D -- Yes --> E[Update maximum value] E --> C D -- No --> F[Maximum value found] F --> G[End].
+
+Input8: Calculate the Fibonacci sequence up to a given number of terms. Output8: A[Start] --> B[Initialize variables for the first two terms] B --> C[Print the first two terms] C --> D[Initialize counter variable] D --> E{Counter < given number of terms?} E -- Yes --> F[Calculate the next term by summing the previous two terms] F --> G[Print the next term] G --> H[Update variables] H --> D E -- No --> I[End].
+
+Input9: Convert a string to uppercase. Output9: A[Start] --> B[Initialize an empty string for the uppercase version] B --> C[Iterate through each character in the string] C --> D[Convert the character to uppercase] D --> E[Append the uppercase character to the new string] E --> C C -- No --> F[End].
+
+Input10: Determine if two rectangles intersect. Output10: A[Start] --> B[Check if the x-coordinates or y-coordinates of the rectangles overlap] B -- No --> C[Rectangles do not intersect] C --> D[End] B -- Yes --> E[Check if the intersecting region is a rectangle itself] E -- Yes --> F[Rectangles intersect] F --> D D -- No --> G[End].
+
+Input11: Find the square root of a given number. Output11: A[Start] --> B[Initialize a guess for the square root] B --> C{Guess squared close to the given number?} C -- Yes --> D[Square root found] D --> E[End] C -- No --> F[Improve the guess using the average of guess and given number divided by the guess] F --> C.
+
+Input12: Validate an email address. Output12: A[Start] --> B[Check if the email address contains an @ symbol] B -- No --> C[Invalid email address] C --> D[End] B -- Yes --> E[Check if the email address has a valid domain name] E -- No --> F[Invalid email address] F --> D E -- Yes --> G[Valid email address] G --> D.
+
+Input13: Calculate the area of a triangle given its base and height. Output13: A[Start] --> B[Multiply the base by the height] B --> C[Divide the product by 2] C --> D[Return the result as the area] D --> E[End].
+
+Input14: Generate a random number between a given range. Output14: A[Start] --> B[Generate a random number] B --> C[Check if the number is within the specified range] C -- Yes --> D[Return the number] D --> E[End] C -- No --> F[Keep generating a new random number] F --> B.
+
+Input15: Calculate the sum of numbers in a given range. Output15: A[Start] --> B[Initialize a variable for the sum] B --> C[Iterate through each number in the range] C --> D[Add the current number to the sum] D --> C C -- No --> E[Return the sum] E --> F[End].
+
+Input16: Check if a given string is a palindrome. Output16: A[Start] --> B[Reverse the given string] B --> C{Reversed string equal to the original string?} C -- Yes --> D[Palindrome] D --> E[End] C -- No --> F[Not a palindrome] F --> E.
+
+Input17: Find the median of a list of numbers. Output17: A[Start] --> B[Sort the list in ascending order] B --> C{Number of elements odd?} C -- Yes --> D[Return middle element] D --> E[End] C -- No --> F[Return average of two middle elements] F --> E.
+
+Input18: Calculate the sum of digits in a given number. Output18: A[Start] --> B[Initialize a variable for the sum] B --> C[Convert the number to a string] C --> D[Iterate through each digit in the string] D --> E[Convert the digit back to an integer] E --> F[Add the digit to the sum] F --> D D -- No --> G[Return the sum] G --> H[End].
+
+Input19: Generate a random password. Output19: A[Start] --> B[Initialize an empty string for the password] B --> C[Generate a random character] C --> D[Append the character to the password string] D --> E{Password length reached?} E -- No --> C E -- Yes --> F[Return the password] F --> G[End].
+
+Input20: Convert a binary number to decimal. Output20: A[Start] --> B[Initialize a variable for the decimal value] B --> C[Reverse the binary number] C --> D[Iterate through each digit in the reversed binary number] D --> E[Multiply the digit by 2 raised to the power of its position] E --> F[Add the product to the decimal value] F --> D D -- No --> G[Return the decimal value] G --> H[End].
+
+Input21: Check if a given year is a leap year. Output21: A[Start] --> B{Year divisible by 4?} B -- Yes --> C{Year divisible by 100?} C -- Yes --> D{Year divisible by 400?} D -- Yes --> E[Leap year] E --> F[End] D -- No --> E E -- No --> F[Not a leap year] F --> G[End] C -- No --> E E -- No --> F[Leap year] F --> G[End] B -- No --> F[Not a leap year] F --> G[End].
+
+Input22: Reverse the words in a given sentence. Output22: A[Start] --> B[Split the sentence into words] B --> C[Reverse the order of the words] C --> D[Join the reversed words into a new sentence] D --> E[End].
+
+Input23: Calculate the distance between two points in a 2D plane. Output23: A[Start] --> B[Find the difference between the x-coordinates] B --> C[Square the difference] C --> D[Find the difference between the y-coordinates] D --> E[Square the difference] E --> F[Add the squared differences] F --> G[Calculate the square root of the sum] G --> H[Return the result as the distance] H --> I[End].
+
+Input24: Remove duplicate elements from a list. Output24: A[Start] --> B[Initialize an empty list for unique elements] B --> C[Iterate through each element in the original list] C --> D{Element not in unique list?} D -- Yes --> E[Add the element to the unique list] E --> C D -- No --> F[End].
+
+Input25: Encode a message using a Caesar cipher. Output25: A[Start] --> B[Initialize an empty string for the encoded message] B --> C[Iterate through each character in the original message] C --> D[Shift the character by a specified number of positions] D --> E[Append the shifted character to the encoded message] E --> C C -- No --> F[Return the encoded message] F --> G[End].
+
+Input26: Determine the largest common divisor of two numbers. Output26: A[Start] --> B[Find the smaller number] B --> C[Initialize a variable for the largest common divisor] C --> D{Divisor less than or equal to the smaller number?} D -- Yes --> E{Smaller number divisible by the divisor?} E -- Yes --> F[Update largest common divisor] F --> D E -- No --> G[Decrement divisor] G --> D D -- No --> H[Return the largest common divisor] H --> I[End].
+
+Input27: Find the average of a list of numbers. Output27: A[Start] --> B[Initialize variables for the sum and count] B --> C[Iterate through each number in the list] C --> D[Add the current number to the sum] D --> E[Increment the count] E --> C C -- No --> F[Divide the sum by the count to calculate the average] F --> G[Return the average] G --> H[End].
+
+Input28: Convert a string of binary digits to ASCII. Output28: A[Start] --> B[Split the string into groups of 8 digits] B --> C[Convert each group to decimal] C --> D[Convert the decimal value to its corresponding ASCII character] D --> E[Join the ASCII characters to form a string] E --> F[End].
+
+Input29: Determine if a given list is sorted in ascending order. Output29: A[Start] --> B[Iterate through each pair of adjacent elements in the list] B --> C{Current element greater than next element?} C -- Yes --> D[Not sorted in ascending order] D --> E[End] C -- No --> B B -- No --> F[Sorted in ascending order] F --> E.
+
+Input30: Extract all prime numbers from a given list. Output30: A[Start] --> B[Initialize an empty list for prime numbers] B --> C[Iterate through each number in the list] C --> D[Check if the number is prime] D -- Yes --> E[Add the number to the prime list] E --> C D -- No --> C C -- No --> F[End].
+
+Input31: Find the mode of a list of numbers. Output31: A[Start] --> B[Count the frequency of each number] B --> C{Frequency of current number highest?} C -- Yes --> D[Update mode] D --> B C -- No --> E[End].
+
+Input32: Determine the smallest common multiple of two numbers. Output32: A[Start] --> B[Find the larger number] B --> C[Initialize a variable for the smallest common multiple] C --> D{Multiple greater than both numbers?} D -- Yes --> E[Return the smallest common multiple] E --> F[Increment multiple by the larger number] F --> G{Multiple divisible by both numbers?} G -- Yes --> E G -- No --> F F -- No --> G G -- No --> F.
+
+Input33: Check if a given string is an anagram of another string. Output33: A[Start] --> B[Sort the characters of both strings] B --> C{Sorted strings equal?} C -- Yes --> D[Anagram] D --> E[End] C -- No --> F[Not an anagram] F --> E.
+
+Input34: Calculate the standard deviation of a list of numbers. Output34: A[Start] --> B[Calculate the mean of the numbers] B --> C[Calculate the sum of the squared differences between each number and the mean] C --> D[Divide the sum by the number of elements] D --> E[Calculate the square root of the result] E --> F[Return the standard deviation] F --> G[End].
+
+Input35: Encrypt a message using a Vigenère cipher. Output35: A[Start] --> B[Initialize an empty string for the encrypted message] B --> C[Iterate through each character in the original message] C --> D[Shift the character by a corresponding value from a keyword] D --> E[Append the shifted character to the encrypted message] E --> C C -- No --> F[Return the encrypted message] F --> G[End].
+
+Input36: Perform matrix addition. Output36: A[Start] --> B[Check if the dimensions of both matrices are equal] B -- No --> C[Invalid operation] C --> D[End] B -- Yes --> E[Add the corresponding elements of the matrices] E --> F[Store the result in a new matrix] F --> G[End].
+
+Input37: Check if a given string contains only digits. Output37: A[Start] --> B[Iterate through each character in the string] B --> C{Character not a digit?} C -- Yes --> D[Not contains only digits] D --> E[End] C -- No --> B B -- No --> F[contains only digits] F --> E.
+
+Input38: Convert a number to Roman numerals. Output38: A[Start] --> B[Initialize an empty string for the Roman numeral representation] B --> C[Iterate through each symbol in descending order] C --> D{Current symbol fits into the given number?} D -- Yes --> E[Append the symbol to the Roman numeral string] E --> F[Subtract the value of the symbol from the given number] F --> D D -- No --> C C -- No --> G[Return the Roman numeral representation] G --> H[End].
+
+Input39: Find the LCM (Least Common Multiple) of a list of numbers. Output39: A[Start] --> B[Calculate the LCM of the first two numbers] B --> C[Set the LCM as the result] C --> D{Number divisible by LCM?} D -- Yes --> E[Update LCM to the number] E --> B D -- No --> F[End].
+
+Input40: Determine if a given string is a valid URL. Output40: A[Start] --> B[Check if the string starts with "http://" or "https://"] B -- No --> C[Invalid URL] C --> D[End] B -- Yes --> E[Check if the rest of the string follows URL formatting rules] E -- No --> C C -- Yes --> F[Valid URL] F --> D.
+
+Input41: Reverse a given number. Output41: A[Start] --> B[Initialize a variable for the reversed number] B --> C{Number greater than 0?} C -- Yes --> D[Extract the last digit] D --> E[Multiply the reversed number by 10 and add the last digit] E --> F[Remove the last digit from the original number] F --> G[Repeat until original number becomes 0] G --> H[Return the reversed number] H --> I[End].
+
+Input42: Find the average of positive numbers in a list. Output42: A[Start] --> B[Initialize variables for the sum and count] B --> C[Iterate through each number in the list] C --> D{Number positive?} D -- Yes --> E[Add the current number to the sum] E --> F[Increment the count] F --> C D -- No --> C C -- No --> G[Divide the sum by the count to calculate the average] G --> H[Return the average] H --> I[End].
+
+Input43: Count the occurrence of each character in a string. Output43: A[Start] --> B[Initialize an empty dictionary for character count] B --> C[Iterate through each character in the string] C --> D{Character not in dictionary?} D -- Yes --> E[Add character to dictionary with count 1] E --> C D -- No --> F[Increment the count of the character in the dictionary] F --> C C -- No --> G[End].
+
+Input44: Determine the largest palindrome in a given string. Output44: A[Start] --> B[Initialize variable for the largest palindrome] B --> C[Iterate through each substring in the string] C --> D{Substring a palindrome?} D -- Yes --> E[Update largest palindrome] E --> C D -- No --> C C -- No --> F[End].
+
+Input45: Calculate the sum of the squares of numbers in a given range. Output45: A[Start] --> B[Initialize a variable for the sum] B --> C[Iterate through each number in the range] C --> D[Calculate the square of the current number] D --> E[Add the squared number to the sum] E --> C C -- No --> F[Return the sum] F --> G[End].
+
+Input46: Determine if a given word is a palindrome. Output46: A[Start] --> B[Reverse the given word] B --> C{Reversed word equal to the original word?} C -- Yes --> D[Palindrome] D --> E[End] C -- No --> F[Not a palindrome] F --> E.
+
+Input47: Sort a list of strings in alphabetical order. Output47: A[Start] --> B[Sort the list in alphabetical order] B --> C[End].
+

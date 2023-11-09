@@ -1,0 +1,41 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Wake up and stretch. Get out of bed. Take a shower. Brush your teeth. Get dressed. Have breakfast. Output1: A[Start] --> B[Wake up and stretch] B --> C[Get out of bed] C --> D[Take a shower] D --> E[Brush your teeth] E --> F[Get dressed] F --> G[Have breakfast] G --> H[End]
+
+Input2: Start the car engine. Adjust the mirrors and seat position. Fasten the seatbelt. Turn on the headlights. Drive to the desired destination. Park the car. Output2: A[Start] --> B[Start the car engine] B --> C[Adjust mirrors and seat position] C --> D[Fasten the seatbelt] D --> E[Turn on headlights] E --> F[Drive to the desired destination] F --> G[Park the car] G --> H[End]
+
+Input3: Unlock the front door. Take off your shoes. Hang up your coat. Put your keys and wallet away. Relax and unwind. Make a cup of tea. Output3: A[Start] --> B[Unlock the front door] B --> C[Take off your shoes] C --> D[Hang up your coat] D --> E[Put your keys and wallet away] E --> F[Relax and unwind] F --> G[Make a cup of tea] G --> H[End]
+
+Input4: Open the refrigerator. Take out the ingredients. Prepare the ingredients. Cook the meal. Season the dish. Plate the food. Output4: A[Start] --> B[Open the refrigerator] B --> C[Take out the ingredients] C --> D[Prepare the ingredients] D --> E[Cook the meal] E --> F[Season the dish] F --> G[Plate the food] G --> H[End]
+
+Input5: Press the power button. Select the desired mode. Adjust the temperature setting. Set the timer. Relax and enjoy the ambiance. Turn off the device. Output5: A[Start] --> B[Press the power button] B --> C[Select the desired mode] C --> D[Adjust the temperature setting] D --> E[Set the timer] E --> F[Relax and enjoy the ambiance] F --> G[Turn off the device] G --> H[End]
+
+Input6: Open the book. Read the assigned chapter. Take notes. Reflect on the content. Complete the exercises. Close the book. Output6: A[Start] --> B[Open the book] B --> C[Read the assigned chapter] C --> D[Take notes] D --> E[Reflect on the content] E --> F[Complete the exercises] F --> G[Close the book] G --> H[End]
+
+Input7: Turn on the television. Browse the channels. Find the desired program. Adjust the volume. Watch the program. Turn off the television. Output7: A[Start] --> B[Turn on the television] B --> C[Browse the channels] C --> D[Find the desired program] D --> E[Adjust the volume] E --> F[Watch the program] F --> G[Turn off the television] G --> H[End]
+
+Input8: Open the email application. Check for new messages. Reply to important emails. Delete irrelevant emails. Organize the inbox. Close the email application. Output8: A[Start] --> B[Open the email application] B --> C[Check for new messages] C --> D[Reply to important emails] D --> E[Delete irrelevant emails] E --> F[Organize the inbox] F --> G[Close the email application] G --> H[End]
+
+Input9: Unlock your phone. Open the social media app. Scroll through the feed. Like and comment on posts. Share interesting content. Close the social media app. Output9: A[Start] --> B[Unlock your phone] B --> C[Open the social media app] C --> D[Scroll through the feed] D --> E[Like and comment on posts] E --> F[Share interesting content] F --> G[Close the social media app] G --> H[End]
+
+Input10: Sit down at the piano. Warm up your fingers. Practice scales and arpeggios. Learn a new piece. Play familiar songs. Close the piano. Output10: A[Start] --> B[Sit down at the piano] B --> C[Warm up your fingers] C --> D[Practice scales and arpeggios] D --> E[Learn a new piece] E --> F[Play familiar songs] F --> G[Close the piano] G --> H[End]
+
+Input11: Pick up the paintbrush. Select the desired colors. Sketch the outline. Fill in the details. Add shading and highlights. Sign the artwork. Output11: A[Start] --> B[Pick up the paintbrush] B --> C[Select the desired colors] C --> D[Sketch the outline] D --> E[Fill in the details] E --> F[Add shading and highlights] F --> G[Sign the artwork] G --> H[End]
+
+Input12: Open the web browser. Type in the desired URL. Navigate through the website. Interact with different features. Bookmark useful pages. Close the web browser. Output12: A[Start] --> B[Open the web browser] B --> C[Type in the desired URL] C --> D[Navigate through the website] D --> E[Interact with different features] E --> F[Bookmark useful pages] F --> G[Close the web browser] G --> H[End]
+
+Input13: Start the washing machine. Sort the laundry by color. Add detergent and fabric softener. Set the wash cycle. Wait for the machine to finish. Hang or fold the clean clothes. Output13: A[Start] --> B[Start the washing machine] B --> C[Sort the laundry by color] C --> D[Add detergent and fabric softener] D --> E[Set the wash cycle] E --> F[Wait for the machine to finish] F --> G[Hang or fold the clean clothes] G --> H[End]
+
+Input14: Unlock the front gate. Water the plants. Prune any overgrown branches. Remove weeds. Sweep the pathway. Lock the front gate. Output14: A[Start] --> B[Unlock the front gate] B --> C[Water the plants] C --> D[Prune any overgrown branches] D --> E[Remove weeds] E --> F[Sweep the pathway] F --> G[Lock the front gate] G --> H[End]
+
+Input15: Turn on the stereo. Select a playlist. Adjust the volume. Dance or sing along to the music. Pause and take a break. Turn off the stereo. Output15: A[Start] --> B[Turn on the stereo] B --> C[Select a playlist] C --> D[Adjust the volume] D --> E[Dance or sing along to the music] E --> F[Pause and take a break] F --> G[Turn off the stereo] G --> H[End]
+
+Input16: Light a scented candle. Find a comfortable spot. Practice deep breathing exercises. Meditate or practice mindfulness. Blow out the candle. Output16: A[Start] --> B[Light a scented candle] B --> C[Find a comfortable spot] C --> D[Practice deep breathing exercises] D --> E[Meditate or practice mindfulness] E --> F[Blow out the candle] F --> G[End]
+
+Input17: Open the recipe book. Choose a dish to prepare. Gather the necessary ingredients. Follow the step-by-step instructions. Taste and adjust seasonings. Serve the dish. Output17: A[Start] --> B[Open the recipe book] B --> C[Choose a dish to prepare] C --> D[Gather the necessary ingredients] D --> E[Follow the step-by-step instructions] E --> F[Taste and adjust seasonings] F --> G[Serve the dish] G --> H[End]
+
+Input18: Unlock your smartphone. Check for missed calls and messages. Reply to important notifications. Clear unnecessary notifications. Set reminders for upcoming events. Lock your smartphone. Output18: A[Start] --> B[Unlock your smartphone] B --> C[Check for missed calls and messages] C --> D[Reply to important notifications] D --> E[Clear unnecessary notifications] E --> F[Set reminders for upcoming events] F --> G[Lock your smartphone] G --> H[End]
+
+Input19: Open the camera app. Frame the shot. Adjust focus and exposure. Capture the photo or video. Apply filters or edit if desired. Save or share the media. Output19: A[Start] --> B[Open the camera app] B --> C[Frame the shot] C --> D[Adjust focus and exposure] D --> E[Capture the photo or video] E --> F[Apply filters or edit if desired] F --> G[Save or share the media] G --> H[End]
+
+Input20: Turn on the Xbox. Insert the game disc. Navigate the menu to start the game. Play through the levels or missions. Save progress if needed. Turn off the Xbox. Output20: A[Start] --> B[Turn on the Xbox] B --> C[Insert the game disc] C --> D[Navigate the menu to start the game] D --> E[Play through the levels or missions] E --> F[Save progress if needed] F --> G[Turn off the Xbox] G --> H[End]

@@ -1,0 +1,21 @@
+system: test
+user: Give me 10 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the longest word in a sentence. Output1: A[Start] --> B[Split the sentence into words] B --> C{End of sentence?} C -- No --> B C -- Yes --> D[Find the longest word] D --> E[End]
+
+Input2: Calculate the sum of all numbers in a given list. Output2: A[Start] --> B[Initialize the sum variable] B --> C{End of list?} C -- No --> D[Add the current number to the sum] D --> C C -- Yes --> E[End]
+
+Input3: Determine if a number is prime or not. Output3: A[Start] --> B{Number less than 2?} B -- Yes --> C[Not prime] C --> E[End] B -- No --> D{Divisible by any number less than itself?} D -- Yes --> C C -- No --> E[End]
+
+Input4: Search for a specific element in an array. Output4: A[Start] --> B[Initialize the counter] B --> C{End of array?} C -- No --> D{Match found?} D -- No --> E[Increment the counter] E --> C D -- Yes --> F[Element found] F --> G[End]
+
+Input5: Sort a list of integers in ascending order. Output5: A[Start] --> B[Initialize swapped variable] B --> C{Swapped elements in the previous iteration?} C -- Yes --> D[End] D --> E[End] C -- No --> F[Loop through the list] F --> G{Current element > Next element?} G -- Yes --> H[Swap elements] H --> I[Set swapped variable] I --> F G -- No --> F
+
+Input6: Convert a decimal number to binary. Output6: A[Start] --> B[Initialize empty string] B --> C{Number greater than 0?} C -- Yes --> D{Number is odd?} D -- Yes --> E[Append '1' to the binary string] E --> F[Divide number by 2] F --> C D -- No --> E[Append '0' to the binary string] E --> F F --> C C -- No --> G[End]
+
+Input7: Calculate the factorial of a given number. Output7: A[Start] --> B[Initialize factorial variable] B --> C{Number greater than 0?} C -- Yes --> D[Multiply the factorial by the current number] D --> E[Decrement the number] E --> C C -- No --> F[End]
+
+Input8: Determine if a given string is a palindrome. Output8: A[Start] --> B[Initialize left and right pointers] B --> C{Pointers crossed each other?} C -- Yes --> D[Palindrome found] D --> E[End] C -- No --> F{Characters at pointers are equal?} F -- Yes --> G[Move pointers] G --> C F -- No --> E[End]
+
+Input9: Count the number of vowels in a given string. Output9: A[Start] --> B[Initialize vowel count] B --> C{End of string?} C -- No --> D{Current character is a vowel?} D -- Yes --> E[Increment vowel count] E --> C D -- No --> E[End]
+
+Input10: Check if a given list of numbers is in increasing order. Output10: A[Start] --> B[Initialize flag] B --> C{End of list?} C -- No --> D{Current number > Next number?} D -- Yes --> E[Set flag as false] E --> C D -- No --> C C -- Yes --> F[Flag is true] F --> G[End]

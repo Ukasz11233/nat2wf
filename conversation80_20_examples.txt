@@ -1,0 +1,81 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Wake up and get out of bed. Brush your teeth and wash your face. Get dressed for the day. Have breakfast. Catch the bus to work.
+
+Output1: A[Start] --> B[Wake up and get out of bed] B --> C[Brush teeth and wash face] C --> D[Get dressed for the day] D --> E[Have breakfast] E --> F[Catch the bus to work] F --> G[End]
+
+Input2: Grab your gym bag and change into workout clothes. Drive to the gym. Warm up and stretch. Do strength training exercises. Finish with a cardio workout. Drive back home.
+
+Output2: A[Start] --> B[Grab gym bag and change clothes] B --> C[Drive to the gym] C --> D[Warm up and stretch] D --> E[Do strength training exercises] E --> F[Finish with a cardio workout] F --> G[Drive back home] G --> H[End]
+
+Input3: Take out the ingredients for dinner. Preheat the oven. Chop the vegetables. Marinate the meat. Mix the ingredients together. Cook the dish in the oven. Serve and enjoy.
+
+Output3: A[Start] --> B[Take out ingredients for dinner] B --> C[Preheat the oven] C --> D[Chop the vegetables] D --> E[Marinate the meat] E --> F[Mix ingredients together] F --> G[Cook dish in the oven] G --> H[Serve and enjoy] H --> I[End]
+
+Input4: Gather all the necessary materials for a DIY project. Set up a workspace. Measure and cut the materials. Assemble the pieces. Apply any finishing touches. Clean up the workspace.
+
+Output4: A[Start] --> B[Gather necessary materials for DIY project] B --> C[Set up workspace] C --> D[Measure and cut the materials] D --> E[Assemble the pieces] E --> F[Apply finishing touches] F --> G[Clean up the workspace] G --> H[End]
+
+Input5: Gather the required ingredients for baking a cake. Preheat the oven. Prepare the cake batter. Grease the baking pan. Pour the batter into the pan. Bake the cake in the oven. Decorate and serve.
+
+Output5: A[Start] --> B[Gather required ingredients for baking a cake] B --> C[Preheat the oven] C --> D[Prepare cake batter] D --> E[Grease the baking pan] E --> F[Pour batter into the pan] F --> G[Bake the cake in the oven] G --> H[Decorate and serve] H --> I[End]
+
+Input6: Take out your painting supplies. Choose a canvas size. Sketch the basic outline of your painting. Apply the base colors. Add details and shading. Let the painting dry. Hang it on the wall.
+
+Output6: A[Start] --> B[Take out painting supplies] B --> C[Choose canvas size] C --> D[Sketch basic outline of the painting] D --> E[Apply base colors] E --> F[Add details and shading] F --> G[Let the painting dry] G --> H[Hang it on the wall] H --> I[End]
+
+Input7: Gather your travel essentials. Pack your suitcase with necessary clothes. Check your passport and tickets. Head to the airport. Go through security and board the plane. Enjoy your trip!
+
+Output7: A[Start] --> B[Gather travel essentials] B --> C[Pack suitcase with necessary clothes] C --> D[Check passport and tickets] D --> E[Head to the airport] E --> F[Go through security and board the plane] F --> G[Enjoy your trip] G --> H[End]
+
+Input8: Open a new document in a word processing software. Write the introduction. Divide the content into sections. Add headings and subheadings. Proofread and make edits. Save the document. Close the software.
+
+Output8: A[Start] --> B[Open new document in word processing software] B --> C[Write introduction] C --> D[Divide content into sections] D --> E[Add headings and subheadings] E --> F[Proofread and make edits] F --> G[Save the document] G --> H[Close the software] H --> I[End]
+
+Input9: Turn on the TV and navigate to your favorite channel. Grab a drink and some snacks. Sit back and relax while watching your favorite show or movie. Take breaks to stretch or use the bathroom. Turn off the TV when done.
+
+Output9: A[Start] --> B[Turn on the TV and navigate to favorite channel] B --> C[Grab a drink and some snacks] C --> D[Sit back and relax while watching favorite show or movie] D --> E[Take breaks to stretch or use the bathroom] E --> F[Turn off the TV when done] F --> G[End]
+
+Input10: Open the refrigerator and take out the necessary ingredients for a sandwich. Slice the bread. Layer the ingredients on the bread. Add condiments and seasonings. Cut the sandwich in half. Enjoy your meal.
+
+Output10: A[Start] --> B[Open refrigerator and take out necessary ingredients for a sandwich] B --> C[Slice the bread] C --> D[Layer ingredients on the bread] D --> E[Add condiments and seasonings] E --> F[Cut sandwich in half] F --> G[Enjoy your meal] G --> H[End]
+
+Input11: Collect your dirty laundry. Sort the clothes into different piles. Start a load of laundry in the washing machine. Add detergent and choose the appropriate settings. Transfer the clean clothes to the dryer. Fold and put away the dry clothes.
+
+Output11: A[Start] --> B[Collect dirty laundry] B --> C[Sort clothes into different piles] C --> D[Start load of laundry in washing machine] D --> E[Add detergent and choose appropriate settings] E --> F[Transfer clean clothes to the dryer] F --> G[Fold and put away dry clothes] G --> H[End]
+
+Input12: Gather all the necessary tools for assembling furniture. Read the instructions carefully. Start with the larger pieces. Follow the step-by-step process. Tighten all the screws. Check for stability. Organize any leftover parts.
+
+Output12: A[Start] --> B[Gather necessary tools for assembling furniture] B --> C[Read instructions carefully] C --> D[Start with larger pieces] D --> E[Follow step-by-step process] E --> F[Tighten all screws] F --> G[Check for stability] G --> H[Organize any leftover parts] H --> I[End]
+
+Input13: Unlock your smartphone and go to the app menu. Open the messaging app. Select a contact to message. Type and send your message. Wait for a reply. Continue the conversation or close the app.
+
+Output13: A[Start] --> B[Unlock smartphone and go to app menu] B --> C[Open messaging app] C --> D[Select contact to message] D --> E[Type and send message] E --> F[Wait for reply] F --> G[Continue conversation or close app] G --> H[End]
+
+Input14: Turn on the stereo system. Choose your favorite music playlist. Adjust the volume to your preference. Dance and enjoy the music. Take breaks for hydration. Turn off the stereo system when finished.
+
+Output14: A[Start] --> B[Turn on stereo system] B --> C[Choose favorite music playlist] C --> D[Adjust volume to preference] D --> E[Dance and enjoy the music] E --> F[Take breaks for hydration] F --> G[Turn off stereo system when finished] G --> H[End]
+
+Input15: Open the recipe book or website. Choose a recipe to cook. Read the instructions thoroughly. Collect the ingredients needed. Start cooking using the step-by-step guide. Taste and adjust seasonings as necessary. Plate the dish and serve.
+
+Output15: A[Start] --> B[Open recipe book or website] B --> C[Choose recipe to cook] C --> D[Read instructions thoroughly] D --> E[Collect needed ingredients] E --> F[Start cooking using step-by-step guide] F --> G[Taste and adjust seasonings as necessary] G --> H[Plate dish and serve] H --> I[End]
+
+Input16: Open the camera app on your phone. Choose the desired photo mode (e.g., portrait, landscape). Frame your shot. Adjust any necessary settings (e.g., exposure, focus). Capture the photo. Review and delete if needed. Save or share the photo.
+
+Output16: A[Start] --> B[Open camera app on phone] B --> C[Choose desired photo mode] C --> D[Frame your shot] D --> E[Adjust any necessary settings] E --> F[Capture the photo] F --> G[Review and delete if needed] G --> H[Save or share the photo] H --> I[End]
+
+Input17: Open the map or navigation app. Enter your desired destination. Choose your preferred transportation mode (e.g., driving, walking). Follow the suggested route. Take necessary turns and follow instructions. Arrive at your destination.
+
+Output17: A[Start] --> B[Open map or navigation app] B --> C[Enter desired destination] C --> D[Choose preferred transportation mode] D --> E[Follow suggested route] E --> F[Take necessary turns and follow instructions] F --> G[Arrive at destination] G --> H[End]
+
+Input18: Pick up your guitar. Tune the strings. Warm up with some scales. Practice chords and strumming patterns. Learn and play a new song. Experiment with improvisation. Take a break or continue playing.
+
+Output18: A[Start] --> B[Pick up guitar] B --> C[Tune the strings] C --> D[Warm up with scales] D --> E[Practice chords and strumming patterns] E --> F[Learn and play new song] F --> G[Experiment with improvisation] G --> H[Take a break or continue playing] H --> I[End]
+
+Input19: Open a blank canvas or new digital art software. Choose a color palette. Sketch or outline the artwork. Add colors and shading. Add details and highlights. Review and make any necessary adjustments. Save the artwork.
+
+Output19: A[Start] --> B[Open blank canvas or new digital art software] B --> C[Choose color palette] C --> D[Sketch or outline artwork] D --> E[Add colors and shading] E --> F[Add details and highlights] F --> G[Review and make necessary adjustments] G --> H[Save artwork] H --> I[End]
+
+Input20: Open a meditation or mindfulness app. Select a guided meditation session. Find a comfortable and quiet space. Close your eyes and focus on your breath. Follow the instructions and relax. Take your time transitioning back to the present moment.
+
+Output20: A[Start] --> B[Open meditation or mindfulness app] B --> C[Select guided meditation session] C --> D[Find comfortable and quiet space] D --> E[Close eyes and focus on breath] E --> F[Follow instructions and relax] F --> G[Take time transitioning back to the present moment] G --> H[End]

@@ -1,0 +1,31 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Prepare the ingredients for cooking. Follow the recipe instructions. Heat the stove and place the pan. Cook the dish for the required time. Serve the meal. Clean up the kitchen.
+Output1: A[Start] --> B[Prepare ingredients] B --> C[Follow recipe instructions] C --> D[Heat stove and place pan] D --> E[Cook dish for required time] E --> F[Serve meal] F --> G[Clean up kitchen] G --> H[End]
+
+Input2: Open the front door. Step outside and lock the door. Walk towards the car and unlock it. Enter the car and fasten the seatbelt. Start the engine and drive to the desired location. Park the car and turn off the engine.
+Output2: A[Start] --> B[Open front door] B --> C[Step outside and lock the door] C --> D[Walk towards car and unlock it] D --> E[Enter car and fasten seatbelt] E --> F[Start engine] F --> G[Drive to desired location] G --> H[Park car and turn off engine] H --> I[End]
+
+Input3: Wake up in the morning. Stretch and get out of bed. Brush your teeth and wash your face. Get dressed in appropriate attire. Have breakfast. Leave the house and lock the door behind you.
+Output3: A[Start] --> B[Wake up in the morning] B --> C[Stretch and get out of bed] C --> D[Brush teeth and wash face] D --> E[Get dressed in appropriate attire] E --> F[Have breakfast] F --> G[Leave house and lock the door] G --> H[End]
+
+Input4: Enter the gym. Warm-up with stretches and light exercises. Proceed to do cardio exercises. Utilize weight machines for strength training. Cool down with stretches. Exit the gym.
+Output4: A[Start] --> B[Enter the gym] B --> C[Warm-up with stretches and light exercises] C --> D[Proceed to do cardio exercises] D --> E[Utilize weight machines for strength training] E --> F[Cool down with stretches] F --> G[Exit the gym] G --> H[End]
+
+Input5: Log into your email account. Check for new messages. Reply to important emails. Forward relevant information. Create and send new emails. Log out of your email account.
+Output5: A[Start] --> B[Log into email account] B --> C[Check for new messages] C --> D[Reply to important emails] D --> E[Forward relevant information] E --> F[Create and send new emails] F --> G[Log out of email account] G --> H[End]
+
+Input6: Install a new software program. Download the software file. Run the installation wizard. Agree to terms and conditions. Customize program settings. Complete installation and restart the computer if required.
+Output6: A[Start] --> B[Install new software program] B --> C[Download software file] C --> D[Run installation wizard] D --> E[Agree to terms and conditions] E --> F[Customize program settings] F --> G[Complete installation and restart computer if required] G --> H[End]
+
+Input7: Go grocery shopping. Prepare a shopping list. Travel to the grocery store. Select and pick up desired items. Proceed to the checkout counter. Pay for the groceries. Return home with the purchased items.
+Output7: A[Start] --> B[Go grocery shopping] B --> C[Prepare shopping list] C --> D[Travel to grocery store] D --> E[Select and pick up desired items] E --> F[Proceed to checkout counter] F --> G[Pay for groceries] G --> H[Return home with purchased items] H --> I[End]
+
+Input8: Open a new document. Input necessary information and content. Format the document as per requirement. Add tables, charts, or images. Proofread and edit the document. Save the document and close the file.
+Output8: A[Start] --> B[Open new document] B --> C[Input necessary information and content] C --> D[Format document as per requirement] D --> E[Add tables, charts, or images] E --> F[Proofread and edit document] F --> G[Save document and close file] G --> H[End]
+
+Input9: Sign up for a new online service. Access the website or application. Fill out registration form. Verify email address or mobile number. Set up a unique username and password. Complete the registration process.
+Output9: A[Start] --> B[Sign up for new online service] B --> C[Access website or application] C --> D[Fill out registration form] D --> E[Verify email address or mobile number] E --> F[Set up unique username and password] F --> G[Complete registration process] G --> H[End]
+
+Input10: Plan a vacation. Research destination options. Choose preferred accommodation. Book flights or transportation. Create an itinerary. Pack necessary items. Enjoy the trip and make beautiful memories.
+Output10: A[Start] --> B[Plan vacation] B --> C[Research destination options] C --> D[Choose preferred accommodation] D --> E[Book flights or transportation] E --> F[Create itinerary] F --> G[Pack necessary items] G --> H[Enjoy the trip and make beautiful memories] H --> I[End]

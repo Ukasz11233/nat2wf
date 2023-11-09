@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the shortest path between two locations on a map.
+Output1: A[Start] --> B[Set initial location] B --> C[Search for possible paths] C --> D{Shortest path found?} D -- No --> C D -- Yes --> E[Highlight shortest path] E --> F[End]
+
+Input2: Sort a list of numbers in ascending order.
+Output2: A[Start] --> B[Set initial list] B --> C{List sorted?} C -- No --> D[Sort the list] D --> E[Verify if sorted] E -- Yes --> F[End] F -- No --> D
+
+Input3: Calculate the factorial of a given number.
+Output3: A[Start] --> B[Enter the number] B --> C[Set initial value] C --> D[Calculate factorial] D --> E{Factorial calculated?} E -- Yes --> F[End] E -- No --> D
+
+Input4: Determine if a number is prime or not.
+Output4: A[Start] --> B[Enter the number] B --> C{Number is divisible by any other number?} C -- Yes --> D[Number is not prime] D --> E[End] C -- No --> D[Number is prime] D --> E[End]
+
+Input5: Search for a specific word in a document.
+Output5: A[Start] --> B[Set initial document] B --> C{Word found?} C -- No --> D[Search the document] D --> E{Document searched completely?} E -- No --> D E -- Yes --> F[End] C -- Yes --> F[End]
+
+Input6: Calculate the area of a triangle.
+Output6: A[Start] --> B[Enter the base and height] B --> C{Values entered correctly?} C -- No --> B C -- Yes --> D[Calculate area] D --> E[Display area] E --> F[End]
+
+Input7: Check if a given year is a leap year.
+Output7: A[Start] --> B[Enter the year] B --> C{Leap year?} C -- Yes --> D[End] C -- No --> D[Not a leap year]
+
+Input8: Generate a random number within a specified range.
+Output8: A[Start] --> B[Enter the range] B --> C[Generate random number] C --> D[Display number] D --> E[End]
+
+Input9: Convert a temperature from Celsius to Fahrenheit.
+Output9: A[Start] --> B[Enter the temperature in Celsius] B --> C[Convert to Fahrenheit] C --> D[Display converted temperature] D --> E[End]
+
+Input10: Find the LCM (Least Common Multiple) of two numbers.
+Output10: A[Start] --> B[Enter the two numbers] B --> C{LCM calculated?} C -- Yes --> D[Display LCM] D --> E[End] C -- No --> B
+
+Input11: Calculate the area of a circle.
+Output11: A[Start] --> B[Enter the radius] B --> C[Calculate area] C --> D[Display area] D --> E[End]
+
+Input12: Convert a string to uppercase.
+Output12: A[Start] --> B[Enter the string] B --> C[Convert to uppercase] C --> D[Display converted string] D --> E[End]
+
+Input13: Create a new folder in a specific directory.
+Output13: A[Start] --> B[Enter the directory path] B --> C[Create new folder] C --> D[Confirm folder creation] D --> E[End]
+
+Input14: Find the greatest common divisor of two numbers.
+Output14: A[Start] --> B[Enter the two numbers] B --> C{GCD calculated?} C -- Yes --> D[Display GCD] D --> E[End] C -- No --> B
+
+Input15: Calculate the square root of a given number.
+Output15: A[Start] --> B[Enter the number] B --> C[Calculate square root] C --> D[Display square root] D --> E[End]
+
+Input16: Determine if a given string is a palindrome.
+Output16: A[Start] --> B[Enter the string] B --> C{Palindrome?} C -- Yes --> D[End] C -- No --> D[Not a palindrome]
+
+Input17: Encode a message using a simple Caesar cipher.
+Output17: A[Start] --> B[Enter the message] B --> C[Encode message] C --> D[Display encoded message] D --> E[End]
+
+Input18: Play a song and adjust the volume.
+Output18: A[Start] --> B[Select a song] B --> C[Play the song] C --> D{Volume adjustment needed?} D -- Yes --> E[Adjust volume] E --> C D -- No --> E[End]
+
+Input19: Calculate the sum of all elements in a list.
+Output19: A[Start] --> B[Enter the list] B --> C[Calculate sum] C --> D[Display sum] D --> E[End]
+
+Input20: Convert a binary number to decimal.
+Output20: A[Start] --> B[Enter the binary number] B --> C[Convert to decimal] C --> D[Display decimal number] D --> E[End]

@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Sort an array in ascending order.
+Output1: A[Start] --> B[Sort the array] B --> C[Is the array sorted?] C -- No --> B C -- Yes --> D[End].
+
+Input2: Calculate the sum of all elements in an array.
+Output2: A[Start] --> B[Initialize sum to 0] B --> C[Add current element to sum] C --> D[Is there any element left?] D -- Yes --> C D -- No --> E[End].
+
+Input3: Find the maximum element in an array.
+Output3: A[Start] --> B[Initialize max element to first element] B --> C[Check if current element is greater than max element] C -- No --> D[Is there any element left?] D -- Yes --> C D -- No --> E[End].
+
+Input4: Reverse the order of elements in an array.
+Output4: A[Start] --> B[Initialize start and end pointers] B --> C[Swap elements at start and end positions] C --> D[Move start pointer one step forward] D --> E[Move end pointer one step backward] E --> F[Are both pointers still valid?] F -- Yes --> C F -- No --> G[End].
+
+Input5: Find the average value of elements in an array.
+Output5: A[Start] --> B[Initialize sum and count to 0] B --> C[Add current element to sum] C --> D[Increase count by 1] D --> E[Is there any element left?] E -- Yes --> C E -- No --> F[Divide sum by count to get average] F --> G[End].
+
+Input6: Check if an array contains a specific element.
+Output6: A[Start] --> B[Initialize index to 0] B --> C[Is current element equal to the target?] C -- Yes --> D[End: Element found] C -- No --> E[Is there any element left?] E -- Yes --> F[Increase index by 1] F --> C E -- No --> G[End: Element not found].
+
+Input7: Find the minimum and maximum elements in an array.
+Output7: A[Start] --> B[Initialize min and max to first element] B --> C[Check if current element is less than min] C -- Yes --> D[Update min with current element] C -- No --> E[Check if current element is greater than max] E -- Yes --> F[Update max with current element] E -- No --> G[Is there any element left?] G -- Yes --> C G -- No --> H[End].
+
+Input8: Count the number of even numbers in an array.
+Output8: A[Start] --> B[Initialize count to 0] B --> C[Is current element even?] C -- Yes --> D[Increase count by 1] C -- No --> E[Is there any element left?] E -- Yes --> F[Move to next element] F --> C E -- No --> G[End: Count is the total number of even elements].
+
+Input9: Split an array into two halves.
+Output9: A[Start] --> B[Initialize start and end pointers] B --> C[Find middle index] C --> D[Create two new arrays for left and right halves] D --> E[Copy elements from start to middle into left array] E --> F[Copy elements from middle+1 to end into right array] F --> G[Are both pointers still valid?] G -- Yes --> C G -- No --> H[End].
+
+Input10: Find the second smallest element in an array.
+Output10: A[Start] --> B[Initialize smallest and secondSmallest elements] B --> C[Check if current element is smaller than smallest] C -- Yes --> D[Update secondSmallest with current smallest] D --> E[Update smallest with current element] C -- No --> F[Check if current element is smaller than secondSmallest] F -- Yes --> G[Update secondSmallest with current element] F -- No --> H[Is there any element left?] H -- Yes --> C H -- No --> I[End: Second smallest element found].
+
+Input11: Remove duplicate elements from an array.
+Output11: A[Start] --> B[Initialize a set to store unique elements] B --> C[Check if current element is already in the set] C -- Yes --> D[Skip current element] C -- No --> E[Add current element to the set] E --> F[Is there any element left?] F -- Yes --> G[Move to next element] G --> C F -- No --> H[End: Array without duplicates].
+
+Input12: Check if an array is a palindrome.
+Output12: A[Start] --> B[Initialize start and end pointers] B --> C[Are elements at start and end positions equal?] C -- Yes --> D[Move start pointer one step forward] D --> E[Move end pointer one step backward] E --> F[Are both pointers still valid?] F -- Yes --> C F -- No --> G[End: Array is a palindrome].
+
+Input13: Find the median of an array.
+Output13: A[Start] --> B[Sort the array in ascending order] B --> C[Find the middle index] C --> D[Is the array length even?] D -- Yes --> E[Calculate average of two middle elements] D -- No --> F[Get the middle element] E -- No --> F E -- Yes --> G[End: Median found].
+
+Input14: Remove all occurrences of a specific element from an array.
+Output14: A[Start] --> B[Initialize a new array] B --> C[Check if current element is equal to the specific element] C -- Yes --> D[Skip current element] C -- No --> E[Add current element to the new array] E --> F[Is there any element left?] F -- Yes --> G[Move to next element] G --> C F -- No --> H[End: Array without specified element].
+
+Input15: Find the first occurrence of a specific element in an array.
+Output15: A[Start] --> B[Initialize index to -1] B --> C[Is current element equal to the specific element?] C -- Yes --> D[Update index with current position] C -- No --> E[Are there any elements left?] E -- Yes --> F[Move to next element] F --> C E -- No --> G[End: Element not found or index contains the position of the found element].
+
+Input16: Calculate the product of all elements in an array.
+Output16: A[Start] --> B[Initialize product to 1] B --> C[Multiply current element with product] C --> D[Are there any elements left?] D -- Yes --> E[Move to next element] E --> C D -- No --> F[End: Product is the result].
+
+Input17: Rotate the elements of an array to the left by a specific number of positions.
+Output17: A[Start] --> B[Initialize a new array] B --> C[Copy elements from offset to end of array into the new array] C --> D[Copy elements from start to offset-1 of array into the new array] D --> E[Is the rotation complete?] E -- Yes --> F[Replace original array with new array] E -- No --> C.
+
+Input18: Calculate the cumulative sum of elements in an array.
+Output18: A[Start] --> B[Initialize cumulative sum array] B --> C[Update cumulative sum with current element] C --> D[Is there any element left?] D -- Yes --> E[Move to next element] E --> C D -- No --> F[End: Cumulative sum array contains the result].
+
+Input19: Find the mode (most frequently occurring element) in an array.
+Output19: A[Start] --> B[Initialize a dictionary to store element frequencies] B --> C[Increment frequency count for each element] C --> D[Find the element(s) with the maximum frequency] D --> E[Is there only one element with the maximum frequency?] E -- Yes --> F[End: Mode found] E -- No --> C.
+
+Input20: Determine if an array is sorted in descending order.
+Output20: A[Start] --> B[Check if current element is less than the next element] B -- Yes --> C[Are there any elements left?] C -- Yes --> B C -- No --> D[End: Array is sorted in descending order].

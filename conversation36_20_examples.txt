@@ -1,0 +1,41 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the smallest number in an array. Output1: A[Start] --> B[Search the array] B --> C{Smallest number found?} C -- No --> B C -- Yes --> D[Remove the number] D --> E[End].
+
+Input2: Determine if a string contains a specific character. Output2: A[Start] --> B[Search the string] B --> C{Character found?} C -- No --> B C -- Yes --> D[Remove the character] D --> E[End].
+
+Input3: Find the longest word in a sentence. Output3: A[Start] --> B[Search the sentence] B --> C{Longest word found?} C -- No --> B C -- Yes --> D[Remove the word] D --> E[End].
+
+Input4: Identify the first vowel in a word. Output4: A[Start] --> B[Search the word] B --> C{Vowel found?} C -- No --> B C -- Yes --> D[Remove the vowel] D --> E[End].
+
+Input5: Locate the highest temperature in a dataset. Output5: A[Start] --> B[Search the dataset] B --> C{Highest temperature found?} C -- No --> B C -- Yes --> D[Remove the temperature] D --> E[End].
+
+Input6: Check if a number is prime. Output6: A[Start] --> B[Search for factors] B --> C{Number is prime?} C -- No --> B C -- Yes --> D[Remove the number] D --> E[End].
+
+Input7: Find the last occurrence of a specific character in a string. Output7: A[Start] --> B[Search the string] B --> C{Character found?} C -- No --> B C -- Yes --> D[Remove the character] D --> E[End].
+
+Input8: Determine the maximum value in a matrix. Output8: A[Start] --> B[Search the matrix] B --> C{Maximum value found?} C -- No --> B C -- Yes --> D[Remove the value] D --> E[End].
+
+Input9: Find the second smallest element in an array. Output9: A[Start] --> B[Search the array] B --> C{Second smallest element found?} C -- No --> B C -- Yes --> D[Remove the element] D --> E[End].
+
+Input10: Check if a list of words contains a palindrome. Output10: A[Start] --> B[Search the list] B --> C{Palindrome found?} C -- No --> B C -- Yes --> D[Remove the palindrome] D --> E[End].
+
+Input11: Identify the most frequent element in a dataset. Output11: A[Start] --> B[Search the dataset] B --> C{Most frequent element found?} C -- No --> B C -- Yes --> D[Remove the element] D --> E[End].
+
+Input12: Find the first negative number in an array. Output12: A[Start] --> B[Search the array] B --> C{Negative number found?} C -- No --> B C -- Yes --> D[Remove the number] D --> E[End].
+
+Input13: Locate the largest file in a directory. Output13: A[Start] --> B[Search the directory] B --> C{Largest file found?} C -- No --> B C -- Yes --> D[Remove the file] D --> E[End].
+
+Input14: Determine if a string contains only numerical digits. Output14: A[Start] --> B[Search the string] B --> C{Only digits found?} C -- No --> B C -- Yes --> D[Remove the digits] D --> E[End].
+
+Input15: Find the average of a set of numbers. Output15: A[Start] --> B[Search the set] B --> C{Average calculated?} C -- No --> B C -- Yes --> D[Remove the numbers] D --> E[End].
+
+Input16: Check if a sentence contains a specific word. Output16: A[Start] --> B[Search the sentence] B --> C{Word found?} C -- No --> B C -- Yes --> D[Remove the word] D --> E[End].
+
+Input17: Count the number of occurrences of a letter in a word. Output17: A[Start] --> B[Search the word] B --> C{Letter found?} C -- No --> B C -- Yes --> D[Remove the letter] D --> E[End].
+
+Input18: Find the mode of a dataset. Output18: A[Start] --> B[Search the dataset] B --> C{Mode found?} C -- No --> B C -- Yes --> D[Remove the mode] D --> E[End].
+
+Input19: Determine if a given year is a leap year. Output19: A[Start] --> B[Check the year] B --> C{Leap year found?} C -- No --> B C -- Yes --> D[Remove the year] D --> E[End].
+
+Input20: Locate the first occurrence of a specific word in a sentence. Output20: A[Start] --> B[Search the sentence] B --> C{Word found?} C -- No --> B C -- Yes --> D[Remove the word] D --> E[End].

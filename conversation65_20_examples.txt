@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Make a cup of coffee. 
+Output1: A[Start] --> B[Boil water] B --> C[Grind coffee beans] C --> D[Place coffee grounds in a cup] D --> E[Pour hot water over coffee grounds] E --> F[Stir coffee] F --> G[Add sugar or milk if desired] G --> H[Enjoy the coffee] H --> I[End].
+
+Input2: Bake a cake from scratch.
+Output2: A[Start] --> B[Gather ingredients and preheat the oven] B --> C[Mix dry ingredients] C --> D[Cream butter and sugar together] D --> E[Add eggs to butter-sugar mixture] E --> F[Alternate adding dry ingredients and milk to the mixture] F --> G[Pour batter into a greased cake pan] G --> H[Bake in preheated oven for specified time] H --> I[Check for doneness with a toothpick] I --> J[Cool the cake on a wire rack] J --> K[Frost the cooled cake] K --> L[Decorate the cake] L --> M[Enjoy the cake] M --> N[End].
+
+Input3: Assemble a piece of furniture.
+Output3: A[Start] --> B[Unpack and lay out all the parts] B --> C[Read the assembly instructions carefully] C --> D[Identify and group similar parts together] D --> E[Follow the step-by-step instructions to attach each part] E --> F[Tighten screws and bolts as directed] F --> G[Check for proper alignment and stability] G --> H[Continue with the next step] H --> I[Repeat steps until assembly is complete] I --> J[Clean up any packaging materials] J --> K[Enjoy the newly assembled furniture] K --> L[End].
+
+Input4: Plant a garden.
+Output4: A[Start] --> B[Choose a sunny location for the garden] B --> C[Prepare the soil by clearing weeds and loosening it] C --> D[Plan and mark the layout of the garden beds] D --> E[Dig holes or prepare the soil for seeds] E --> F[Plant seeds or seedlings in the prepared areas] F --> G[Water the planted areas] G --> H[Monitor the growth and provide necessary care] H --> I[Remove weeds and pests regularly] I --> J[Harvest the mature plants or vegetables] J --> K[Enjoy the fresh produce from the garden] K --> L[End].
+
+Input5: Write a research paper.
+Output5: A[Start] --> B[Select a topic for the research paper] B --> C[Gather relevant and credible sources] C --> D[Read and analyze the collected information] D --> E[Create an outline for the paper] E --> F[Write the introduction, body, and conclusion paragraphs] F --> G[Cite sources and include references] G --> H[Proofread and revise the paper] H --> I[Check for coherence and clarity] I --> J[Edit for grammar and punctuation errors] J --> K[Format the paper according to the required style] K --> L[Submit the research paper] L --> M[End].
+
+Input6: Paint a room.
+Output6: A[Start] --> B[Remove furniture and cover the floor with a drop cloth] B --> C[Clean and prepare the walls for painting] C --> D[Apply painter's tape on trim and edges] D --> E[Mix the paint thoroughly] E --> F[Paint the ceiling first] F --> G[Paint the walls in sections] G --> H[Allow the paint to dry between coats] H --> I[Remove painter's tape once the paint is dry] I --> J[Clean up brushes, rollers, and other tools] J --> K[Move furniture back into the room] K --> L[Admire the freshly painted room] L --> M[End].
+
+Input7: Train a dog to sit.
+Output7: A[Start] --> B[Gather treats and find a quiet spot] B --> C[Hold a treat close to the dog's nose] C --> D[Raise your hand with the treat above the dog's head] D --> E[As the dog's head goes up, its rear end will naturally lower] E --> F[As soon as the dog sits, say "sit" and give the treat] F --> G[Repeat the steps and gradually phase out the treats] G --> H[Practice the command in different locations] H --> I[Reinforce the training with praise and rewards] I --> J[Enjoy a well-trained dog] J --> K[End].
+
+Input8: Prepare a healthy salad.
+Output8: A[Start] --> B[Wash and chop fresh vegetables] B --> C[Combine vegetables in a mixing bowl] C --> D[Add a protein, such as grilled chicken or tofu] D --> E[Crush some nuts or sprinkle seeds for added crunch] E --> F[Toss the salad with a healthy dressing] F --> G[Garnish with fresh herbs or cheese] G --> H[Serve and enjoy the nutritious salad] H --> I[End].
+
+Input9: Learn to play the guitar.
+Output9: A[Start] --> B[Get a guitar and tuning equipment] B --> C[Tune the guitar strings] C --> D[Learn basic chords and hand positions] D --> E[Practice strumming and fretting techniques] E --> F[Follow guitar tutorials or take lessons] F --> G[Learn to play simple songs] G --> H[Practice regularly to improve skills] H --> I[Expand repertoire with more challenging songs] I --> J[Jam with fellow musicians or join a band] J --> K[Enjoy playing the guitar] K --> L[End].
+
+Input10: Write a thank-you note.
+Output10: A[Start] --> B[Gather pen, paper, and envelope] B --> C[Address the recipient on the envelope] C --> D[Begin with a warm greeting in the note] D --> E[Express sincere gratitude for the gift or kindness] E --> F[Specifically mention the gift or act of kindness] F --> G[Share how the gift or kindness has made an impact] G --> H[End on a positive note and sign the letter] H --> I[Seal the envelope and send the thank-you note] I --> J[End].
+
+Input11: Plan a vacation.
+Output11: A[Start] --> B[Determine destination and travel dates] B --> C[Research transportation options] C --> D[Look for accommodation and make reservations] D --> E[Create an itinerary with desired activities] E --> F[Check travel requirements and secure necessary documentation] F --> G[Pack accordingly with essential items] G --> H[Set up any required travel insurance] H --> I[Enjoy the vacation] I --> J[End].
+
+Input12: Learn a new language.
+Output12: A[Start] --> B[Choose a language to learn] B --> C[Identify reliable language learning resources] C --> D[Study basic vocabulary and pronunciation] D --> E[Practice speaking and listening with language apps or online programs] E --> F[Immerse yourself in the language through movies, music, and books] F --> G[Find language exchange partners or join conversation groups] G --> H[Expand language skills with more complex grammar and vocabulary] H --> I[Visit a country where the language is spoken] I --> J[Become fluent in the new language] J --> K[End].
+
+Input13: Organize a closet.
+Output13: A[Start] --> B[Empty the contents of the closet] B --> C[Sort items into piles: keep, donate, discard] C --> D[Wipe down shelves and surfaces] D --> E[Install any needed storage solutions, such as hooks or bins] E --> F[Organize items by category and purpose] F --> G[Maximize space utilization] G --> H[Label storage containers] H --> I[Put frequently used items within easy reach] I --> J[Arrange everything neatly and efficiently] J --> K[Admire the organized closet] K --> L[End].
+
+Input14: Train for a marathon.
+Output14: A[Start] --> B[Set a training schedule with gradual mileage increases] B --> C[Invest in proper running shoes and attire] C --> D[Begin with shorter runs and gradually increase distances] D --> E[Incorporate interval training and hill workouts] E --> F[Cross-train with strength exercises and stretching] F --> G[Monitor and maintain a healthy diet] G --> H[Rest and recover adequately] H --> I[Participate in smaller races as practice] I --> J[Build up to running the marathon distance] J --> K[Cross the marathon finish line] K --> L[End].
+
+Input15: Build a computer from components.
+Output15: A[Start] --> B[Research and purchase necessary computer components] B --> C[Unpack components and organize them] C --> D[Install the motherboard into the computer case] D --> E[Attach the power supply and connect cables] E --> F[Install the CPU and attach the cooler] F --> G[Insert RAM modules into DIMM slots] G --> H[Connect storage devices and optical drives] H --> I[Attach the graphics card] I --> J[Connect all necessary cables and wires] J --> K[Test the computer for functionality] K --> L[Install the operating system and drivers] L --> M[Set up necessary software and configurations] M --> N[Enjoy using the self-built computer] N --> O[End].
+
+Input16: Start a small business.
+Output16: A[Start] --> B[Research and choose a viable business idea] B --> C[Develop a business plan and budget] C --> D[Secure necessary funding or investment] D --> E[Register the business and obtain required licenses] E --> F[Find a suitable location or establish an online presence] F --> G[Source or create products/services to offer] G --> H[Market and promote the business] H --> I[Manage finances and track expenses] I --> J[Provide excellent customer service] J --> K[Expand and grow the business] K --> L[End].
+
+Input17: Learn to sew.
+Output17: A[Start] --> B[Acquire a sewing machine and necessary supplies] B --> C[Learn the basic parts of the sewing machine] C --> D[Practice threading the machine and winding a bobbin] D --> E[Master sewing straight lines and basic stitches] E --> F[Explore different sewing techniques and patterns] F --> G[Take measurements and cut fabric] G --> H[Sew garments or other projects] H --> I[Try more complex sewing projects] I --> J[Share creations with others] J --> K[End].
+
+Input18: Prepare a budget.
+Output18: A[Start] --> B[Gather and organize financial information] B --> C[Calculate total monthly income] C --> D[Identify fixed monthly expenses] D --> E[Evaluate discretionary spending] E --> F[Set financial goals and savings targets] F --> G[Allocate funds to different expense categories] G --> H[Track and monitor expenses] H --> I[Review and adjust budget periodically] I --> J[Continue saving and following the budget] J --> K[End].
+
+Input19: Learn to dance salsa.
+Output19: A[Start] --> B[Find salsa dance classes or online tutorials] B --> C[Learn basic salsa steps and footwork] C --> D[Practice leading or following techniques] D --> E[Learn different salsa dance patterns] E --> F[Improve timing and coordination] F --> G[Attend social dance events] G --> H[Enhance styling and fluidity] H --> I[Learn more advanced salsa moves] I --> J[Enjoy dancing salsa confidently] J --> K[End].
+
+Input20: Build a website.
+Output20: A[Start] --> B[Define the purpose and target audience for the website] B --> C[Choose a domain name and purchase hosting] C --> D[Design the website layout and structure] D --> E[Create and optimize content for each page] E --> F[Develop and code the website using HTML/CSS] F --> G[Add interactive elements and functionalities] G --> H[Ensure compatibility across different devices and browsers] H --> I[Test functionality and usability] I --> J[Launch the website] J --> K[Maintain and update the website as needed] K --> L[End].

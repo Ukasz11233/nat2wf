@@ -1,0 +1,22 @@
+system: test
+user: Give me 10 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the smallest number in an array and replace it with zero.
+Output1: A[Start] --> B[Search the array] B --> C{Smallest number found?} C -- Yes --> D[Replace with zero] D --> E[End] 
+Input2: Sort a list of numbers in ascending order.
+Output2: A[Start] --> B[Search the list] B --> C{End of list reached?} C -- No --> B C -- Yes --> D[Swap neighboring numbers if necessary] D --> E{Is the list sorted?} E -- No --> B E -- Yes --> F[End]
+Input3: Find the average of a list of numbers.
+Output3: A[Start] --> B[Search the list] B --> C{End of list reached?} C -- No --> B C -- Yes --> D[Calculate the sum and count] D --> E[Calculate the average] E --> F[End]
+Input4: Find the maximum value in a matrix and replace it with a specific value.
+Output4: A[Start] --> B[Search the matrix] B --> C{Maximum value found?} C -- No --> B C -- Yes --> D[Replace with specific value] D --> E[End]
+Input5: Determine if a string is a palindrome.
+Output5: A[Start] --> B[Search the string] B --> C{End of string reached?} C -- No --> B C -- Yes --> D[Compare characters from start and end] D --> E{Is the string a palindrome?} E -- No --> F[End] E -- Yes --> G[End]
+Input6: Perform multiplication of two matrices.
+Output6: A[Start] --> B[Search the first matrix] B --> C{End of matrix reached?} C -- No --> B C -- Yes --> D[Search the second matrix] D --> E{End of matrix reached?} E -- No --> D E -- Yes --> F[Perform multiplication of corresponding elements] F --> G[End]
+Input7: Find the longest word in a sentence.
+Output7: A[Start] --> B[Search the sentence] B --> C{End of sentence reached?} C -- No --> B C -- Yes --> D[Compare lengths of words] D --> E[Find the longest word] E --> F[End]
+Input8: Determine if a number is prime.
+Output8: A[Start] --> B[Search for divisors] B --> C{Divisor found?} C -- Yes --> D[Number is not prime] D --> E[End] C -- No --> F[Number is prime] F --> E[End]
+Input9: Convert a decimal number to binary.
+Output9: A[Start] --> B[Divide the number by 2] B --> C{Number equals 0?} C -- No --> D[Store remainder] D --> E[Repeat process] E --> F[End]
+Input10: Encode a message using a Caesar cipher.
+Output10: A[Start] --> B[Search the message] B --> C{End of message reached?} C -- No --> D[Shift characters forward] D --> E[Repeat process] E --> F[End]

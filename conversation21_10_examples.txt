@@ -1,0 +1,41 @@
+system: test
+user: Give me 10 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Example 1:
+Input1: Find the shortest path in a maze. Mark the path taken.
+Output1: A[Start] --> B[Search for the shortest path] B --> C{Shortest path found?} C -- No --> B C -- Yes --> D[Mark the path taken] D --> E[End].
+
+Example 2:
+Input2: Sort a list of integers using bubble sort. Swap adjacent elements if they are in the wrong order.
+Output2: A[Start] --> B[Search for the first two adjacent elements] B --> C{Elements in the wrong order?} C -- No --> B C -- Yes --> D[Swap the adjacent elements] D --> B D -- Elements in the wrong order? --> E[End].
+
+Example 3:
+Input3: Find the maximum value from an array of numbers. Output the maximum value.
+Output3: A[Start] --> B[Search for the maximum value] B --> C{Is there another number to compare?} C -- No --> D[Output the maximum value] D --> E[End].
+
+Example 4:
+Input4: Find the longest word in a sentence. Output the length of the word.
+Output4: A[Start] --> B[Search for the longest word] B --> C{Is there another word to compare?} C -- No --> D[Output the length of the word] D --> E[End].
+
+Example 5:
+Input5: Convert a decimal number to binary. Output the binary representation.
+Output5: A[Start] --> B[Divide the number by 2] B --> C{Is the number 0?} C -- No --> D[Output the remainder] D --> E[End].
+
+Example 6:
+Input6: Find the median of a list of numbers. Output the median value.
+Output6: A[Start] --> B[Sort the list of numbers] B --> C{Is the list sorted?} C -- No --> B C -- Yes --> D[Output the median value] D --> E[End].
+
+Example 7:
+Input7: Search for a specific word in a text file. Output the position of the word.
+Output7: A[Start] --> B[Search for the word in the text file] B --> C{Is the word found?} C -- No --> B C -- Yes --> D[Output the position of the word] D --> E[End].
+
+Example 8:
+Input8: Calculate the factorial of a given number. Output the factorial value.
+Output8: A[Start] --> B[Iterate through the numbers] B --> C{Is there another number to multiply?} C -- No --> D[Output the factorial value] D --> E[End].
+
+Example 9:
+Input9: Fill a shopping cart with items until it reaches a certain weight limit. Output the final items in the cart.
+Output9: A[Start] --> B[Add an item to the shopping cart] B --> C{Is the weight limit reached?} C -- No --> B C -- Yes --> D[Output the final items in the cart] D --> E[End].
+
+Example 10:
+Input10: Play a guessing game. Keep guessing until the correct number is found. Output the number of guesses made.
+Output10: A[Start] --> B[Take a guess] B --> C{Is the guess correct?} C -- No --> B C -- Yes --> D[Output the number of guesses made] D --> E[End].

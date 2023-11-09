@@ -1,0 +1,41 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the minimum element in an array. Output1: A[Start] --> B[Search the array] B --> C{Minimum element found?} C -- No --> B C -- Yes --> D[Remove the element] D --> E[End].
+
+Input2: Sort a list in ascending order. Output2: A[Start] --> B[Search for the smallest element] B --> C{List sorted?} C -- No --> B C -- Yes --> D[End].
+
+Input3: Find the average of a set of numbers. Output3: A[Start] --> B[Search for the next number] B --> C{All numbers processed?} C -- No --> B C -- Yes --> D[Calculate the average] D --> E[End].
+
+Input4: Remove all duplicates from a given list. Output4: A[Start] --> B[Search for duplicate elements] B --> C{Duplicate found?} C -- No --> B C -- Yes --> D[Remove the duplicate] D --> E[End].
+
+Input5: Find the longest word in a sentence. Output5: A[Start] --> B[Search for the next word] B --> C{All words processed?} C -- No --> B C -- Yes --> D[Find the longest word] D --> E[End].
+
+Input6: Calculate the sum of all even numbers in a list. Output6: A[Start] --> B[Search for the next number] B --> C{All numbers processed?} C -- No --> B C -- Yes --> D{Even number found?} D -- No --> B D -- Yes --> E[Calculate the sum] E --> F[End].
+
+Input7: Check if a given number is prime. Output7: A[Start] --> B[Search for divisors] B --> C{Divisor found?} C -- No --> D[Number is prime] D --> E[End].
+
+Input8: Find the second largest element in an array. Output8: A[Start] --> B[Search for the next element] B --> C{All elements processed?} C -- No --> B C -- Yes --> D[Find the second largest element] D --> E[End].
+
+Input9: Reverse the elements of a linked list. Output9: A[Start] --> B[Search for the next element] B --> C{All elements processed?} C -- No --> B C -- Yes --> D[Reverse the elements] D --> E[End].
+
+Input10: Convert all letters in a string to uppercase. Output10: A[Start] --> B[Search for the next letter] B --> C{All letters processed?} C -- No --> B C -- Yes --> D[Convert to uppercase] D --> E[End].
+
+Input11: Find the index of the first occurrence of a given element in a list. Output11: A[Start] --> B[Search for the next element] B --> C{Element found?} C -- No --> B C -- Yes --> D[Find the index] D --> E[End].
+
+Input12: Remove all whitespace characters from a string. Output12: A[Start] --> B[Search for the next character] B --> C{All characters processed?} C -- No --> B C -- Yes --> D[Remove whitespace] D --> E[End].
+
+Input13: Calculate the factorial of a given number. Output13: A[Start] --> B[Search for the next number] B --> C{All numbers processed?} C -- No --> B C -- Yes --> D[Calculate the factorial] D --> E[End].
+
+Input14: Find the median of a list of numbers. Output14: A[Start] --> B[Search for the next number] B --> C{All numbers processed?} C -- No --> B C -- Yes --> D[Find the median] D --> E[End].
+
+Input15: Count the number of vowels in a string. Output15: A[Start] --> B[Search for the next character] B --> C{All characters processed?} C -- No --> B C -- Yes --> D[Count vowels] D --> E[End].
+
+Input16: Find the most frequent element in an array. Output16: A[Start] --> B[Search for the next element] B --> C{All elements processed?} C -- No --> B C -- Yes --> D[Find the most frequent element] D --> E[End].
+
+Input17: Remove negative numbers from a list. Output17: A[Start] --> B[Search for the next number] B --> C{All numbers processed?} C -- No --> B C -- Yes --> D{Negative number found?} D -- No --> B D -- Yes --> E[Remove the negative number] E --> F[End].
+
+Input18: Find the maximum value in a matrix. Output18: A[Start] --> B[Search for the next element] B --> C{All elements processed?} C -- No --> B C -- Yes --> D[Find the maximum value] D --> E[End].
+
+Input19: Convert a decimal number to binary. Output19: A[Start] --> B[Search for the next digit] B --> C{All digits processed?} C -- No --> B C -- Yes --> D[Convert to binary] D --> E[End].
+
+Input20: Find the first non-repeating character in a string. Output20: A[Start] --> B[Search for the next character] B --> C{Character repeated?} C -- No --> D[First non-repeating character found] D --> E[End].

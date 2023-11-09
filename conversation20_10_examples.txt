@@ -1,0 +1,41 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the smallest number in an array. Output1: A[Start] --> B[Search the array] B --> C{Smallest number found?} C -- No --> B C -- Yes --> D[Remove the number] D --> E[End].
+
+Input2: Locate a specific word in a text document. Output2: A[Start] --> B[Search the document] B --> C{Word found?} C -- No --> B C -- Yes --> D[Remove the word] D --> E[End].
+
+Input3: Search for the longest word in a sentence. Output3: A[Start] --> B[Search the sentence] B --> C{Longest word found?} C -- No --> B C -- Yes --> D[Remove the word] D --> E[End].
+
+Input4: Identify the highest temperature recorded in a year. Output4: A[Start] --> B[Search the records] B --> C{Highest temperature found?} C -- No --> B C -- Yes --> D[Remove the record] D --> E[End].
+
+Input5: Look for a specific book title in a library catalog. Output5: A[Start] --> B[Search the catalog] B --> C{Book title found?} C -- No --> B C -- Yes --> D[Remove the book] D --> E[End].
+
+Input6: Find the oldest person in a group. Output6: A[Start] --> B[Search the group] B --> C{Oldest person found?} C -- No --> B C -- Yes --> D[Remove the person] D --> E[End].
+
+Input7: Search for the highest bid in an auction. Output7: A[Start] --> B[Search the bids] B --> C{Highest bid found?} C -- No --> B C -- Yes --> D[Remove the bid] D --> E[End].
+
+Input8: Locate the largest city in a country. Output8: A[Start] --> B[Search the cities] B --> C{Largest city found?} C -- No --> B C -- Yes --> D[Remove the city] D --> E[End].
+
+Input9: Find the most popular song in a playlist. Output9: A[Start] --> B[Search the playlist] B --> C{Most popular song found?} C -- No --> B C -- Yes --> D[Remove the song] D --> E[End].
+
+Input10: Look for the shortest route between two cities. Output10: A[Start] --> B[Search the routes] B --> C{Shortest route found?} C -- No --> B C -- Yes --> D[Remove the route] D --> E[End].
+
+Input11: Search for the highest score in a game. Output11: A[Start] --> B[Search the scores] B --> C{Highest score found?} C -- No --> B C -- Yes --> D[Remove the score] D --> E[End].
+
+Input12: Find the most recent message in a chat history. Output12: A[Start] --> B[Search the chat history] B --> C{Most recent message found?} C -- No --> B C -- Yes --> D[Remove the message] D --> E[End].
+
+Input13: Locate the largest continent on Earth. Output13: A[Start] --> B[Search the continents] B --> C{Largest continent found?} C -- No --> B C -- Yes --> D[Remove the continent] D --> E[End].
+
+Input14: Search for the highest-rated movie in a list. Output14: A[Start] --> B[Search the movie list] B --> C{Highest-rated movie found?} C -- No --> B C -- Yes --> D[Remove the movie] D --> E[End].
+
+Input15: Find the most expensive item in a store catalog. Output15: A[Start] --> B[Search the catalog] B --> C{Most expensive item found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End].
+
+Input16: Look for the latest news article in a news feed. Output16: A[Start] --> B[Search the news feed] B --> C{Latest article found?} C -- No --> B C -- Yes --> D[Remove the article] D --> E[End].
+
+Input17: Search for the largest animal in a zoo. Output17: A[Start] --> B[Search the zoo] B --> C{Largest animal found?} C -- No --> B C -- Yes --> D[Remove the animal] D --> E[End].
+
+Input18: Locate the highest-rated restaurant in a city. Output18: A[Start] --> B[Search the restaurants] B --> C{Highest-rated restaurant found?} C -- No --> B C -- Yes --> D[Remove the restaurant] D --> E[End].
+
+Input19: Find the tallest building in a city skyline. Output19: A[Start] --> B[Search the skyline] B --> C{Tallest building found?} C -- No --> B C -- Yes --> D[Remove the building] D --> E[End].
+
+Input20: Search for the fastest runner in a race. Output20: A[Start] --> B[Search the race] B --> C{Fastest runner found?} C -- No --> B C -- Yes --> D[Remove the runner] D --> E[End].

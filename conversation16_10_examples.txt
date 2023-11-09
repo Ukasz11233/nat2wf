@@ -1,0 +1,20 @@
+user: Give me 10 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the largest number in an array of integers. Output1: A[Start] --> B[Initialize max variable] B --> C[Loop through the array] C --> D{Current element > max?} D -- Yes --> E[Update max] E --> C D -- No --> C C -- End --> F[End]
+
+Input2: Search for a specific name in a phone book. Output2: A[Start] --> B[Initialize counter] B --> C[Loop through the phone book] C --> D{Match found?} D -- No --> E[Increment counter] E --> C D -- Yes --> F[Remove the entry] F --> G[End]
+
+Input3: Find the alphabetically first word in a sentence. Output3: A[Start] --> B[Split the sentence into words] B --> C[Initialize min word] C --> D[Loop through the words] D --> E{Previous word < min word?} E -- Yes --> F[Update min word] F --> D E -- No --> D D -- End --> G[End]
+
+Input4: Determine the smallest number in a given list. Output4: A[Start] --> B[Set min to the first number] B --> C[Loop through the list] C --> D{Current number < min?} D -- Yes --> E[Update min] E --> C D -- No --> C C -- End --> F[End]
+
+Input5: Locate the first occurrence of a specific character in a string. Output5: A[Start] --> B[Initialize index variable] B --> C[Loop through the string] C --> D{Current character equals target?} D -- No --> E[Increment index] E --> C D -- Yes --> F[Remove the character] F --> G[End]
+
+Input6: Find the highest temperature recorded in a month. Output6: A[Start] --> B[Initialize max temperature] B --> C[Loop through the temperature records] C --> D{Current temperature > max temperature?} D -- Yes --> E[Update max temperature] E --> C D -- No --> C C -- End --> F[End]
+
+Input7: Determine the youngest person in a list of ages. Output7: A[Start] --> B[Set min age to the first age] B --> C[Loop through the list] C --> D{Current age < min age?} D -- Yes --> E[Update min age] E --> C D -- No --> C C -- End --> F[End]
+
+Input8: Search for a specific element in a binary tree. Output8: A[Start] --> B[Initialize current node] B --> C{Current node equals target?} C -- No --> D{Target < current node} D -- Yes --> E[Go to left child] E --> B D -- No --> F[Go to right child] F --> B C -- Yes --> G[Remove the element] G --> H[End]
+
+Input9: Find the longest path in a maze. Output9: A[Start] --> B[Initialize path] B --> C[Traverse the maze] C --> D{End of path?} D -- No --> E[Add current direction to path] E --> C D -- Yes --> F[Remove the path] F --> G[End]
+
+Input10: Determine the most frequently occurring element in a given list. Output10: A[Start] --> B[Initialize counter dictionary] B --> C[Loop through the list] C --> D{Current element in counter dictionary?} D -- Yes --> E[Increment counter] E --> C D -- No --> F[Add current element to counter dictionary] F --> C C -- End --> G{Find element with maximum count} G -- Yes --> H[Remove the element] H --> I[End] G -- No --> I

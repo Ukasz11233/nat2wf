@@ -1,0 +1,271 @@
+system: test
+user: Give me 30 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: 
+Find the longest word in a sentence. Remove the word.
+Output1:
+A[Start] --> B[Search the sentence] 
+B --> C{Longest word found?}
+C -- No --> B 
+C -- Yes --> D[Remove the word] 
+D --> E[End]
+
+Input2:
+Locate the largest number in an array. Delete the number.
+Output2:
+A[Start] --> B[Search the array] 
+B --> C{Largest number found?}
+C -- No --> B 
+C -- Yes --> D[Delete the number] 
+D --> E[End]
+
+Input3:
+Search a dictionary for the most common word. Erase the word.
+Output3:
+A[Start] --> B[Search the dictionary] 
+B --> C{Most common word found?}
+C -- No --> B 
+C -- Yes --> D[Erase the word] 
+D --> E[End]
+
+Input4:
+Scan a folder for the file with the largest size. Delete the file.
+Output4:
+A[Start] --> B[Scan the folder] 
+B --> C{File with largest size found?}
+C -- No --> B 
+C -- Yes --> D[Delete the file] 
+D --> E[End]
+
+Input5:
+Find the highest score in a leaderboard. Remove the player with that score.
+Output5:
+A[Start] --> B[Search the leaderboard] 
+B --> C{Highest score found?}
+C -- No --> B 
+C -- Yes --> D[Remove the player] 
+D --> E[End]
+
+Input6:
+Look for the most recent message in a chat history. Delete the message.
+Output6:
+A[Start] --> B[Search the chat history] 
+B --> C{Most recent message found?}
+C -- No --> B 
+C -- Yes --> D[Delete the message] 
+D --> E[End]
+
+Input7:
+Retrieve the book with the highest rating from a library. Take out the book.
+Output7:
+A[Start] --> B[Search the library] 
+B --> C{Book with highest rating found?}
+C -- No --> B 
+C -- Yes --> D[Take out the book] 
+D --> E[End]
+
+Input8:
+Check a list of emails for the one with the longest subject line. Remove the email.
+Output8:
+A[Start] --> B[Search the list of emails] 
+B --> C{Email with longest subject line found?}
+C -- No --> B 
+C -- Yes --> D[Remove the email] 
+D --> E[End]
+
+Input9:
+Locate the file with the highest number of downloads. Delete the file.
+Output9:
+A[Start] --> B[Scan the files] 
+B --> C{File with highest downloads found?}
+C -- No --> B 
+C -- Yes --> D[Delete the file] 
+D --> E[End]
+
+Input10:
+Search a playlist for the song with the longest duration. Remove the song.
+Output10:
+A[Start] --> B[Search the playlist] 
+B --> C{Song with longest duration found?}
+C -- No --> B 
+C -- Yes --> D[Remove the song] 
+D --> E[End]
+
+Input11:
+Look for the movie with the highest rating in a database. Delete the movie.
+Output11:
+A[Start] --> B[Search the database] 
+B --> C{Movie with highest rating found?}
+C -- No --> B 
+C -- Yes --> D[Delete the movie] 
+D --> E[End]
+
+Input12:
+Retrieve the tweet with the most likes from a user's timeline. Hide the tweet.
+Output12:
+A[Start] --> B[Search the timeline] 
+B --> C{Tweet with most likes found?}
+C -- No --> B 
+C -- Yes --> D[Hide the tweet] 
+D --> E[End]
+
+Input13:
+Scan a list of products for the one with the highest price. Remove the product.
+Output13:
+A[Start] --> B[Search the product list] 
+B --> C{Product with highest price found?}
+C -- No --> B 
+C -- Yes --> D[Remove the product] 
+D --> E[End]
+
+Input14:
+Fetch the image with the highest resolution from a gallery. Delete the image.
+Output14:
+A[Start] --> B[Search the gallery] 
+B --> C{Image with highest resolution found?}
+C -- No --> B 
+C -- Yes --> D[Delete the image] 
+D --> E[End]
+
+Input15:
+Look for the website with the most traffic in a list. Remove the website.
+Output15:
+A[Start] --> B[Search the list of websites] 
+B --> C{Website with most traffic found?}
+C -- No --> B 
+C -- Yes --> D[Remove the website] 
+D --> E[End]
+
+Input16:
+Search a collection of paintings for the one with the highest bid. Remove the painting.
+Output16:
+A[Start] --> B[Search the collection] 
+B --> C{Painting with highest bid found?}
+C -- No --> B 
+C -- Yes --> D[Remove the painting] 
+D --> E[End]
+
+Input17:
+Retrieve the article with the most views from a blog. Hide the article.
+Output17:
+A[Start] --> B[Search the blog] 
+B --> C{Article with most views found?}
+C -- No --> B 
+C -- Yes --> D[Hide the article] 
+D --> E[End]
+
+Input18:
+Check a list of tasks for the one with the highest priority. Mark the task as completed.
+Output18:
+A[Start] --> B[Search the task list] 
+B --> C{Task with highest priority found?}
+C -- No --> B 
+C -- Yes --> D[Mark task as completed] 
+D --> E[End]
+
+Input19:
+Find the email with the most attachments in an inbox. Delete the email.
+Output19:
+A[Start] --> B[Search the inbox] 
+B --> C{Email with most attachments found?}
+C -- No --> B 
+C -- Yes --> D[Delete the email] 
+D --> E[End]
+
+Input20:
+Locate the song with the highest number of plays in a music library. Remove the song.
+Output20:
+A[Start] --> B[Search the music library] 
+B --> C{Song with highest number of plays found?}
+C -- No --> B 
+C -- Yes --> D[Remove the song] 
+D --> E[End]
+
+Input21:
+Search a collection of recipes for the one with the most reviews. Delete the recipe.
+Output21:
+A[Start] --> B[Search the recipe collection] 
+B --> C{Recipe with most reviews found?}
+C -- No --> B 
+C -- Yes --> D[Delete the recipe] 
+D --> E[End]
+
+Input22:
+Look for the contact with the most recent activity in an address book. Remove the contact.
+Output22:
+A[Start] --> B[Search the address book] 
+B --> C{Contact with most recent activity found?}
+C -- No --> B 
+C -- Yes --> D[Remove the contact] 
+D --> E[End]
+
+Input23:
+Retrieve the article with the highest word count from a news website. Hide the article.
+Output23:
+A[Start] --> B[Search the news website] 
+B --> C{Article with highest word count found?}
+C -- No --> B 
+C -- Yes --> D[Hide the article] 
+D --> E[End]
+
+Input24:
+Scan a list of movies for the one with the longest duration. Remove the movie.
+Output24:
+A[Start] --> B[Search the movie list] 
+B --> C{Movie with longest duration found?}
+C -- No --> B 
+C -- Yes --> D[Remove the movie] 
+D --> E[End]
+
+Input25:
+Find the message with the most recipients in an email inbox. Delete the message.
+Output25:
+A[Start] --> B[Search the inbox] 
+B --> C{Message with most recipients found?}
+C -- No --> B 
+C -- Yes --> D[Delete the message] 
+D --> E[End]
+
+Input26:
+Look for the tweet with the highest number of retweets in a feed. Hide the tweet.
+Output26:
+A[Start] --> B[Search the feed] 
+B --> C{Tweet with highest number of retweets found?}
+C -- No --> B 
+C -- Yes --> D[Hide the tweet] 
+D --> E[End]
+
+Input27:
+Search a folder for the file with the longest name. Delete the file.
+Output27:
+A[Start] --> B[Scan the folder] 
+B --> C{File with longest name found?}
+C -- No --> B 
+C -- Yes --> D[Delete the file] 
+D --> E[End]
+
+Input28:
+Retrieve the photo with the highest resolution from a collection. Remove the photo.
+Output28:
+A[Start] --> B[Search the collection] 
+B --> C{Photo with highest resolution found?}
+C -- No --> B 
+C -- Yes --> D[Remove the photo] 
+D --> E[End]
+
+Input29:
+Check a list of books for the one with the highest rating. Take out the book.
+Output29:
+A[Start] --> B[Search the book list] 
+B --> C{Book with highest rating found?}
+C -- No --> B 
+C -- Yes --> D[Take out the book] 
+D --> E[End]
+
+Input30:
+Find the webpage with the most backlinks in a site. Remove the webpage.
+Output30:
+A[Start] --> B[Search the site] 
+B --> C{Webpage with most backlinks found?}
+C -- No --> B 
+C -- Yes --> D[Remove the webpage] 
+D --> E[End]

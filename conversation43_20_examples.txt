@@ -1,0 +1,63 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Sure! Here are 20 examples with different input and output according to the given format:
+
+Example 1:
+Input1: Check if a number is prime or not. Output1: A[Start] --> B[Check if the number is divisible by any number] B --> C{Number is divisible?} C -- No --> D[Number is prime] D --> E[End]
+
+Example 2:
+Input2: Find the largest element in an array. Output2: A[Start] --> B[Initialize max variable] B --> C[Iterate through the array] C --> D{Element is greater than max?} D -- No --> C D -- Yes --> E[Update max] E --> C D --> F[Output the max element] F --> G[End]
+
+Example 3:
+Input3: Calculate the factorial of a number. Output3: A[Start] --> B[Initialize product variable to 1] B --> C[Iterate from 1 to the input number] C --> D[Multiply current number with product] D --> E[Update product] E --> C C --> F[Output the factorial] F --> G[End]
+
+Example 4:
+Input4: Search for a specific item in a linked list. Output4: A[Start] --> B[Initialize current node as the head] B --> C{Current node has the desired item?} C -- No --> D[Move to the next node] D --> B C -- Yes --> E[Item found] E --> F[End]
+
+Example 5:
+Input5: Sort an array of numbers in ascending order. Output5: A[Start] --> B[Initialize sorted flag as False] B --> C{Array is sorted?} C -- No --> D[Swap adjacent elements if necessary] D --> E[Update sorted flag] E --> C C -- Yes --> F[Output the sorted array] F --> G[End]
+
+Example 6:
+Input6: Calculate the average of a list of numbers. Output6: A[Start] --> B[Initialize sum and count variables] B --> C[Iterate through the list] C --> D[Add current number to sum] D --> E[Increment count] E --> C C -- No --> F[Calculate the average] F --> G[Output the average] G --> H[End]
+
+Example 7: 
+Input7: Find the longest word in a sentence. Output7: A[Start] --> B[Split the sentence into words] B --> C[Initialize longest word variable] C --> D[Iterate through the words] D --> E{Current word is longer than longest word?} E -- No --> D E -- Yes --> F[Update longest word] F --> D D -- No --> G[Output the longest word] G --> H[End]
+
+Example 8:
+Input8: Determine if a string is a palindrome. Output8: A[Start] --> B[Initialize two pointers at the start and end of the string] B --> C{Characters at pointer positions are equal?} C -- No --> D[Not a palindrome] D --> E[Increment start pointer] E --> F[Decrement end pointer] F --> B C -- Yes --> G[Palindrome] G --> H[End]
+
+Example 9:
+Input9: Convert a decimal number to binary. Output9: A[Start] --> B[Initialize binary number variable] B --> C[Divide the decimal number by 2] C --> D[Get the remainder] D --> E[Update binary number with the remainder] E --> F[Update decimal number with the quotient] F --> C C -- No --> G[Output the binary number] G --> H[End]
+
+Example 10:
+Input10: Find the median of a list of numbers. Output10: A[Start] --> B[Sort the list in ascending order] B --> C[Get the length of the list] C --> D{Length is odd or even?} D -- Odd --> E[Output the middle element] E --> F[End] D -- Even --> G[Output the average of the two middle elements] G --> F[End]
+
+Example 11:
+Input11: Guess a random number between 1 and 100. Output11: A[Start] --> B[Generate a random number] B --> C{Guessed number is correct?} C -- No --> D[Ask for another guess] D --> B C -- Yes --> E[Output the correct guess] E --> F[End]
+
+Example 12:
+Input12: Check if a string is a valid email address. Output12: A[Start] --> B[Check if the string contains an '@' symbol] B -- No --> C[Invalid email address] C --> D[End] B -- Yes --> E[Check if the domain name is valid] E -- No --> F[Invalid email address] F --> D[End] E -- Yes --> G[Valid email address] G --> D[End]
+
+Example 13:
+Input13: Perform a binary search on a sorted array. Output13: A[Start] --> B[Initialize lower and upper limits] B --> C{Found the desired element or lower limit exceeds upper limit?} C -- Found --> D[Output the index of the element] D --> E[End] C -- No --> F[Calculate the middle index] F --> G{Middle element is greater or smaller?} G -- Greater --> B G -- Smaller --> H[Update lower or upper limit] H --> C
+
+Example 14:
+Input14: Encrypt a plaintext using ROT13 cipher. Output14: A[Start] --> B[Initialize encrypted text variable] B --> C[Iterate through each character of the plaintext] C --> D{Character is alphabetical?} D -- No --> E[Leave it unchanged] E --> C D -- Yes --> F[Shift the character 13 positions] F --> G[Update encrypted text] G --> C C -- No --> H[Output the encrypted text] H --> I[End]
+
+Example 15:
+Input15: Convert a Roman numeral to its decimal value. Output15: A[Start] --> B[Initialize decimal value variable] B --> C[Iterate through each character of the Roman numeral] C --> D{Current character is greater or equal to next character?} D -- Greater --> E[Subtract the value] E --> C D -- Equal --> F[Add the value] F --> C C -- No --> G[Output the decimal value] G --> H[End]
+
+Example 16:
+Input16: Calculate the square root of a number using Newton's method. Output16: A[Start] --> B[Initialize an initial guess] B --> C[Iterate until the guess is close enough] C --> D[Calculate the next guess using Newton's method] D --> E[Update the guess] E --> C C -- No --> F[Output the square root] F --> G[End]
+
+Example 17:
+Input17: Determine if a number is a perfect square. Output17: A[Start] --> B[Calculate the square root of the number] B --> C{Square root is an integer?} C -- No --> D[Not a perfect square] D --> E[Output the square root] E --> F[End] C -- Yes --> G[Perfect square] G --> F[End]
+
+Example 18:
+Input18: Reverse the elements of an array. Output18: A[Start] --> B[Initialize two pointers at the start and end of the array] B --> C{Swap elements at pointer positions and update pointers} C -- No --> D[Output the reversed array] D --> E[End] C -- Yes --> F[Update pointers] F --> B
+
+Example 19:
+Input19: Count the number of occurrences of a specific element in a list. Output19: A[Start] --> B[Initialize count variable] B --> C[Iterate through the list] C --> D{Current element is the desired element?} D -- No --> C D -- Yes --> E[Increment count] E --> C C -- No --> F[Output the count] F --> G[End]
+
+Example 20:
+Input20: Convert a number to its corresponding Roman numeral. Output20: A[Start] --> B[Initialize Roman numeral variable] B --> C[Iterate through the values and symbols in descending order] C --> D{Current value is greater than the number?} D -- Yes --> E[Subtract the value and append the symbol] E --> C D -- No --> F[Output the Roman numeral] F --> G[End]

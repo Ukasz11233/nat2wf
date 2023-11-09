@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Make a cup of coffee. 
+Output1: A[Start] --> B[Boil water] B --> C[Grind coffee beans] C --> D[Place coffee grounds in cup] D --> E[Pour hot water over coffee grounds] E --> F[Stir coffee] F --> G[Add milk/sugar if desired] G --> H[End]
+
+Input2: Bake chocolate chip cookies. 
+Output2: A[Start] --> B[Preheat oven] B --> C[Gather ingredients] C --> D[Mix butter and sugars] D --> E[Add eggs and vanilla extract] E --> F[Combine dry ingredients] F --> G[Add chocolate chips] G --> H[Scoop dough onto baking sheet] H --> I[Bake in oven] I --> J[Cool on wire rack] J --> K[End]
+
+Input3: Plan a weekend getaway. 
+Output3: A[Start] --> B[Choose destination] B --> C[Research accommodations] C --> D[Book hotel or rental] D --> E[Plan activities] E --> F[Create itinerary] F --> G[Pack necessary items] G --> H[Confirm reservations] H --> I[End]
+
+Input4: Write a research paper. 
+Output4: A[Start] --> B[Select topic] B --> C[Gather sources] C --> D[Outline paper] D --> E[Write introduction] E --> F[Develop main arguments] F --> G[Support with evidence] G --> H[Write conclusion] H --> I[Revise and edit] I --> J[Format citations] J --> K[End]
+
+Input5: Set up a new television. 
+Output5: A[Start] --> B[Unbox television] B --> C[Connect power cable] C --> D[Attach television stand] D --> E[Place and position television] E --> F[Connect HDMI cables] F --> G[Connect other devices] G --> H[Turn on television] H --> I[Complete initial setup] I --> J[End]
+
+Input6: Plant a garden. 
+Output6: A[Start] --> B[Choose location] B --> C[Prepare soil] C --> D[Select plants or seeds] D --> E[Dig holes] E --> F[Plant flowers/vegetables] F --> G[Water plants] G --> H[Add fertilizer as needed] H --> I[Weed and remove pests] I --> J[End]
+
+Input7: Build a bookshelf. 
+Output7: A[Start] --> B[Gather materials and tools] B --> C[Measure and mark dimensions] C --> D[Cut wood pieces] D --> E[Assemble bookshelf frame] E --> F[Sand and smooth surfaces] F --> G[Paint or stain bookshelf] G --> H[Attach shelves] H --> I[Install back panel] I --> J[End]
+
+Input8: Learn a new language. 
+Output8: A[Start] --> B[Choose language] B --> C[Find learning resources] C --> D[Learn alphabet/sounds] D --> E[Practice vocabulary] E --> F[Learn grammar rules] F --> G[Practice speaking and listening] G --> H[Take language classes] H --> I[Immerse in language] I --> J[End]
+
+Input9: Create a budget. 
+Output9: A[Start] --> B[Identify income sources] B --> C[List expenses] C --> D[Track spending] D --> E[Calculate total income] E --> F[Subtract total expenses] F --> G[Adjust spending as necessary] G --> H[Savings plan] H --> I[End]
+
+Input10: Paint a picture. 
+Output10: A[Start] --> B[Gather art supplies] B --> C[Choose canvas or paper] C --> D[Sketch the image] D --> E[Mix paint colors] E --> F[Apply base layer] F --> G[Add details and shading] G --> H[Let painting dry] H --> I[Frame or display painting] I --> J[End]
+
+Input11: Start a workout routine. 
+Output11: A[Start] --> B[Set fitness goals] B --> C[Choose workout program] C --> D[Create a schedule] D --> E[Warm-up] E --> F[Perform exercises] F --> G[Cool down and stretch] G --> H[Track progress] H --> I[Adjust routine as needed] I --> J[End]
+
+Input12: Organize a closet. 
+Output12: A[Start] --> B[Empty closet] B --> C[Sort and declutter items] C --> D[Group similar items together] D --> E[Clean and dust shelves] E --> F[Install organizing systems] F --> G[Arrange items back into closet] G --> H[Label and categorize] H --> I[End]
+
+Input13: Plan a surprise party. 
+Output13: A[Start] --> B[Choose occasion] B --> C[Create guest list] C --> D[Select party theme] D --> E[Find and book venue] E --> F[Plan decorations and supplies] F --> G[Organize entertainment] G --> H[Coordinate food and drinks] H --> I[Set up surprises] I --> J[End]
+
+Input14: Do a home workout. 
+Output14: A[Start] --> B[Choose workout routine] B --> C[Set up exercise area] C --> D[Warm-up] D --> E[Perform exercises] E --> F[Cool down and stretch] F --> G[Hydrate] G --> H[Shower] H --> I[End]
+
+Input15: Make a grocery list. 
+Output15: A[Start] --> B[Check pantry and fridge] B --> C[Choose meals for the week] C --> D[List required ingredients] D --> E[Categorize by aisle] E --> F[Check for coupons] F --> G[Add non-food items] G --> H[Review and finalize list] H --> I[End]
+
+Input16: Create a blog. 
+Output16: A[Start] --> B[Choose blogging platform] B --> C[Select a domain name] C --> D[Design and customize blog] D --> E[Create content categories] E --> F[Write blog posts] F --> G[Add images/videos] G --> H[Publish blog posts] H --> I[Promote blog] I --> J[End]
+
+Input17: Build a website. 
+Output17: A[Start] --> B[Choose website platform] B --> C[Register domain name] C --> D[Select website template] D --> E[Design website layout] E --> F[Add content and pages] F --> G[Customize with colors and logos] G --> H[Test and optimize website] H --> I[Launch website] I --> J[End]
+
+Input18: Study for an exam. 
+Output18: A[Start] --> B[Review exam material] B --> C[Create study plan] C --> D[Gather study resources] D --> E[Take notes and highlight] E --> F[Quiz yourself] F --> G[Practice with sample questions] G --> H[Review and revise] H --> I[Take breaks as needed] I --> J[End]
+
+Input19: Plan a hiking trip. 
+Output19: A[Start] --> B[Choose hiking trail] B --> C[Check weather conditions] C --> D[Research trail difficulty] D --> E[Pack necessary hiking gear] E --> F[Plan meals and snacks] F --> G[Map route and landmarks] G --> H[Tell someone the plan] H --> I[Begin hiking trip] I --> J[End]
+
+Input20: Learn to play a musical instrument. 
+Output20: A[Start] --> B[Choose musical instrument] B --> C[Find a teacher or online lessons] C --> D[Buy or rent the instrument] D --> E[Learn basic notes and chords] E --> F[Practice scales and exercises] F --> G[Play songs and practice repertoire] G --> H[Perform for others] H --> I[End]

@@ -1,0 +1,21 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Take out the ingredients for a cheese sandwich. Spread butter on one side of each slice of bread. Place one slice of bread, butter side down, on a heated grill or stovetop pan. Layer cheese on top of the bread. Place the other slice of bread, butter side up, on top of the cheese. Cook until the bread is golden brown and the cheese is melted. Remove from the heat and serve.
+
+Output1: A[Start] --> B[Take out ingredients for a cheese sandwich] B --> C[Spread butter on one side of each slice of bread] C --> D[Place one slice of bread, butter side down, on a heated grill or stovetop pan] D --> E[Layer cheese on top of the bread] E --> F[Place the other slice of bread, butter side up, on top of the cheese] F --> G[Cook until the bread is golden brown and the cheese is melted] G --> H[Remove from heat and serve] H --> I[End]
+
+Input2: Wake up and get out of bed. Stretch your body. Go to the bathroom and brush your teeth. Take a shower and get dressed. Have breakfast. Pack your bag for the day. Leave the house and lock the door behind you.
+
+Output2: A[Start] --> B[Wake up and get out of bed] B --> C[Stretch your body] C --> D[Go to the bathroom and brush your teeth] D --> E[Take a shower and get dressed] E --> F[Have breakfast] F --> G[Pack your bag for the day] G --> H[Leave the house] H --> I[Lock the door behind you] I --> J[End]
+
+Input3: Turn on the TV and select the desired channel or program. Adjust the volume to a comfortable level. Sit back and enjoy watching. When finished, turn off the TV.
+
+Output3: A[Start] --> B[Turn on the TV] B --> C[Select the desired channel or program] C --> D[Adjust the volume to a comfortable level] D --> E[Sit back and enjoy watching] E --> F[When finished, turn off the TV] F --> G[End]
+
+Input4: Gather all the necessary art supplies. Choose a subject or concept for your artwork. Sketch out the basic outline or composition. Begin adding details and color to your artwork. Take breaks when needed. Evaluate your progress and make any necessary adjustments. Once satisfied, sign your artwork and frame it if desired.
+
+Output4: A[Start] --> B[Gather all the necessary art supplies] B --> C[Choose a subject or concept for your artwork] C --> D[Sketch out the basic outline or composition] D --> E[Begin adding details and color to your artwork] E --> F[Take breaks when needed] F --> G[Evaluate your progress and make any necessary adjustments] G --> H[Once satisfied, sign your artwork and frame it if desired] H --> I[End]
+
+Input5: Open a new document in a word processing software. Type or paste the content you want to include. Format the text, adjust font size, and choose suitable styles. Add images or illustrations if necessary. Proofread and edit for errors. Save the document. Close the software.
+
+Output5: A[Start] --> B[Open a new document in a word processing software] B --> C[Type or paste the content you want to include] C --> D[Format the text, adjust font size, and choose suitable styles] D --> E[Add images or illustrations if necessary] E --> F[Proofread and edit for errors] F --> G[Save the document] G --> H[Close the software] H --> I[End]

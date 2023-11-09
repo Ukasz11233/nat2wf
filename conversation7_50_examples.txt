@@ -1,0 +1,108 @@
+user: Give me 50 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the largest element in an array and display its index.
+Output1: A[Start] --> B[Search the array] B --> C{Largest element found?} C -- No --> B C -- Yes --> D[Display the index] D --> E[End].
+
+Input2: Sort an array of integers in ascending order.
+Output2: A[Start] --> B[Sort the array] B --> C{Array sorted?} C -- No --> B C -- Yes --> D[Display the sorted array] D --> E[End].
+
+Input3: Calculate the product of all elements in an array.
+Output3: A[Start] --> B[Initialize product as 1] B --> C[Iterate through the array] C --> D{End of array reached?} D -- No --> F[Multiply current element with product] F --> C D -- Yes --> E[Display the product] E --> G[End].
+
+Input4: Find the second smallest number in an array.
+Output4: A[Start] --> B[Search the array] B --> C{Smallest number found?} C -- No --> B C -- Yes --> D[Search again for the second smallest] D --> E[Display the second smallest number] E --> F[End].
+
+Input5: Remove all negative numbers from an array.
+Output5: A[Start] --> B[Iterate through the array] B --> C{Current number is negative?} C -- No --> D[Keep the number] D --> B C -- Yes --> D[Remove the number] D --> B B -- End of array --> E[Display the modified array] E --> F[End].
+
+Input6: Find the longest string in an array of strings.
+Output6: A[Start] --> B[Iterate through the array] B --> C{Current string is longer?} C -- No --> B C -- Yes --> D[Update longest string] D --> B B -- End of array --> E[Display the longest string] E --> F[End].
+
+Input7: Determine if all elements in an array are positive.
+Output7: A[Start] --> B[Iterate through the array] B --> C{Current number is positive?} C -- No --> D[Display "Not all elements are positive"] D --> E[End] C -- Yes --> B B -- End of array --> D[Display "All elements are positive"] D --> E[End].
+
+Input8: Find the median of an array of numbers.
+Output8: A[Start] --> B[Sort the array] B --> C{Array length is odd?} C -- No --> D[Calculate median of even-length array] D --> E[Display the median] E --> F[End] C -- Yes --> D[Calculate median of odd-length array] D --> E[Display the median] E --> F[End].
+
+Input9: Determine if a specific item exists in an array.
+Output9: A[Start] --> B[Search the array] B --> C{Specific item found?} C -- No --> D[Display "Item not found"] D --> E[End] C -- Yes --> D[Display "Item found"] D --> E[End].
+
+Input10: Find the sum of all even numbers in an array.
+Output10: A[Start] --> B[Initialize sum as zero] B --> C[Iterate through the array] C --> D{End of array reached?} D -- No --> F{Current number is even?} F -- No --> C F -- Yes --> E[Add current number to sum] E --> C D -- Yes --> G[Display the sum] G --> H[End].
+
+Input11: Remove duplicates from a sorted array.
+Output11: A[Start] --> B[Initialize a new array with the first element] B --> C[Iterate through the sorted array] C --> D{Current element is duplicate?} D -- No --> E[Add current element to the new array] E --> C D -- Yes --> E[Skip the duplicate element] E --> C C -- End of array --> F[Display the new array] F --> G[End].
+
+Input12: Sort an array of characters in lexicographical order.
+Output12: A[Start] --> B[Sort the array] B --> C{Array sorted?} C -- No --> B C -- Yes --> D[Display the sorted array] D --> E[End].
+
+Input13: Count the occurrences of a specific element in an array.
+Output13: A[Start] --> B[Iterate through the array] B --> C{Current element matches specific element?} C -- No --> D[Continue iteration] D --> C C -- Yes --> E[Increment count] E --> B B -- End of array --> F[Display the count] F --> G[End].
+
+Input14: Find the third largest number in an array.
+Output14: A[Start] --> B[Search the array] B --> C{Largest number found?} C -- No --> B C -- Yes --> D[Search again for the third largest] D --> E[Display the third largest number] E --> F[End].
+
+Input15: Reverse the elements in an array.
+Output15: A[Start] --> B[Initialize empty reversed array] B --> C[Iterate through the array] C --> D[Add current element to the beginning of the reversed array] D --> C C -- End of array --> E[Display the reversed array] E --> F[End].
+
+Input16: Find the sum of all positive numbers in an array.
+Output16: A[Start] --> B[Initialize sum as zero] B --> C[Iterate through the array] C --> D{End of array reached?} D -- No --> F{Current number is positive?} F -- No --> C F -- Yes --> E[Add current number to sum] E --> C D -- Yes --> G[Display the sum] G --> H[End].
+
+Input17: Remove the first occurrence of a specific element from an array.
+Output17: A[Start] --> B[Search the array] B --> C{Specific element found?} C -- No --> D[Continue iteration] D --> C C -- Yes --> E[Remove the element] E --> F[Display the modified array] F --> G[End].
+
+Input18: Find the average of all elements greater than zero in an array.
+Output18: A[Start] --> B[Initialize sum as zero] B --> C[Initialize count as zero] C --> D[Iterate through the array] D --> E{End of array reached?} E -- No --> F{Current number is greater than zero?} F -- No --> D F -- Yes --> G[Add current number to sum] G --> H[Increment count] H --> D E -- Yes --> I[Calculate average (sum divided by count)] I --> J[Display the average] J --> K[End].
+
+Input19: Determine if an array is sorted in non-decreasing order.
+Output19: A[Start] --> B[Check consecutive elements in the array] B --> C{Current element is greater than next element?} C -- No --> D[Continue checking] D --> C C -- Yes --> E[Display "Array is not sorted"] E --> F[End] B -- End of array --> E[Display "Array is sorted"] E --> F[End].
+
+Input20: Find the index of the first occurrence of a specific element in an array.
+Output20: A[Start] --> B[Search the array] B --> C{Specific element found?} C -- No --> D[Continue iteration] D --> C C -- Yes --> E[Display the index] E --> F[End].
+
+Input21: Remove all vowels from an array of strings.
+Output21: A[Start] --> B[Iterate through the array] B --> C[Iterate through each character in the string] C --> D{Current character is a vowel?} D -- No --> E[Keep the character] E --> C D -- Yes --> E[Remove the character] E --> C C -- End of string --> F[Display the modified string] F --> B B -- End of array --> G[End].
+
+Input22: Find the largest difference between any two elements in an array.
+Output22: A[Start] --> B[Find the minimum and maximum element in the array] B --> C[Calculate the difference] C --> D[Display the difference] D --> E[End].
+
+Input23: Determine if an array contains only unique elements.
+Output23: A[Start] --> B[Create an empty set] B --> C[Iterate through the array] C --> D{Current element is in the set?} D -- No --> F[Add element to the set] F --> C D -- Yes --> E[Display "Array contains duplicates"] E --> G[End] C -- End of array --> E[Display "Array contains only unique elements"] E --> G[End].
+
+Input24: Find the second largest element in an array.
+Output24: A[Start] --> B[Search the array] B --> C{Largest element found?} C -- No --> B C -- Yes --> D[Search again for the second largest] D --> E[Display the second largest element] E --> F[End].
+
+Input25: Remove all even numbers from an array.
+Output25: A[Start] --> B[Iterate through the array] B --> C{Current number is even?} C -- No --> D[Keep the number] D --> B C -- Yes --> D[Remove the number] D --> B B -- End of array --> E[Display the modified array] E --> F[End].
+
+Input26: Determine if an array is a palindrome.
+Output26: A[Start] --> B[Create a reversed array] B --> C[Check if the original array is equal to the reversed array] C -- No --> D[Display "Array is not a palindrome"] D --> E[End] C -- Yes --> D[Display "Array is a palindrome"] D --> E[End].
+
+Input27: Find the sum of all numbers divisible by 3 in an array.
+Output27: A[Start] --> B[Initialize sum as zero] B --> C[Iterate through the array] C --> D{End of array reached?} D -- No --> F{Current number is divisible by 3?} F -- No --> C F -- Yes --> E[Add current number to sum] E --> C D -- Yes --> G[Display the sum] G --> H[End].
+
+Input28: Remove the last occurrence of a specific element from an array.
+Output28: A[Start] --> B[Search the array] B --> C{Specific element found?} C -- No --> D[Continue iteration] D --> C C -- Yes --> E[Update the index of the last occurrence] E --> B B -- End of array --> F[Remove the element at the last occurrence index] F --> G[Display the modified array] G --> H[End].
+
+Input29: Find the frequency count of each element in an array.
+Output29: A[Start] --> B[Create an empty dictionary] B --> C[Iterate through the array] C --> D{Current element is in the dictionary?} D -- No --> F[Add element to the dictionary with count 1] F --> C D -- Yes --> E[Increment count for current element in the dictionary] E --> C C -- End of array --> G[Display the frequency count dictionary] G --> H[End].
+
+Input30: Determine if an array is sorted in non-increasing order.
+Output30: A[Start] --> B[Check consecutive elements in the array] B --> C{Current element is smaller than next element?} C -- No --> D[Continue checking] D --> C C -- Yes --> E[Display "Array is not sorted"] E --> F[End] B -- End of array --> E[Display "Array is sorted"] E --> F[End].
+
+Input31: Find the index of the last occurrence of a specific element in an array.
+Output31: A[Start] --> B[Search the array] B --> C{Specific element found?} C -- No --> D[Continue iteration] D --> E[Update the index of the last occurrence] E --> B C -- Yes --> D[Display the index] D --> F[End].
+
+Input32: Determine if an array contains only even numbers.
+Output32: A[Start] --> B[Iterate through the array] B --> C{Current number is odd?} C -- No --> D[Continue iteration] D --> C C -- Yes --> E[Display "Array contains odd numbers"] E --> F[End] B -- End of array --> E[Display "Array contains only even numbers"] E --> F[End].
+
+Input33: Remove duplicates from an unsorted array.
+Output33: A[Start] --> B[Create an empty set] B --> C[Create an empty result array] C --> D[Iterate through the array] D --> E{Current element is in the set?} E -- No --> G[Add element to the set] G --> F[Add element to the result array] F --> D E -- Yes --> D[Skip the duplicate element] D --> D D -- End of array --> H[Display the result array] H --> I[End].
+
+Input34: Find the fourth smallest number in an array.
+Output34: A[Start] --> B[Search the array] B --> C{Smallest number found?} C -- No --> B C -- Yes --> D[Search again for the fourth smallest] D --> E[Display the fourth smallest number] E --> F[End].
+
+Input35: Rotate the elements of an array by a given number of positions.
+Output35: A[Start] --> B[Initialize an empty rotated array] B --> C[Iterate through the array] C --> D[Calculate the index after rotation] D --> E[Add current element to the rotated array at the new index] E --> C C -- End of array --> F[Display the rotated array] F --> G[End].
+
+Input36: Find the difference between the sum of even-indexed elements and the sum of odd-indexed elements in an array.
+Output36: A[Start] --> B[Initialize sum_even as zero] B --> C[Initialize sum_odd as zero] C --> D[Iterate through the array] D --> E{Even index?} E -- No --> G[Add current element to sum_odd

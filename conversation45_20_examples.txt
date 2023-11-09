@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the shortest route to a destination. Update the route if a shorter path is found.
+Output1: A[Start] --> B[Find the shortest route] B --> C{Shortest path found?} C -- No --> B C -- Yes --> D[Update the route] D --> B D -- No --> E[End]
+
+Input2: Sort a list of numbers in ascending order. Swap the elements if they are in the wrong order.
+Output2: A[Start] --> B[Sort the list] B --> C{List sorted?} C -- No --> D[Swap the elements] D --> B C -- Yes --> E[End]
+
+Input3: Calculate the factorial of a number. Multiply the number by its decreasing predecessors until 1 is reached.
+Output3: A[Start] --> B[Calculate the factorial] B --> C{Number equals 1?} C -- No --> D[Multiply by predecessor] D --> B C -- Yes --> E[End]
+
+Input4: Convert a string to uppercase. Iterate over each character and change it to its uppercase equivalent.
+Output4: A[Start] --> B[Convert to uppercase] B --> C{All characters converted?} C -- No --> D[Change to uppercase] D --> B C -- Yes --> E[End]
+
+Input5: Calculate the average of a list of numbers. Sum all the values and divide by the total count.
+Output5: A[Start] --> B[Calculate the sum] B --> C{All values summed?} C -- No --> D[Add value] D --> B C -- Yes --> E[Calculate average] E --> F[End]
+
+Input6: Find the longest word in a sentence. Compare the length of each word and update the longest word if necessary.
+Output6: A[Start] --> B[Find the longest word] B --> C{All words checked?} C -- No --> D[Compare lengths] D --> B C -- Yes --> E[End]
+
+Input7: Encrypt a message using a Caesar cipher. Shift each letter by a predetermined number of positions on the alphabet.
+Output7: A[Start] --> B[Encrypt the message] B --> C{All letters encrypted?} C -- No --> D[Shift letter] D --> B C -- Yes --> E[End]
+
+Input8: Check if a number is prime. Divide the number by every positive integer less than itself and check for remainders.
+Output8: A[Start] --> B[Check if prime] B --> C{Remainder equals 0?} C -- Yes --> D[Not prime] D --> E[End] C -- No --> F[Prime] F --> E
+
+Input9: Generate a Fibonacci sequence up to a given number. Add the two previous numbers to generate the next one.
+Output9: A[Start] --> B[Generate Fibonacci sequence] B --> C{Next number exceeds limit?} C -- No --> D[Add previous numbers] D --> B C -- Yes --> E[End]
+
+Input10: Search for a specific word in a text document. Read each line and check if the word is present.
+Output10: A[Start] --> B[Search for word] B --> C{Word found?} C -- No --> D[Read next line] D --> B C -- Yes --> E[End]
+
+Input11: Determine if a year is a leap year. Check if it is divisible by 4, except if it's divisible by 100 but not by 400.
+Output11: A[Start] --> B[Check leap year] B --> C{Divisible by 4?} C -- No --> D[Not leap year] D --> E[End] C -- Yes --> F{Divisible by 100?} F -- No --> G[Leap year] G --> E F -- Yes --> H{Divisible by 400?} H -- No --> I[Not leap year] I --> E H -- Yes --> J[Leap year] J --> E
+
+Input12: Find the mode of a set of numbers. Count the frequency of each value and determine the one that appears most frequently.
+Output12: A[Start] --> B[Find the mode] B --> C{All values counted?} C -- No --> D[Count occurrence] D --> B C -- Yes --> E[Determine mode] E --> F[End]
+
+Input13: Reverse a string. Iterate over each character and append them in reverse order.
+Output13: A[Start] --> B[Reverse the string] B --> C{All characters reversed?} C -- No --> D[Append character] D --> B C -- Yes --> E[End]
+
+Input14: Calculate the area of a triangle. Multiply the base by the height and divide by 2.
+Output14: A[Start] --> B[Calculate area] B --> C[Divide by 2] C --> D[End]
+
+Input15: Check if a given string is a palindrome. Compare the characters from the start and end, moving towards the middle.
+Output15: A[Start] --> B[Check palindrome] B --> C{Characters match?} C -- Yes --> D[Move inward] D --> B C -- No --> E[Not palindrome] E --> F[End] 
+
+Input16: Convert a decimal number to binary. Divide the number by 2 and note the remainder until the quotient becomes 0.
+Output16: A[Start] --> B[Convert to binary] B --> C{Quotient equals 0?} C -- No --> D[Divide by 2] D --> B C -- Yes --> E[End]
+
+Input17: Determine the square root of a number. Iterate and refine the approximation until an acceptable level of accuracy is reached.
+Output17: A[Start] --> B[Calculate square root] B --> C{Accurate enough?} C -- No --> D[Refine approximation] D --> B C -- Yes --> E[End]
+
+Input18: Calculate the area and perimeter of a rectangle. Multiply the length and width for the area, and add the sides for the perimeter.
+Output18: A[Start] --> B[Calculate area] B --> C[Multiply length and width] C --> D[Calculate perimeter] D --> E[Add sides] E --> F[End]
+
+Input19: Validate an email address format. Check if it contains an @ symbol and if the domain format is valid.
+Output19: A[Start] --> B[Validate email address] B --> C{Contains @ symbol?} C -- No --> D[Invalid format] D --> E[End] C -- Yes --> F{Domain format valid?} F -- No --> G[Invalid format] G --> E F -- Yes --> H[Valid format] H --> E
+
+Input20: Perform matrix addition. Add the corresponding elements of two matrices to form a new matrix.
+Output20: A[Start] --> B[Perform matrix addition] B --> C{All elements added?} C -- No --> D[Add elements] D --> B C -- Yes --> E[End]

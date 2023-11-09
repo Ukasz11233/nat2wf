@@ -1,0 +1,60 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Wake up from bed. Brush your teeth. Take a shower. Get dressed. Have breakfast. Leave for work.
+Output1: A[Start] --> B[Wake up from bed] B --> C[Brush your teeth] C --> D[Take a shower] D --> E[Get dressed] E --> F[Have breakfast] F --> G[Leave for work] G --> H[End].
+
+Input2: Grab the shopping list. Head to the grocery store. Pick up the necessary items. Wait in line to pay. Return home. Unpack the groceries.
+Output2: A[Start] --> B[Grab the shopping list] B --> C[Head to the grocery store] C --> D[Pick up the necessary items] D --> E[Wait in line to pay] E --> F[Return home] F --> G[Unpack the groceries] G --> H[End].
+
+Input3: Turn on the TV. Browse through the channels. Select your favorite show/movie. Get comfortable on the couch. Enjoy the entertainment. Turn off the TV.
+Output3: A[Start] --> B[Turn on the TV] B --> C[Browse through the channels] C --> D[Select your favorite show/movie] D --> E[Get comfortable on the couch] E --> F[Enjoy the entertainment] F --> G[Turn off the TV] G --> H[End].
+
+Input4: Choose a recipe. Gather the required ingredients. Preheat the oven. Prepare the dish as per instructions. Bake it in the oven. Serve and enjoy.
+Output4: A[Start] --> B[Choose a recipe] B --> C[Gather the required ingredients] C --> D[Preheat the oven] D --> E[Prepare the dish as per instructions] E --> F[Bake it in the oven] F --> G[Serve and enjoy] G --> H[End].
+
+Input5: Open a new document. Write the title. Add the necessary content. Format the document. Proofread for any errors. Save and close the document.
+Output5: A[Start] --> B[Open a new document] B --> C[Write the title] C --> D[Add the necessary content] D --> E[Format the document] E --> F[Proofread for any errors] F --> G[Save and close the document] G --> H[End].
+
+Input6: Wake up early. Go for a jog. Stretch before exercising. Do strength training exercises. Cool down and stretch again. Head back home.
+Output6: A[Start] --> B[Wake up early] B --> C[Go for a jog] C --> D[Stretch before exercising] D --> E[Do strength training exercises] E --> F[Cool down and stretch again] F --> G[Head back home] G --> H[End].
+
+Input7: Read the question carefully. Analyze the problem. Plan the solution. Implement the solution step by step. Check for any mistakes. Submit the answer.
+Output7: A[Start] --> B[Read the question carefully] B --> C[Analyze the problem] C --> D[Plan the solution] D --> E[Implement the solution step by step] E --> F[Check for any mistakes] F --> G[Submit the answer] G --> H[End].
+
+Input8: Open the web browser. Type the desired website URL. Navigate to the required page. Fill in the necessary details. Complete the online form. Close the browser.
+Output8: A[Start] --> B[Open the web browser] B --> C[Type the desired website URL] C --> D[Navigate to the required page] D --> E[Fill in the necessary details] E --> F[Complete the online form] F --> G[Close the browser] G --> H[End].
+
+Input9: Choose a book to read. Find a comfortable spot. Begin reading from the first page. Get immersed in the story. Take breaks if needed. Finish the book.
+Output9: A[Start] --> B[Choose a book to read] B --> C[Find a comfortable spot] C --> D[Begin reading from the first page] D --> E[Get immersed in the story] E --> F[Take breaks if needed] F --> G[Finish the book] G --> H[End].
+
+Input10: Gather the necessary ingredients. Preheat the grill. Season the food. Grill the items to perfection. Arrange them on a plate. Serve the delicious meal.
+Output10: A[Start] --> B[Gather the necessary ingredients] B --> C[Preheat the grill] C --> D[Season the food] D --> E[Grill the items to perfection] E --> F[Arrange them on a plate] F --> G[Serve the delicious meal] G --> H[End].
+
+Input11: Wake up your pet. Take them for a walk. Allow them to do their business. Play with them using their favorite toy. Reward them with a treat. Return home.
+Output11: A[Start] --> B[Wake up your pet] B --> C[Take them for a walk] C --> D[Allow them to do their business] D --> E[Play with them using their favorite toy] E --> F[Reward them with a treat] F --> G[Return home] G --> H[End].
+
+Input12: Start the car engine. Adjust the mirrors. Fasten your seatbelt. Put the car in gear. Accelerate and start the journey. Reach your destination. Turn off the engine.
+Output12: A[Start] --> B[Start the car engine] B --> C[Adjust the mirrors] C --> D[Fasten your seatbelt] D --> E[Put the car in gear] E --> F[Accelerate and start the journey] F --> G[Reach your destination] G --> H[Turn off the engine] H --> I[End].
+
+Input13: Open the email application. Enter your email address and password. Check the inbox for new messages. Respond to urgent emails first. Organize emails into folders. Close the application.
+Output13: A[Start] --> B[Open the email application] B --> C[Enter your email address and password] C --> D[Check the inbox for new messages] D --> E[Respond to urgent emails first] E --> F[Organize emails into folders] F --> G[Close the application] G --> H[End].
+
+Input14: Set up the chessboard. Choose a color. Make the first move. Strategize and plan subsequent moves. Capture opponent's pieces. Reach checkmate. Shake hands and end the game.
+Output14: A[Start] --> B[Set up the chessboard] B --> C[Choose a color] C --> D[Make the first move] D --> E[Strategize and plan subsequent moves] E --> F[Capture opponent's pieces] F --> G[Reach checkmate] G --> H[Shake hands and end the game] H --> I[End].
+
+Input15: Turn on the washing machine. Sort clothes by color and fabric. Add detergent and set the desired settings. Start the washing cycle. Hang clothes out to dry or use the dryer. Fold and put away the clean clothes.
+Output15: A[Start] --> B[Turn on the washing machine] B --> C[Sort clothes by color and fabric] C --> D[Add detergent and set the desired settings] D --> E[Start the washing cycle] E --> F[Hang clothes out to dry or use the dryer] F --> G[Fold and put away the clean clothes] G --> H[End].
+
+Input16: Choose a painting surface. Sketch the outline. Apply colors and shades. Add final details. Sign and date the artwork. Hang or frame the finished piece.
+Output16: A[Start] --> B[Choose a painting surface] B --> C[Sketch the outline] C --> D[Apply colors and shades] D --> E[Add final details] E --> F[Sign and date the artwork] F --> G[Hang or frame the finished piece] G --> H[End].
+
+Input17: Put on your workout clothes. Warm up with stretching exercises. Perform cardio exercises. Follow with strength training exercises. Cool down with stretching exercises. Change back into regular clothes.
+Output17: A[Start] --> B[Put on your workout clothes] B --> C[Warm up with stretching exercises] C --> D[Perform cardio exercises] D --> E[Follow with strength training exercises] E --> F[Cool down with stretching exercises] F --> G[Change back into regular clothes] G --> H[End].
+
+Input18: Turn on the stereo system. Select your favorite playlist. Adjust the volume to the desired level. Dance and enjoy the music. Sing along to your favorite songs. Turn off the stereo system.
+Output18: A[Start] --> B[Turn on the stereo system] B --> C[Select your favorite playlist] C --> D[Adjust the volume to the desired level] D --> E[Dance and enjoy the music] E --> F[Sing along to your favorite songs] F --> G[Turn off the stereo system] G --> H[End].
+
+Input19: Start the video editing software. Import the media files to be edited. Arrange the clips in the desired sequence. Trim and add transitions. Apply effects and color correction. Export the final video. Close the software.
+Output19: A[Start] --> B[Start the video editing software] B --> C[Import the media files to be edited] C --> D[Arrange the clips in the desired sequence] D --> E[Trim and add transitions] E --> F[Apply effects and color correction] F --> G[Export the final video] G --> H[Close the software] H --> I[End].
+
+Input20: Plan the trip itinerary. Book flight and accommodation. Pack the necessary clothes and essentials. Arrive at the airport. Check-in and go through security. Board the plane. Reach the destination.

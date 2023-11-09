@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Sort a list of numbers in ascending order.
+Output1: A[Start] --> B[Sort the list] B --> C[Is the list sorted in ascending order?] C -- No --> B C -- Yes --> D[End].
+
+Input2: Calculate the factorial of a given number.
+Output2: A[Start] --> B[Enter a number] B --> C[Calculate the factorial] C --> D[Display the result] D --> E[End].
+
+Input3: Find the largest prime number in a given range.
+Output3: A[Start] --> B[Enter the range] B --> C[Find the largest prime number] C --> D[Display the result] D --> E[End].
+
+Input4: Convert a decimal number to binary.
+Output4: A[Start] --> B[Enter a decimal number] B --> C[Convert to binary] C --> D[Display the binary number] D --> E[End].
+
+Input5: Find the sum of all even numbers in a list.
+Output5: A[Start] --> B[Enter a list of numbers] B --> C[Sum all even numbers] C --> D[Display the result] D --> E[End].
+
+Input6: Check if a given string is a palindrome.
+Output6: A[Start] --> B[Enter a string] B --> C[Check if it is a palindrome] C -- No --> D[Notify it is not a palindrome] D --> E[End] C -- Yes --> F[Notify it is a palindrome] F --> E.
+
+Input7: Perform matrix multiplication.
+Output7: A[Start] --> B[Enter two matrices] B --> C[Multiply the matrices] C --> D[Display the result] D --> E[End].
+
+Input8: Find the square root of a given number.
+Output8: A[Start] --> B[Enter a number] B --> C[Calculate the square root] C --> D[Display the result] D --> E[End].
+
+Input9: Check if a given year is a leap year.
+Output9: A[Start] --> B[Enter a year] B --> C[Check if it is a leap year] C -- No --> D[Notify it is not a leap year] D --> E[End] C -- Yes --> F[Notify it is a leap year] F --> E.
+
+Input10: Determine if a number is a prime number.
+Output10: A[Start] --> B[Enter a number] B --> C[Check if it is a prime number] C -- No --> D[Notify it is not a prime number] D --> E[End] C -- Yes --> F[Notify it is a prime number] F --> E.
+
+Input11: Calculate the Fibonacci sequence up to a given number of terms.
+Output11: A[Start] --> B[Enter the number of terms] B --> C[Calculate the Fibonacci sequence] C --> D[Display the sequence] D --> E[End].
+
+Input12: Count the number of vowels in a given string.
+Output12: A[Start] --> B[Enter a string] B --> C[Count the vowels] C --> D[Display the number of vowels] D --> E[End].
+
+Input13: Determine if a given string is an anagram of another string.
+Output13: A[Start] --> B[Enter two strings] B --> C[Check if they are anagrams] C -- No --> D[Notify they are not anagrams] D --> E[End] C -- Yes --> F[Notify they are anagrams] F --> E.
+
+Input14: Calculate the area of a circle.
+Output14: A[Start] --> B[Enter the radius] B --> C[Calculate the area] C --> D[Display the result] D --> E[End].
+
+Input15: Find the smallest element in a list.
+Output15: A[Start] --> B[Enter a list of numbers] B --> C[Find the smallest element] C --> D[Display the result] D --> E[End].
+
+Input16: Sort a list of strings in alphabetical order.
+Output16: A[Start] --> B[Enter a list of strings] B --> C[Sort the list] C --> D[Display the sorted list] D --> E[End].
+
+Input17: Calculate the average of a list of numbers.
+Output17: A[Start] --> B[Enter a list of numbers] B --> C[Calculate the average] C --> D[Display the result] D --> E[End].
+
+Input18: Convert a binary number to decimal.
+Output18: A[Start] --> B[Enter a binary number] B --> C[Convert to decimal] C --> D[Display the decimal number] D --> E[End].
+
+Input19: Find the middle element of a list.
+Output19: A[Start] --> B[Enter a list of numbers] B --> C[Find the middle element] C --> D[Display the result] D --> E[End].
+
+Input20: Reverse the order of a given string.
+Output20: A[Start] --> B[Enter a string] B --> C[Reverse the string] C --> D[Display the reversed string] D --> E[End].

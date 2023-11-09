@@ -1,0 +1,41 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the shortest path in a graph. Output1: A[Start] --> B[Find the shortest path] B --> C{Is the path found?} C -- No --> B C -- Yes --> D[Output the shortest path] D --> E[End].
+
+Input2: Calculate the factorial of a number. Output2: A[Start] --> B[Calculate the factorial] B --> C{Is the factorial calculated?} C -- No --> B C -- Yes --> D[Output the result] D --> E[End].
+
+Input3: Sort an array of numbers in ascending order. Output3: A[Start] --> B[Sort the array] B --> C{Is the array sorted?} C -- No --> B C -- Yes --> D[Output the sorted array] D --> E[End].
+
+Input4: Locate the maximum element in a matrix. Output4: A[Start] --> B[Locate the maximum element] B --> C{Is the maximum element found?} C -- No --> B C -- Yes --> D[Output the location] D --> E[End].
+
+Input5: Calculate the average of a set of values. Output5: A[Start] --> B[Calculate the average] B --> C{Is the average calculated?} C -- No --> B C -- Yes --> D[Output the average] D --> E[End].
+
+Input6: Find the longest word in a sentence. Output6: A[Start] --> B[Find the longest word] B --> C{Is the longest word found?} C -- No --> B C -- Yes --> D[Output the longest word] D --> E[End].
+
+Input7: Search for a specific string in a text file. Output7: A[Start] --> B[Search the text file] B --> C{Is the string found?} C -- No --> B C -- Yes --> D[Output the found string] D --> E[End].
+
+Input8: Generate a random password. Output8: A[Start] --> B[Generate a random password] B --> C{Is the password generated?} C -- No --> B C -- Yes --> D[Output the password] D --> E[End].
+
+Input9: Convert a decimal number to binary. Output9: A[Start] --> B[Convert to binary] B --> C{Is the conversion complete?} C -- No --> B C -- Yes --> D[Output the binary number] D --> E[End].
+
+Input10: Find the index of a specific item in a list. Output10: A[Start] --> B[Find the index] B --> C{Is the index found?} C -- No --> B C -- Yes --> D[Output the index] D --> E[End].
+
+Input11: Remove duplicate elements from an array. Output11: A[Start] --> B[Remove duplicates] B --> C{Are duplicates removed?} C -- No --> B C -- Yes --> D[Output the modified array] D --> E[End].
+
+Input12: Conduct a linear regression analysis. Output12: A[Start] --> B[Perform linear regression] B --> C{Is the analysis complete?} C -- No --> B C -- Yes --> D[Output the regression results] D --> E[End].
+
+Input13: Calculate the square root of a number. Output13: A[Start] --> B[Calculate the square root] B --> C{Is the square root calculated?} C -- No --> B C -- Yes --> D[Output the square root] D --> E[End].
+
+Input14: Count the occurrences of a word in a document. Output14: A[Start] --> B[Count word occurrences] B --> C{Are occurrences counted?} C -- No --> B C -- Yes --> D[Output the count] D --> E[End].
+
+Input15: Determine if a number is prime. Output15: A[Start] --> B[Check for prime] B --> C{Is the number prime?} C -- No --> B C -- Yes --> D[Output the result] D --> E[End].
+
+Input16: Identify the largest file in a directory. Output16: A[Start] --> B[Find the largest file] B --> C{Is the largest file identified?} C -- No --> B C -- Yes --> D[Output the file name] D --> E[End].
+
+Input17: Complete a Sudoku puzzle. Output17: A[Start] --> B[Solve Sudoku] B --> C{Is the puzzle solved?} C -- No --> B C -- Yes --> D[Output the solution] D --> E[End].
+
+Input18: Search for a specific key in a dictionary. Output18: A[Start] --> B[Search the dictionary] B --> C{Is the key found?} C -- No --> B C -- Yes --> D[Output the value] D --> E[End].
+
+Input19: Convert a string to uppercase. Output19: A[Start] --> B[Convert to uppercase] B --> C{Is the conversion complete?} C -- No --> B C -- Yes --> D[Output the uppercase string] D --> E[End].
+
+Input20: Calculate the area of a rectangle. Output20: A[Start] --> B[Calculate the area] B --> C{Is the area calculated?} C -- No --> B C -- Yes --> D[Output the area] D --> E[End].

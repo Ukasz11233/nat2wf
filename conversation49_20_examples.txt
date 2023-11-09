@@ -1,0 +1,41 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Calculate the sum of all numbers in a list. Output1: A[Start] --> B[Calculate the sum] B --> C[Loop through the list] C -- No --> D[Display the sum] D --> E[End] C -- Yes --> C
+
+Input2: Find the smallest number in a list. Output2: A[Start] --> B[Find the smallest number] B --> C[Loop through the list] C -- No --> D[Display the smallest number] D --> E[End] C -- Yes --> C
+
+Input3: Sort a list in ascending order. Output3: A[Start] --> B[Sort the list] B --> C{List sorted?} C -- No --> B C -- Yes --> D[Display the sorted list] D --> E[End]
+
+Input4: Count the number of occurrences of a specific element in a list. Output4: A[Start] --> B[Count the occurrences] B --> C[Loop through the list] C -- No --> D[Display the count] D --> E[End] C -- Yes --> C
+
+Input5: Find the average of all numbers in a list. Output5: A[Start] --> B[Calculate the average] B --> C[Loop through the list] C -- No --> D[Display the average] D --> E[End] C -- Yes --> C
+
+Input6: Find the median of a list of numbers. Output6: A[Start] --> B[Find the median] B --> C[Sort the list] C --> D{Odd number of elements?} D -- Yes --> E[Display the middle element] E --> F[End] D -- No --> E[Display the average of the middle two elements] E --> F[End]
+
+Input7: Remove all duplicates from a list. Output7: A[Start] --> B[Remove duplicates] B --> C[Loop through the list] C -- No --> D[Display the list without duplicates] D --> E[End] C -- Yes --> C
+
+Input8: Check if a list is sorted in ascending order. Output8: A[Start] --> B{List sorted?} B -- Yes --> C[Display "List is sorted"] C --> D[End] B -- No --> C[Display "List is not sorted"] C --> D[End]
+
+Input9: Find the second-largest number in a list. Output9: A[Start] --> B[Find the second-largest number] B --> C[Loop through the list] C -- No --> D[Display the second-largest number] D --> E[End] C -- Yes --> C
+
+Input10: Determine if a number is present in a list. Output10: A[Start] --> B{Number present?} B -- Yes --> C[Display "Number is present"] C --> D[End] B -- No --> C[Display "Number is not present"] C --> D[End]
+
+Input11: Remove all negative numbers from a list. Output11: A[Start] --> B[Remove negatives] B --> C[Loop through the list] C -- No --> D[Display the list without negatives] D --> E[End] C -- Yes --> C
+
+Input12: Reverse the order of elements in a list. Output12: A[Start] --> B[Reverse the list] B --> C[Display the reversed list] C --> D[End]
+
+Input13: Find the maximum value in a list. Output13: A[Start] --> B[Find the maximum value] B --> C[Loop through the list] C -- No --> D[Display the maximum value] D --> E[End] C -- Yes --> C
+
+Input14: Calculate the product of all numbers in a list. Output14: A[Start] --> B[Calculate the product] B --> C[Loop through the list] C -- No --> D[Display the product] D --> E[End] C -- Yes --> C
+
+Input15: Find the first occurrence of a specific element in a list. Output15: A[Start] --> B[Find the first occurrence] B --> C[Loop through the list] C -- No --> D[Display the index of the first occurrence] D --> E[End] C -- Yes --> C
+
+Input16: Split a list into two sublists at a given index. Output16: A[Start] --> B[Split the list] B --> C[Display the sublists] C --> D[End]
+
+Input17: Check if all elements in a list are even numbers. Output17: A[Start] --> B{All elements even?} B -- Yes --> C[Display "All elements are even"] C --> D[End] B -- No --> C[Display "Not all elements are even"] C --> D[End]
+
+Input18: Remove the first occurrence of a specific element from a list. Output18: A[Start] --> B[Remove the element] B --> C[Loop through the list] C -- No --> D[Display the updated list] D --> E[End] C -- Yes --> C
+
+Input19: Calculate the cumulative sum of a list. Output19: A[Start] --> B[Calculate the cumulative sum] B --> C[Loop through the list] C -- No --> D[Display the cumulative sum] D --> E[End] C -- Yes --> C
+
+Input20: Compute the variance of a list of numbers. Output20: A[Start] --> B[Compute the variance] B --> C[Calculate the mean] C --> D[Loop through the list] D --> E[Calculate squared differences] E --> F[Calculate the sum of squared differences] F --> G[Divide by the number of elements] G --> H[Display the variance] H --> I[End]

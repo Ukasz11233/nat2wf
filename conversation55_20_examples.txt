@@ -1,0 +1,41 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Wake up in the morning. Get out of bed. Brush your teeth. Wash your face. Dress up. Have breakfast. Output1: A[Start] --> B[Wake up in the morning] B --> C[Get out of bed] C --> D[Brush your teeth] D --> E[Wash your face] E --> F[Dress up] F --> G[Have breakfast] G --> H[End]
+
+Input2: Open the fridge. Take out the ingredients. Prepare the cooking utensils. Chop the vegetables. Heat the stove. Cook the meal. Serve the food. Output2: A[Start] --> B[Open the fridge] B --> C[Take out the ingredients] C --> D[Prepare the cooking utensils] D --> E[Chop the vegetables] E --> F[Heat the stove] F --> G[Cook the meal] G --> H[Serve the food] H --> I[End]
+
+Input3: Start the car engine. Adjust the mirrors. Fasten the seatbelt. Put the key in the ignition. Put the car into gear. Drive to the desired destination. Park the car. Output3: A[Start] --> B[Start the car engine] B --> C[Adjust the mirrors] C --> D[Fasten the seatbelt] D --> E[Put the key in the ignition] E --> F[Put the car into gear] F --> G[Drive to the desired destination] G --> H[Park the car] H --> I[End]
+
+Input4: Unlock your smartphone. Check for new notifications. Open an app. Reply to messages. Scroll through social media. Take a photo. Lock the screen. Output4: A[Start] --> B[Unlock your smartphone] B --> C[Check for new notifications] C --> D[Open an app] D --> E[Reply to messages] E --> F[Scroll through social media] F --> G[Take a photo] G --> H[Lock the screen] H --> I[End]
+
+Input5: Put on your workout clothes. Stretch your muscles. Start the timer. Do warm-up exercises. Perform cardio exercises. Do strength training. Cool down. Output5: A[Start] --> B[Put on your workout clothes] B --> C[Stretch your muscles] C --> D[Start the timer] D --> E[Do warm-up exercises] E --> F[Perform cardio exercises] F --> G[Do strength training] G --> H[Cool down] H --> I[End]
+
+Input6: Set the table. Bring out the plates and utensils. Arrange the napkins. Fill the glasses with water. Place the dishes on the table. Serve the food. Clear the table. Output6: A[Start] --> B[Set the table] B --> C[Bring out the plates and utensils] C --> D[Arrange the napkins] D --> E[Fill the glasses with water] E --> F[Place the dishes on the table] F --> G[Serve the food] G --> H[Clear the table] H --> I[End]
+
+Input7: Wake up the computer from sleep mode. Enter the login credentials. Launch the web browser. Search for information. Open multiple tabs. Bookmark useful websites. Close the web browser. Output7: A[Start] --> B[Wake up the computer from sleep mode] B --> C[Enter the login credentials] C --> D[Launch the web browser] D --> E[Search for information] E --> F[Open multiple tabs] F --> G[Bookmark useful websites] G --> H[Close the web browser] H --> I[End]
+
+Input8: Take a shower. Shampoo your hair. Condition your hair. Use body wash. Rinse off the soap. Dry yourself with a towel. Apply lotion. Output8: A[Start] --> B[Take a shower] B --> C[Shampoo your hair] C --> D[Condition your hair] D --> E[Use body wash] E --> F[Rinse off the soap] F --> G[Dry yourself with a towel] G --> H[Apply lotion] H --> I[End]
+
+Input9: Wake up the baby. Change the diaper. Dress the baby. Prepare the milk bottle. Feed the baby. Burp the baby. Put the baby back to sleep. Output9: A[Start] --> B[Wake up the baby] B --> C[Change the diaper] C --> D[Dress the baby] D --> E[Prepare the milk bottle] E --> F[Feed the baby] F --> G[Burp the baby] G --> H[Put the baby back to sleep] H --> I[End]
+
+Input10: Remove the dust covers. Assemble the parts. Plug in the power cord. Turn on the television. Adjust the settings. Select the desired channel. Volume up or down. Output10: A[Start] --> B[Remove the dust covers] B --> C[Assemble the parts] C --> D[Plug in the power cord] D --> E[Turn on the television] E --> F[Adjust the settings] F --> G[Select the desired channel] G --> H[Volume up or down] H --> I[End]
+
+Input11: Put on your sneakers. Warm up your body. Start jogging. Track your distance. Increase your pace. Cool down. Stretch your muscles. Output11: A[Start] --> B[Put on your sneakers] B --> C[Warm up your body] C --> D[Start jogging] D --> E[Track your distance] E --> F[Increase your pace] F --> G[Cool down] G --> H[Stretch your muscles] H --> I[End]
+
+Input12: Take out the trash. Tie the garbage bag. Bring it outside. Dispose of it in the trash bin. Wash your hands. Return indoors. Output12: A[Start] --> B[Take out the trash] B --> C[Tie the garbage bag] C --> D[Bring it outside] D --> E[Dispose of it in the trash bin] E --> F[Wash your hands] F --> G[Return indoors] G --> H[End]
+
+Input13: Open the book. Find your page. Read a chapter. Take notes. Close the book. Put it back on the shelf. Output13: A[Start] --> B[Open the book] B --> C[Find your page] C --> D[Read a chapter] D --> E[Take notes] E --> F[Close the book] F --> G[Put it back on the shelf] G --> H[End]
+
+Input14: Plug in the charger. Connect it to your device. Wait for it to charge. Check the battery level. Disconnect the charger. Unplug from the power source. Output14: A[Start] --> B[Plug in the charger] B --> C[Connect it to your device] C --> D[Wait for it to charge] D --> E[Check the battery level] E --> F[Disconnect the charger] F --> G[Unplug from the power source] G --> H[End]
+
+Input15: Power on the printer. Load paper into the tray. Connect it to the computer. Select the file to print. Adjust the print settings. Click "Print." Collect the printed pages. Output15: A[Start] --> B[Power on the printer] B --> C[Load paper into the tray] C --> D[Connect it to the computer] D --> E[Select the file to print] E --> F[Adjust the print settings] F --> G[Click "Print"] G --> H[Collect the printed pages] H --> I[End]
+
+Input16: Grab a shopping cart. Walk through the supermarket aisles. Pick the items you need. Check the prices. Place the products in the cart. Pay at the checkout counter. Load the groceries into your car. Output16: A[Start] --> B[Grab a shopping cart] B --> C[Walk through the supermarket aisles] C --> D[Pick the items you need] D --> E[Check the prices] E --> F[Place the products in the cart] F --> G[Pay at the checkout counter] G --> H[Load the groceries into your car] H --> I[End]
+
+Input17: Light the candles. Set the table for dinner. Cook the meal. Serve the food. Enjoy the meal. Blow out the candles. Clear the table. Output17: A[Start] --> B[Light the candles] B --> C[Set the table for dinner] C --> D[Cook the meal] D --> E[Serve the food] E --> F[Enjoy the meal] F --> G[Blow out the candles] G --> H[Clear the table] H --> I[End]
+
+Input18: Take out the cake from the fridge. Decorate it with icing. Add toppings. Light the candles. Sing "Happy Birthday." Cut and serve the cake. Output18: A[Start] --> B[Take out the cake from the fridge] B --> C[Decorate it with icing] C --> D[Add toppings] D --> E[Light the candles] E --> F[Sing "Happy Birthday"] F --> G[Cut and serve the cake] G --> H[End]
+
+Input19: Unlock the front door. Step outside. Lock the door. Walk to the nearest bus stop. Wait for the bus. Board the bus. Pay the fare. Output19: A[Start] --> B[Unlock the front door] B --> C[Step outside] C --> D[Lock the door] D --> E[Walk to the nearest bus stop] E --> F[Wait for the bus] F --> G[Board the bus] G --> H[Pay the fare] H --> I[End]
+
+Input20: Turn on the coffee machine. Add coffee grounds and water. Wait for it to brew. Pour the coffee into a cup. Add milk and sugar. Stir well. Enjoy your coffee. Output20: A[Start] --> B[Turn on the coffee machine] B --> C[Add coffee grounds and water] C --> D[Wait for it to brew] D --> E[Pour the coffee into a cup] E --> F[Add milk and sugar] F --> G[Stir well] G --> H[Enjoy your coffee] H --> I[End]

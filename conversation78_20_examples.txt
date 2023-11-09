@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Make a shopping list. Go to the grocery store. Pick out the items on the list. Pay at the checkout counter. Drive back home.
+Output1: A[Start] --> B[Make a shopping list] B --> C[Go to the grocery store] C --> D[Pick out the items on the list] D --> E[Pay at the checkout counter] E --> F[Drive back home] F --> G[End]
+
+Input2: Create a new email. Compose the message. Attach any necessary files. Enter the recipient's email address. Send the email.
+Output2: A[Start] --> B[Create a new email] B --> C[Compose the message] C --> D[Attach any necessary files] D --> E[Enter the recipient's email address] E --> F[Send the email] F --> G[End]
+
+Input3: Wake up in the morning. Get out of bed. Freshen up and get dressed. Have breakfast. Brush your teeth. Leave for work.
+Output3: A[Start] --> B[Wake up in the morning] B --> C[Get out of bed] C --> D[Freshen up and get dressed] D --> E[Have breakfast] E --> F[Brush your teeth] F --> G[Leave for work] G --> H[End]
+
+Input4: Turn on the TV. Choose a channel or program to watch. Adjust the volume and settings as desired. Sit back and enjoy the show. Turn off the TV.
+Output4: A[Start] --> B[Turn on the TV] B --> C[Choose a channel or program to watch] C --> D[Adjust the volume and settings as desired] D --> E[Sit back and enjoy the show] E --> F[Turn off the TV] F --> G[End]
+
+Input5: Take a shower. Wash your hair and body. Rinse off the soap. Dry yourself with a towel. Apply lotion or moisturizer if desired.
+Output5: A[Start] --> B[Take a shower] B --> C[Wash your hair and body] C --> D[Rinse off the soap] D --> E[Dry yourself with a towel] E --> F[Apply lotion or moisturizer if desired] F --> G[End]
+
+Input6: Plan a vacation. Research destinations and accommodations. Make a budget. Book flights and accommodations. Pack luggage. Travel to the destination.
+Output6: A[Start] --> B[Plan a vacation] B --> C[Research destinations and accommodations] C --> D[Make a budget] D --> E[Book flights and accommodations] E --> F[Pack luggage] F --> G[Travel to the destination] G --> H[End]
+
+Input7: Start a new painting. Set up the easel and canvas. Choose the paint colors and brushes. Create an outline or sketch. Fill in the details. Let the paint dry.
+Output7: A[Start] --> B[Start a new painting] B --> C[Set up the easel and canvas] C --> D[Choose the paint colors and brushes] D --> E[Create an outline or sketch] E --> F[Fill in the details] F --> G[Let the paint dry] G --> H[End]
+
+Input8: Order food online. Browse the menu options. Select the desired items. Enter delivery or pickup details. Make payment. Wait for the food to arrive.
+Output8: A[Start] --> B[Order food online] B --> C[Browse the menu options] C --> D[Select the desired items] D --> E[Enter delivery or pickup details] E --> F[Make payment] F --> G[Wait for the food to arrive] G --> H[End]
+
+Input9: Start a workout routine. Warm up with stretches. Do cardio exercises. Perform strength training exercises. Cool down with stretches. Take a rest.
+Output9: A[Start] --> B[Start a workout routine] B --> C[Warm up with stretches] C --> D[Do cardio exercises] D --> E[Perform strength training exercises] E --> F[Cool down with stretches] F --> G[Take a rest] G --> H[End]
+
+Input10: Prepare for a job interview. Research the company. Practice answering interview questions. Dress professionally. Arrive on time. Nail the interview.
+Output10: A[Start] --> B[Prepare for a job interview] B --> C[Research the company] C --> D[Practice answering interview questions] D --> E[Dress professionally] E --> F[Arrive on time] F --> G[Nail the interview] G --> H[End]
+
+Input11: Write a blog post. Choose a topic. Conduct research. Create an outline. Write the content. Proofread and edit. Publish the blog post.
+Output11: A[Start] --> B[Write a blog post] B --> C[Choose a topic] C --> D[Conduct research] D --> E[Create an outline] E --> F[Write the content] F --> G[Proofread and edit] G --> H[Publish the blog post] H --> I[End]
+
+Input12: Learn a new language. Start with basic vocabulary. Practice pronunciation. Study grammar rules. Listen to native speakers. Engage in conversation.
+Output12: A[Start] --> B[Learn a new language] B --> C[Start with basic vocabulary] C --> D[Practice pronunciation] D --> E[Study grammar rules] E --> F[Listen to native speakers] F --> G[Engage in conversation] G --> H[End]
+
+Input13: Plan a surprise party. Make a guest list. Choose a venue. Send out invitations. Organize decorations and party supplies. Keep the surprise a secret.
+Output13: A[Start] --> B[Plan a surprise party] B --> C[Make a guest list] C --> D[Choose a venue] D --> E[Send out invitations] E --> F[Organize decorations and party supplies] F --> G[Keep the surprise a secret] G --> H[End]
+
+Input14: Assemble a piece of furniture. Gather all the necessary parts and tools. Read the instructions. Follow step-by-step. Tighten all screws and secure the joints. Admire your completed project.
+Output14: A[Start] --> B[Assemble a piece of furniture] B --> C[Gather all the necessary parts and tools] C --> D[Read the instructions] D --> E[Follow step-by-step] E --> F[Tighten all screws and secure the joints] F --> G[Admire your completed project] G --> H[End]
+
+Input15: Start a garden. Choose the desired plants. Prepare the soil. Plant the seeds or seedlings. Water and fertilize regularly. Enjoy watching the plants grow.
+Output15: A[Start] --> B[Start a garden] B --> C[Choose the desired plants] C --> D[Prepare the soil] D --> E[Plant the seeds or seedlings] E --> F[Water and fertilize regularly] F --> G[Enjoy watching the plants grow] G --> H[End]
+
+Input16: Learn to play a musical instrument. Select an instrument to learn. Take lessons or find online tutorials. Practice regularly. Learn to read sheet music. Perform for an audience.
+Output16: A[Start] --> B[Learn to play a musical instrument] B --> C[Select an instrument to learn] C --> D[Take lessons or find online tutorials] D --> E[Practice regularly] E --> F[Learn to read sheet music] F --> G[Perform for an audience] G --> H[End]
+
+Input17: Organize a closet. Sort through clothes and accessories. Declutter and donate items no longer needed. Categorize and arrange items. Maintain cleanliness and organization.
+Output17: A[Start] --> B[Organize a closet] B --> C[Sort through clothes and accessories] C --> D[Declutter and donate items no longer needed] D --> E[Categorize and arrange items] E --> F[Maintain cleanliness and organization] F --> G[End]
+
+Input18: Complete a jigsaw puzzle. Pour out the puzzle pieces. Sort the pieces by edges and colors. Assemble the border. Piece together the rest of the puzzle. Admire the finished artwork.
+Output18: A[Start] --> B[Complete a jigsaw puzzle] B --> C[Pour out the puzzle pieces] C --> D[Sort the pieces by edges and colors] D --> E[Assemble the border] E --> F[Piece together the rest of the puzzle] F --> G[Admire the finished artwork] G --> H[End]
+
+Input19: Learn to cook a new recipe. Find a recipe online or in a cookbook. Gather the necessary ingredients. Follow the instructions. Cook the dish. Taste and adjust seasonings if needed.
+Output19: A[Start] --> B[Learn to cook a new recipe] B --> C[Find a recipe online or in a cookbook] C --> D[Gather the necessary ingredients] D --> E[Follow the instructions] E --> F[Cook the dish] F --> G[Taste and adjust seasonings if needed] G --> H[End]
+
+Input20: Start a book club. Invite members to join. Choose the first book to read. Set a meeting schedule. Discuss the book and share opinions. Select the next book for discussion.
+Output20: A[Start] --> B[Start a book club] B --> C[Invite members to join] C --> D[Choose the first book to read] D --> E[Set a meeting schedule] E --> F[Discuss the book and share opinions] F --> G[Select the next book for discussion] G --> H[End]

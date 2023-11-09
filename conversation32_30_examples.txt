@@ -1,0 +1,91 @@
+system: test
+user: Give me 30 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the minimum element in an array and remove it.
+Output1: A[Start] --> B[Search the array] B --> C{Minimum element found?} C -- No --> B C -- Yes --> D[Remove the element] D --> E[End]
+
+Input2: Sort a list of numbers in ascending order.
+Output2: A[Start] --> B[Search the list] B --> C{All numbers sorted?} C -- No --> B C -- Yes --> D[End]
+
+Input3: Find the longest word in a sentence and remove it.
+Output3: A[Start] --> B[Search the sentence] B --> C{Longest word found?} C -- No --> B C -- Yes --> D[Remove the word] D --> E[End]
+
+Input4: Find the first vowel in a string and remove it.
+Output4: A[Start] --> B[Search the string] B --> C{Vowel found?} C -- No --> B C -- Yes --> D[Remove the vowel] D --> E[End]
+
+Input5: Find the largest prime number in a given range and remove it.
+Output5: A[Start] --> B[Search the range] B --> C{Largest prime number found?} C -- No --> B C -- Yes --> D[Remove the number] D --> E[End]
+
+Input6: Search for the most repeated character in a string and remove all its occurrences.
+Output6: A[Start] --> B[Search the string] B --> C{Most repeated character found?} C -- No --> B C -- Yes --> D[Remove all occurrences] D --> E[End]
+
+Input7: Find the highest temperature in a week and remove it.
+Output7: A[Start] --> B[Search the week] B --> C{Highest temperature found?} C -- No --> B C -- Yes --> D[Remove the temperature] D --> E[End]
+
+Input8: Continuously search a list until a negative number is found. Remove the number.
+Output8: A[Start] --> B[Search the list] B --> C{Negative number found?} C -- No --> B C -- Yes --> D[Remove the number] D --> E[End]
+
+Input9: Find the shortest path in a maze and remove it.
+Output9: A[Start] --> B[Search the maze] B --> C{Shortest path found?} C -- No --> B C -- Yes --> D[Remove the path] D --> E[End]
+
+Input10: Find the maximum value in a matrix and remove it.
+Output10: A[Start] --> B[Search the matrix] B --> C{Maximum value found?} C -- No --> B C -- Yes --> D[Remove the value] D --> E[End]
+
+Input11: Continuously search a list until a prime number is found. Remove the number.
+Output11: A[Start] --> B[Search the list] B --> C{Prime number found?} C -- No --> B C -- Yes --> D[Remove the number] D --> E[End]
+
+Input12: Find the largest file in a directory and remove it.
+Output12: A[Start] --> B[Search the directory] B --> C{Largest file found?} C -- No --> B C -- Yes --> D[Remove the file] D --> E[End]
+
+Input13: Continuously search a list until a specific string is found. Remove the string.
+Output13: A[Start] --> B[Search the list] B --> C{Specific string found?} C -- No --> B C -- Yes --> D[Remove the string] D --> E[End]
+
+Input14: Find the highest score in a game leaderboard and remove it.
+Output14: A[Start] --> B[Search the leaderboard] B --> C{Highest score found?} C -- No --> B C -- Yes --> D[Remove the score] D --> E[End]
+
+Input15: Continuously search a list until a duplicate number is found. Remove the duplicate.
+Output15: A[Start] --> B[Search the list] B --> C{Duplicate number found?} C -- No --> B C -- Yes --> D[Remove the number] D --> E[End]
+
+Input16: Find the largest angle in a polygon and remove it.
+Output16: A[Start] --> B[Search the polygon] B --> C{Largest angle found?} C -- No --> B C -- Yes --> D[Remove the angle] D --> E[End]
+
+Input17: Continuously search a list until a specific value is found. Remove the value.
+Output17: A[Start] --> B[Search the list] B --> C{Specific value found?} C -- No --> B C -- Yes --> D[Remove the value] D --> E[End]
+
+Input18: Find the highest population in a country and remove it.
+Output18: A[Start] --> B[Search the country] B --> C{Highest population found?} C -- No --> B C -- Yes --> D[Remove the population] D --> E[End]
+
+Input19: Continuously search a list until a zero is found. Remove the zero.
+Output19: A[Start] --> B[Search the list] B --> C{Zero found?} C -- No --> B C -- Yes --> D[Remove the zero] D --> E[End]
+
+Input20: Find the largest distance between two points in a graph and remove it.
+Output20: A[Start] --> B[Search the graph] B --> C{Largest distance found?} C -- No --> B C -- Yes --> D[Remove the distance] D --> E[End]
+
+Input21: Continuously search a list until a specific element is found. Remove the element.
+Output21: A[Start] --> B[Search the list] B --> C{Specific element found?} C -- No --> B C -- Yes --> D[Remove the element] D --> E[End]
+
+Input22: Find the highest salary in a company and remove it.
+Output22: A[Start] --> B[Search the company] B --> C{Highest salary found?} C -- No --> B C -- Yes --> D[Remove the salary] D --> E[End]
+
+Input23: Continuously search a list until a negative balance is found. Remove the balance.
+Output23: A[Start] --> B[Search the list] B --> C{Negative balance found?} C -- No --> B C -- Yes --> D[Remove the balance] D --> E[End]
+
+Input24: Find the largest product in a series of numbers and remove it.
+Output24: A[Start] --> B[Search the series] B --> C{Largest product found?} C -- No --> B C -- Yes --> D[Remove the product] D --> E[End]
+
+Input25: Continuously search a list until a specific category is found. Remove the category.
+Output25: A[Start] --> B[Search the list] B --> C{Specific category found?} C -- No --> B C -- Yes --> D[Remove the category] D --> E[End]
+
+Input26: Find the highest rating in a movie database and remove it.
+Output26: A[Start] --> B[Search the database] B --> C{Highest rating found?} C -- No --> B C -- Yes --> D[Remove the rating] D --> E[End]
+
+Input27: Continuously search a list until a divisible number is found. Remove the number.
+Output27: A[Start] --> B[Search the list] B --> C{Divisible number found?} C -- No --> B C -- Yes --> D[Remove the number] D --> E[End]
+
+Input28: Find the largest area in a set of rectangles and remove it.
+Output28: A[Start] --> B[Search the set of rectangles] B --> C{Largest area found?} C -- No --> B C -- Yes --> D[Remove the area] D --> E[End]
+
+Input29: Continuously search a list until a specific keyword is found. Remove the keyword.
+Output29: A[Start] --> B[Search the list] B --> C{Specific keyword found?} C -- No --> B C -- Yes --> D[Remove the keyword] D --> E[End]
+
+Input30: Find the highest sales record in a month and remove it.
+Output30: A[Start] --> B[Search the month] B --> C{Highest sales record found?} C -- No --> B C -- Yes --> D[Remove the record] D --> E[End]

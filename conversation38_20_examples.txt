@@ -1,0 +1,41 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the shortest path between two cities. Output1: A[Start] --> B[Search for paths] B --> C{Shortest path found?} C -- No --> B C -- Yes --> D[Display shortest path] D --> E[End]
+
+Input2: Calculate the sum of a series of numbers. Output2: A[Start] --> B[Input numbers] B --> C{More numbers to input?} C -- Yes --> B C -- No --> D[Calculate sum] D --> E[Display sum] E --> F[End]
+
+Input3: Sort a list of names in alphabetical order. Output3: A[Start] --> B[Input names] B --> C{More names to input?} C -- Yes --> B C -- No --> D[Sort names] D --> E[Display sorted list] E --> F[End]
+
+Input4: Check if a number is prime or composite. Output4: A[Start] --> B[Input number] B --> C{Number is prime?} C -- Yes --> D[Display "Prime"] D --> E[End] C -- No --> D[Display "Composite"] D --> E[End]
+
+Input5: Find the maximum value in an array. Output5: A[Start] --> B[Input array] B --> C{More numbers to input?} C -- Yes --> B C -- No --> D[Find maximum] D --> E[Display maximum value] E --> F[End]
+
+Input6: Create a new email account. Output6: A[Start] --> B[Input email details] B --> C[Verify email address] C --> D[Create account] D --> E[Send verification email] E --> F[End]
+
+Input7: Convert a decimal number to binary. Output7: A[Start] --> B[Input decimal number] B --> C[Convert to binary] C --> D[Display binary number] D --> E[End]
+
+Input8: Search for a specific word in a document. Output8: A[Start] --> B[Input document] B --> C{Search word found?} C -- Yes --> D[Display word found] D --> E[End] C -- No --> E[End]
+
+Input9: Solve a quadratic equation. Output9: A[Start] --> B[Input coefficients] B --> C[Solve equation] C --> D[Display roots] D --> E[End]
+
+Input10: Generate a random password. Output10: A[Start] --> B[Input password length] B --> C[Generate random password] C --> D[Display password] D --> E[End]
+
+Input11: Calculate the factorial of a number. Output11: A[Start] --> B[Input number] B --> C[Calculate factorial] C --> D[Display factorial] D --> E[End]
+
+Input12: Determine the area of a circle. Output12: A[Start] --> B[Input radius] B --> C[Calculate area] C --> D[Display area] D --> E[End]
+
+Input13: Compute the average of a set of numbers. Output13: A[Start] --> B[Input numbers] B --> C{More numbers to input?} C -- Yes --> B C -- No --> D[Calculate average] D --> E[Display average] E --> F[End]
+
+Input14: Convert a string to uppercase. Output14: A[Start] --> B[Input string] B --> C[Convert to uppercase] C --> D[Display uppercase string] D --> E[End]
+
+Input15: Search for a specific item in an array. Output15: A[Start] --> B[Input array] B --> C[Input item to search] C --> D[Search for item] D --> E{Item found?} E -- Yes --> F[Display item found] F --> G[End] E -- No --> G[End]
+
+Input16: Check if a given year is a leap year. Output16: A[Start] --> B[Input year] B --> C{Year is leap?} C -- Yes --> D[Display "Leap year"] D --> E[End] C -- No --> D[Display "Not a leap year"] D --> E[End]
+
+Input17: Generate a Fibonacci sequence. Output17: A[Start] --> B[Input sequence length] B --> C[Generate Fibonacci sequence] C --> D[Display sequence] D --> E[End]
+
+Input18: Convert a number to Roman numerals. Output18: A[Start] --> B[Input number] B --> C[Convert to Roman numerals] C --> D[Display Roman numerals] D --> E[End]
+
+Input19: Encrypt a message using a Caesar cipher. Output19: A[Start] --> B[Input message and shift] B --> C[Encrypt message] C --> D[Display encrypted message] D --> E[End]
+
+Input20: Find the square root of a number. Output20: A[Start] --> B[Input number] B --> C[Calculate square root] C --> D[Display square root] D --> E[End]

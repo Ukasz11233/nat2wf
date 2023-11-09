@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Wake up. Brush your teeth and wash your face. Get dressed. Have breakfast. Leave for work.
+Output1: A[Start] --> B[Wake up] B --> C[Brush teeth and wash face] C --> D[Get dressed] D --> E[Have breakfast] E --> F[Leave for work] F --> G[End]
+
+Input2: Turn on the television. Select a channel to watch. Adjust the volume. Change the channel if desired. Turn off the television.
+Output2: A[Start] --> B[Turn on the television] B --> C[Select channel to watch] C --> D[Adjust volume] D --> E[Change channel if desired] E --> F[Turn off the television] F --> G[End]
+
+Input3: Open a book. Read the first chapter. Take notes on important points. Continue reading the remaining chapters. Close the book.
+Output3: A[Start] --> B[Open a book] B --> C[Read first chapter] C --> D[Take notes] D --> E[Continue reading remaining chapters] E --> F[Close the book] F --> G[End]
+
+Input4: Put on your running shoes. Stretch your muscles. Go for a jog around the neighborhood. Cool down and stretch again. Take a shower.
+Output4: A[Start] --> B[Put on running shoes] B --> C[Stretch muscles] C --> D[Go for jog] D --> E[Cool down and stretch again] E --> F[Take a shower] F --> G[End]
+
+Input5: Unlock your smartphone. Open your favorite social media app. Scroll through the latest posts. Like and comment on interesting ones. Lock your smartphone.
+Output5: A[Start] --> B[Unlock smartphone] B --> C[Open favorite social media app] C --> D[Scroll through latest posts] D --> E[Like and comment on interesting ones] E --> F[Lock smartphone] F --> G[End]
+
+Input6: Turn on the car engine. Adjust the mirrors and fasten your seatbelt. Start driving towards your destination. Follow traffic rules. Park the car.
+Output6: A[Start] --> B[Turn on car engine] B --> C[Adjust mirrors and fasten seatbelt] C --> D[Start driving towards destination] D --> E[Follow traffic rules] E --> F[Park the car] F --> G[End]
+
+Input7: Put on safety goggles and gloves. Mix the necessary chemicals in a beaker. Heat the mixture over a Bunsen burner. Observe the chemical reaction. Dispose of the mixture properly.
+Output7: A[Start] --> B[Put on safety goggles and gloves] B --> C[Mix necessary chemicals in beaker] C --> D[Heat mixture over Bunsen burner] D --> E[Observe chemical reaction] E --> F[Dispose of mixture properly] F --> G[End]
+
+Input8: Retrieve the ingredients from the pantry. Preheat the oven to the specified temperature. Mix the ingredients in a bowl. Pour the batter into a baking pan. Bake for the recommended time. Remove from the oven and let it cool.
+Output8: A[Start] --> B[Retrieve ingredients from pantry] B --> C[Preheat oven to specified temperature] C --> D[Mix ingredients in a bowl] D --> E[Pour batter into baking pan] E --> F[Bake for recommended time] F --> G[Remove from oven and let it cool] G --> H[End]
+
+Input9: Sit down at a desk. Open a blank document on your computer. Type the necessary information. Format the document as required. Print a hard copy if needed. Close the document and shut down the computer.
+Output9: A[Start] --> B[Sit down at desk] B --> C[Open blank document on computer] C --> D[Type necessary information] D --> E[Format document as required] E --> F[Print hard copy if needed] F --> G[Close document and shut down computer] G --> H[End]
+
+Input10: Put on your gardening gloves. Grab necessary tools for gardening. Weed the garden beds. Water the plants. Trim any overgrown branches. Put away the gardening tools.
+Output10: A[Start] --> B[Put on gardening gloves] B --> C[Grab necessary tools for gardening] C --> D[Weed garden beds] D --> E[Water plants] E --> F[Trim overgrown branches] F --> G[Put away gardening tools] G --> H[End]
+
+Input11: Unlock the front door. Enter the house. Take off your shoes and hang your coat. Check the mailbox for letters. Relax and unwind.
+Output11: A[Start] --> B[Unlock front door] B --> C[Enter house] C --> D[Take off shoes and hang coat] D --> E[Check mailbox for letters] E --> F[Relax and unwind] F --> G[End]
+
+Input12: Turn on the stereo system. Select a playlist to listen to. Adjust the volume to a comfortable level. Dance and enjoy the music. Turn off the stereo system.
+Output12: A[Start] --> B[Turn on stereo system] B --> C[Select playlist to listen to] C --> D[Adjust volume to comfortable level] D --> E[Dance and enjoy music] E --> F[Turn off stereo system] F --> G[End]
+
+Input13: Login to your email account. Check for new messages. Reply to important emails. Delete spam messages. Log out of your email account.
+Output13: A[Start] --> B[Login to email account] B --> C[Check for new messages] C --> D[Reply to important emails] D --> E[Delete spam messages] E --> F[Log out of email account] F --> G[End]
+
+Input14: Set up the chessboard. Make the first move. Strategize and plan your moves. Capture your opponent's pieces. Checkmate the opponent's king. Reset the chessboard for the next game.
+Output14: A[Start] --> B[Set up chessboard] B --> C[Make first move] C --> D[Strategize and plan moves] D --> E[Capture opponent's pieces] E --> F[Checkmate opponent's king] F --> G[Reset chessboard for next game] G --> H[End]
+
+Input15: Take out fresh ingredients from the refrigerator. Preheat a pan on the stove. Cook the ingredients with spices and seasonings. Plate the dish attractively. Enjoy the meal.
+Output15: A[Start] --> B[Take out fresh ingredients from refrigerator] B --> C[Preheat pan on stove] C --> D[Cook ingredients with spices and seasonings] D --> E[Plate dish attractively] E --> F[Enjoy the meal] F --> G[End]
+
+Input16: Sit in a comfortable chair. Close your eyes and take deep breaths. Focus on your breath and relax your body. Practice meditation for a specific duration. Open your eyes and slowly return to the present moment.
+Output16: A[Start] --> B[Sit in comfortable chair] B --> C[Close eyes and take deep breaths] C --> D[Focus on breath and relax body] D --> E[Practice meditation for specific duration] E --> F[Open eyes and slowly return to present moment] F --> G[End]
+
+Input17: Turn on the shower. Adjust the water temperature. Get in the shower and wash your body. Shampoo and condition your hair. Rinse off all the products. Turn off the shower.
+Output17: A[Start] --> B[Turn on shower] B --> C[Adjust water temperature] C --> D[Get in shower and wash body] D --> E[Shampoo and condition hair] E --> F[Rinse off all products] F --> G[Turn off shower] G --> H[End]
+
+Input18: Unlock the bicycle. Put on a helmet and adjust the seat height. Begin cycling towards your destination. Observe traffic rules and signals. Lock the bicycle once arrived.
+Output18: A[Start] --> B[Unlock bicycle] B --> C[Put on helmet and adjust seat height] C --> D[Begin cycling towards destination] D --> E[Observe traffic rules and signals] E --> F[Lock bicycle once arrived] F --> G[End]
+
+Input19: Turn on the radio. Tune in to your favorite station. Sing along to the songs playing. Dance to the rhythm. Turn off the radio.
+Output19: A[Start] --> B[Turn on radio] B --> C[Tune in to favorite station] C --> D[Sing along to songs playing] D --> E[Dance to rhythm] E --> F[Turn off radio] F --> G[End]
+
+Input20: Take out the art supplies. Sketch an outline of your subject. Start adding colors and shades. Add finishing touches to the artwork. Sign your name. Store the artwork properly.
+Output20: A[Start] --> B[Take out art supplies] B --> C[Sketch outline of subject] C --> D[Start adding colors and shades] D --> E[Add finishing touches to artwork] E --> F[Sign name] F --> G[Store artwork properly] G --> H[End]

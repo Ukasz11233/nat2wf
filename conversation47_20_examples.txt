@@ -1,0 +1,41 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the shortest path between two cities on a map. Output1: A[Start] --> B[Choose the initial city] B --> C[Search for neighboring cities] C --> D{Reached destination city?} D -- No --> C D -- Yes --> E[End].
+
+Input2: Sort a given list of numbers in ascending order. Output2: A[Start] --> B[Choose the first number] B --> C{Any remaining unsorted numbers?} C -- No --> E[End] C -- Yes --> D[Compare the current number with the next number] D --> E[Place the smaller number before the larger number] E --> C.
+
+Input3: Calculate the factorial of a given number. Output3: A[Start] --> B[Set the initial value of the factorial] B --> C[Set the initial value of the number] C --> D{Number is greater than zero?} D -- No --> E[End] D -- Yes --> F[Multiply the current factorial value by the current number] F --> G[Decrease the number by 1] G --> D.
+
+Input4: Find the maximum number within a given array. Output4: A[Start] --> B[Choose the first element of the array] B --> C{Any remaining elements in the array?} C -- No --> E[End] C -- Yes --> D{Is the current element larger than the previously found maximum?} D -- No --> C D -- Yes --> F[Update the maximum number] F --> C.
+
+Input5: Convert a decimal number to its binary representation. Output5: A[Start] --> B[Choose a decimal number] B --> C[Divide the number by 2] C --> D{Quotient is zero?} D -- No --> E[Record the remainder as a binary digit] E --> C D -- Yes --> F[Reverse the sequence of binary digits] F --> G[End].
+
+Input6: Perform bubble sort on an array of characters in descending order. Output6: A[Start] --> B[Choose the first character of the array] B --> C{Any remaining characters in the array?} C -- No --> E[End] C -- Yes --> D[Compare the current character with the next] D --> E[Swap the characters if necessary] E --> C.
+
+Input7: Find the median of a given set of numbers. Output7: A[Start] --> B[Sort the numbers in ascending order] B --> C{Odd number of elements?} C -- No --> D[Calculate the average of the middle two numbers] D --> E[End] C -- Yes --> F[Find the middle number] F --> E.
+
+Input8: Determine the number of vowels in a given sentence. Output8: A[Start] --> B[Choose the first letter of the sentence] B --> C{Any remaining letters in the sentence?} C -- No --> E[End] C -- Yes --> D{Is the current letter a vowel?} D -- No --> C D -- Yes --> F[Increase the vowel count] F --> C.
+
+Input9: Calculate the sum of all prime numbers within a given range. Output9: A[Start] --> B[Set the initial sum to zero] B --> C[Choose the first number in the range] C --> D{Reached the end of the range?} D -- No --> E{Current number is prime?} E -- No --> C E -- Yes --> F[Add the current number to the sum] F --> C D -- Yes --> G[End].
+
+Input10: Remove duplicate elements from a given array. Output10: A[Start] --> B[Choose the first element of the array] B --> C{Any remaining elements in the array?} C -- No --> E[End] C -- Yes --> D{Is the current element already in the new array?} D -- No --> F[Add the element to the new array] F --> C D -- Yes --> C.
+
+Input11: Determine if a given word is a palindrome. Output11: A[Start] --> B[Choose the first letter of the word] B --> C[Choose the last letter of the word] C --> D{Are the chosen letters the same?} D -- No --> E[Not a palindrome] D -- Yes --> F{Only one letter left?} F -- No --> B C F -- Yes --> G[A palindrome].
+
+Input12: Traverse a binary search tree in pre-order. Output12: A[Start] --> B[Choose the root of the tree] B --> C{Any left child?} C -- No --> D{Any right child?} D -- No --> F[Return to the root] F --> G[End] C -- Yes --> E[Move to the left child] E --> B D -- Yes --> H[Move to the right child] H --> B.
+
+Input13: Generate the Fibonacci sequence up to a given number of terms. Output13: A[Start] --> B[Set the initial values of the sequence] B --> C{Number of terms reached?} C -- No --> D[Calculate the next term by summing the previous two terms] D --> E[Add the next term to the sequence] E --> C C -- Yes --> F[End].
+
+Input14: Solve a Sudoku puzzle. Output14: A[Start] --> B[Choose an empty cell] B --> C{All cells filled?} C -- No --> D[Choose a possible number for the cell] D --> E{Number is valid for the cell?} E -- No --> D E -- Yes --> F[Fill the cell with the number] F --> C C -- Yes --> G[End].
+
+Input15: Convert a roman numeral to its decimal representation. Output15: A[Start] --> B[Choose a roman numeral] B --> C{No more symbols left?} C -- No --> D[Compare the current symbol with the next symbol] D --> E[Subtract the smaller symbol from the current value] E --> F[Add the value to the final decimal representation] F --> C C -- Yes --> G[End].
+
+Input16: Find the GCD (Greatest Common Divisor) of two given numbers. Output16: A[Start] --> B[Choose the first number] B --> C[Choose the second number] C --> D{Both numbers are equal?} D -- No --> E{First number is greater?} E -- No --> C E -- Yes --> F[Set the first number as the difference between the two] F --> B D -- Yes --> G[End].
+
+Input17: Determine if a given year is a leap year. Output17: A[Start] --> B[Choose a year] B --> C{Is the year divisible by 4?} C -- No --> G[Not a leap year] C -- Yes --> D{Is the year divisible by 100?} D -- No --> H[A leap year] D -- Yes --> E{Is the year divisible by 400?} E -- No --> G[Not a leap year] E -- Yes --> H[A leap year].
+
+Input18: Calculate the square root of a given number. Output18: A[Start] --> B[Choose a number] B --> C[Set the initial guess for the square root] C --> D[Improve the guess by averaging it with the quotient of the number and the current guess] D --> E{Guess is close to the actual square root?} E -- No --> D E -- Yes --> F[End].
+
+Input19: Determine if a given string is a valid email address. Output19: A[Start] --> B[Choose the first character of the string] B --> C{Any remaining characters in the string?} C -- No --> G[Not a valid email address] C -- Yes --> D{Is the current character an alphabet letter or a number?} D -- No --> F{Is the current character '@'?} F -- No --> G F -- Yes --> E[Continue checking the remaining characters] E --> C D -- Yes --> E.
+
+Input20: Evaluate a given postfix expression. Output20: A[Start] --> B[Choose the first element of the expression] B --> C{Any remaining elements in the expression?} C -- No --> G[Result obtained] C -- Yes --> D{Is the current element a number?} D -- No --> E{Is the current element an operator?} E -- No --> G E -- Yes --> F[Perform the operation on the top two elements of the stack] F --> C D -- Yes --> F[Push the number onto the stack] F --> C.

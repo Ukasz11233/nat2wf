@@ -1,0 +1,67 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Sort a list of numbers in ascending order. 
+Output1: A[Start] --> B[Sort the list] B --> C{List sorted?} C -- No --> B C -- Yes --> D[End]
+
+Input2: Find the average of a list of numbers. 
+Output2: A[Start] --> B[Calculate the average] B --> C[Output the average] C --> D[End]
+
+Input3: Check if a number is prime. 
+Output3: A[Start] --> B[Check if number is divisible by any number] B --> C{Number divisible?} C -- Yes --> D[Number is not prime] D --> E[End] 
+C -- No --> D[Number is prime] D 
+
+Input4: Simulate the classic game of Rock, Paper, Scissors. 
+Output4: A[Start] --> B[Choose a move] B --> C[Opponent chooses a move] C --> D{Evaluate moves} D --> E[Declare winner] E --> F[End]
+
+Input5: Convert Celsius to Fahrenheit. 
+Output5: A[Start] --> B[Input temperature in Celsius] B --> C[Convert Celsius to Fahrenheit] C --> D[Output temperature in Fahrenheit] D --> E[End]
+
+Input6: Find the largest number in a list. 
+Output6: A[Start] --> B[Find the largest number] B --> C[Output the largest number] C --> D[End]
+
+Input7: Calculate the factorial of a given number. 
+Output7: A[Start] --> B[Calculate the factorial] B --> C[Output the factorial] C --> D[End]
+
+Input8: Generate Fibonacci sequence up to a given number. 
+Output8: A[Start] --> B[Generate Fibonacci sequence] B --> C[Output the sequence] C --> D[End]
+
+Input9: Determine the area of a circle. 
+Output9: A[Start] --> B[Input radius] B --> C[Calculate area of circle] C --> D[Output area] D --> E[End]
+
+Input10: Convert a decimal number to binary. 
+Output10: A[Start] --> B[Input decimal number] B --> C[Convert decimal to binary] C --> D[Output binary number] D --> E[End]
+
+Input11: Check if a given string is a palindrome. 
+Output11: A[Start] --> B[Reverse the string] B --> C{String same as reversed?} C -- Yes --> D[String is a palindrome] D --> E[End] 
+C -- No --> D[String is not a palindrome] D 
+
+Input12: Determine the prime factors of a given number. 
+Output12: A[Start] --> B[Find prime factors] B --> C[Output prime factors] C --> D[End]
+
+Input13: Simulate a coin toss. 
+Output13: A[Start] --> B[Toss the coin] B --> C[Output result] C --> D[End]
+
+Input14: Calculate the square root of a number. 
+Output14: A[Start] --> B[Input number] B --> C[Calculate square root] C --> D[Output square root] D --> E[End]
+
+Input15: Verify if a given email address is valid. 
+Output15: A[Start] --> B[Check email address format] B --> C{Valid email address?} C -- Yes --> D[Email address is valid] D --> E[End] 
+C -- No --> D[Email address is invalid] D 
+
+Input16: Convert a string to uppercase. 
+Output16: A[Start] --> B[Input string] B --> C[Convert string to uppercase] C --> D[Output uppercase string] D --> E[End]
+
+Input17: Search for a specific element in a list. 
+Output17: A[Start] --> B[Search for element] B --> C{Element found?} C -- Yes --> D[Output element found] D --> E[End] 
+C -- No --> D[Element not found] D 
+
+Input18: Determine the square of a number. 
+Output18: A[Start] --> B[Input number] B --> C[Calculate square] C --> D[Output square] D --> E[End]
+
+Input19: Simulate a dice roll. 
+Output19: A[Start] --> B[Roll the dice] B --> C[Output result] C --> D[End]
+
+Input20: Check if a given year is a leap year. 
+Output20: A[Start] --> B[Check if year is divisible by 4] B --> C{Year divisible?} C -- Yes --> D[Check if year is divisible by 100] D --> E{Year divisible?} E -- No --> F[Check if year is divisible by 400] F --> G{Year divisible?} G -- Yes --> H[Year is a leap year] H --> I[End] 
+C -- No --> D[Year is not a leap year] D --> I[End] 
+E -- Yes --> F[Year is not a leap year] F --> I[End]

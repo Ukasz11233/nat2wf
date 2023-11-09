@@ -1,0 +1,41 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the largest number in an array. Output1: A[Start] --> B[Search the array] B --> C{Is this the largest number?} C -- No --> B C -- Yes --> D[End].
+
+Input2: Sort a list of words in alphabetical order. Output2: A[Start] --> B[Search the list] B --> C{Is the current word larger than the next word?} C -- No --> B C -- Yes --> D[Swap the words] D --> B D -- No --> E[End].
+
+Input3: Find the shortest path between two points on a grid. Output3: A[Start] --> B[Search the grid] B --> C{Is this the destination?} C -- No --> B C -- Yes --> D[End].
+
+Input4: Determine if a number is prime or not. Output4: A[Start] --> B[Search for divisors] B -- Yes --> C[Is there a divisor other than 1 and the number itself?] C -- Yes --> D[Number is not prime] D --> E[End] C -- No --> F[Number is prime] F --> E.
+
+Input5: Execute a binary search on a sorted array. Output5: A[Start] --> B[Search the midpoint of the array] B --> C{Is the target element found?} C -- No --> D{Is the target element smaller than the midpoint?} D -- Yes --> E[Search the left half of the array] E --> B D -- No --> F[Search the right half of the array] F --> B C -- Yes --> G[End].
+
+Input6: Find the maximum depth of a binary tree. Output6: A[Start] --> B[Search the left child] B --> C{Is there a left child?} C -- Yes --> B C -- No --> D[Search the right child] D --> E{Is there a right child?} E -- Yes --> D E -- No --> F[End].
+
+Input7: Calculate the factorial of a given number. Output7: A[Start] --> B[Search for the factorial] B --> C{Is the number equal to 1?} C -- Yes --> D[End] C -- No --> E[Multiply the number by the factorial of (number-1)] E --> B.
+
+Input8: Find the longest word in a sentence. Output8: A[Start] --> B[Search the sentence] B --> C{Is this the longest word?} C -- No --> B C -- Yes --> D[End].
+
+Input9: Check if a string is a palindrome. Output9: A[Start] --> B[Search the string] B --> C{Do the characters at both ends match?} C -- Yes --> D[Move to the next characters] D --> B C -- No --> E[Not a palindrome] E --> F[End].
+
+Input10: Find the smallest element in a matrix. Output10: A[Start] --> B[Search the matrix] B --> C{Is this the smallest element?} C -- No --> B C -- Yes --> D[End].
+
+Input11: Determine the frequency of each letter in a string. Output11: A[Start] --> B[Search the string] B --> C{Is this a new letter?} C -- No --> E[Increment the frequency of the letter] E --> B C -- Yes --> D[Store the letter and its frequency] D --> B.
+
+Input12: Calculate the average of a list of numbers. Output12: A[Start] --> B[Search the list] B --> C{Is there another number?} C -- Yes --> E[Add the number to the sum] E --> B C -- No --> D[Divide the sum by the number of elements] D --> F[End].
+
+Input13: Find the index of a specific element in an array. Output13: A[Start] --> B[Search the array] B --> C{Is this the element we are searching for?} C -- No --> B C -- Yes --> D[End].
+
+Input14: Convert a number to binary representation. Output14: A[Start] --> B[Search for the binary representation] B --> C{Is the number equal to 0?} C -- Yes --> D[End] C -- No --> E[Divide the number by 2 and store the remainder] E --> B.
+
+Input15: Determine if a string is an anagram of another string. Output15: A[Start] --> B[Search the first string] B --> C{Is each character present in the second string?} C -- No --> D[Not an anagram] D --> E[End] C -- Yes --> B C -- All characters searched --> E.
+
+Input16: Find the mode (most frequently occurring element) in a list. Output16: A[Start] --> B[Search the list] B --> C{Is this the mode?} C -- No --> B C -- Yes --> D[End].
+
+Input17: Encode a message using a Caesar cipher. Output17: A[Start] --> B[Search the message] B --> C{Is this a letter?} C -- No --> B C -- Yes --> D[Shift the letter by a certain amount] D --> B.
+
+Input18: Find the largest prime factor of a number. Output18: A[Start] --> B[Search for factors] B --> C{Is this a factor of the number?} C -- No --> B C -- Yes --> D{Is this a prime factor?} D -- No --> B D -- Yes --> E[End].
+
+Input19: Check if two arrays share any common elements. Output19: A[Start] --> B[Search the first array] B --> C{Is this element present in the second array?} C -- No --> B C -- Yes --> D[End].
+
+Input20: Determine if a given year is a leap year or not. Output20: A[Start] --> B[Search for leap year conditions] B --> C{Does the year satisfy any condition?} C -- No --> D[Not a leap year] D --> E[End] C -- Yes --> D.

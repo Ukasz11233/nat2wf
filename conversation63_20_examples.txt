@@ -1,0 +1,83 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Here are 20 examples with different inputs and outputs:
+
+Example 1:
+Input1: Wake up in the morning. Brush your teeth. Take a shower. Get dressed. Have breakfast. Go to work.
+Output1: A[Start] --> B[Wake up in the morning] B --> C[Brush your teeth] C --> D[Take a shower] D --> E[Get dressed] E --> F[Have breakfast] F --> G[Go to work] G --> H[End].
+
+Example 2:
+Input2: Prepare the ingredients. Heat the stove. Cook the pasta. Drain the pasta. Add the sauce. Serve the meal.
+Output2: A[Start] --> B[Prepare the ingredients] B --> C[Heat the stove] C --> D[Cook the pasta] D --> E[Drain the pasta] E --> F[Add the sauce] F --> G[Serve the meal] G --> H[End].
+
+Example 3:
+Input3: Switch on the TV. Select a channel. Adjust the volume. Find the desired program. Watch the program. Turn off the TV.
+Output3: A[Start] --> B[Switch on the TV] B --> C[Select a channel] C --> D[Adjust the volume] D --> E[Find the desired program] E --> F[Watch the program] F --> G[Turn off the TV] G --> H[End].
+
+Example 4:
+Input4: Open the fridge. Take out the ingredients. Chop the vegetables. Cook the meat. Mix all the ingredients. Serve the dish.
+Output4: A[Start] --> B[Open the fridge] B --> C[Take out the ingredients] C --> D[Chop the vegetables] D --> E[Cook the meat] E --> F[Mix all the ingredients] F --> G[Serve the dish] G --> H[End].
+
+Example 5:
+Input5: Turn on the music player. Select a playlist. Adjust the volume. Play the desired song. Enjoy the music. Stop the music player.
+Output5: A[Start] --> B[Turn on the music player] B --> C[Select a playlist] C --> D[Adjust the volume] D --> E[Play the desired song] E --> F[Enjoy the music] F --> G[Stop the music player] G --> H[End].
+
+Example 6:
+Input6: Open the browser. Enter the website URL. Search for information. Read the content. Bookmark the page. Close the browser.
+Output6: A[Start] --> B[Open the browser] B --> C[Enter the website URL] C --> D[Search for information] D --> E[Read the content] E --> F[Bookmark the page] F --> G[Close the browser] G --> H[End].
+
+Example 7:
+Input7: Unlock your smartphone. Open the messaging app. Compose a new message. Type the recipient's name. Write your message. Send the message. Lock your smartphone.
+Output7: A[Start] --> B[Unlock your smartphone] B --> C[Open the messaging app] C --> D[Compose a new message] D --> E[Type the recipient's name] E --> F[Write your message] F --> G[Send the message] G --> H[Lock your smartphone] H --> I[End].
+
+Example 8:
+Input8: Switch on the lights. Adjust the brightness. Select the color. Set the ambiance. Turn off the lights.
+Output8: A[Start] --> B[Switch on the lights] B --> C[Adjust the brightness] C --> D[Select the color] D --> E[Set the ambiance] E --> F[Turn off the lights] F --> G[End].
+
+Example 9:
+Input9: Open the book. Turn to the first chapter. Start reading. Continue reading. Reach the last page. Close the book.
+Output9: A[Start] --> B[Open the book] B --> C[Turn to the first chapter] C --> D[Start reading] D --> E[Continue reading] E --> F[Reach the last page] F --> G[Close the book] G --> H[End].
+
+Example 10:
+Input10: Wake up from sleep. Stretch your body. Drink a glass of water. Meditate for a while. Prepare for the day. Leave for work.
+Output10: A[Start] --> B[Wake up from sleep] B --> C[Stretch your body] C --> D[Drink a glass of water] D --> E[Meditate for a while] E --> F[Prepare for the day] F --> G[Leave for work] G --> H[End].
+
+Example 11:
+Input11: Turn on the oven. Preheat the oven. Prepare the baking tray. Mix the ingredients. Bake the cake. Take out the cake.
+Output11: A[Start] --> B[Turn on the oven] B --> C[Preheat the oven] C --> D[Prepare the baking tray] D --> E[Mix the ingredients] E --> F[Bake the cake] F --> G[Take out the cake] G --> H[End].
+
+Example 12:
+Input12: Wake up early. Jog for 30 minutes. Take a shower. Have a healthy breakfast. Review your schedule. Start your day.
+Output12: A[Start] --> B[Wake up early] B --> C[Jog for 30 minutes] C --> D[Take a shower] D --> E[Have a healthy breakfast] E --> F[Review your schedule] F --> G[Start your day] G --> H[End].
+
+Example 13:
+Input13: Get into the car. Fasten your seatbelt. Adjust the mirrors. Start the engine. Drive to the destination. Park the car.
+Output13: A[Start] --> B[Get into the car] B --> C[Fasten your seatbelt] C --> D[Adjust the mirrors] D --> E[Start the engine] E --> F[Drive to the destination] F --> G[Park the car] G --> H[End].
+
+Example 14:
+Input14: Unlock the front door. Enter the house. Take off your shoes. Hang your coat. Relax on the couch. Make yourself a cup of tea.
+Output14: A[Start] --> B[Unlock the front door] B --> C[Enter the house] C --> D[Take off your shoes] D --> E[Hang your coat] E --> F[Relax on the couch] F --> G[Make yourself a cup of tea] G --> H[End].
+
+Example 15:
+Input15: Turn on the computer. Open the web browser. Search for a topic. Read articles. Take notes. Close the browser. Shut down the computer.
+Output15: A[Start] --> B[Turn on the computer] B --> C[Open the web browser] C --> D[Search for a topic] D --> E[Read articles] E --> F[Take notes] F --> G[Close the browser] G --> H[Shut down the computer] H --> I[End].
+
+Example 16:
+Input16: Set up the easel. Prepare the canvas. Choose the paint colors. Start sketching. Paint the details. Let it dry. Clean up the workspace.
+Output16: A[Start] --> B[Set up the easel] B --> C[Prepare the canvas] C --> D[Choose the paint colors] D --> E[Start sketching] E --> F[Paint the details] F --> G[Let it dry] G --> H[Clean up the workspace] H --> I[End].
+
+Example 17:
+Input17: Open the application. Create a new document. Format the text. Insert images. Save the document. Close the application.
+Output17: A[Start] --> B[Open the application] B --> C[Create a new document] C --> D[Format the text] D --> E[Insert images] E --> F[Save the document] F --> G[Close the application] G --> H[End].
+
+Example 18:
+Input18: Turn on the printer. Load paper. Connect to the computer. Print the document. Remove the printed pages. Turn off the printer.
+Output18: A[Start] --> B[Turn on the printer] B --> C[Load paper] C --> D[Connect to the computer] D --> E[Print the document] E --> F[Remove the printed pages] F --> G[Turn off the printer] G --> H[End].
+
+Example 19:
+Input19: Open the camera app. Adjust the settings. Frame the shot. Click the shutter button. Capture the photo. View the image. Close the camera app.
+Output19: A[Start] --> B[Open the camera app] B --> C[Adjust the settings] C --> D[Frame the shot] D --> E[Click the shutter button] E --> F[Capture the photo] F --> G[View the image] G --> H[Close the camera app] H --> I[End].
+
+Example 20:
+Input20: Turn on the television. Change the channel. Increase the volume. Mute the sound. Watch your favorite show. Turn off the television.
+Output20: A[Start] --> B[Turn on the television] B --> C[Change the channel] C --> D[Increase the volume] D --> E[Mute the sound] E --> F[Watch your favorite show] F --> G[Turn off the television] G --> H[End].

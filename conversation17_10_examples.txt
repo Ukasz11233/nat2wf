@@ -1,0 +1,20 @@
+user: Give me 10 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the largest prime number in a given range. Output1: A[Start] --> B[Initialize maxPrime variable] B --> C[Loop through the range] C --> D{Current number is prime?} D -- Yes --> E{Current number > maxPrime?} E -- Yes --> F[Update maxPrime] F --> C E -- No --> C D -- No --> C C -- End --> G[End]
+
+Input2: Search for the most frequent word in a sentence. Output2: A[Start] --> B[Split the sentence into words] B --> C[Initialize word frequency dictionary] C --> D[Loop through the words] D --> E{Current word in dictionary?} E -- Yes --> F[Increment frequency count] F --> D E -- No --> F[Add current word to dictionary] F --> D D -- End --> G{Find word with maximum frequency} G -- Yes --> H[Remove the word] H --> I[End] G -- No --> I
+
+Input3: Determine the oldest person in a list of birthdates. Output3: A[Start] --> B[Set maxBirthdate to the first birthdate] B --> C[Loop through the list] C --> D{Current birthdate < maxBirthdate?} D -- Yes --> E[Update maxBirthdate] E --> C D -- No --> C C -- End --> F[End]
+
+Input4: Find the most profitable stock in a given list of stock prices. Output4: A[Start] --> B[Initialize maxProfit variable] B --> C[Loop through the list] C --> D{Current stock price > maxProfit?} D -- Yes --> E[Update maxProfit] E --> C D -- No --> C C -- End --> F[End]
+
+Input5: Search for the first occurrence of a specific element in a linked list. Output5: A[Start] --> B[Initialize current node] B --> C{Current node equals target?} C -- No --> D[Move to next node] D --> B C -- Yes --> E[Remove the element] E --> F[End]
+
+Input6: Determine the longest palindrome in a given string. Output6: A[Start] --> B[Initialize longestPalindrome string] B --> C[Loop through the string] C --> D{Current substring is palindrome?} D -- Yes --> E{Current substring length > longestPalindrome length?} E -- Yes --> F[Update longestPalindrome] F --> C E -- No --> C D -- No --> C C -- End --> G[End]
+
+Input7: Find the heaviest animal in a zoo. Output7: A[Start] --> B[Initialize maxWeight variable] B --> C[Loop through the animal list] C --> D{Current animal weight > maxWeight?} D -- Yes --> E[Update maxWeight] E --> C D -- No --> C C -- End --> F[End]
+
+Input8: Search for the earliest occurrence of a specific event in a log file. Output8: A[Start] --> B[Initialize current timestamp] B --> C{Current timestamp equals target?} C -- No --> D[Move to next event] D --> B C -- Yes --> E[Remove the event] E --> F[End]
+
+Input9: Determine the highest-paid employee in a company. Output9: A[Start] --> B[Initialize maxSalary variable] B --> C[Loop through the employee list] C --> D{Current employee salary > maxSalary?} D -- Yes --> E[Update maxSalary] E --> C D -- No --> C C -- End --> F[End]
+
+Input10: Find the most visited website among a user's browsing history. Output10: A[Start] --> B[Initialize website visit count] B --> C[Loop through the browsing history] C --> D{Current website in visit count?} D -- Yes --> E[Increment visit count] E --> C D -- No --> F[Add current website to visit count] F --> C C -- End --> G{Find website with maximum visits} G -- Yes --> H[Remove the website] H --> I[End] G -- No --> I

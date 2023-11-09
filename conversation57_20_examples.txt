@@ -1,0 +1,41 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Make a cup of coffee. Enjoy the warm beverage. Output1: A[Start] --> B[Make a cup of coffee] B --> C[Enjoy the warm beverage] C --> D[End]
+
+Input2: Drive to the grocery store. Park the car and enter the store. Buy the necessary items. Return to the car and drive back home. Output2: A[Start] --> B[Drive to the grocery store] B --> C[Park the car and enter the store] C --> D[Buy the necessary items] D --> E[Return to the car] E --> F[Drive back home] F --> G[End]
+
+Input3: Turn on the TV. Find the desired channel. Adjust the volume. Watch your favorite show. Turn off the TV. Output3: A[Start] --> B[Turn on the TV] B --> C[Find the desired channel] C --> D[Adjust the volume] D --> E[Watch your favorite show] E --> F[Turn off the TV] F --> G[End]
+
+Input4: Take out the ingredients. Follow the recipe instructions. Cook the meal. Plate and serve the dish. Enjoy the delicious food. Output4: A[Start] --> B[Take out the ingredients] B --> C[Follow the recipe instructions] C --> D[Cook the meal] D --> E[Plate and serve the dish] E --> F[Enjoy the delicious food] F --> G[End]
+
+Input5: Put on your running shoes and clothes. Start jogging at a comfortable pace. Increase your speed gradually. Finish your run. Cool down and stretch. Output5: A[Start] --> B[Put on your running shoes and clothes] B --> C[Start jogging at a comfortable pace] C --> D[Increase your speed gradually] D --> E[Finish your run] E --> F[Cool down and stretch] F --> G[End]
+
+Input6: Wake up in the morning. Get out of bed and freshen up. Have breakfast. Get dressed for the day. Output6: A[Start] --> B[Wake up in the morning] B --> C[Get out of bed and freshen up] C --> D[Have breakfast] D --> E[Get dressed for the day] E --> F[End]
+
+Input7: Plug in your mobile device. Wait for it to charge. Disconnect the charger. Turn on the device. Use it for your desired purpose. Output7: A[Start] --> B[Plug in your mobile device] B --> C[Wait for it to charge] C --> D[Disconnect the charger] D --> E[Turn on the device] E --> F[Use it for your desired purpose] F --> G[End]
+
+Input8: Open a blank document. Type the required content. Format the text according to your preferences. Add relevant images or graphics. Save the document. Output8: A[Start] --> B[Open a blank document] B --> C[Type the required content] C --> D[Format the text according to your preferences] D --> E[Add relevant images or graphics] E --> F[Save the document] F --> G[End]
+
+Input9: Start the washing machine. Load the dirty clothes. Select the appropriate wash cycle. Add detergent. Wait for the cycle to finish. Remove and dry the clean clothes. Output9: A[Start] --> B[Start the washing machine] B --> C[Load the dirty clothes] C --> D[Select the appropriate wash cycle] D --> E[Add detergent] E --> F[Wait for the cycle to finish] F --> G[Remove and dry the clean clothes] G --> H[End]
+
+Input10: Brush your teeth. Rinse your mouth with water. Use dental floss. Apply mouthwash if desired. Output10: A[Start] --> B[Brush your teeth] B --> C[Rinse your mouth with water] C --> D[Use dental floss] D --> E[Apply mouthwash if desired] E --> F[End]
+
+Input11: Turn on the radio. Tune in to your favorite station. Adjust the volume. Enjoy the music or talk shows. Turn off the radio. Output11: A[Start] --> B[Turn on the radio] B --> C[Tune in to your favorite station] C --> D[Adjust the volume] D --> E[Enjoy the music or talk shows] E --> F[Turn off the radio] F --> G[End]
+
+Input12: Start a new exercise routine. Warm up your body. Follow the specific exercises. Stretch your muscles. Cool down and relax. Output12: A[Start] --> B[Start a new exercise routine] B --> C[Warm up your body] C --> D[Follow the specific exercises] D --> E[Stretch your muscles] E --> F[Cool down and relax] F --> G[End]
+
+Input13: Turn on the air conditioning. Set the desired temperature. Adjust the fan speed. Enjoy the cool air. Turn off the air conditioning. Output13: A[Start] --> B[Turn on the air conditioning] B --> C[Set the desired temperature] C --> D[Adjust the fan speed] D --> E[Enjoy the cool air] E --> F[Turn off the air conditioning] F --> G[End]
+
+Input14: Start studying for an exam. Review the material. Make notes and flashcards. Practice solving sample questions. Take a break. Output14: A[Start] --> B[Start studying for an exam] B --> C[Review the material] C --> D[Make notes and flashcards] D --> E[Practice solving sample questions] E --> F[Take a break] F --> G[End]
+
+Input15: Turn on the shower. Adjust the water temperature. Step inside and cleanse your body. Rinse thoroughly. Step out and dry yourself. Output15: A[Start] --> B[Turn on the shower] B --> C[Adjust the water temperature] C --> D[Step inside and cleanse your body] D --> E[Rinse thoroughly] E --> F[Step out and dry yourself] F --> G[End]
+
+Input16: Start the car engine. Fasten your seatbelt. Adjust the mirrors and seat position. Drive to your destination. Park the car. Output16: A[Start] --> B[Start the car engine] B --> C[Fasten your seatbelt] C --> D[Adjust the mirrors and seat position] D --> E[Drive to your destination] E --> F[Park the car] F --> G[End]
+
+Input17: Wake up your computer. Enter the password to log in. Open the web browser. Browse the internet for desired information. Close the browser. Output17: A[Start] --> B[Wake up your computer] B --> C[Enter the password to log in] C --> D[Open the web browser] D --> E[Browse the internet for desired information] E --> F[Close the browser] F --> G[End]
+
+Input18: Start a new painting. Prepare the canvas and materials. Sketch the initial design. Apply paint in layers. Let it dry. Display or store the finished artwork. Output18: A[Start] --> B[Start a new painting] B --> C[Prepare the canvas and materials] C --> D[Sketch the initial design] D --> E[Apply paint in layers] E --> F[Let it dry] F --> G[Display or store the finished artwork] G --> H[End]
+
+Input19: Turn on the blender. Add the ingredients. Blend until smooth. Pour into a glass. Drink and enjoy the smoothie. Output19: A[Start] --> B[Turn on the blender] B --> C[Add the ingredients] C --> D[Blend until smooth] D --> E[Pour into a glass] E --> F[Drink and enjoy the smoothie] F --> G[End]
+
+Input20: Start a new book. Read the first chapter. Continue reading until the end. Reflect on the story. Put the book back on the shelf. Output20: A[Start] --> B[Start a new book] B --> C[Read the first chapter] C --> D[Continue reading until the end] D --> E[Reflect on the story] E --> F[Put the book back on the shelf] F --> G[End]

@@ -1,0 +1,25 @@
+system: test
+user: Give me 10 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Sure, here are 10 examples with different inputs and outputs:
+
+1. Input1: Count the occurrences of a specific element in an array. Output1: A[Start] --> B[Set count to 0] B --> C[Increment index] C --> D{End of array?} D -- No --> E{Element found?} E -- No --> C E -- Yes --> F[Increment count] F --> C D -- Yes --> G[End]
+
+2. Input2: Sort a list of numbers in ascending order. Output2: A[Start] --> B[Select first element as minimum] B --> C[Compare with next element] C --> D{End of list?} D -- No --> E{Smaller element found?} E -- No --> C E -- Yes --> F[Swap elements] F --> C D -- Yes --> G[End]
+
+3. Input3: Calculate the average of a list of numbers. Output3: A[Start] --> B[Set sum to 0] B --> C[Set count to 0] C --> D[Increment index] D --> E{End of list?} E -- No --> F[Add element to sum] F -- Yes --> G[Calculate average] G --> H[End]
+
+4. Input4: Find the longest word in a sentence. Output4: A[Start] --> B[Split sentence into words] B --> C[Select first word as longest] C --> D[Compare with next word] D --> E{End of sentence?} E -- No --> F{Longer word found?} F -- No --> D F -- Yes --> G[Update longest word] G --> D E -- Yes --> H[End]
+
+5. Input5: Determine if a string is a palindrome. Output5: A[Start] --> B[Create reversed string] B --> C{Strings equal?} C -- Yes --> D[String is a palindrome] D --> E[End] C -- No --> D[String is not a palindrome] D --> E[End]
+
+6. Input6: Search for a specific value in a binary tree. Output6: A[Start] --> B[Check root value] B --> C{Value found?} C -- No --> D{Value less than root?} D -- Yes --> E[Move to left child] E --> B D -- No --> F[Move to right child] F --> B C -- Yes --> G[Value found in tree] G --> H[End]
+
+7. Input7: Find the shortest path between two nodes in a graph. Output7: A[Start] --> B[Create queue and set start node] B --> C{Queue empty?} C -- No --> D[Visit first node in queue] D --> E{Node is target?} E -- Yes --> F[Path found] F --> G[End] E -- No --> H[Add adjacent nodes to queue] H --> C C -- Yes --> I[No path found] I --> G
+
+8. Input8: Check if a number is prime. Output8: A[Start] --> B[Check if number is less than 2] B -- Yes --> C[Number is not prime] C --> D[End] B -- No --> E[Check if divisible by any number less than itself] E --> F{Divisible by number?} F -- Yes --> G[Number is not prime] G --> D F -- No --> H[Increment number] H --> E D -- End
+
+9. Input9: Calculate the factorial of a number. Output9: A[Start] --> B[Set result to 1] B --> C[Set index to 1] C --> D[Check if index is less than or equal to number] D --> E{Index greater than number?} E -- No --> F[Multiply result with index] F --> G[Increment index] G --> D E -- Yes --> H[Factorial calculated] H --> I[End]
+
+10. Input10: Identify the largest element in a matrix. Output10: A[Start] --> B[Set maximum to first element] B --> C[Compare with next element] C --> D{End of matrix row?} D -- No --> E{Larger element found?} E -- No --> C E -- Yes --> F[Update maximum] F --> C D -- Yes --> G{End of matrix?} G -- No --> H[Move to next row] H --> B G -- Yes --> I[Largest element identified] I --> J[End]
+
+Please note that these examples can vary in terms of complexity and length depending on the specific inputs and desired outputs.

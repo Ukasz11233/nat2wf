@@ -1,0 +1,20 @@
+user: Give me 10 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the largest prime number in a given range. Output1: A[Start] --> B[Search the range] B --> C{Prime number found?} C -- No --> B C -- Yes --> D[Remove the number] D --> E[End].
+
+Input2: Search a playlist for the song with the highest number of likes. Output2: A[Start] --> B[Search the playlist] B --> C{Song with highest number of likes found?} C -- No --> B C -- Yes --> D[Remove the song] D --> E[End].
+
+Input3: Look for the highest temperature recorded in a set of weather data. Output3: A[Start] --> B[Search the weather data] B --> C{Highest temperature found?} C -- No --> B C -- Yes --> D[Remove the temperature] D --> E[End].
+
+Input4: Find the longest path in a maze. Output4: A[Start] --> B[Search the maze] B --> C{Longest path found?} C -- No --> B C -- Yes --> D[Remove the path] D --> E[End].
+
+Input5: Scan a list of emails until finding the one with the highest priority. Output5: A[Start] --> B[Search the list] B --> C{Email with highest priority found?} C -- No --> B C -- Yes --> D[Remove the email] D --> E[End].
+
+Input6: Traverse through a graph in search of the node with the highest degree. Output6: A[Start] --> B[Search the graph] B --> C{Node with highest degree found?} C -- No --> B C -- Yes --> D[Remove the node] D --> E[End].
+
+Input7: Analyze a dataset to identify the record with the highest sales. Output7: A[Start] --> B[Search the dataset] B --> C{Record with highest sales found?} C -- No --> B C -- Yes --> D[Remove the record] D --> E[End].
+
+Input8: Look through a list of products until finding the one with the maximum price. Output8: A[Start] --> B[Search the list] B --> C{Product with maximum price found?} C -- No --> B C -- Yes --> D[Remove the product] D --> E[End].
+
+Input9: Find the highest bid in an auction. Output9: A[Start] --> B[Search the auction] B --> C{Highest bid found?} C -- No --> B C -- Yes --> D[Remove the bid] D --> E[End].
+
+Input10: Explore a map to locate the city with the highest altitude. Output10: A[Start] --> B[Search the map] B --> C{City with highest altitude found?} C -- No --> B C -- Yes --> D[Remove the city] D --> E[End].

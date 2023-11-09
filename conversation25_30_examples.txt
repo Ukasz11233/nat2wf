@@ -1,0 +1,91 @@
+system: test
+user: Give me 30 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the largest number in an array and return its index.
+Output1: A[Start] --> B[Search the array] B --> C{Is it the largest number?} C -- No --> B C -- Yes --> D[Return the index] D --> E[End].
+
+Input2: Search a string for the first occurrence of a specific character and return its position.
+Output2: A[Start] --> B[Search the string] B --> C{Found the character?} C -- No --> B C -- Yes --> D[Return the position] D --> E[End].
+
+Input3: Locate the longest word in a sentence and display it.
+Output3: A[Start] --> B[Search the sentence] B --> C{Found a longer word?} C -- No --> B C -- Yes --> D[Display the word] D --> E[End].
+
+Input4: Find the smallest element in a linked list and delete it.
+Output4: A[Start] --> B[Search the linked list] B --> C{Is it the smallest element?} C -- No --> B C -- Yes --> D[Delete the element] D --> E[End].
+
+Input5: Search an array of objects for an item with a specific attribute value and return the object.
+Output5: A[Start] --> B[Search the array] B --> C{Does the item have the specified value?} C -- No --> B C -- Yes --> D[Return the object] D --> E[End].
+
+Input6: Find the highest score in a game leaderboard and display the corresponding player.
+Output6: A[Start] --> B[Search the leaderboard] B --> C{Is it the highest score?} C -- No --> B C -- Yes --> D[Display the player] D --> E[End].
+
+Input7: Search a directory for the latest modified file and return its name.
+Output7: A[Start] --> B[Search the directory] B --> C{Found a more recent file?} C -- No --> B C -- Yes --> D[Return the filename] D --> E[End].
+
+Input8: Locate the largest rectangle in an image and highlight it.
+Output8: A[Start] --> B[Search the image] B --> C{Is it the largest rectangle?} C -- No --> B C -- Yes --> D[Highlight the rectangle] D --> E[End].
+
+Input9: Find the first occurrence of a specific word in a document and underline it.
+Output9: A[Start] --> B[Search the document] B --> C{Found the word?} C -- No --> B C -- Yes --> D[Underline the word] D --> E[End].
+
+Input10: Search an array of coordinates for the closest point to a given location and return its index.
+Output10: A[Start] --> B[Search the array] B --> C{Is it the closest point?} C -- No --> B C -- Yes --> D[Return the index] D --> E[End].
+
+Input11: Locate the highest temperature in a weather forecast and display it.
+Output11: A[Start] --> B[Search the forecast] B --> C{Is it the highest temperature?} C -- No --> B C -- Yes --> D[Display the temperature] D --> E[End].
+
+Input12: Find the smallest value in a binary tree and delete the corresponding node.
+Output12: A[Start] --> B[Search the binary tree] B --> C{Is it the smallest value?} C -- No --> B C -- Yes --> D[Delete the node] D --> E[End].
+
+Input13: Search an array of strings for the longest palindrome and return it.
+Output13: A[Start] --> B[Search the array] B --> C{Found a longer palindrome?} C -- No --> B C -- Yes --> D[Return the palindrome] D --> E[End].
+
+Input14: Find the latest message in an email inbox and display its sender.
+Output14: A[Start] --> B[Search the inbox] B --> C{Is it the latest message?} C -- No --> B C -- Yes --> D[Display the sender] D --> E[End].
+
+Input15: Search a set of books for the one with the highest rating and return its title.
+Output15: A[Start] --> B[Search the set] B --> C{Is it the highest-rated book?} C -- No --> B C -- Yes --> D[Return the title] D --> E[End].
+
+Input16: Locate the lowest-priced item in a shopping cart and remove it.
+Output16: A[Start] --> B[Search the cart] B --> C{Is it the lowest-priced item?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End].
+
+Input17: Find the most frequently occurring word in a text document and count its occurrences.
+Output17: A[Start] --> B[Search the document] B --> C{Is it the most frequent word?} C -- No --> B C -- Yes --> D[Count the occurrences] D --> E[End].
+
+Input18: Search an array of phone numbers for a specific contact name and return the number.
+Output18: A[Start] --> B[Search the array] B --> C{Is it the specified contact?} C -- No --> B C -- Yes --> D[Return the number] D --> E[End].
+
+Input19: Locate the biggest fish in a pond and release it back.
+Output19: A[Start] --> B[Search the pond] B --> C{Is it the biggest fish?} C -- No --> B C -- Yes --> D[Release the fish] D --> E[End].
+
+Input20: Search a list of movies for the one with the highest box office revenue and display its title.
+Output20: A[Start] --> B[Search the list] B --> C{Is it the highest revenue?} C -- No --> B C -- Yes --> D[Display the title] D --> E[End].
+
+Input21: Find the shortest path in a maze and trace it.
+Output21: A[Start] --> B[Search the maze] B --> C{Is it the shortest path?} C -- No --> B C -- Yes --> D[Trace the path] D --> E[End].
+
+Input22: Search an array of dates for the earliest one and return its value.
+Output22: A[Start] --> B[Search the array] B --> C{Is it the earliest date?} C -- No --> B C -- Yes --> D[Return the value] D --> E[End].
+
+Input23: Locate the highest-rated restaurant in a city and display its name.
+Output23: A[Start] --> B[Search the city] B --> C{Is it the highest-rated restaurant?} C -- No --> B C -- Yes --> D[Display the name] D --> E[End].
+
+Input24: Find the most frequently used word in a social media post and count its mentions.
+Output24: A[Start] --> B[Search the post] B --> C{Is it the most frequent word?} C -- No --> B C -- Yes --> D[Count the mentions] D --> E[End].
+
+Input25: Search an array of products for the one with the highest customer rating and return its details.
+Output25: A[Start] --> B[Search the array] B --> C{Is it the highest-rated product?} C -- No --> B C -- Yes --> D[Return the details] D --> E[End].
+
+Input26: Locate the oldest person in a family tree and display their name.
+Output26: A[Start] --> B[Search the tree] B --> C{Is it the oldest person?} C -- No --> B C -- Yes --> D[Display the name] D --> E[End].
+
+Input27: Find the most popular song in a playlist and play it.
+Output27: A[Start] --> B[Search the playlist] B --> C{Is it the most popular song?} C -- No --> B C -- Yes --> D[Play the song] D --> E[End].
+
+Input28: Search a list of cities for the one with the highest population and display its name.
+Output28: A[Start] --> B[Search the list] B --> C{Is it the highest population?} C -- No --> B C -- Yes --> D[Display the name] D --> E[End].
+
+Input29: Locate the rarest collectible in a trading card collection and display its name.
+Output29: A[Start] --> B[Search the collection] B --> C{Is it the rarest collectible?} C -- No --> B C -- Yes --> D[Display the name] D --> E[End].
+
+Input30: Find the top-selling book in a bookstore and show its cover.
+Output30: A[Start] --> B[Search the bookstore] B --> C{Is it the top-selling book?} C -- No --> B C -- Yes --> D[Show the cover] D --> E[End].

@@ -1,0 +1,95 @@
+system: test
+user: Give me 30 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Sure! Here are 30 examples with different inputs and outputs:
+
+Example 1:
+Input1: Collect user data until a valid input is received. Output1: A[Start] --> B[Collect user data] B --> C{Valid input received?} C -- No --> B C -- Yes --> D[Complete data collection] D --> E[End].
+
+Example 2:
+Input2: Count the number of vowels in a given string. Output2: A[Start] --> B[Initialize vowel count] B --> C{End of string?} C -- No --> D{Is current character a vowel?} D -- No --> C D -- Yes --> E[Increment vowel count] E --> C D C -- Yes --> F[Display vowel count] F --> G[End].
+
+Example 3:
+Input3: Calculate the sum of all odd numbers in a list. Output3: A[Start] --> B[Initialize sum] B --> C{Next number exists?} C -- No --> D[Display sum] D --> E[End] C -- Yes --> F{Is current number odd?} F -- No --> C F -- Yes --> G[Add number to sum] G --> C.
+
+Example 4:
+Input4: Find the longest word in a sentence. Output4: A[Start] --> B[Parse sentence into words] B --> C{End of sentence?} C -- No --> D{Is current word longer than previous longest word?} D -- No --> C D -- Yes --> E[Update longest word] E --> C C -- Yes --> F[Display longest word] F --> G[End].
+
+Example 5:
+Input5: Calculate the average of a set of numbers. Output5: A[Start] --> B[Initialize sum and count] B --> C{Next number exists?} C -- No --> D[Calculate average] D --> E[End] C -- Yes --> F[Add number to sum] F --> G[Increment count] G --> C.
+
+Example 6:
+Input6: Determine if a given year is a leap year. Output6: A[Start] --> B[Input year] B --> C{Is the year divisible by 4?} C -- No --> D[Not a leap year] D --> E{Is the year divisible by 100?} E -- Yes --> F{Is the year divisible by 400?} F -- No --> G[Not a leap year] G -- Yes --> H[Leap year] H --> I[End] F G E C -- Yes --> H.
+
+Example 7:
+Input7: Generate the Fibonacci sequence up to a given term. Output7: A[Start] --> B[Input term] B --> C{Term is 1 or 2?} C -- No --> D[Initialize sequence] D --> E{Reached specified term?} E -- No --> F[Generate next term] F --> G[Add term to sequence] G --> E F E -- Yes --> H[Display sequence] H --> I[End].
+
+Example 8:
+Input8: Find the minimum and maximum values in a list. Output8: A[Start] --> B[Input list] B --> C{End of list?} C -- No --> D{Is current number smaller than previous minimum?} D -- Yes --> E[Update minimum] E --> F{Is current number larger than previous maximum?} F -- Yes --> G[Update maximum] G --> C D C -- Yes --> H[Display minimum and maximum] H --> I[End].
+
+Example 9:
+Input9: Reverse a given string. Output9: A[Start] --> B[Input string] B --> C{End of string?} C -- No --> D[Add current character to reversed string] D --> E[Move to next character] E --> C C -- Yes --> F[Display reversed string] F --> G[End].
+
+Example 10:
+Input10: Determine if a number is a prime number. Output10: A[Start] --> B[Input number] B --> C{Is the number less than 2?} C -- Yes --> D[Not a prime number] D --> E{Is the number divisible by any number less than itself?} E -- Yes --> F[Not a prime number] F --> G[End] E -- No --> H[Prime number] H --> G.
+
+Example 11:
+Input11: Calculate the factorial of a given number. Output11: A[Start] --> B[Input number] B --> C{Is the number equal to 0 or 1?} C -- Yes --> D[Factorial is 1] D --> E{Decrement number} E --> F{Is current number equal to 1?} F -- No --> G[Multiply factorial by current number] G --> H[Decrement number] H --> F F -- Yes --> I[Display factorial] I --> J[End].
+
+Example 12:
+Input12: Find the index of a specific element in an array. Output12: A[Start] --> B[Input array] B --> C[Input element] C --> D{Is the element found at the current index?} D -- No --> E[Increment index] E --> D D -- Yes --> F[Display index] F --> G[End].
+
+Example 13:
+Input13: Sort a given list in ascending order. Output13: A[Start] --> B[Input list] B --> C{Is list already sorted?} C -- Yes --> D[Display sorted list] D --> E[End] C -- No --> F{Are any elements out of order?} F -- No --> C F -- Yes --> G[Swap out of order elements] G --> F.
+
+Example 14:
+Input14: Calculate the perimeter of a rectangle given its length and width. Output14: A[Start] --> B[Input length] B --> C[Input width] C --> D[Calculate perimeter] D --> E[Display perimeter] E --> F[End].
+
+Example 15:
+Input15: Determine if a given string is a palindrome. Output15: A[Start] --> B[Input string] B --> C{Is the string equal to its reverse?} C -- Yes --> D[Palindrome] D --> E[End] C -- No --> F[Not a palindrome] F --> E.
+
+Example 16:
+Input16: Find the mode(s) of a given list. Output16: A[Start] --> B[Input list] B --> C[Initialize mode count] C --> D{End of list?} D -- No --> E{Is current number the mode?} E -- No --> D E -- Yes --> F[Increment mode count] F --> D D -- Yes --> G[Display mode(s)] G --> H[End].
+
+Example 17:
+Input17: Convert a decimal number to binary. Output17: A[Start] --> B[Input decimal number] B --> C[Initialize binary representation] C --> D{Is the decimal number equal to 0?} D -- Yes --> E[Display binary representation] E --> F[End] D -- No --> G{Is the decimal number divisible by 2?} G -- Yes --> H[Add 0 to binary representation] H --> I[Divide decimal number by 2] I --> G G -- No --> J[Add 1 to binary representation] J --> I.
+
+Example 18:
+Input18: Encrypt a given string using a Caesar cipher. Output18: A[Start] --> B[Input string] B --> C[Input key] C --> D[Initialize encrypted string] D --> E{End of string?} E -- No --> F{Is current character a letter?} F -- Yes --> G[Shift character by key] G --> H[Add shifted character to encrypted string] H --> E F -- No --> H H --> E.
+
+Example 19:
+Input19: Check if a given number is a perfect square. Output19: A[Start] --> B[Input number] B --> C{Is the number less than 0?} C -- Yes --> D[Not a perfect square] D --> E{Is the square root of the number an integer?} E -- Yes --> F[Perfect square] F --> G[End] E -- No --> D.
+
+Example 20:
+Input20: Determine if two strings are anagrams. Output20: A[Start] --> B[Input first string] B --> C[Input second string] C --> D[Sort first string] D --> E[Sort second string] E --> F{Are the sorted strings equal?} F -- Yes --> G[Anagrams] G --> H[End] F -- No --> I[Not anagrams] I --> H.
+
+Example 21:
+Input21: Calculate the area of a triangle given its base and height. Output21: A[Start] --> B[Input base] B --> C[Input height] C --> D[Calculate area] D --> E[Display area] E --> F[End].
+
+Example 22:
+Input22: Reverse the order of elements in a given list. Output22: A[Start] --> B[Input list] B --> C[Initialize reversed list] C --> D{End of list?} D -- No --> E[Insert current element at beginning of reversed list] E --> F[Move to next element] F --> D D -- Yes --> G[Display reversed list] G --> H[End].
+
+Example 23:
+Input23: Convert a binary number to decimal. Output23: A[Start] --> B[Input binary number] B --> C[Initialize decimal value] C --> D{End of binary number?} D -- No --> E{Is current bit 1?} E -- Yes --> F[Add corresponding power of 2 to decimal value] F --> G[Move to next bit] G --> D E -- No --> G.
+
+Example 24:
+Input24: Determine if a given string is a pangram. Output24: A[Start] --> B[Input string] B --> C{Does the string contain all letters of the alphabet?} C -- Yes --> D[Pangram] D --> E[End] C -- No --> F[Not a pangram] F --> E.
+
+Example 25:
+Input25: Calculate the sum of all multiples of a given number within a range. Output25: A[Start] --> B[Input number] B --> C[Input range start] C --> D[Input range end] D --> E{Is current number a multiple of the given number?} E -- No --> F[Increment current number] F --> E E -- Yes --> G[Add number to sum] G --> F F -- Yes --> H[Display sum] H --> I[End].
+
+Example 26:
+Input26: Check if a given string is a valid email address. Output26: A[Start] --> B[Input email address] B --> C{Does the email address match the required format?} C -- Yes --> D[Valid email address] D --> E[End] C -- No --> F[Invalid email address] F --> E.
+
+Example 27:
+Input27: Determine if a given list is in sorted order. Output27: A[Start] --> B[Input list] B --> C{End of list?} C -- No --> D{Is current number smaller than next number?} D -- No --> C D -- Yes --> E[Not in sorted order] E --> F[End] C -- Yes --> G[In sorted order] G --> F.
+
+Example 28:
+Input28: Calculate the square of a given number. Output28: A[Start] --> B[Input number] B --> C[Calculate square] C --> D[Display square] D --> E[End].
+
+Example 29:
+Input29: Determine if a given word is a palindrome. Output29: A[Start] --> B[Input word] B --> C{Is the word equal to its reverse?} C -- Yes --> D[Palindrome] D --> E[End] C -- No --> F[Not a palindrome] F --> E.
+
+Example 30:
+Input30: Determine if a given number is even or odd. Output30: A[Start] --> B[Input number] B --> C{Is the number divisible by 2?} C -- Yes --> D[Even] D --> E[End] C -- No --> F[Odd] F --> E.
+
+Note: The above examples only show the high-level flow of the processes and may not include all necessary details or conditions required in the actual implementation.

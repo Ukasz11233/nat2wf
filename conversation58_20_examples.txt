@@ -1,0 +1,31 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Wake up and get out of bed. Brush your teeth and shower. Get dressed for the day. Have breakfast. Leave the house for work.
+Output1: A[Start] --> B[Wake up and get out of bed] B --> C[Brush your teeth and shower] C --> D[Get dressed for the day] D --> E[Have breakfast] E --> F[Leave the house for work] F --> G[End].
+
+Input2: Take your keys and lock the front door. Walk to the bus stop. Wait for the bus to arrive. Board the bus and pay the fare. Find a seat and take a comfortable position.
+Output2: A[Start] --> B[Take your keys and lock the front door] B --> C[Walk to the bus stop] C --> D[Wait for the bus to arrive] D --> E[Board the bus and pay the fare] E --> F[Find a seat and take a comfortable position] F --> G[End].
+
+Input3: Put on your running shoes and stretch your muscles. Start jogging on your planned route. Maintain a steady pace. Stay hydrated during your run. Finish your run and cool down with stretches.
+Output3: A[Start] --> B[Put on your running shoes and stretch your muscles] B --> C[Start jogging on your planned route] C --> D[Maintain a steady pace] D --> E[Stay hydrated during your run] E --> F[Finish your run and cool down with stretches] F --> G[End].
+
+Input4: Enter the grocery store and grab a shopping cart. Make a list of items needed. Browse through the aisles and collect the required groceries. Check out at the cashier counter. Return the shopping cart to its designated area.
+Output4: A[Start] --> B[Enter the grocery store and grab a shopping cart] B --> C[Make a list of items needed] C --> D[Browse through the aisles and collect the required groceries] D --> E[Check out at the cashier counter] E --> F[Return the shopping cart to its designated area] F --> G[End].
+
+Input5: Pick up your pen and notebook. Find a quiet and comfortable spot. Start brainstorming ideas. Organize your thoughts into categories. Develop a detailed outline. Begin writing the first draft.
+Output5: A[Start] --> B[Pick up your pen and notebook] B --> C[Find a quiet and comfortable spot] C --> D[Start brainstorming ideas] D --> E[Organize your thoughts into categories] E --> F[Develop a detailed outline] F --> G[Begin writing the first draft] G --> H[End].
+
+Input6: Enter the gym and check-in. Warm up your muscles with some light stretching. Start your workout routine. Follow the specified sets and repetitions. Use proper form and technique. Complete your workout session.
+Output6: A[Start] --> B[Enter the gym and check-in] B --> C[Warm up your muscles with some light stretching] C --> D[Start your workout routine] D --> E[Follow the specified sets and repetitions] E --> F[Use proper form and technique] F --> G[Complete your workout session] G --> H[End].
+
+Input7: Turn on the TV and tune in to your favorite channel. Sit back and relax. Enjoy your favorite show or movie. Grab some snacks and a drink. Continue watching until the program ends.
+Output7: A[Start] --> B[Turn on the TV and tune in to your favorite channel] B --> C[Sit back and relax] C --> D[Enjoy your favorite show or movie] D --> E[Grab some snacks and a drink] E --> F[Continue watching until the program ends] F --> G[End].
+
+Input8: Set up the easel and prepare the canvas. Choose the necessary paints and brushes. Sketch the initial outlines of the artwork. Start applying colors and textures. Refine and add details to the painting. Sign your artwork.
+Output8: A[Start] --> B[Set up the easel and prepare the canvas] B --> C[Choose the necessary paints and brushes] C --> D[Sketch the initial outlines of the artwork] D --> E[Start applying colors and textures] E --> F[Refine and add details to the painting] F --> G[Sign your artwork] G --> H[End].
+
+Input9: Turn on the car's engine and fasten your seatbelt. Adjust the rearview and side mirrors. Indicate the intended direction and begin driving. Follow the traffic rules and signs. Park the car in the designated spot.
+Output9: A[Start] --> B[Turn on the car's engine and fasten your seatbelt] B --> C[Adjust the rearview and side mirrors] C --> D[Indicate the intended direction and begin driving] D --> E[Follow the traffic rules and signs] E --> F[Park the car in the designated spot] F --> G[End].
+
+Input10: Open the fridge and gather the necessary ingredients. Wash and prepare the vegetables. Preheat the oven to the specified temperature. Combine the ingredients and follow the recipe instructions. Bake until the dish is cooked perfectly.
+Output10: A[Start] --> B[Open the fridge and gather the necessary ingredients] B --> C[Wash and prepare the vegetables] C --> D[Preheat the oven to the specified temperature] D --> E[Combine the ingredients and follow the recipe instructions] E --> F[Bake until the dish is cooked perfectly] F --> G[End].

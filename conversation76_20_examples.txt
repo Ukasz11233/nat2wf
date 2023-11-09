@@ -1,0 +1,41 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Make a cup of coffee. Enjoy it while reading a newspaper. Clean the coffee mug. Output1: A[Start] --> B[Make a cup of coffee] B --> C[Enjoy coffee while reading a newspaper] C --> D[Clean the coffee mug] D --> H[End]
+
+Input2: Put on your running shoes. Stretch your muscles. Go for a jog in the park. Cool down with some stretches. Take off your running shoes. Output2: A[Start] --> B[Put on running shoes] B --> C[Stretch muscles] C --> D[Go for a jog in the park] D --> E[Cool down with stretches] E --> F[Take off running shoes] F --> H[End]
+
+Input3: Take out the ingredients from the fridge. Preheat the oven. Mix the ingredients to prepare the dough. Shape the dough and place it in the oven. Bake until golden brown. Remove from the oven. Output3: A[Start] --> B[Take out ingredients from the fridge] B --> C[Preheat the oven] C --> D[Mix ingredients to prepare dough] D --> E[Shape the dough and place in oven] E --> F[Bake until golden brown] F --> G[Remove from the oven] G --> H[End]
+
+Input4: Put on sunscreen. Pack a beach towel and snacks. Drive to the beach. Set up your spot on the sand. Enjoy a day of swimming and sunbathing. Pack up and head back home. Output4: A[Start] --> B[Put on sunscreen] B --> C[Pack beach towel and snacks] C --> D[Drive to the beach] D --> E[Set up spot on the sand] E --> F[Enjoy a day of swimming and sunbathing] F --> G[Pack up and head back home] G --> H[End]
+
+Input5: Wake up to the sound of an alarm. Brush your teeth and wash your face. Get dressed in your favorite outfit. Have a healthy breakfast. Grab your bag and head out the door. Output5: A[Start] --> B[Wake up to sound of alarm] B --> C[Brush teeth and wash face] C --> D[Get dressed in favorite outfit] D --> E[Have a healthy breakfast] E --> F[Grab bag and head out the door] F --> H[End]
+
+Input6: Turn on the music player. Select a playlist. Put on your headphones. Lie down and relax. Drift off into a peaceful sleep. Output6: A[Start] --> B[Turn on the music player] B --> C[Select a playlist] C --> D[Put on headphones] D --> E[Lie down and relax] E --> G[Drift off into peaceful sleep] G --> H[End]
+
+Input7: Gather all the necessary ingredients. Preheat the grill. Marinate the meat. Cook the meat on the grill. Serve with your favorite sides. Enjoy the delicious meal. Output7: A[Start] --> B[Gather all necessary ingredients] B --> C[Preheat the grill] C --> D[Marinate the meat] D --> E[Cook the meat on the grill] E --> F[Serve with favorite sides] F --> H[End]
+
+Input8: Open the closet. Choose an outfit for the day. Put on shoes and accessories. Style your hair and apply makeup. Step out of the house looking fabulous. Output8: A[Start] --> B[Open the closet] B --> C[Choose an outfit for the day] C --> D[Put on shoes and accessories] D --> E[Style hair and apply makeup] E --> G[Step out of the house looking fabulous] G --> H[End]
+
+Input9: Take out the paint and brushes. Prepare the canvas or paper. Mix the colors and start painting. Let the artwork dry. Frame the finished painting. Hang it on the wall as decoration. Output9: A[Start] --> B[Take out paint and brushes] B --> C[Prepare canvas or paper] C --> D[Mix colors and start painting] D --> E[Let artwork dry] E --> F[Frame finished painting] F --> G[Hang it on the wall as decoration] G --> H[End]
+
+Input10: Turn on the television. Find your favorite show or movie. Sit back and relax. Grab some popcorn or snacks. Enjoy the entertainment. Turn off the television when finished. Output10: A[Start] --> B[Turn on the television] B --> C[Find favorite show or movie] C --> D[Sit back and relax] D --> E[Grab popcorn or snacks] E --> F[Enjoy the entertainment] F --> G[Turn off the television] G --> H[End]
+
+Input11: Open the book. Find a comfortable spot to sit. Begin reading the first chapter. Get immersed in the story. Continue reading until the end. Close the book with a sense of fulfillment. Output11: A[Start] --> B[Open the book] B --> C[Find comfortable spot to sit] C --> D[Begin reading first chapter] D --> E[Get immersed in the story] E --> F[Continue reading until the end] F --> G[Close the book with a sense of fulfillment] G --> H[End]
+
+Input12: Wake up to natural light. Make your bed. Meditate or do some stretching. Prepare and enjoy a healthy breakfast. Plan out your day ahead. Output12: A[Start] --> B[Wake up to natural light] B --> C[Make your bed] C --> D[Meditate or do some stretching] D --> E[Prepare and enjoy a healthy breakfast] E --> G[Plan out your day ahead] G --> H[End]
+
+Input13: Open the refrigerator. Take out fresh ingredients. Chop and prepare the ingredients. Cook a delicious meal. Set the table. Share the meal with loved ones. Output13: A[Start] --> B[Open the refrigerator] B --> C[Take out fresh ingredients] C --> D[Chop and prepare the ingredients] D --> E[Cook a delicious meal] E --> F[Set the table] F --> G[Share the meal with loved ones] G --> H[End]
+
+Input14: Put on your gym clothes. Warm-up with some stretches. Do a full-body workout. Cool down with some yoga or stretching. Take a refreshing shower. Output14: A[Start] --> B[Put on gym clothes] B --> C[Warm-up with stretches] C --> D[Do full-body workout] D --> E[Cool down with yoga or stretching] E --> F[Take a refreshing shower] F --> H[End]
+
+Input15: Turn on the car engine. Adjust the mirrors and seat. Buckle your seatbelt. Drive to your desired destination. Park the car safely. Output15: A[Start] --> B[Turn on car engine] B --> C[Adjust mirrors and seat] C --> D[Buckle seatbelt] D --> E[Drive to desired destination] E --> F[Park car safely] F --> H[End]
+
+Input16: Open the laptop. Connect to the Wi-Fi network. Launch your preferred web browser. Browse your favorite websites or work online. Save any important files or documents. Close the laptop. Output16: A[Start] --> B[Open the laptop] B --> C[Connect to Wi-Fi network] C --> D[Launch preferred web browser] D --> E[Browse favorite websites or work online] E --> F[Save important files or documents] F --> G[Close the laptop] G --> H[End]
+
+Input17: Open the front door. Step outside and lock the door. Walk to the nearest bus stop. Wait for the bus to arrive. Get on the bus and pay the fare. Output17: A[Start] --> B[Open the front door] B --> C[Step outside and lock the door] C --> D[Walk to nearest bus stop] D --> E[Wait for bus to arrive] E --> F[Get on bus and pay fare] F --> H[End]
+
+Input18: Turn on the shower. Adjust the water temperature. Step into the shower and wash your body. Rinse off the soap. Dry yourself with a towel. Output18: A[Start] --> B[Turn on the shower] B --> C[Adjust water temperature] C --> D[Step into the shower and wash body] D --> E[Rinse off soap] E --> F[Dry yourself with towel] F --> H[End]
+
+Input19: Open the fridge. Take out fresh vegetables and fruits. Wash and chop the ingredients. Prepare a delicious salad. Season with dressing. Enjoy a healthy meal. Output19: A[Start] --> B[Open the fridge] B --> C[Take out fresh vegetables and fruits] C --> D[Wash and chop ingredients] D --> E[Prepare a delicious salad] E --> F[Season with dressing] F --> G[Enjoy a healthy meal] G --> H[End]
+
+Input20: Plug in the camera battery. Insert an empty memory card. Adjust camera settings. Capture beautiful photos. Transfer photos to a computer for backup. Charge the camera battery. Output20: A[Start] --> B[Plug in camera battery] B --> C[Insert empty memory card] C --> D[Adjust camera settings] D --> E[Capture beautiful photos] E --> F[Transfer photos to computer for backup] F --> G[Charge camera battery] G --> H[End]

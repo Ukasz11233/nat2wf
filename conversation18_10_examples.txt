@@ -1,0 +1,20 @@
+user: Give me 10 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the most valuable item in a given inventory. Output1: A[Start] --> B[Initialize maxValue variable] B --> C[Loop through the inventory] C --> D{Current item value > maxValue?} D -- Yes --> E[Update maxValue] E --> C D -- No --> C C -- End --> F[End]
+
+Input2: Search for the highest-scoring player in a sports team. Output2: A[Start] --> B[Initialize maxScore variable] B --> C[Loop through the team] C --> D{Current player score > maxScore?} D -- Yes --> E[Update maxScore] E --> C D -- No --> C C -- End --> F[End]
+
+Input3: Determine the tallest person in a group of individuals. Output3: A[Start] --> B[Set maxHeight to the first person's height] B --> C[Loop through the group] C --> D{Current person's height > maxHeight?} D -- Yes --> E[Update maxHeight] E --> C D -- No --> C C -- End --> F[End]
+
+Input4: Find the most frequent character in a given string. Output4: A[Start] --> B[Initialize charCount dictionary] B --> C[Loop through the string] C --> D{Current character in charCount dictionary?} D -- Yes --> E[Increment count] E --> C D -- No --> F[Add current character to charCount dictionary] F --> C C -- End --> G{Find character with maximum count} G -- Yes --> H[Remove the character] H --> I[End] G -- No --> I
+
+Input5: Search for the first occurrence of a specific element in a stack. Output5: A[Start] --> B[Initialize current element] B --> C{Current element equals target?} C -- No --> D[Pop the next element from the stack] D --> B C -- Yes --> E[Remove the element] E --> F[End]
+
+Input6: Determine the longest path in a directed graph. Output6: A[Start] --> B[Initialize path] B --> C[Traverse the graph] C --> D{End of path?} D -- No --> E[Add current vertex to path] E --> C D -- Yes --> F[Remove the path] F --> G[End]
+
+Input7: Find the maximum profit in a series of stock trades. Output7: A[Start] --> B[Initialize maxProfit variable] B --> C[Loop through the trades] C --> D{Current trade profit > maxProfit?} D -- Yes --> E[Update maxProfit] E --> C D -- No --> C C -- End --> F[End]
+
+Input8: Search for the earliest occurrence of a specific event in a timeline. Output8: A[Start] --> B[Initialize current timestamp] B --> C{Current timestamp equals target?} C -- No --> D[Move to the next event] D --> B C -- Yes --> E[Remove the event] E --> F[End]
+
+Input9: Determine the fastest runner in a race. Output9: A[Start] --> B[Initialize minTime variable] B --> C[Loop through the runners] C --> D{Current runner's time < minTime?} D -- Yes --> E[Update minTime] E --> C D -- No --> C C -- End --> F[End]
+
+Input10: Find the most frequently used word in a document. Output10: A[Start] --> B[Initialize wordCount dictionary] B --> C[Loop through the document] C --> D{Current word in wordCount dictionary?} D -- Yes --> E[Increment count] E --> C D -- No --> F[Add current word to wordCount dictionary] F --> C C -- End --> G{Find word with maximum count} G -- Yes --> H[Remove the word] H --> I[End] G -- No --> I

@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Example 1:
+Input1: Find the shortest path in a graph using Dijkstra's algorithm. Output1: A[Start] --> B[Initialize the graph and set start node] B --> C{All nodes visited?} C -- No --> D[Choose the node with the lowest distance] D --> E[Update distances of adjacent nodes] E --> C C -- Yes --> F[Construct the shortest path] F --> G[End]
+
+Example 2:
+Input2: Sort an array of numbers using bubble sort. Output2: A[Start] --> B[Initialize the array] B --> C{Array sorted?} C -- No --> D[Swap adjacent elements if they are in the wrong order] D --> C C -- Yes --> E[End]
+
+Example 3:
+Input3: Calculate the factorial of a given number. Output3: A[Start] --> B[Initialize result as 1] B --> C{Number equals 1?} C -- No --> D[Multiply result by number] D --> E[Decrement number by 1] E --> C C -- Yes --> F[End]
+
+Example 4:
+Input4: Search for a specific element in a binary search tree. Output4: A[Start] --> B[Set current node as root] B --> C{Element found?} C -- No --> D{Element less than current node?} D -- Yes --> E[Move to left child] E --> C D -- No --> F[Move to right child] F --> C C -- Yes --> G[End]
+
+Example 5:
+Input5: Convert a decimal number to binary. Output5: A[Start] --> B[Initialize binary string as empty] B --> C{Number equals 0?} C -- No --> D[Get remainder of number divided by 2] D --> E[Append remainder to binary string] E --> F[Divide number by 2] F --> C C -- Yes --> G[Reverse binary string] G --> H[End]
+
+Example 6:
+Input6: Determine whether a given string is a palindrome. Output6: A[Start] --> B[Initialize string index] B --> C{String index at middle?} C -- No --> D{Characters at index are equal?} D -- Yes --> E[Move to next index] E --> C D -- No --> F[Not a palindrome] F --> H[End] C -- Yes --> G[Palindrome] G --> H
+
+Example 7:
+Input7: Perform matrix multiplication of two matrices. Output7: A[Start] --> B[Initialize resulting matrix] B --> C{All rows of first matrix visited?} C -- No --> D{All columns of second matrix visited?} D -- No --> E[Calculate element of resulting matrix] E --> D D -- Yes --> C C -- Yes --> F[End]
+
+Example 8:
+Input8: Calculate the sum of all elements in an array. Output8: A[Start] --> B[Initialize sum as 0] B --> C{All elements visited?} C -- No --> D[Add element to sum] D --> E[Move to next element] E --> C C -- Yes --> F[End]
+
+Example 9:
+Input9: Determine whether a given number is prime. Output9: A[Start] --> B[Initialize divisor as 2] B --> C{Divisor greater than square root of number?} C -- No --> D{Number divisible by divisor?} D -- Yes --> E[Not a prime number] E --> G[End] D -- No --> F[Increase divisor by 1] F --> C C -- Yes --> H[Prime number] H --> G
+
+Example 10:
+Input10: Calculate the Fibonacci sequence up to a given number of terms. Output10: A[Start] --> B[Initialize sequence as empty] B --> C{Number of terms reached?} C -- No --> D[Add next term to sequence] D --> E[Update last two terms of the sequence] E --> C C -- Yes --> F[End]
+
+Example 11:
+Input11: Determine whether a given string is a valid email address. Output11: A[Start] --> B[Check if string contains '@' symbol] B -- No --> C[Not a valid email address] C --> E[End] B -- Yes --> D[Check if string after '@' contains '.' symbol] D -- Yes --> F[Valid email address] F --> E E[End]
+
+Example 12:
+Input12: Implement a binary search algorithm on a sorted list. Output12: A[Start] --> B[Initialize start and end indexes] B --> C{Start index greater than end index?} C -- Yes --> D[Element not found] D --> E[End] C -- No --> F{Element at middle index equal to search value?} F -- Yes --> G[Element found at middle index] G --> E[End] F -- No --> H{Element at middle index greater than search value?} H -- Yes --> I[Reduce end index] I --> C H -- No --> J[Increase start index] J --> C
+
+Example 13:
+Input13: Compute the square root of a given number using Newton's method. Output13: A[Start] --> B[Set initial guess as number] B --> C{Guess close enough to actual square root?} C -- No --> D[Improve guess using Newton's formula] D --> C C -- Yes --> E[End]
+
+Example 14:
+Input14: Perform a linear search on a given array for a specific element. Output14: A[Start] --> B[Initialize index as 0] B --> C{Element found or index exceeds array length?} C -- Yes --> D[End] C -- No --> E{Element at current index equal to search value?} E -- Yes --> F[Element found at current index] F --> D E -- No --> G[Increase index by 1] G --> C
+
+Example 15:
+Input15: Verify if a given number is a power of two. Output15: A[Start] --> B{Number is one?} B -- Yes --> C[Power of two] C --> G[End] B -- No --> D{Number is greater than one?} D -- No --> E[Not a power of two] E --> G[End] D -- Yes --> F{Number is divisible by two?} F -- Yes --> I[Repeat process with number divided by two] I --> C F -- No --> H[Not a power of two] H --> G
+
+Example 16:
+Input16: Calculate the area of a triangle given the lengths of its sides. Output16: A[Start] --> B[Check if sides form a valid triangle] B -- No --> D[Not a valid triangle] D --> F[End] B -- Yes --> C[Calculate semi-perimeter] C --> E[Calculate area using Heron's formula] E --> F[End]
+
+Example 17:
+Input17: Encode a given string using Caesar cipher. Output17: A[Start] --> B[Initialize encoded string as empty] B --> C{All characters visited?} C -- No --> D[Shift character by a fixed number of positions] D --> E[Append shifted character to encoded string] E --> C C -- Yes --> F[End]
+
+Example 18:
+Input18: Determine whether a given year is a leap year. Output18: A[Start] --> B{Year divisible by 4?} B -- No --> C[Not a leap year] C --> F[End] B -- Yes --> D{Year divisible by 100?} D -- No --> E[Leap year] E --> F[End] D -- Yes --> G{Year divisible by 400?} G -- Yes --> E G -- No --> C
+
+Example 19:
+Input19: Calculate the greatest common divisor of two numbers using Euclidean algorithm. Output19: A[Start] --> B[Check if second number is zero] B -- Yes --> C[End, first number is the gcd] C --> E[End, second number is the gcd] B -- No --> D[Divide first number by second number] D --> F[Repeat process with swapped numbers] F --> B
+
+Example 20:
+Input20: Determine whether a given string is a valid URL. Output20: A[Start] --> B[Check if string starts with "http://" or "https://"] B -- No --> C[Not a valid URL] C --> F[End] B -- Yes --> D[Check if string contains valid domain name] D -- No --> E[Not a valid URL] E --> F[End] D -- Yes --> G[Valid URL] G --> F[End]

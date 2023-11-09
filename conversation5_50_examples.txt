@@ -1,0 +1,103 @@
+system: test
+user: Give me 50 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the shortest path in a graph. Output1: A[Start] --> B[Search the graph] B --> C{Shortest path found?} C -- No --> B C -- Yes --> D[Identify the shortest path] D --> E[End].
+
+Input2: Sort a list of numbers in ascending order using bubble sort. Output2: A[Start] --> B[Set initial comparisons] B --> C[Compare adjacent elements] C --> D{Elements in correct order?} D -- No --> E[Swap the elements] E --> C D -- Yes --> F[Check next pair of elements] F --> G{All elements sorted?} G -- No --> D G -- Yes --> H[End].
+
+Input3: Convert a decimal number to a binary representation. Output3: A[Start] --> B[Divide the number by 2] B --> C{Quotient is zero?} C -- No --> B C -- Yes --> D[Reverse the remainders] D --> E[End].
+
+Input4: Determine if a given number is prime. Output4: A[Start] --> B[Check divisibility by numbers up to sqrt(n)] B --> C{Number is divisible?} C -- No --> D[Number is prime] D --> E[End].
+
+Input5: Calculate the factorial of a given number. Output5: A[Start] --> B[Set initial value] B --> C{Number is zero?} C -- No --> D[Multiply by current value] D --> E[Decrease number by one] E --> C C -- Yes --> F[End].
+
+Input6: Search for a specific word in a text document. Output6: A[Start] --> B[Read the next word] B --> C{Word found?} C -- No --> B C -- Yes --> D[Mark the position] D --> E[End].
+
+Input7: Solve a Sudoku puzzle. Output7: A[Start] --> B[Locate empty cell] B --> C{Empty cell found?} C -- No --> H[Puzzle solved] H --> I[End]. C -- Yes --> D[Try a number] D --> E{Number is valid?} E -- Yes --> F[Move to the next cell] F --> B F -- No --> D D -- No --> G[Backtrack] G --> F.
+
+Input8: Reverse a string. Output8: A[Start] --> B[Identify the last character] B --> C[Append it to the reversed string] C --> D[Move to the previous character] D --> B D -- No --> E[End].
+
+Input9: Encrypt a message using the Caesar cipher. Output9: A[Start] --> B[Read the next character] B --> C{Character is a letter?} C -- No --> B C -- Yes --> D[Shift the character] D --> E[Write the shifted character] E --> B E -- No --> F[End].
+
+Input10: Check if a string is a palindrome. Output10: A[Start] --> B[Identify the first and last characters] B --> C{Characters match?} C -- Yes --> D[Move to the next pair of characters] D --> B D -- No --> E[Not a palindrome] E --> F[End].
+
+Input11: Calculate the square root of a number using the Babylonian method. Output11: A[Start] --> B[Set initial guess] B --> C[Calculate new guess] C --> D{Difference is within tolerance?} D -- No --> C D -- Yes --> E[Approximation found] E --> F[End].
+
+Input12: Generate all possible permutations of a string. Output12: A[Start] --> B[Find the first character to swap] B --> C{Character found?} C -- No --> D[Print the permutation] D --> E[End]. C -- Yes --> F[Swap it with the next character] F --> B.
+
+Input13: Determine if a given year is a leap year. Output13: A[Start] --> B{Year is divisible by 4?} B -- No --> C[Not a leap year] C --> D[End]. B -- Yes --> E{Year is divisible by 100?} E -- No --> F[Leap year] F --> D. E -- Yes --> G{Year is divisible by 400?} G -- No --> C G -- Yes --> F.
+
+Input14: Convert a temperature from Celsius to Fahrenheit. Output14: A[Start] --> B[Read the Celsius temperature] B --> C[Calculate Fahrenheit temperature] C --> D[Display the result] D --> E[End].
+
+Input15: Find the maximum subarray sum in an array. Output15: A[Start] --> B[Set initial values] B --> C{Current sum is greater than max sum?} C -- No --> D[Continue with current sum] D --> E{Current element is greater than current sum?} E -- No --> D E -- Yes --> B C -- Yes --> F[Maximum subarray sum found] F --> G[End].
+
+Input16: Determine if two strings are anagrams. Output16: A[Start] --> B[Count characters in the first string] B --> C[Count characters in the second string] C --> D{Character counts match?} D -- No --> E[Not anagrams] E --> F[End]. D -- Yes --> F.
+
+Input17: Find the median of a list of numbers. Output17: A[Start] --> B[Sort the list] B --> C{Size of list is odd?} C -- Yes --> D[Get middle element] D --> E[End]. C -- No --> F{Size of list is even?} F -- Yes --> G[Get two middle elements] G --> E. F -- No --> E.
+
+Input18: Calculate the Fibonacci sequence up to a given number. Output18: A[Start] --> B[Set initial values] B --> C{Number is less than limit?} C -- Yes --> D[Calculate the next Fibonacci number] D --> E[Print the number] E --> B C -- No --> F[End].
+
+Input19: Determine if a given string is a valid email address. Output19: A[Start] --> B[Check format of email address] B --> C{Format is valid?} C -- No --> D[Invalid email address] D --> E[End]. C -- Yes --> F[Check domain validity] F --> G{Domain exists?} G -- No --> H[Invalid email address] H --> E. G -- Yes --> I[Valid email address] I --> E.
+
+Input20: Compute the area of a circle given its radius. Output20: A[Start] --> B[Read the radius] B --> C[Calculate the area] C --> D[Display the result] D --> E[End].
+
+Input21: Determine if a given year is a palindrome year. Output21: A[Start] --> B[Convert the year to a string] B --> C[Reverse the string] C --> D{String is equal to the original?} D -- Yes --> E[Palindrome year] E --> F[End]. D -- No --> F.
+
+Input22: Encrypt a message using the Vigenère cipher. Output22: A[Start] --> B[Read the next character] B --> C[Apply the encryption algorithm] C --> D[Write the encrypted character] D --> B D -- No --> E[End].
+
+Input23: Find the middle element in a linked list. Output23: A[Start] --> B[Traverse the linked list] B --> C{List has odd length?} C -- Yes --> D[Get middle element] D --> E[End]. C -- No --> F{List has even length?} F -- Yes --> D. F -- No --> E.
+
+Input24: Calculate the sum of all even numbers up to a given limit. Output24: A[Start] --> B[Set initial values] B --> C{Number is less than or equal to limit?} C -- Yes --> D{Number is even?} D -- Yes --> E[Add it to the sum] E --> F[Increment the number] F --> C F -- No --> G[End]. D -- No --> F.
+
+Input25: Count the frequency of each unique element in an array. Output25: A[Start] --> B[Initialize the count for each element] B --> C[Traverse the array] C --> D[Increment the count for current element] D --> E{All elements traversed?} E -- No --> C E -- Yes --> F[End].
+
+Input26: Determine if a given number is an Armstrong number. Output26: A[Start] --> B{Number is positive?} B -- No --> C[Not an Armstrong number] C --> D[End]. B -- Yes --> E[Calculate the sum of cubes of digits] E --> F{Sum equals the original number?} F -- Yes --> G[Armstrong number] G --> D. F -- No --> C.
+
+Input27: Evaluate a postfix expression. Output27: A[Start] --> B[Read the next token] B --> C{Token is a number?} C -- No --> D{Token is an operator?} D -- No --> E[End]. C -- Yes --> F[Push the number to the stack] F --> B. D -- Yes --> G[Pop operands from the stack] G --> H[Perform the calculation] H --> F.
+
+Input28: Convert a binary number to its decimal representation. Output28: A[Start] --> B[Read the next bit] B --> C{Bit is zero?} C -- Yes --> D[Move to the next bit] D --> B C -- No --> E[Calculate the decimal value] E --> F[End].
+
+Input29: Determine if a given string is a palindrome ignoring spaces and punctuation. Output29: A[Start] --> B[Remove spaces and punctuation] B --> C[Reverse the resulting string] C --> D{String is equal to the original?} D -- Yes --> E[Palindrome string] E --> F[End]. D -- No --> F.
+
+Input30: Shuffle a deck of cards. Output30: A[Start] --> B[Take a random card] B --> C[Place it in the shuffled deck] C --> D{All cards taken?} D -- No --> B D -- Yes --> E[End].
+
+Input31: Check if a given number is a perfect square. Output31: A[Start] --> B[Calculate the square root] B --> C{Square root is an integer?} C -- Yes --> D[Perfect square] D --> E[End]. C -- No --> F[Not a perfect square] F --> E.
+
+Input32: Find the next prime number. Output32: A[Start] --> B[Increment the number] B --> C{Number is prime?} C -- No --> B C -- Yes --> D[Next prime number] D --> E[End].
+
+Input33: Determine if a given string is a pangram. Output33: A[Start] --> B[Count the characters in the string] B --> C{All letters of the alphabet are present?} C -- No --> D[Not a pangram] D --> E[End]. C -- Yes --> F[Pangram] F --> E.
+
+Input34: Encode a message using the Rail Fence cipher. Output34: A[Start] --> B[Write the message diagonally] B --> C[Read the zigzag pattern] C --> D[Write encoded characters] D --> B C -- No --> E[End].
+
+Input35: Calculate the GCD of two numbers using Euclid's algorithm. Output35: A[Start] --> B[Divide the larger number by the smaller number] B --> C{Remainder is zero?} C -- Yes --> D[Greatest common divisor] D --> E[End]. C -- No --> F{Swap numbers} F -- Yes --> D F -- No --> B.
+
+Input36: Solve a quadratic equation. Output36: A[Start] --> B[Read the coefficients] B --> C{Is the equation linear?} C -- No --> D[Calculate discriminant] D --> E{Discriminant is positive?} E -- Yes --> F[Calculate two real roots] F --> G[End]. E -- No --> H{Discriminant is zero?} H -- Yes --> I[Calculate one real root] I --> G. H -- No --> J[Calculate two complex roots] J --> G. C -- Yes --> K[Calculate one real root] K --> G.
+
+Input37: Determine if a given string is a valid palindrome using recursion. Output37: A[Start] --> B[Remove spaces and punctuation] B --> C[Check if string is a palindrome] C -- Yes --> D[Valid palindrome] D --> E[End]. C -- No --> E.
+
+Input38: Determine if a given year is a lucky year. Output38: A[Start] --> B[Convert the year to a string] B --> C{Sum of digits is divisible by 7?} C -- Yes --> D[Lucky year] D --> E[End]. C -- No --> E.
+
+Input39: Calculate the area of a triangle given its base and height. Output39: A[Start] --> B[Read the base] B --> C[Read the height] C --> D[Calculate the area] D --> E[Display the result] E --> F[End].
+
+Input40: Generate all possible subsets of a set. Output40: A[Start] --> B[Find the next element to include] B --> C{Element found?} C -- No --> D[Print current subset] D --> E[End]. C -- Yes --> F[Include the element] F --> B.
+
+Input41: Determine if a given string is a valid URL. Output41: A[Start] --> B[Check protocol] B --> C{Protocol is valid?} C -- No --> D[Invalid URL] D --> E[End]. C -- Yes --> F[Check domain validity] F --> G{Domain exists?} G -- No --> D G -- Yes --> H[Valid URL] H --> E.
+
+Input42: Sort a stack of integers using an auxiliary stack. Output42: A[Start] --> B[Pop element from the original stack] B --> C{Element is greater than top of auxiliary stack?} C -- No --> D[Push it to the auxiliary stack] D --> E[Continue with next element] E --> B C -- Yes --> F[Pop elements from auxiliary stack] F --> G[Place them in sorted order] G --> D.
+
+Input43: Determine if a given number is a power of two. Output43: A[Start] --> B{Number is positive?} B -- No --> C[Not a power of two] C --> D[End]. B -- Yes --> E{Number and bitwise compliment are equal?} E -- Yes --> F[Power of two] F --> D. E -- No --> C.
+
+Input44: Find the maximum element in a binary search tree. Output44: A[Start] --> B[Check if right child exists] B -- Yes --> C{Is right child the maximum?} C -- No --> D[Traverse right subtree] D --> B C -- Yes --> E[Maximum found] E --> F[End]. B -- No --> G{Is left child greater than current maximum?} G -- No --> D G -- Yes --> H[Traverse left subtree] H --> B.
+
+Input45: Determine if a given string is a palindrome recursively. Output45: A[Start] --> B[Remove spaces and punctuation] B --> C{String is empty?} C -- Yes --> D[Palindrome string] D --> E[End]. C -- No --> F{First and last characters match?} F -- No --> D F -- Yes --> G[Remove first and last characters] G --> B.
+
+Input46: Encrypt a message using the Playfair cipher. Output46: A[Start] --> B[Read the next pair of characters] B --> C[Apply the encryption rules] C --> D[Write the encrypted characters] D --> B C -- No --> E[End].
+
+Input47: Find the longest common subsequence of two strings. Output47: A[Start] --> B[Initialize the memoization table] B --> C[Traverse the strings] C --> D{Characters match?} D -- Yes --> E[Increment length of common subsequence] E --> F[Move to next characters] F --> C D -- No --> G[Choose maximum length] G --> F. C -- No --> H[End]. G -- Yes --> F.
+
+Input48: Determine if a given number is abundant. Output48: A[Start] --> B{Number is positive?} B -- No --> C[Not an abundant number] C --> D[End]. B -- Yes --> E{Sum of proper divisors is greater than the number?} E -- Yes --> F[Abundant number] F --> D. E -- No --> C.
+
+Input49: Find the next palindrome number. Output49: A[Start] --> B[Increment the number] B --> C{Number is palindrome?} C -- No --> B C -- Yes --> D[Next palindrome number] D --> E[End].
+
+Input50: Calculate the sum of all odd numbers up to a given limit. Output50: A[Start] --> B[Set initial values] B --> C{Number is less than or equal to limit?} C -- Yes --> D{Number is odd?} D -- Yes --> E[Add it to the sum] E --> F[Increment the number] F --> C F -- No --> G[End]. D -- No --> F.
+
+Note: These are just 50 examples of different processes, algorithms, or problem-solving methods. There are countless more possibilities that could be explored.

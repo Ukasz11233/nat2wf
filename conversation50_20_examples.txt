@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Brush your teeth before going to bed. Rinse with mouthwash. Set your alarm clock. Turn off the lights. Fall asleep.
+Output1: A[Start] --> B[Brush your teeth before going to bed] B --> C[Rinse with mouthwash] C --> D[Set your alarm clock] D --> E[Turn off the lights] E --> F[Fall asleep] F --> G[End].
+
+Input2: Wake up to the sound of your alarm. Get out of bed. Take a shower and get dressed. Have breakfast. Leave the house.
+Output2: A[Start] --> B[Wake up to the sound of your alarm] B --> C[Get out of bed] C --> D[Take a shower and get dressed] D --> E[Have breakfast] E --> F[Leave the house] F --> G[End].
+
+Input3: Prepare a grocery list. Drive to the supermarket. Pick up the required items. Pay at the checkout counter. Return home and unload the groceries.
+Output3: A[Start] --> B[Prepare a grocery list] B --> C[Drive to the supermarket] C --> D[Pick up the required items] D --> E[Pay at the checkout counter] E --> F[Return home and unload the groceries] F --> G[End].
+
+Input4: Put on your running shoes. Stretch your muscles. Start jogging at a slow pace. Increase your speed gradually. Cool down and stretch again. Remove your running shoes.
+Output4: A[Start] --> B[Put on your running shoes] B --> C[Stretch your muscles] C --> D[Start jogging at a slow pace] D --> E[Increase your speed gradually] E --> F[Cool down and stretch again] F --> G[Remove your running shoes] G --> H[End].
+
+Input5: Gather all necessary ingredients. Preheat the oven. Mix the batter. Pour the mixture into a baking tray. Place it in the oven and set the timer. Take out the baked goods.
+Output5: A[Start] --> B[Gather all necessary ingredients] B --> C[Preheat the oven] C --> D[Mix the batter] D --> E[Pour the mixture into a baking tray] E --> F[Place it in the oven and set the timer] F --> G[Take out the baked goods] G --> H[End].
+
+Input6: Turn on the TV. Select your desired channel. Adjust the volume to a comfortable level. Sit back and enjoy the show. Turn off the TV when finished.
+Output6: A[Start] --> B[Turn on the TV] B --> C[Select your desired channel] C --> D[Adjust the volume to a comfortable level] D --> E[Sit back and enjoy the show] E --> F[Turn off the TV when finished] F --> G[End].
+
+Input7: Open your favorite book. Find a cozy spot to sit. Start reading from the first page. Get engrossed in the storyline. Bookmark your progress. Close the book.
+Output7: A[Start] --> B[Open your favorite book] B --> C[Find a cozy spot to sit] C --> D[Start reading from the first page] D --> E[Get engrossed in the storyline] E --> F[Bookmark your progress] F --> G[Close the book] G --> H[End].
+
+Input8: Put on sunscreen. Pack a beach towel and snacks. Drive to the nearest beach. Find a suitable spot and lay out your towel. Enjoy the sun and water. Pack up and return home.
+Output8: A[Start] --> B[Put on sunscreen] B --> C[Pack a beach towel and snacks] C --> D[Drive to the nearest beach] D --> E[Find a suitable spot and lay out your towel] E --> F[Enjoy the sun and water] F --> G[Pack up and return home] G --> H[End].
+
+Input9: Plan out your route. Check the fuel level of your vehicle. Start the engine. Drive to your destination. Park the car and turn off the engine. Lock the vehicle.
+Output9: A[Start] --> B[Plan out your route] B --> C[Check the fuel level of your vehicle] C --> D[Start the engine] D --> E[Drive to your destination] E --> F[Park the car and turn off the engine] F --> G[Lock the vehicle] G --> H[End].
+
+Input10: Set the table for dinner. Cook the main course. Prepare side dishes. Serve the food to the family. Enjoy the meal together. Clear the table and wash the dishes.
+Output10: A[Start] --> B[Set the table for dinner] B --> C[Cook the main course] C --> D[Prepare side dishes] D --> E[Serve the food to the family] E --> F[Enjoy the meal together] F --> G[Clear the table and wash the dishes] G --> H[End].
+
+Input11: Write down the goals for the day. Prioritize the tasks. Start working on the first task. Take short breaks in between. Complete all tasks on the list. Review your accomplishments.
+Output11: A[Start] --> B[Write down the goals for the day] B --> C[Prioritize the tasks] C --> D[Start working on the first task] D --> E[Take short breaks in between] E --> F[Complete all tasks on the list] F --> G[Review your accomplishments] G --> H[End].
+
+Input12: Put on your seatbelt. Start the car's engine. Adjust the mirrors and seat position. Release the handbrake. Drive to your desired destination. Turn off the engine and exit the car.
+Output12: A[Start] --> B[Put on your seatbelt] B --> C[Start the car's engine] C --> D[Adjust the mirrors and seat position] D --> E[Release the handbrake] E --> F[Drive to your desired destination] F --> G[Turn off the engine and exit the car] G --> H[End].
+
+Input13: Take out the garbage bags. Empty all trash cans in the house. Tie up the garbage bags. Take them outside to the trash bin. Close the lid. Return inside.
+Output13: A[Start] --> B[Take out the garbage bags] B --> C[Empty all trash cans in the house] C --> D[Tie up the garbage bags] D --> E[Take them outside to the trash bin] E --> F[Close the lid] F --> G[Return inside] G --> H[End].
+
+Input14: Wash your hands with soap and water. Lather thoroughly. Rinse off the soap. Dry hands with a towel. Apply moisturizer if needed. Turn off the faucet.
+Output14: A[Start] --> B[Wash your hands with soap and water] B --> C[Lather thoroughly] C --> D[Rinse off the soap] D --> E[Dry hands with a towel] E --> F[Apply moisturizer if needed] F --> G[Turn off the faucet] G --> H[End].
+
+Input15: Choose a playlist or album. Press play to start the music. Adjust the volume to your preference. Sit back and enjoy the music. Pause or stop when done listening.
+Output15: A[Start] --> B[Choose a playlist or album] B --> C[Press play to start the music] C --> D[Adjust the volume to your preference] D --> E[Sit back and enjoy the music] E --> F[Pause or stop when done listening] F --> G[End].
+
+Input16: Arrange your workspace. Open the necessary software or applications. Start working on the assigned task. Take short breaks to rest. Complete the work as planned. Close all programs and save your files.
+Output16: A[Start] --> B[Arrange your workspace] B --> C[Open the necessary software or applications] C --> D[Start working on the assigned task] D --> E[Take short breaks to rest] E --> F[Complete the work as planned] F --> G[Close all programs and save your files] G --> H[End].
+
+Input17: Wake up at the sound of your alarm. Make your bed. Freshen up in the bathroom. Prepare and have breakfast. Leave the house and lock the door.
+Output17: A[Start] --> B[Wake up at the sound of your alarm] B --> C[Make your bed] C --> D[Freshen up in the bathroom] D --> E[Prepare and have breakfast] E --> F[Leave the house and lock the door] F --> G[End].
+
+Input18: Put your dirty clothes in the laundry basket. Sort the laundry by colors and types. Load the washing machine. Add detergent and set the appropriate cycle. Start the machine. Hang or fold the clean clothes.
+Output18: A[Start] --> B[Put your dirty clothes in the laundry basket] B --> C[Sort the laundry by colors and types] C --> D[Load the washing machine] D --> E[Add detergent and set the appropriate cycle] E --> F[Start the machine] F --> G[Hang or fold the clean clothes] G --> H[End].
+
+Input19: Get out of bed. Drink a glass of water. Stretch your body. Change into workout clothes. Start your exercise routine. Cool down and hydrate again.
+Output19: A[Start] --> B[Get out of bed] B --> C[Drink a glass of water] C --> D[Stretch your body] D --> E[Change into workout clothes] E --> F[Start your exercise routine] F --> G[Cool down and hydrate again] G --> H[End].
+
+Input20: Turn on the shower. Adjust the water temperature. Step into the shower. Use shampoo and conditioner. Rinse off. Dry yourself with a towel. Turn off the shower.
+Output20: A[Start] --> B[Turn on the shower] B --> C[Adjust the water temperature] C --> D[Step into the shower] D --> E[Use shampoo and conditioner] E --> F[Rinse off] F --> G[Dry yourself with a towel] G --> H[Turn off the shower] H --> I[End].

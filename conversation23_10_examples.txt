@@ -1,0 +1,21 @@
+system: test
+user: Give me 10 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Calculate the sum of all numbers in a given list. Output1: A[Start] --> B[Initialize sum as 0] B --> C[Is there another number?] C -- Yes --> D[Add the number to sum] D --> E[Move to the next number] C -- No --> F[Sum calculated] F --> G[End]
+
+Input2: Sort a list of integers in ascending order. Output2: A[Start] --> B[Select the first number] B --> C[Is there another number?] C -- Yes --> D[Compare the number with the rest] C -- No --> G[List sorted] G --> H[End] D -- Smallest --> E[Swap numbers] D -- Largest --> F[Move to the next number]
+
+Input3: Find the average of a list of values. Output3: A[Start] --> B[Initialize sum as 0] B --> C[Is there another value?] C -- Yes --> D[Add the value to sum] D --> E[Move to the next value] C -- No --> F[Calculate average] F --> G[End]
+
+Input4: Determine if a given string is a palindrome. Output4: A[Start] --> B[Select the first character] B --> C[Select the last character] C -- Equal --> D[Move to the next characters] C -- Not Equal --> E[Not a palindrome] E --> F[End] D -- Reached the middle --> G[Palindrome] G --> F[End]
+
+Input5: Count the number of occurrences of a specific element in a list. Output5: A[Start] --> B[Initialize count as 0] B --> C[Is there another element?] C -- Yes --> D[Check if element matches] C -- No --> E[Count calculated] E --> F[End] D -- Matched --> G[Increment count] D -- Not Matched --> C
+
+Input6: Reverse a given string. Output6: A[Start] --> B[Select the last character] B --> C[Append the character to reversed string] C --> D[Move to the previous character] D --> E[Repeat until the first character is reached] E --> F[Reversed string] F --> G[End]
+
+Input7: Find the maximum value in a list of integers. Output7: A[Start] --> B[Select the first number] B --> C[Is there another number?] C -- Yes --> D[Compare the number with the current maximum] C -- No --> F[Maximum found] F --> G[End] D -- Larger --> E[Update maximum] D -- Smaller --> C
+
+Input8: Check if all elements in a list are even numbers. Output8: A[Start] --> B[Select the first element] B --> C[Is the element even?] B -- Yes C -- No --> D[Not all elements are even] D --> E[End] C -- Yes --> F[Move to the next element] F --> G[Repeat until the last element] G -- All even elements --> H[All elements are even] H --> E[End]
+
+Input9: Calculate the factorial of a given number. Output9: A[Start] --> B[Initialize factorial as 1] B --> C[Is the number greater than 1?] C -- Yes --> D[Multiply factorial by the number] D --> E[Decrease the number by 1] E --> C C -- No --> F[Factorial calculated] F --> G[End]
+
+Input10: Remove all duplicate elements from a list. Output10: A[Start] --> B[Select the first element] B --> C[Is there another element?] C -- Yes --> D[Check if element is already in the new list] C -- No --> E[Add the element to the new list] E --> F[Move to the next element] F -- All elements checked --> G[Duplicate elements removed] G --> H[End]

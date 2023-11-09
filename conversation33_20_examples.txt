@@ -1,0 +1,41 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the largest number in an array. Output1: A[Start] --> B[Search the array] B --> C{Largest number found?} C -- No --> B C -- Yes --> D[End]
+
+Input2: Sort a list of names alphabetically. Output2: A[Start] --> B[Search the list] B --> C{List sorted?} C -- No --> B C -- Yes --> D[End]
+
+Input3: Calculate the average of a set of numbers. Output3: A[Start] --> B[Search the set] B --> C{All numbers processed?} C -- No --> B C -- Yes --> D[Calculate average] D --> E[End]
+
+Input4: Find the longest word in a sentence. Output4: A[Start] --> B[Search the sentence] B --> C{Longest word found?} C -- No --> B C -- Yes --> D[End]
+
+Input5: Count the occurrences of a specific word in a text. Output5: A[Start] --> B[Search the text] B --> C{Word found?} C -- No --> B C -- Yes --> D[Increment count] D --> E{All words processed?} E -- No --> B E -- Yes --> F[End]
+
+Input6: Remove duplicates from a list. Output6: A[Start] --> B[Search the list] B --> C{Duplicate found?} C -- No --> B C -- Yes --> D[Remove duplicate] D --> E{All items processed?} E -- No --> B E -- Yes --> F[End]
+
+Input7: Find the shortest path between two locations on a map. Output7: A[Start] --> B[Search the map] B --> C{Destination found?} C -- No --> B C -- Yes --> D[End]
+
+Input8: Identify prime numbers in a given range. Output8: A[Start] --> B[Search the range] B --> C{Number prime?} C -- No --> B C -- Yes --> D[End]
+
+Input9: Calculate the factorial of a given number. Output9: A[Start] --> B[Search the number] B --> C{Number processed?} C -- No --> B C -- Yes --> D[Calculate factorial] D --> E[End]
+
+Input10: Find the median value in a dataset. Output10: A[Start] --> B[Search the dataset] B --> C{Median found?} C -- No --> B C -- Yes --> D[End]
+
+Input11: Determine if a string is a palindrome. Output11: A[Start] --> B[Search the string] B --> C{Palindrome?} C -- No --> B C -- Yes --> D[End]
+
+Input12: Generate a random password. Output12: A[Start] --> B[Search the password] B --> C{Password generated?} C -- No --> B C -- Yes --> D[End]
+
+Input13: Find the highest occurring element in an array. Output13: A[Start] --> B[Search the array] B --> C{Element found?} C -- No --> B C -- Yes --> D[End]
+
+Input14: Determine if a string contains only unique characters. Output14: A[Start] --> B[Search the string] B --> C{Unique characters?} C -- No --> B C -- Yes --> D[End]
+
+Input15: Convert a decimal number to binary. Output15: A[Start] --> B[Convert the number] B --> C[End]
+
+Input16: Calculate the area of a triangle. Output16: A[Start] --> B[Search the dimensions] B --> C{All dimensions obtained?} C -- No --> B C -- Yes --> D[Calculate area] D --> E[End]
+
+Input17: Determine the prime factors of a given number. Output17: A[Start] --> B[Search the number] B --> C{Factors found?} C -- No --> B C -- Yes --> D[End]
+
+Input18: Find the second-largest element in an array. Output18: A[Start] --> B[Search the array] B --> C{Second-largest found?} C -- No --> B C -- Yes --> D[End]
+
+Input19: Search for a specific item in a dictionary. Output19: A[Start] --> B[Search the dictionary] B --> C{Item found?} C -- No --> B C -- Yes --> D[End]
+
+Input20: Determine the number of vowels in a given string. Output20: A[Start] --> B[Search the string] B --> C{Vowel found?} C -- No --> B C -- Yes --> D[Count vowel] D --> E[End]

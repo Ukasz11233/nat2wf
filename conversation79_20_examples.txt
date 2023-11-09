@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Wake up in the morning. Get out of bed. Brush your teeth. Take a shower. Get dressed. Eat breakfast. Leave the house.
+Output1: A[Start] --> B[Wake up in the morning] B --> C[Get out of bed] C --> D[Brush teeth] D --> E[Take a shower] E --> F[Get dressed] F --> G[Eat breakfast] G --> H[Leave the house] H --> I[End]
+
+Input2: Go grocery shopping. Make a shopping list. Drive to the supermarket. Find the desired items. Put them in the cart. Check out. Return home. 
+Output2: A[Start] --> B[Go grocery shopping] B --> C[Make a shopping list] C --> D[Drive to the supermarket] D --> E[Find desired items] E --> F[Put them in the cart] F --> G[Check out] G --> H[Return home] H --> I[End]
+
+Input3: Start a new painting. Gather painting supplies. Set up the easel. Choose a canvas. Decide on a subject. Sketch the outlines. Begin filling in colors. Add details. Sign the artwork. Hang it on the wall.
+Output3: A[Start] --> B[Start a new painting] B --> C[Gather painting supplies] C --> D[Set up the easel] D --> E[Choose a canvas] E --> F[Decide on a subject] F --> G[Sketch the outlines] G --> H[Begin filling in colors] H --> I[Add details] I --> J[Sign the artwork] J --> K[Hang it on the wall] K --> L[End]
+
+Input4: Plan a vacation. Research destinations. Choose the desired location. Book transportation. Reserve accommodation. Create an itinerary. Pack your bags. Enjoy the trip. Return home.
+Output4: A[Start] --> B[Plan a vacation] B --> C[Research destinations] C --> D[Choose the desired location] D --> E[Book transportation] E --> F[Reserve accommodation] F --> G[Create an itinerary] G --> H[Pack your bags] H --> I[Enjoy the trip] I --> J[Return home] J --> K[End]
+
+Input5: Prepare a delicious meal. Select a recipe. Gather ingredients. Preheat the oven. Chop vegetables. Season the meat. Mix the ingredients. Cook in the oven. Serve and enjoy the meal. Clean up the kitchen.
+Output5: A[Start] --> B[Prepare a delicious meal] B --> C[Select a recipe] C --> D[Gather ingredients] D --> E[Preheat the oven] E --> F[Chop vegetables] F --> G[Season the meat] G --> H[Mix the ingredients] H --> I[Cook in the oven] I --> J[Serve and enjoy the meal] J --> K[Clean up the kitchen] K --> L[End]
+
+Input6: Build a piece of furniture. Read the instructions. Gather the required tools. Assemble the pieces. Tighten the screws. Attach necessary parts. Sand the surface. Apply finishing touches. Admire the completed furniture.
+Output6: A[Start] --> B[Build a piece of furniture] B --> C[Read the instructions] C --> D[Gather the required tools] D --> E[Assemble the pieces] E --> F[Tighten the screws] F --> G[Attach necessary parts] G --> H[Sand the surface] H --> I[Apply finishing touches] I --> J[Admire the completed furniture] J --> K[End]
+
+Input7: Complete a workout session. Warm up. Stretch your muscles. Start cardio exercises. Perform strength training exercises. Cool down. Hydrate. Relax and recover.
+Output7: A[Start] --> B[Complete a workout session] B --> C[Warm up] C --> D[Stretch your muscles] D --> E[Start cardio exercises] E --> F[Perform strength training exercises] F --> G[Cool down] G --> H[Hydrate] H --> I[Relax and recover] I --> J[End]
+
+Input8: Read a book. Choose a book. Find a comfortable reading spot. Start reading. Dive into the story. Immerse yourself in the plot. Take breaks if needed. Finish reading the book. Reflect on the story.
+Output8: A[Start] --> B[Read a book] B --> C[Choose a book] C --> D[Find a comfortable reading spot] D --> E[Start reading] E --> F[Dive into the story] F --> G[Immerse yourself in the plot] G --> H[Take breaks if needed] H --> I[Finish reading the book] I --> J[Reflect on the story] J --> K[End]
+
+Input9: Learn a new language. Choose the desired language. Find learning resources. Start with basic vocabulary. Practice pronunciation. Learn grammar rules. Watch movies or TV shows in that language. Speak with native speakers. Achieve fluency.
+Output9: A[Start] --> B[Learn a new language] B --> C[Choose the desired language] C --> D[Find learning resources] D --> E[Start with basic vocabulary] E --> F[Practice pronunciation] F --> G[Learn grammar rules] G --> H[Watch movies or TV shows in that language] H --> I[Speak with native speakers] I --> J[Achieve fluency] J --> K[End]
+
+Input10: Start a blog. Decide on a blog topic. Choose a blogging platform. Create a website. Customize the design. Write compelling content. Share the blog with others. Engage with readers. Update regularly.
+Output10: A[Start] --> B[Start a blog] B --> C[Decide on a blog topic] C --> D[Choose a blogging platform] D --> E[Create a website] E --> F[Customize the design] F --> G[Write compelling content] G --> H[Share the blog with others] H --> I[Engage with readers] I --> J[Update regularly] J --> K[End]
+
+Input11: Take care of houseplants. Choose the desired plants. Purchase pots and soil. Plant the seeds or transfer plants. Water regularly. Provide adequate sunlight. Fertilize if needed. Trim and prune. Enjoy healthy and thriving plants.
+Output11: A[Start] --> B[Take care of houseplants] B --> C[Choose the desired plants] C --> D[Purchase pots and soil] D --> E[Plant the seeds or transfer plants] E --> F[Water regularly] F --> G[Provide adequate sunlight] G --> H[Fertilize if needed] H --> I[Trim and prune] I --> J[Enjoy healthy and thriving plants] J --> K[End]
+
+Input12: Learn how to play a musical instrument. Choose the desired instrument. Find a music teacher or online lessons. Start with basic notes and scales. Practice regularly. Learn to play melodies. Master complex pieces. Perform in front of an audience.
+Output12: A[Start] --> B[Learn how to play a musical instrument] B --> C[Choose the desired instrument] C --> D[Find a music teacher or online lessons] D --> E[Start with basic notes and scales] E --> F[Practice regularly] F --> G[Learn to play melodies] G --> H[Master complex pieces] H --> I[Perform in front of an audience] I --> J[End]
+
+Input13: Start a fitness routine. Set specific fitness goals. Create a workout schedule. Warm up before each session. Perform cardio exercises. Include strength training. Stay consistent. Track progress. Achieve desired fitness level.
+Output13: A[Start] --> B[Start a fitness routine] B --> C[Set specific fitness goals] C --> D[Create a workout schedule] D --> E[Warm up before each session] E --> F[Perform cardio exercises] F --> G[Include strength training] G --> H[Stay consistent] H --> I[Track progress] I --> J[Achieve desired fitness level] J --> K[End]
+
+Input14: Start a YouTube channel. Choose a niche. Come up with content ideas. Create a channel. Film and edit videos. Upload regularly. Engage with the audience. Collaborate with other YouTubers. Gain subscribers and monetize the channel.
+Output14: A[Start] --> B[Start a YouTube channel] B --> C[Choose a niche] C --> D[Come up with content ideas] D --> E[Create a channel] E --> F[Film and edit videos] F --> G[Upload regularly] G --> H[Engage with the audience] H --> I[Collaborate with other YouTubers] I --> J[Gain subscribers and monetize the channel] J --> K[End]
+
+Input15: Learn how to code. Choose a programming language. Find online resources or enroll in courses. Start with basic concepts. Practice coding exercises. Build small projects. Collaborate on coding challenges. Complete larger projects independently.
+Output15: A[Start] --> B[Learn how to code] B --> C[Choose a programming language] C --> D[Find online resources or enroll in courses] D --> E[Start with basic concepts] E --> F[Practice coding exercises] F --> G[Build small projects] G --> H[Collaborate on coding challenges] H --> I[Complete larger projects independently] I --> J[End]
+
+Input16: Start a new business. Choose a business idea. Conduct market research. Develop a business plan. Secure funding. Register the business. Build a team. Launch and promote the business. Monitor and improve operations.
+Output16: A[Start] --> B[Start a new business] B --> C[Choose a business idea] C --> D[Conduct market research] D --> E[Develop a business plan] E --> F[Secure funding] F --> G[Register the business] G --> H[Build a team] H --> I[Launch and promote the business] I --> J[Monitor and improve operations] J --> K[End]
+
+Input17: Learn how to paint with watercolors. Gather watercolor supplies. Choose a subject. Practice basic techniques. Experiment with different colors. Create a finished artwork. Frame and display the artwork.
+Output17: A[Start] --> B[Learn how to paint with watercolors] B --> C[Gather watercolor supplies] C --> D[Choose a subject] D --> E[Practice basic techniques] E --> F[Experiment with different colors] F --> G[Create a finished artwork] G --> H[Frame and display the artwork] H --> I[End]
+
+Input18: Start a meditation practice. Find a quiet space. Sit comfortably. Focus on your breath. Practice mindfulness. Set intentions. Meditate for a specific duration. Reflect on the experience.
+Output18: A[Start] --> B[Start a meditation practice] B --> C[Find a quiet space] C --> D[Sit comfortably] D --> E[Focus on your breath] E --> F[Practice mindfulness] F --> G[Set intentions] G --> H[Meditate for a specific duration] H --> I[Reflect on the experience] I --> J[End]
+
+Input19: Plan a surprise party. Choose the occasion. Make a guest list. Select a venue. Send out invitations. Arrange decorations. Organize entertainment. Prepare food and drinks. Surprise the guest of honor.
+Output19: A[Start] --> B[Plan a surprise party] B --> C[Choose the occasion] C --> D[Make a guest list] D --> E[Select a venue] E --> F[Send out invitations] F --> G[Arrange decorations] G --> H[Organize entertainment] H --> I[Prepare food and drinks] I --> J[Surprise the guest of honor] J --> K[End]
+
+Input20: Learn how to knit. Choose knitting needles and yarn. Learn basic stitches. Practice knitting squares. Gradually increase complexity. Create a knitted garment. Show off the finished piece.
+Output20: A[Start] --> B[Learn how to knit] B --> C[Choose knitting needles and yarn] C --> D[Learn basic stitches] D --> E[Practice knitting squares] E --> F[Gradually increase complexity] F --> G[Create a knitted garment] G --> H[Show off the finished piece] H --> I[End]

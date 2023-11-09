@@ -1,0 +1,31 @@
+system: test
+user: Give me 10 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the largest number in an array and print it.
+Output1: A[Start] --> B[Search the array] B --> C{Largest number found?} C -- No --> B C -- Yes --> D[Print the number] D --> E[End]
+
+Input2: Calculate the sum of all elements in a matrix.
+Output2: A[Start] --> B[Search the matrix] B --> C{Next element found?} C -- No --> D[Calculate sum] D --> E[End]
+
+Input3: Find the shortest path between two nodes in a graph.
+Output3: A[Start] --> B[Search for paths] B --> C{Shortest path found?} C -- No --> B C -- Yes --> D[Print the path] D --> E[End]
+
+Input4: Search for a specific word in a paragraph and replace it.
+Output4: A[Start] --> B[Search the paragraph] B --> C{Word found?} C -- No --> B C -- Yes --> D[Replace the word] D --> E[End]
+
+Input5: Look for the maximum temperature in a set of recorded temperatures.
+Output5: A[Start] --> B[Search the temperatures] B --> C{Highest temperature found?} C -- No --> B C -- Yes --> D[Display the maximum temperature] D --> E[End]
+
+Input6: Find the next available appointment slot in a calendar.
+Output6: A[Start] --> B[Search the calendar] B --> C{Available slot found?} C -- No --> B C -- Yes --> D[Book the slot] D --> E[End]
+
+Input7: Explore a directory and list all the files with a specific extension.
+Output7: A[Start] --> B[Search the directory] B --> C{File with specified extension found?} C -- No --> B C -- Yes --> D[List the file] D --> E[End]
+
+Input8: Find the highest-rated movie in a database and display its details.
+Output8: A[Start] --> B[Search the database] B --> C{Highest-rated movie found?} C -- No --> B C -- Yes --> D[Show movie details] D --> E[End]
+
+Input9: Look for the largest sized shirt in a collection and remove it.
+Output9: A[Start] --> B[Search the collection] B --> C{Largest shirt found?} C -- No --> B C -- Yes --> D[Remove the shirt] D --> E[End]
+
+Input10: Search for the most frequent word in a text and count its occurrences.
+Output10: A[Start] --> B[Search the text] B --> C{Most frequent word found?} C -- No --> B C -- Yes --> D[Count occurrences] D --> E[End]

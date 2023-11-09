@@ -1,0 +1,81 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Start the car. Adjust the mirrors and seat position. Fasten the seatbelt. Put the car in gear. Drive to the destination. Park the car. 
+
+Output1: A[Start] --> B[Start the car] B --> C[Adjust mirrors and seat position] C --> D[Fasten seatbelt] D --> E[Put the car in gear] E --> F[Drive to the destination] F --> G[Park the car] G --> H[End]
+
+Input2: Open the refrigerator. Take out the desired ingredients. Prepare the cooking utensils. Follow the recipe instructions. Cook the meal. Serve the dish. 
+
+Output2: A[Start] --> B[Open the refrigerator] B --> C[Take out desired ingredients] C --> D[Prepare cooking utensils] D --> E[Follow recipe instructions] E --> F[Cook the meal] F --> G[Serve the dish] G --> H[End]
+
+Input3: Turn on the television. Select a TV channel. Adjust the volume and picture settings. Watch the desired program. Turn off the television.
+
+Output3: A[Start] --> B[Turn on the television] B --> C[Select TV channel] C --> D[Adjust volume and picture settings] D --> E[Watch desired program] E --> F[Turn off the television] F --> G[End]
+
+Input4: Wake up in the morning. Stretch and get out of bed. Take a shower. Get dressed. Have breakfast. Brush teeth.
+
+Output4: A[Start] --> B[Wake up in the morning] B --> C[Stretch and get out of bed] C --> D[Take a shower] D --> E[Get dressed] E --> F[Have breakfast] F --> G[Brush teeth] G --> H[End]
+
+Input5: Open the book. Read the preface. Skim through the chapters. Read the main content. Make note of important points. Close the book.
+
+Output5: A[Start] --> B[Open the book] B --> C[Read the preface] C --> D[Skim through the chapters] D --> E[Read the main content] E --> F[Make note of important points] F --> G[Close the book] G --> H[End]
+
+Input6: Unlock the smartphone. Open the messaging app. Compose a message. Attach any required files. Send the message. Lock the smartphone.
+
+Output6: A[Start] --> B[Unlock the smartphone] B --> C[Open messaging app] C --> D[Compose a message] D --> E[Attach required files] E --> F[Send the message] F --> G[Lock the smartphone] G --> H[End]
+
+Input7: Start the washing machine. Sort the laundry by color. Add detergent and fabric softener. Select the desired wash cycle. Start the wash. Hang the clothes to dry.
+
+Output7: A[Start] --> B[Start the washing machine] B --> C[Sort laundry by color] C --> D[Add detergent and fabric softener] D --> E[Select desired wash cycle] E --> F[Start the wash] F --> G[Hang clothes to dry] G --> H[End]
+
+Input8: Power on the printer. Load paper into the paper tray. Connect the printer to the computer. Print the desired document. Disconnect the printer. Power off the printer.
+
+Output8: A[Start] --> B[Power on the printer] B --> C[Load paper into the paper tray] C --> D[Connect printer to the computer] D --> E[Print desired document] E --> F[Disconnect the printer] F --> G[Power off the printer] G --> H[End]
+
+Input9: Open the browser. Type the desired website URL. Press Enter to navigate to the website. Browse through the content. Close the browser.
+
+Output9: A[Start] --> B[Open the browser] B --> C[Type desired website URL] C --> D[Press Enter to navigate to the website] D --> E[Browse through the content] E --> F[Close the browser] F --> G[End]
+
+Input10: Turn on the air conditioner. Set the desired temperature. Adjust the fan speed. Enjoy the cool air. Turn off the air conditioner.
+
+Output10: A[Start] --> B[Turn on the air conditioner] B --> C[Set desired temperature] C --> D[Adjust fan speed] D --> E[Enjoy the cool air] E --> F[Turn off the air conditioner] F --> G[End]
+
+Input11: Open the mail app. Check for new messages. Read and respond to important emails. Mark spam emails as junk. Close the mail app.
+
+Output11: A[Start] --> B[Open the mail app] B --> C[Check for new messages] C --> D[Read and respond to important emails] D --> E[Mark spam emails as junk] E --> F[Close the mail app] F --> G[End]
+
+Input12: Start the video game console. Insert the game disc. Choose the desired game. Play the game. Save the progress. Turn off the video game console.
+
+Output12: A[Start] --> B[Start the video game console] B --> C[Insert game disc] C --> D[Choose desired game] D --> E[Play the game] E --> F[Save progress] F --> G[Turn off the video game console] G --> H[End]
+
+Input13: Turn on the coffee machine. Fill the water reservoir. Insert a coffee capsule. Select the desired coffee strength. Brew the coffee. Turn off the coffee machine.
+
+Output13: A[Start] --> B[Turn on the coffee machine] B --> C[Fill the water reservoir] C --> D[Insert coffee capsule] D --> E[Select desired coffee strength] E --> F[Brew the coffee] F --> G[Turn off the coffee machine] G --> H[End]
+
+Input14: Unlock the front door. Step inside the house. Take off shoes and hang the coat. Put away personal belongings. Relax and unwind. Lock the front door.
+
+Output14: A[Start] --> B[Unlock the front door] B --> C[Step inside the house] C --> D[Take off shoes and hang the coat] D --> E[Put away personal belongings] E --> F[Relax and unwind] F --> G[Lock the front door] G --> H[End]
+
+Input15: Turn on the stereo system. Select a favorite music playlist. Adjust the volume and equalizer settings. Enjoy listening to music. Turn off the stereo system.
+
+Output15: A[Start] --> B[Turn on the stereo system] B --> C[Select favorite music playlist] C --> D[Adjust volume and equalizer settings] D --> E[Enjoy listening to music] E --> F[Turn off the stereo system] F --> G[End]
+
+Input16: Turn on the oven. Preheat it to the desired temperature. Prepare the ingredients for baking. Put the baking tray inside. Bake the food. Turn off the oven.
+
+Output16: A[Start] --> B[Turn on the oven] B --> C[Preheat it to desired temperature] C --> D[Prepare ingredients for baking] D --> E[Put baking tray inside] E --> F[Bake the food] F --> G[Turn off the oven] G --> H[End]
+
+Input17: Start the treadmill. Adjust speed and incline levels. Begin the workout. Monitor heart rate. Cool down after the workout. Stop the treadmill.
+
+Output17: A[Start] --> B[Start the treadmill] B --> C[Adjust speed and incline levels] C --> D[Begin the workout] D --> E[Monitor heart rate] E --> F[Cool down after the workout] F --> G[Stop the treadmill] G --> H[End]
+
+Input18: Turn on the radio. Tune in to a favorite station. Set the volume level. Listen to music or talk shows. Turn off the radio.
+
+Output18: A[Start] --> B[Turn on the radio] B --> C[Tune in to a favorite station] C --> D[Set volume level] D --> E[Listen to music or talk shows] E --> F[Turn off the radio] F --> G[End]
+
+Input19: Unlock the front gate. Walk down the path. Water the plants. Trim the bushes. Sweep the porch. Lock the front gate.
+
+Output19: A[Start] --> B[Unlock the front gate] B --> C[Walk down the path] C --> D[Water the plants] D --> E[Trim the bushes] E --> F[Sweep the porch] F --> G[Lock the front gate] G --> H[End]
+
+Input20: Start the projector. Connect it to the laptop. Adjust the projection angle. Play the desired presentation. Finish the presentation. Turn off the projector.
+
+Output20: A[Start] --> B[Start the projector] B --> C[Connect it to the laptop] C --> D[Adjust projection angle] D --> E[Play desired presentation] E --> F[Finish the presentation] F --> G[Turn off the projector] G --> H[End]

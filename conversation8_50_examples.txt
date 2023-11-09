@@ -1,0 +1,21 @@
+system: test
+user: Give me 10 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Calculate the sum of all numbers in a list. Output1: A[Start] --> B[Initialize sum to 0] B --> C[Iterate over the list] C --> D{End of the list?} D -- No --> E[Add current number to sum] E --> C D -- Yes --> F[Display the sum] F --> G[End]
+
+Input2: Find the maximum value in a list. Output2: A[Start] --> B[Set max_value to first number] B --> C[Iterate over the list] C --> D{End of the list?} D -- No --> E{Current number > max_value?} E -- No --> C E -- Yes --> F[Update max_value] F --> C D -- Yes --> G[Display max_value] G --> H[End]
+
+Input3: Check if a given number is present in a list. Output3: A[Start] --> B[Get the number to search] B --> C[Initialize found to False] C --> D[Iterate over the list] D --> E{End of the list?} E -- No --> F{Current number == search_number?} F -- No --> D F -- Yes --> G[Update found to True] G --> E D -- Yes --> H[Display found] H --> I[End]
+
+Input4: Calculate the average of a list of numbers. Output4: A[Start] --> B[Initialize sum to 0] B --> C[Initialize count to 0] C --> D[Iterate over the list] D --> E{End of the list?} E -- No --> F[Add current number to sum] F --> G[Increment count] G --> D E -- Yes --> H[Divide sum by count to get average] H --> I[Display average] I --> J[End]
+
+Input5: Remove all duplicates from a list. Output5: A[Start] --> B[Initialize an empty list] B --> C[Iterate over the list] C --> D{End of the list?} D -- No --> E{Current number in new list?} E -- No --> F[Add current number to new list] F --> C E -- Yes --> C D -- Yes --> G[Display the new list] G --> H[End]
+
+Input6: Sort a list of numbers in ascending order. Output6: A[Start] --> B[Initialize sorted_list as an empty list] B --> C[Iterate over the list] C --> D{End of the list?} D -- No --> E{Is current number smaller than all numbers in sorted_list?} E -- No --> C E -- Yes --> F[Insert current number at the correct position in sorted_list] F --> C D -- Yes --> G[Display sorted_list] G --> H[End]
+
+Input7: Shuffle the elements of a list randomly. Output7: A[Start] --> B[Create a new empty list] B --> C[Iterate over the list] C --> D{End of the list?} D -- No --> E{Generate a random index within new list's bounds} E -- No --> C E -- Yes --> F[Insert current element at the random index in the new list] F --> C D -- Yes --> G[Display the shuffled list] G --> H[End]
+
+Input8: Check if a list is sorted in ascending order. Output8: A[Start] --> B[Initialize sorted to True] B --> C[Iterate over the list] C --> D{End of the list?} D -- No --> E{Is current number greater than the next number?} E -- No --> C E -- Yes --> F[Update sorted to False] F --> C D -- Yes --> G[Display sorted] G --> H[End]
+
+Input9: Reverse the order of elements in a list. Output9: A[Start] --> B[Create a new empty list] B --> C[Iterate over the list in reverse] C --> D{End of the list?} D -- No --> E[Add current element to the new list] E --> C D -- Yes --> F[Display the reversed list] F --> G[End]
+
+Input10: Find the frequency of each element in a list. Output10: A[Start] --> B[Create an empty dictionary] B --> C[Iterate over the list] C --> D{End of the list?} D -- No --> E{Is current number a key in the dictionary?} E -- No --> F[Add current number as a key with value 1] F --> C E -- Yes --> G[Increment the value of the key] G --> C D -- Yes --> H[Display the dictionary] H --> I[End]

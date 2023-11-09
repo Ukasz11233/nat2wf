@@ -1,0 +1,31 @@
+system: test
+user: Give me 50 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the smallest number in a list and display it. 
+Output1: A[Start] --> B[Search the list] B --> C{Smallest number found?} C -- No --> B C -- Yes --> D[Display the number] D --> E[End].
+
+Input2: Sort a list of names in alphabetical order. 
+Output2: A[Start] --> B[Sort the list] B --> C{All names sorted?} C -- No --> B C -- Yes --> D[Display the sorted list] D --> E[End].
+
+Input3: Calculate the sum of all numbers in a list. 
+Output3: A[Start] --> B[Initialize sum as zero] B --> C[Iterate through the list] C --> D{End of list reached?} D -- No --> F[Add current number to sum] F --> C D -- Yes --> E[Display the sum] E --> G[End].
+
+Input4: Find the first occurrence of a specific word in a list of sentences. 
+Output4: A[Start] --> B[Search the list of sentences] B --> C{Specific word found?} C -- No --> B C -- Yes --> D[Display the sentence index] D --> E[End].
+
+Input5: Remove all duplicates from a list of numbers. 
+Output5: A[Start] --> B[Initialize an empty set] B --> C[Iterate through the list] C --> D{Current number in set?} D -- No --> F[Add number to set] F --> C D -- Yes --> E[Remove duplicate from the list] E --> G[End].
+
+Input6: Find the longest word in a given sentence. 
+Output6: A[Start] --> B[Split the sentence into words] B --> C{All words checked?} C -- No --> D[Compare current word length] D --> E{Current word is longer?} E -- No --> C E -- Yes --> F[Update longest word] F --> C C -- Yes --> G[Display the longest word] G --> H[End].
+
+Input7: Determine if a number is prime or not. 
+Output7: A[Start] --> B[Check if the number is less than 2] B --> C{Number less than 2?} C -- No --> D{Number divisible by any number between 2 and itself?} D -- No --> E[Display "Number is prime"] E --> F[End] D -- Yes --> E[Display "Number is not prime"] E --> F[End].
+
+Input8: Find the average of all numbers in a given list. 
+Output8: A[Start] --> B[Initialize sum as zero] B --> C[Initialize count as zero] C --> D[Iterate through the list] D --> E{End of list reached?} E -- No --> F[Add current number to sum] F --> G[Increment count] G --> D E -- Yes --> H[Calculate average (sum divided by count)] H --> I[Display the average] I --> J[End].
+
+Input9: Determine the total count of vowels in a sentence. 
+Output9: A[Start] --> B[Initialize count as zero] B --> C[Iterate through the sentence] C --> D{Current character is a vowel?} D -- No --> C D -- Yes --> E[Increment count] E --> C C -- End of sentence --> F[Display the vowel count] F --> G[End].
+
+Input10: Remove all punctuation marks from a given sentence. 
+Output10: A[Start] --> B[Iterate through the sentence] B --> C{Current character is punctuation?} C -- No --> D[Keep the character] D --> B C -- Yes --> D[Remove the character] D --> B B -- End of sentence --> E[Display the modified sentence] E --> F[End].

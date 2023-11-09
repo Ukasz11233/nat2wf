@@ -1,0 +1,6 @@
+user: Give me 10 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Find the largest prime number in a given range of numbers (inclusive). Output1: A[Start] --> B[Initialize maxPrime variable] B --> C[Loop through the range] C --> D{Current number is prime?} D -- Yes --> E{Current number > maxPrime?} E -- Yes --> F[Update maxPrime] F --> C E -- No --> C D -- No --> C C -- End --> G[End]
+
+Input2: Search for the highest-scoring student in a class based on their exam scores. Output2: A[Start] --> B[Initialize maxScore variable] B --> C[Loop through the students] C --> D{Current student's score > maxScore?} D -- Yes --> E[Update maxScore] E --> C D -- No --> C C -- End --> F[End]
+
+Input3: Determine the tallest building among a set of skyscrapers. Output3: A[Start] --> B[Set maxHeight to the first skyscraper's height] B --> C[Loop through the skyscrapers] C --> D{Current skyscraper's height > maxHeight?} D -- Yes --> E[Update maxHeight] E --> C D -- No --> C C

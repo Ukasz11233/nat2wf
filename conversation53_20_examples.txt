@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Wake up from sleep. Brush teeth and wash face. Get dressed. Have breakfast. Leave for work.
+Output1: A[Start] --> B[Wake up from sleep] B --> C[Brush teeth and wash face] C --> D[Get dressed] D --> E[Have breakfast] E --> F[Leave for work] F --> G[End]
+
+Input2: Enter the gym. Change into workout clothes. Warm up with stretching exercises. Use gym equipment for weight training. Do cardio exercises. Cool down with stretches. Exit the gym.
+Output2: A[Start] --> B[Enter the gym] B --> C[Change into workout clothes] C --> D[Warm up with stretching exercises] D --> E[Use gym equipment for weight training] E --> F[Do cardio exercises] F --> G[Cool down with stretches] G --> H[Exit the gym] H --> I[End]
+
+Input3: Start cooking dinner. Wash and chop vegetables. Boil water for pasta. Sauté onions and garlic. Add vegetables and pasta to the boiling water. Simmer until cooked. Season with herbs and spices. Serve dinner.
+Output3: A[Start] --> B[Start cooking dinner] B --> C[Wash and chop vegetables] C --> D[Boil water for pasta] D --> E[Sauté onions and garlic] E --> F[Add vegetables and pasta to boiling water] F --> G[Simmer until cooked] G --> H[Season with herbs and spices] H --> I[Serve dinner] I --> J[End]
+
+Input4: Wake up early. Go for a run. Stretch and warm up. Jog for 30 minutes. Do interval sprints for 10 minutes. Cool down with a brisk walk. Return home.
+Output4: A[Start] --> B[Wake up early] B --> C[Go for a run] C --> D[Stretch and warm up] D --> E[Jog for 30 minutes] E --> F[Do interval sprints for 10 minutes] F --> G[Cool down with a brisk walk] G --> H[Return home] H --> I[End]
+
+Input5: Sit down at the desk. Check emails and respond. Make a to-do list for the day. Prioritize tasks. Start working on the highest priority task. Take breaks at regular intervals. Complete the remaining tasks. Log out and leave the office.
+Output5: A[Start] --> B[Sit down at the desk] B --> C[Check emails and respond] C --> D[Make a to-do list for the day] D --> E[Prioritize tasks] E --> F[Start working on highest priority task] F --> G[Take breaks at regular intervals] G --> H[Complete remaining tasks] H --> I[Log out and leave the office] I --> J[End]
+
+Input6: Enter the library. Find the desired book on the shelf. Check out the book using your library card. Find a comfortable spot to read. Enjoy reading the book. Return the book before leaving the library.
+Output6: A[Start] --> B[Enter the library] B --> C[Find the desired book on the shelf] C --> D[Check out the book using your library card] D --> E[Find a comfortable spot to read] E --> F[Enjoy reading the book] F --> G[Return the book before leaving the library] G --> H[End]
+
+Input7: Start a new blog post. Research the topic for writing. Create an outline. Write the introduction. Develop the main content. Conclude the post. Proofread and edit. Publish the blog post.
+Output7: A[Start] --> B[Start a new blog post] B --> C[Research the topic for writing] C --> D[Create an outline] D --> E[Write the introduction] E --> F[Develop the main content] F --> G[Conclude the post] G --> H[Proofread and edit] H --> I[Publish the blog post] I --> J[End]
+
+Input8: Turn on the television. Browse through the channels. Select a movie or TV show to watch. Grab some snacks and drinks. Sit comfortably and enjoy the entertainment. Turn off the television.
+Output8: A[Start] --> B[Turn on the television] B --> C[Browse through the channels] C --> D[Select a movie or TV show to watch] D --> E[Grab some snacks and drinks] E --> F[Sit comfortably and enjoy the entertainment] F --> G[Turn off the television] G --> H[End]
+
+Input9: Begin a morning meditation session. Find a quiet and peaceful spot. Sit in a comfortable position. Close your eyes and focus on deep breathing. Clear your mind of any thoughts. Stay in the present moment. Open your eyes and proceed with the day.
+Output9: A[Start] --> B[Begin a morning meditation session] B --> C[Find a quiet and peaceful spot] C --> D[Sit in a comfortable position] D --> E[Close your eyes and focus on deep breathing] E --> F[Clear your mind of any thoughts] F --> G[Stay in the present moment] G --> H[Open your eyes and proceed with the day] H --> I[End]
+
+Input10: Enter a grocery store. Make a shopping list. Grab a shopping cart. Navigate through the aisles. Pick up items from the list. Go to the checkout counter. Pay for the groceries. Exit the store.
+Output10: A[Start] --> B[Enter a grocery store] B --> C[Make a shopping list] C --> D[Grab a shopping cart] D --> E[Navigate through the aisles] E --> F[Pick up items from the list] F --> G[Go to the checkout counter] G --> H[Pay for the groceries] H --> I[Exit the store] I --> J[End]
+
+Input11: Start learning a new language. Enroll in a language course. Practice pronunciation and vocabulary. Study grammar rules. Engage in conversation exercises. Take regular quizzes and tests. Achieve fluency in the language. Use the language in everyday life.
+Output11: A[Start] --> B[Start learning a new language] B --> C[Enroll in a language course] C --> D[Practice pronunciation and vocabulary] D --> E[Study grammar rules] E --> F[Engage in conversation exercises] F --> G[Take regular quizzes and tests] G --> H[Achieve fluency in the language] H --> I[Use the language in everyday life] I --> J[End]
+
+Input12: Begin a DIY project. Collect necessary materials and tools. Read the instructions carefully. Plan the steps involved. Start assembling or creating. Take breaks whenever needed. Finish the project. Admire your work.
+Output12: A[Start] --> B[Begin a DIY project] B --> C[Collect necessary materials and tools] C --> D[Read the instructions carefully] D --> E[Plan the steps involved] E --> F[Start assembling or creating] F --> G[Take breaks whenever needed] G --> H[Finish the project] H --> I[Admire your work] I --> J[End]
+
+Input13: Enter a museum. Purchase an entry ticket. Explore the different sections and exhibits. Read the information provided for each display. Take pictures of notable artifacts. Learn about the history and significance of the exhibits. Exit the museum.
+Output13: A[Start] --> B[Enter a museum] B --> C[Purchase an entry ticket] C --> D[Explore the different sections and exhibits] D --> E[Read the information provided for each display] E --> F[Take pictures of notable artifacts] F --> G[Learn about the history and significance of the exhibits] G --> H[Exit the museum] H --> I[End]
+
+Input14: Turn on the car engine. Adjust the seat and mirrors. Buckle up the seatbelt. Put the car in gear. Check blind spots and rearview mirror. Drive safely and follow the traffic rules. Park the car. Turn off the engine.
+Output14: A[Start] --> B[Turn on the car engine] B --> C[Adjust the seat and mirrors] C --> D[Buckle up the seatbelt] D --> E[Put the car in gear] E --> F[Check blind spots and rearview mirror] F --> G[Drive safely and follow the traffic rules] G --> H[Park the car] H --> I[Turn off the engine] I --> J[End]
+
+Input15: Begin a home workout. Warm up with stretches. Perform bodyweight exercises. Use resistance bands or weights. Incorporate cardio exercises. Take short water breaks. Finish with a cool-down routine. Relax and recover.
+Output15: A[Start] --> B[Begin a home workout] B --> C[Warm up with stretches] C --> D[Perform bodyweight exercises] D --> E[Use resistance bands or weights] E --> F[Incorporate cardio exercises] F --> G[Take short water breaks] G --> H[Finish with a cool-down routine] H --> I[Relax and recover] I --> J[End]
+
+Input16: Open a new book. Read the summary on the back cover. Dive into the first chapter. Keep turning the pages and reading. Get immersed in the story. Reach the final chapter. Experience a range of emotions while reading. Close the book.
+Output16: A[Start] --> B[Open a new book] B --> C[Read the summary on the back cover] C --> D[Dive into the first chapter] D --> E[Keep turning the pages and reading] E --> F[Get immersed in the story] F --> G[Reach the final chapter] G --> H[Experience a range of emotions while reading] H --> I[Close the book] I --> J[End]
+
+Input17: Start a personal journal. Find a quiet and comfortable spot. Grab a pen or pencil. Write down thoughts and reflections. Express emotions and experiences. Maintain consistency in journaling. Close the journal when done writing.
+Output17: A[Start] --> B[Start a personal journal] B --> C[Find a quiet and comfortable spot] C --> D[Grab a pen or pencil] D --> E[Write down thoughts and reflections] E --> F[Express emotions and experiences] F --> G[Maintain consistency in journaling] G --> H[Close the journal when done writing] H --> I[End]
+
+Input18: Enter a garden. Explore the variety of flowers and plants. Smell the fragrances. Admire the colors and shapes. Take pictures of beautiful blooms. Relax and enjoy the peaceful ambiance. Leave the garden.
+Output18: A[Start] --> B[Enter a garden] B --> C[Explore the variety of flowers and plants] C --> D[Smell the fragrances] D --> E[Admire the colors and shapes] E --> F[Take pictures of beautiful blooms] F --> G[Relax and enjoy the peaceful ambiance] G --> H[Leave the garden] H --> I[End]
+
+Input19: Start a puzzle. Sort the pieces by color or shape. Find the edge pieces to create the border. Assemble the puzzle by connecting the pieces. Take breaks when faced with difficulties. Complete the puzzle. Admire the finished picture.
+Output19: A[Start] --> B[Start a puzzle] B --> C[Sort the pieces by color or shape] C --> D[Find the edge pieces to create the border] D --> E[Assemble the puzzle by connecting the pieces] E --> F[Take breaks when faced with difficulties] F --> G[Complete the puzzle] G --> H[Admire the finished picture] H --> I[End]
+
+Input20: Turn on the music player. Browse through the song library. Select a playlist or album to listen to. Adjust the volume and sound settings. Sit back and enjoy the music. Stop the music and turn off the player.
+Output20: A[Start] --> B[Turn on the music player] B --> C[Browse through the song library] C --> D[Select a playlist or album to listen to] D --> E[Adjust the volume and sound settings] E --> F[Sit back and enjoy the music] F --> G[Stop the music and turn off the player] G --> H[End]

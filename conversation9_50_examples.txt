@@ -1,0 +1,20 @@
+user: Give me 10 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Keep searching a list until an item with the highest value is found. Remove the item. Output: A[Start] --> B[Search the list] B --> C{Item with the highest value found?} C -- No --> B C -- Yes --> D[Remove the item] D --> E[End]. Remember to create various length graphs
+assistant: Input1: Given a list of integers, find the smallest number and remove it. Output1: A[Start] --> B[Search the list] B --> C{Smallest number found?} C -- No --> B C -- Yes --> D[Remove the number] D --> E[End]
+
+Input2: Consider a list of students' exam scores. Keep searching until a score higher than 90 is found. Remove that score. Output2: A[Start] --> B[Search the list] B --> C{Score higher than 90 found?} C -- No --> B C -- Yes --> D[Remove the score] D --> E[End]
+
+Input3: Given a list of strings, keep searching until the longest string is found. Remove it from the list. Output3: A[Start] --> B[Search the list] B --> C{Longest string found?} C -- No --> B C -- Yes --> D[Remove the string] D --> E[End]
+
+Input4: Suppose there is a list of product prices. Keep searching until the most expensive product is found. Remove that price from the list. Output4: A[Start] --> B[Search the list] B --> C{Most expensive price found?} C -- No --> B C -- Yes --> D[Remove the price] D --> E[End]
+
+Input5: Consider a list of timestamps. Keep searching until the oldest timestamp is found. Remove it. Output5: A[Start] --> B[Search the list] B --> C{Oldest timestamp found?} C -- No --> B C -- Yes --> D[Remove the timestamp] D --> E[End]
+
+Input6: Given a list of books' publication years, keep searching until the most recent year is found. Remove that year. Output6: A[Start] --> B[Search the list] B --> C{Most recent year found?} C -- No --> B C -- Yes --> D[Remove the year] D --> E[End]
+
+Input7: Suppose there is a list of students' heights. Keep searching until the tallest student is found. Remove their height from the list. Output7: A[Start] --> B[Search the list] B --> C{Tallest student found?} C -- No --> B C -- Yes --> D[Remove the height] D --> E[End]
+
+Input8: Given a list of cities' populations, keep searching until the city with the highest population is found. Remove the population. Output8: A[Start] --> B[Search the list] B --> C{City with highest population found?} C -- No --> B C -- Yes --> D[Remove the population] D --> E[End]
+
+Input9: Consider a list of sales figures. Keep searching until the highest sales figure is found. Remove that figure from the list. Output9: A[Start] --> B[Search the list] B --> C{Highest sales figure found?} C -- No --> B C -- Yes --> D[Remove the figure] D --> E[End]
+
+Input10: Suppose there is a list of company stock prices. Keep searching until the price with the highest value is found. Remove it from the list. Output10: A[Start] --> B[Search the list] B --> C{Price with highest value found?} C -- No --> B C -- Yes --> D[Remove the price] D --> E[End]

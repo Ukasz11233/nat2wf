@@ -1,0 +1,19 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Wake up. Get out of bed. Brush your teeth. Wash your face. Get dressed. Grab your keys. Leave the house.
+Output1: A[Start] --> B[Wake up] B --> C[Get out of bed] C --> D[Brush your teeth] D --> E[Wash your face] E --> F[Get dressed] F --> G[Grab your keys] G --> H[Leave the house] H --> I[End]
+
+Input2: Turn on the car engine. Adjust the seat and mirrors. Fasten your seatbelt. Put the car in gear. Drive to your destination. Park the car. Turn off the engine. Exit the car.
+Output2: A[Start] --> B[Turn on the car engine] B --> C[Adjust seat and mirrors] C --> D[Fasten seatbelt] D --> E[Put car in gear] E --> F[Drive to destination] F --> G[Park the car] G --> H[Turn off engine] H --> I[Exit the car] I --> J[End]
+
+Input3: Open the refrigerator. Take out the ingredients. Prepare the ingredients. Cook the meal. Serve the meal on a plate. Eat the meal. Clean up the dishes. Close the refrigerator.
+Output3: A[Start] --> B[Open the refrigerator] B --> C[Take out ingredients] C --> D[Prepare ingredients] D --> E[Cook the meal] E --> F[Serve the meal on a plate] F --> G[Eat the meal] G --> H[Clean up the dishes] H --> I[Close the refrigerator] I --> J[End]
+
+Input4: Press the power button. Select your user profile. Open the web browser. Browse the internet. Stream a video. Adjust the volume. Pause or play the video. Close the web browser. Shutdown the computer.
+Output4: A[Start] --> B[Press the power button] B --> C[Select user profile] C --> D[Open web browser] D --> E[Browse the internet] E --> F[Stream a video] F --> G[Adjust volume] G --> H[Pause or play video] H --> I[Close web browser] I --> J[Shutdown the computer] J --> K[End]
+
+Input5: Turn on the television. Choose a channel. Adjust the brightness. Change the sound settings. Watch your favorite show. Mute the television. Switch to another channel. Turn off the television.
+Output5: A[Start] --> B[Turn on the television] B --> C[Choose a channel] C --> D[Adjust brightness] D --> E[Change sound settings] E --> F[Watch favorite show] F --> G[Mute the television] G --> H[Switch to another channel] H --> I[Turn off the television] I --> J[End]
+
+Input6: Wake up. Stretch your body. Drink a glass of water. Have breakfast. Go for a walk. Take a shower. Get ready for work. Leave for the office. Start working. Finish work. Pack your things. Return home. Relax. Go to bed.
+Output6: A[Start] --> B[Wake up] B --> C[Stretch your body] C --> D[Drink a glass of water] D --> E[Have breakfast] E --> F[Go for a walk] F --> G[Take a shower] G --> H[Get ready for work] H --> I[Leave for the office] I --> J[Start working] J --> K[Finish work] K --> L[Pack your things] L --> M[Return home] M --> N[Relax] N --> O[Go to bed] O --> P[End]
