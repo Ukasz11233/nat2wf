@@ -1,0 +1,41 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Wake up and get out of bed. Take a shower and get dressed. Eat breakfast. Brush your teeth and comb your hair. Leave for work.
+
+Output1: A[Start] --> B[Wake up and get out of bed] B --> C[Take a shower and get dressed] C --> D[Eat breakfast] D --> E[Brush teeth and comb hair] E --> F[Leave for work] F --> G[End]
+
+Input2: Grab your gym bag and head to the gym. Do warm-up exercises. Start strength training. Do cardio exercises. Cool down and stretch. Leave the gym.
+
+Output2: A[Start] --> B[Grab gym bag and head to the gym] B --> C[Do warm-up exercises] C --> D[Start strength training] D --> E[Do cardio exercises] E --> F[Cool down and stretch] F --> G[Leave the gym] G --> H[End]
+
+Input3: Open the refrigerator. Take out the ingredients and gather cooking utensils. Preheat the oven. Prepare the ingredients. Bake the dish. Serve and enjoy the meal.
+
+Output3: A[Start] --> B[Open the refrigerator] B --> C[Take out ingredients and gather cooking utensils] C --> D[Preheat the oven] D --> E[Prepare the ingredients] E --> F[Bake the dish] F --> G[Serve and enjoy the meal] G --> H[End]
+
+Input4: Take out your notebook and pen. Find a quiet study space. Review the lecture notes. Read assigned textbook chapters. Practice solving sample problems. Review and summarize the material.
+
+Output4: A[Start] --> B[Take out notebook and pen] B --> C[Find a quiet study space] C --> D[Review lecture notes] D --> E[Read assigned textbook chapters] E --> F[Practice solving sample problems] F --> G[Review and summarize the material] G --> H[End]
+
+Input5: Gather cleaning supplies. Declutter and organize the room. Dust and wipe surfaces. Vacuum or sweep the floor. Mop or clean the floor. Put away cleaning supplies.
+
+Output5: A[Start] --> B[Gather cleaning supplies] B --> C[Declutter and organize the room] C --> D[Dust and wipe surfaces] D --> E[Vacuum or sweep the floor] E --> F[Mop or clean the floor] F --> G[Put away cleaning supplies] G --> H[End]
+
+Input6: Open a web browser. Enter a website URL. Navigate to the desired webpage. Read the content. Interact with any available features. Close the web browser.
+
+Output6: A[Start] --> B[Open a web browser] B --> C[Enter a website URL] C --> D[Navigate to the desired webpage] D --> E[Read the content] E --> F[Interact with available features] F --> G[Close the web browser] G --> H[End]
+
+Input7: Take out the remote control. Turn on the television. Select a TV channel or program. Adjust the volume and picture settings. Watch the TV show or movie. Turn off the television.
+
+Output7: A[Start] --> B[Take out the remote control] B --> C[Turn on the television] C --> D[Select a TV channel or program] D --> E[Adjust volume and picture settings] E --> F[Watch the TV show or movie] F --> G[Turn off the television] G --> H[End]
+
+Input8: Get in the car and fasten your seatbelt. Start the engine. Adjust the mirrors and seat position. Put the car in gear. Drive to the destination. Park the car and turn off the engine.
+
+Output8: A[Start] --> B[Get in the car and fasten seatbelt] B --> C[Start the engine] C --> D[Adjust mirrors and seat position] D --> E[Put the car in gear] E --> F[Drive to the destination] F --> G[Park the car and turn off the engine] G --> H[End]
+
+Input9: Grab your wallet and keys. Lock the front door. Walk to the nearest bus stop or train station. Wait for the bus or train. Board the bus or train. Get off at the desired stop.
+
+Output9: A[Start] --> B[Grab wallet and keys] B --> C[Lock the front door] C --> D[Walk to the nearest bus stop or train station] D --> E[Wait for the bus or train] E --> F[Board the bus or train] F --> G[Get off at the desired stop] G --> H[End]
+
+Input10: Open a new document. Choose a font and formatting options. Type the content. Insert images or graphs if necessary. Proofread and edit the document. Save the document and close the program.
+
+Output10: A[Start] --> B[Open a new document] B --> C[Choose a font and formatting options] C --> D[Type the content] D --> E[Insert images or graphs if necessary] E --> F[Proofread and edit the document] F --> G[Save the document and close the program] G --> H[End]

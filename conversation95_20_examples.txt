@@ -1,0 +1,31 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Grab a paintbrush and some canvas. Apply paint to the brush. Create a vibrant artwork. Allow it to dry. Hang it on the wall.
+Output1: A[Start] --> B[Grab a paintbrush and some canvas] B --> C[Apply paint to the brush] C --> D[Create a vibrant artwork] D --> E[Allow it to dry] E --> F[Hang it on the wall] F --> G[End]
+
+Input2: Pick up a knife and cutting board. Choose fresh vegetables. Wash them thoroughly. Chop them into small pieces. Cook them in a pan. Season and serve.
+Output2: A[Start] --> B[Pick up a knife and cutting board] B --> C[Choose fresh vegetables] C --> D[Wash them thoroughly] D --> E[Chop them into small pieces] E --> F[Cook them in a pan] F --> G[Season and serve] G --> H[End]
+
+Input3: Take out a yoga mat and put it on the floor. Perform stretching exercises. Practice various yoga poses. Focus on breathing techniques. End the session with a relaxation pose.
+Output3: A[Start] --> B[Take out a yoga mat and put it on the floor] B --> C[Perform stretching exercises] C --> D[Practice various yoga poses] D --> E[Focus on breathing techniques] E --> F[End the session with a relaxation pose] F --> G[End]
+
+Input4: Retrieve a book from the shelf. Find a comfortable reading spot. Open the book to the first page. Begin reading. Flip through the pages. Finish reading the book.
+Output4: A[Start] --> B[Retrieve a book from the shelf] B --> C[Find a comfortable reading spot] C --> D[Open the book to the first page] D --> E[Begin reading] E --> F[Flip through the pages] F --> G[Finish reading the book] G --> H[End]
+
+Input5: Gather ingredients and cooking utensils. Preheat the oven. Mix the ingredients in a bowl. Pour the mixture into a baking pan. Place the pan in the oven. Bake for the specified time.
+Output5: A[Start] --> B[Gather ingredients and cooking utensils] B --> C[Preheat the oven] C --> D[Mix the ingredients in a bowl] D --> E[Pour the mixture into a baking pan] E --> F[Place the pan in the oven] F --> G[Bake for the specified time] G --> H[End]
+
+Input6: Put on workout clothes. Warm up with light exercises. Perform strength training exercises. Follow a cardio routine. Cool down with stretching exercises. Take a shower.
+Output6: A[Start] --> B[Put on workout clothes] B --> C[Warm up with light exercises] C --> D[Perform strength training exercises] D --> E[Follow a cardio routine] E --> F[Cool down with stretching exercises] F --> G[Take a shower] G --> H[End]
+
+Input7: Gather art supplies. Sketch out a rough draft. Add details and refine the drawing. Add color or shading. Sign and date the artwork. Frame and showcase it.
+Output7: A[Start] --> B[Gather art supplies] B --> C[Sketch out a rough draft] C --> D[Add details and refine the drawing] D --> E[Add color or shading] E --> F[Sign and date the artwork] F --> G[Frame and showcase it] G --> H[End]
+
+Input8: Collect cleaning supplies. Declutter the area. Dust surfaces and furniture. Wipe down windows and mirrors. Vacuum the floors. Take out the trash.
+Output8: A[Start] --> B[Collect cleaning supplies] B --> C[Declutter the area] C --> D[Dust surfaces and furniture] D --> E[Wipe down windows and mirrors] E --> F[Vacuum the floors] F --> G[Take out the trash] G --> H[End]
+
+Input9: Put on gardening gloves and grab gardening tools. Clear out weeds and debris. Dig holes for planting. Place the plants in the holes. Water the plants. Maintain and care for them.
+Output9: A[Start] --> B[Put on gardening gloves and grab gardening tools] B --> C[Clear out weeds and debris] C --> D[Dig holes for planting] D --> E[Place the plants in the holes] E --> F[Water the plants] F --> G[Maintain and care for them] G --> H[End]
+
+Input10: Gather travel essentials. Research and plan the trip. Pack clothes and personal items. Arrive at the destination. Explore and visit attractions. Capture memorable moments. Return home.
+Output10: A[Start] --> B[Gather travel essentials] B --> C[Research and plan the trip] C --> D[Pack clothes and personal items] D --> E[Arrive at the destination] E --> F[Explore and visit attractions] F --> G[Capture memorable moments] G --> H[Return home] H --> I[End]

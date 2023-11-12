@@ -1,0 +1,16 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Wake up. Get out of bed. Brush your teeth. Take a shower. Get dressed. Have breakfast. Leave for work.
+Output1: A[Start] --> B[Wake up] B --> C[Get out of bed] C --> D[Brush your teeth] D --> E[Take a shower] E --> F[Get dressed] F --> G[Have breakfast] G --> H[Leave for work] H --> I[End]
+
+Input2: Enter the gym. Change into workout clothes. Warm up with stretches. Start cardio exercise. Move on to weightlifting. Cool down with stretches. Exit the gym.
+Output2: A[Start] --> B[Enter the gym] B --> C[Change into workout clothes] C --> D[Warm up with stretches] D --> E[Start cardio exercise] E --> F[Move on to weightlifting] F --> G[Cool down with stretches] G --> H[Exit the gym] H --> I[End]
+
+Input3: Open the fridge. Take out the ingredients. Preheat the oven. Prepare the dough. Add toppings. Bake the pizza. Take out of the oven. Enjoy the delicious homemade pizza.
+Output3: A[Start] --> B[Open the fridge] B --> C[Take out the ingredients] C --> D[Preheat the oven] D --> E[Prepare the dough] E --> F[Add toppings] F --> G[Bake the pizza] G --> H[Take out of the oven] H --> I[Enjoy the delicious homemade pizza] I --> J[End]
+
+Input4: Set up the easel. Choose the desired paint colors. Prepare the canvas. Sketch the outline. Start applying paint. Add details. Let it dry. Clean up the brushes and workspace. Hang the finished painting on the wall.
+Output4: A[Start] --> B[Set up the easel] B --> C[Choose the desired paint colors] C --> D[Prepare the canvas] D --> E[Sketch the outline] E --> F[Start applying paint] F --> G[Add details] G --> H[Let it dry] H --> I[Clean up the brushes and workspace] I --> J[Hang the finished painting on the wall] J --> K[End]
+
+Input5: Take out the book you want to read. Find a comfortable spot. Open to the first page. Start reading the story. Turn each page as you progress. Get lost in the captivating plot. Finish reading the book. Put it back on the shelf.
+Output5: A[Start] --> B[Take out the book you want to read] B --> C[Find a comfortable spot] C --> D[Open to the first page] D --> E[Start reading the story] E --> F[Turn each page as you progress] F --> G[Get lost in the captivating plot] G --> H[Finish reading the book] H --> I[Put it back on the shelf] I --> J[End]

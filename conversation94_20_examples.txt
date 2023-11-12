@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Wake up and get out of bed. Take a shower and get dressed. Have breakfast. Brush your teeth.
+Output1: A[Start] --> B[Wake up and get out of bed] B --> C[Take a shower and get dressed] C --> D[Have breakfast] D --> E[Brush your teeth] E --> F[End]
+
+Input2: Open the refrigerator. Take out the ingredients. Prepare the vegetables and meat. Heat the oil in a pan. Cook the ingredients.
+Output2: A[Start] --> B[Open the refrigerator] B --> C[Take out the ingredients] C --> D[Prepare the vegetables and meat] D --> E[Heat the oil in a pan] E --> F[Cook the ingredients] F --> G[End]
+
+Input3: Walk to the bus stop. Wait for the bus. Get on the bus. Pay the fare. Find a seat.
+Output3: A[Start] --> B[Walk to the bus stop] B --> C[Wait for the bus] C --> D[Get on the bus] D --> E[Pay the fare] E --> F[Find a seat] F --> G[End]
+
+Input4: Take out a book. Find a comfortable spot. Open the book. Start reading. Turn the pages as you go.
+Output4: A[Start] --> B[Take out a book] B --> C[Find a comfortable spot] C --> D[Open the book] D --> E[Start reading] E --> F[Turn the pages as you go] F --> G[End]
+
+Input5: Turn on the television. Browse through the channels. Select a movie or show. Adjust the volume if needed. Sit back and enjoy.
+Output5: A[Start] --> B[Turn on the television] B --> C[Browse through the channels] C --> D[Select a movie or show] D --> E[Adjust the volume if needed] E --> F[Sit back and enjoy] F --> G[End]
+
+Input6: Open the web browser. Enter a website's URL. Wait for the page to load. Scroll through the content. Click on links if desired.
+Output6: A[Start] --> B[Open the web browser] B --> C[Enter a website's URL] C --> D[Wait for the page to load] D --> E[Scroll through the content] E --> F[Click on links if desired] F --> G[End]
+
+Input7: Take out the dirty laundry. Sort the clothes by color. Put them in the washing machine. Add detergent. Start the washing cycle.
+Output7: A[Start] --> B[Take out the dirty laundry] B --> C[Sort the clothes by color] C --> D[Put them in the washing machine] D --> E[Add detergent] E --> F[Start the washing cycle] F --> G[End]
+
+Input8: Open a blank document. Type the title. Write the introduction. Add supporting paragraphs. Conclude the document.
+Output8: A[Start] --> B[Open a blank document] B --> C[Type the title] C --> D[Write the introduction] D --> E[Add supporting paragraphs] E --> F[Conclude the document] F --> G[End]
+
+Input9: Pick up the phone. Dial the number. Wait for the recipient to answer. Have a conversation. End the call.
+Output9: A[Start] --> B[Pick up the phone] B --> C[Dial the number] C --> D[Wait for the recipient to answer] D --> E[Have a conversation] E --> F[End the call] F --> G[End]
+
+Input10: Enter the gym. Stretch your muscles. Use the treadmill or other equipment. Lift weights if desired. Cool down and leave.
+Output10: A[Start] --> B[Enter the gym] B --> C[Stretch your muscles] C --> D[Use the treadmill or other equipment] D --> E[Lift weights if desired] E --> F[Cool down and leave] F --> G[End]
+
+Input11: Unlock the front door. Take off your shoes. Hang your coat. Put your keys away. Relax and make yourself at home.
+Output11: A[Start] --> B[Unlock the front door] B --> C[Take off your shoes] C --> D[Hang your coat] D --> E[Put your keys away] E --> F[Relax and make yourself at home] F --> G[End]
+
+Input12: Open your email. Check for new messages. Reply to important emails. Delete spam. Log out of the email account.
+Output12: A[Start] --> B[Open your email] B --> C[Check for new messages] C --> D[Reply to important emails] D --> E[Delete spam] E --> F[Log out of the email account] F --> G[End]
+
+Input13: Start the car's engine. Adjust the mirrors. Fasten your seatbelt. Put the car in gear. Begin driving to your destination.
+Output13: A[Start] --> B[Start the car's engine] B --> C[Adjust the mirrors] C --> D[Fasten your seatbelt] D --> E[Put the car in gear] E --> F[Begin driving to your destination] F --> G[End]
+
+Input14: Open the music player. Choose a playlist. Press play. Adjust the volume as desired. Enjoy the music.
+Output14: A[Start] --> B[Open the music player] B --> C[Choose a playlist] C --> D[Press play] D --> E[Adjust the volume as desired] E --> F[Enjoy the music] F --> G[End]
+
+Input15: Take out the ingredients. Preheat the oven. Mix the dry and wet ingredients together. Pour the batter into a baking pan. Bake in the oven until golden.
+Output15: A[Start] --> B[Take out the ingredients] B --> C[Preheat the oven] C --> D[Mix the dry and wet ingredients together] D --> E[Pour the batter into a baking pan] E --> F[Bake in the oven until golden] F --> G[End]
+
+Input16: Open your wallet. Take out your ID card. Show it to the security officer. Put it back in your wallet. Continue on your way.
+Output16: A[Start] --> B[Open your wallet] B --> C[Take out your ID card] C --> D[Show it to the security officer] D --> E[Put it back in your wallet] E --> F[Continue on your way] F --> G[End]
+
+Input17: Pick up the paintbrush. Dip it in the paint. Start applying the paint to the canvas. Use different colors and strokes. Step back and admire the artwork.
+Output17: A[Start] --> B[Pick up the paintbrush] B --> C[Dip it in the paint] C --> D[Start applying the paint to the canvas] D --> E[Use different colors and strokes] E --> F[Step back and admire the artwork] F --> G[End]
+
+Input18: Put on your running shoes. Stretch your muscles. Start jogging at a comfortable pace. Increase the speed if desired. Cool down and stop running.
+Output18: A[Start] --> B[Put on your running shoes] B --> C[Stretch your muscles] C --> D[Start jogging at a comfortable pace] D --> E[Increase the speed if desired] E --> F[Cool down and stop running] F --> G[End]
+
+Input19: Open the drawer. Take out a pen and paper. Write down important notes or tasks. Put the pen and paper back in the drawer. Close the drawer.
+Output19: A[Start] --> B[Open the drawer] B --> C[Take out a pen and paper] C --> D[Write down important notes or tasks] D --> E[Put the pen and paper back in the drawer] E --> F[Close the drawer] F --> G[End]
+
+Input20: Turn on the camera. Adjust the settings. Frame the shot. Press the shutter button to take a photo. Review the captured image.
+Output20: A[Start] --> B[Turn on the camera] B --> C[Adjust the settings] C --> D[Frame the shot] D --> E[Press the shutter button to take a photo] E --> F[Review the captured image] F --> G[End]

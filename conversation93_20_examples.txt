@@ -1,0 +1,10 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Prepare the ingredients for cooking. Follow the recipe instructions. Cook the dish according to the recipe. Serve the finished dish. Clean up the kitchen.
+Output1: A[Start] --> B[Prepare ingredients] B --> C[Follow recipe instructions] C --> D[Cook dish] D --> E[Serve dish] E --> F[Clean up kitchen] F --> G[End]
+
+Input2: Assemble all the necessary equipment and tools. Check if all the components are in working condition. Set up the equipment according to the instructions. Test the equipment. Start using the equipment for its intended purpose. Turn off and properly store the equipment afterward.
+Output2: A[Start] --> B[Assemble necessary equipment] B --> C[Check components] C --> D[Set up equipment] D --> E[Test equipment] E --> F[Start using equipment] F --> G[Turn off equipment] G --> H[Store equipment] H --> I[End]
+
+Input3: Gather all the required materials for the project. Review the project guidelines. Plan the steps to complete the project. Execute each step of the project. Evaluate the final outcome. Store or display the finished project.
+Output3: A[Start] --> B[Gather required materials] B --> C[Review project guidelines] C --> D[Plan project steps] D --> E[Execute project steps] E --> F[Evaluate final outcome] F --> G[Store or display project] G --> H[End]

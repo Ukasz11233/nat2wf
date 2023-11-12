@@ -1,0 +1,63 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Immerse yourself in different language learning resources. Practice speaking, writing, and listening in each language. Attain fluency and communicate confidently in various language Output: B --> C[Fluency in multiple languages achieved?] C -- No --> B C -- Yes --> D[Immerse yourself in different language learning resources] D --> E[Practice speaking, writing, and listening ineach language] E --> F[Attain fluency and communicate confidently in various languages] F --> G[End] .Remember to create various length graphs
+assistant: Sure! Here are 20 examples with different inputs and outputs, including varying graph lengths:
+
+Input1: Eat a healthy and balanced diet every day.
+Output1: B --> C[Achieved a healthy and balanced diet?] C -- No --> B C -- Yes --> D[Eat a healthy and balanced diet every day] D --> G[End]
+
+Input2: Complete all assigned homework and study for exams regularly.
+Output2: B --> C[Finished all homework and studied for exams regularly?] C -- No --> B C -- Yes --> D[Complete all assigned homework and study for exams regularly] D --> G[End]
+
+Input3: Wake up early and exercise for at least 30 minutes each morning.
+Output3: B --> C[Achieved regular morning exercise?] C -- No --> B C -- Yes --> D[Wake up early and exercise for at least 30 minutes each morning] D --> G[End]
+
+Input4: Save a portion of your income and invest it wisely for long-term financial security.
+Output4: B --> C[Saved and invested money for long-term financial security?] C -- No --> B C -- Yes --> D[Save a portion of your income and invest it wisely for long-term financial security] D --> G[End]
+
+Input5: Read a variety of books and expand your knowledge in different subjects.
+Output5: B --> C[Read different books and expanded knowledge in various subjects?] C -- No --> B C -- Yes --> D[Read a variety of books and expand your knowledge in different subjects] D --> G[End]
+
+Input6: Travel to different countries and immerse yourself in their cultures.
+Output6: B --> C[Traveled to different countries and immersed yourself in their cultures?] C -- No --> B C -- Yes --> D[Travel to different countries and immerse yourself in their cultures] D --> G[End]
+
+Input7: Learn to play a musical instrument and practice regularly to improve your skills.
+Output7: B --> C[Learned to play a musical instrument and practiced regularly to improve skills?] C -- No --> B C -- Yes --> D[Learn to play a musical instrument and practice regularly to improve your skills] D --> G[End]
+
+Input8: Volunteer your time to help those in need and make a positive impact on the community.
+Output8: B --> C[Volunteered time to help those in need and made a positive impact?] C -- No --> B C -- Yes --> D[Volunteer your time to help those in need and make a positive impact on the community] D --> G[End]
+
+Input9: Take up a new hobby and continuously develop your skills in that area.
+Output9: B --> C[Took up a new hobby and continuously developed skills in that area?] C -- No --> B C -- Yes --> D[Take up a new hobby and continuously develop your skills in that area] D --> G[End]
+
+Input10: Establish a regular meditation practice to improve mindfulness and reduce stress.
+Output10: B --> C[Established a regular meditation practice to improve mindfulness and reduce stress?] C -- No --> B C -- Yes --> D[Establish a regular meditation practice to improve mindfulness and reduce stress] D --> G[End]
+
+Input11: Learn a new programming language and apply it to real-life projects.
+Output11: B --> C[Learned a new programming language and applied it to real-life projects?] C -- No --> B C -- Yes --> D[Learn a new programming language and apply it to real-life projects] D --> G[End]
+
+Input12: Start a daily journaling habit and reflect on your thoughts and experiences.
+Output12: B --> C[Started a daily journaling habit and reflected on thoughts and experiences?] C -- No --> B C -- Yes --> D[Start a daily journaling habit and reflect on your thoughts and experiences] D --> G[End]
+
+Input13: Learn to cook different types of cuisines and experiment with new recipes.
+Output13: B --> C[Learned to cook different types of cuisines and experimented with new recipes?] C -- No --> B C -- Yes --> D[Learn to cook different types of cuisines and experiment with new recipes] D --> G[End]
+
+Input14: Engage in regular physical exercise to maintain good health and fitness.
+Output14: B --> C[Engaged in regular physical exercise to maintain good health and fitness?] C -- No --> B C -- Yes --> D[Engage in regular physical exercise to maintain good health and fitness] D --> G[End]
+
+Input15: Practice daily gratitude and express appreciation for the things in your life.
+Output15: B --> C[Practiced daily gratitude and expressed appreciation for things in life?] C -- No --> B C -- Yes --> D[Practice daily gratitude and express appreciation for the things in your life] D --> G[End]
+
+Input16: Develop effective communication skills and actively listen to others.
+Output16: B --> C[Developed effective communication skills and actively listened to others?] C -- No --> B C -- Yes --> D[Develop effective communication skills and actively listen to others] D --> G[End]
+
+Input17: Set specific goals and regularly track your progress towards achieving them.
+Output17: B --> C[Set specific goals and regularly tracked progress towards achieving them?] C -- No --> B C -- Yes --> D[Set specific goals and regularly track your progress towards achieving them] D --> G[End]
+
+Input18: Learn to manage time efficiently and prioritize tasks effectively.
+Output18: B --> C[Learned to manage time efficiently and prioritize tasks effectively?] C -- No --> B C -- Yes --> D[Learn to manage time efficiently and prioritize tasks effectively] D --> G[End]
+
+Input19: Build meaningful relationships with friends and family by spending quality time with them.
+Output19: B --> C[Built meaningful relationships with friends and family by spending quality time?] C -- No --> B C -- Yes --> D[Build meaningful relationships with friends and family by spending quality time with them] D --> G[End]
+
+Input20: Expand your network by attending professional networking events and connecting with industry experts.
+Output20: B --> C[Expanded network by attending professional networking events and connecting with industry experts?] C -- No --> B C -- Yes --> D[Expand your network by attending professional networking events and connecting with industry experts] D --> G[End]

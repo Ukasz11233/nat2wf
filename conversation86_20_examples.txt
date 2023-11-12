@@ -1,0 +1,63 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Here are 20 examples with different inputs and outputs, each named accordingly with Input1... Output1..., Input2... Output2...:
+
+Input1: Wake up in the morning. Brush your teeth and wash your face. Get dressed. Have breakfast. Leave the house.
+Output1: A[Start] --> B[Wake up in the morning] B --> C[Brush teeth and wash face] C --> D[Get dressed] D --> E[Have breakfast] E --> F[Leave the house] F --> G[End]
+
+Input2: Pick up the phone. Dial the recipient's number. Listen for the ringing tone. Talk and engage in the conversation. Say goodbye and end the call.
+Output2: A[Start] --> B[Pick up the phone] B --> C[Dial recipient's number] C --> D[Listen for ringing tone] D --> E[Talk and engage in conversation] E --> F[Say goodbye and end the call] F --> G[End]
+
+Input3: Open a book. Read and comprehend the contents. Take notes or highlight important parts. Reflect on the information. Close the book.
+Output3: A[Start] --> B[Open the book] B --> C[Read and comprehend contents] C --> D[Take notes or highlight important parts] D --> E[Reflect on the information] E --> F[Close the book] F --> G[End]
+
+Input4: Start a workout session. Warm up your muscles. Perform exercises as scheduled. Take short breaks as needed. Cool down and stretch. Finish the session.
+Output4: A[Start] --> B[Start workout session] B --> C[Warm up muscles] C --> D[Perform exercises as scheduled] D --> E[Take short breaks as needed] E --> F[Cool down and stretch] F --> G[Finish the session] G --> H[End]
+
+Input5: Turn on the TV. Choose a channel or program. Adjust the volume and settings. Watch and enjoy the content. Turn off the TV.
+Output5: A[Start] --> B[Turn on the TV] B --> C[Choose a channel or program] C --> D[Adjust volume and settings] D --> E[Watch and enjoy content] E --> F[Turn off the TV] F --> G[End]
+
+Input6: Open a web browser. Type in the URL or search query. Navigate through the website or search results. Click on relevant links or articles. Close the browser.
+Output6: A[Start] --> B[Open web browser] B --> C[Type in URL or search query] C --> D[Navigate through website or search results] D --> E[Click on relevant links or articles] E --> F[Close the browser] F --> G[End]
+
+Input7: Approach a vending machine. Insert coins or bills. Select desired item and press the corresponding button. Retrieve the item. Walk away.
+Output7: A[Start] --> B[Approach vending machine] B --> C[Insert coins or bills] C --> D[Select desired item and press button] D --> E[Retrieve the item] E --> F[Walk away] F --> G[End]
+
+Input8: Grab a grocery cart. Walk through the aisles and collect items from your shopping list. Proceed to the checkout counter. Pay for the items. Exit the store.
+Output8: A[Start] --> B[Grab grocery cart] B --> C[Walk through aisles and collect items] C --> D[Proceed to checkout counter] D --> E[Pay for items] E --> F[Exit the store] F --> G[End]
+
+Input9: Approach a self-service gas station pump. Insert credit card or select payment method. Fuel up the vehicle with the desired amount. Replace the gas nozzle. Drive away.
+Output9: A[Start] --> B[Approach self-service gas station pump] B --> C[Insert credit card or select payment method] C --> D[Fuel up vehicle with desired amount] D --> E[Replace gas nozzle] E --> F[Drive away] F --> G[End]
+
+Input10: Turn on the oven. Preheat it to the required temperature. Prepare ingredients for baking. Place the items in the oven. Set the timer. Remove baked goods and turn off the oven.
+Output10: A[Start] --> B[Turn on the oven] B --> C[Preheat it to required temperature] C --> D[Prepare ingredients for baking] D --> E[Place items in the oven] E --> F[Set the timer] F --> G[Remove baked goods and turn off the oven] G --> H[End]
+
+Input11: Wake up to an alarm. Get out of bed. Freshen up by washing your face and brushing your teeth. Get dressed. Grab a quick breakfast.
+Output11: A[Start] --> B[Wake up to an alarm] B --> C[Get out of bed] C --> D[Freshen up by washing face and brushing teeth] D --> E[Get dressed] E --> F[Grab a quick breakfast] F --> G[End]
+
+Input12: Start the car engine. Adjust the mirrors and seat position. Fasten the seatbelt. Put the car in gear. Drive to the desired destination.
+Output12: A[Start] --> B[Start car engine] B --> C[Adjust mirrors and seat position] C --> D[Fasten seatbelt] D --> E[Put car in gear] E --> F[Drive to desired destination] F --> G[End]
+
+Input13: Power on the microwave. Enter the desired cooking time. Place food inside. Close the door and start the timer. Remove the food when done.
+Output13: A[Start] --> B[Power on the microwave] B --> C[Enter desired cooking time] C --> D[Place food inside] D --> E[Close door and start the timer] E --> F[Remove food when done] F --> G[End]
+
+Input14: Open a word processing software. Create a new document. Type and edit the content. Format the text as needed. Save the file and close the software.
+Output14: A[Start] --> B[Open word processing software] B --> C[Create new document] C --> D[Type and edit content] D --> E[Format text as needed] E --> F[Save file and close software] F --> G[End]
+
+Input15: Start a music player application. Search for a specific song or artist. Create a playlist. Play the selected music. Stop the playback.
+Output15: A[Start] --> B[Start music player application] B --> C[Search for specific song or artist] C --> D[Create playlist] D --> E[Play selected music] E --> F[Stop playback] F --> G[End]
+
+Input16: Open a photo editing software. Import desired pictures. Enhance or modify the images. Apply filters or effects. Export or save the edited photos. Close the software.
+Output16: A[Start] --> B[Open photo editing software] B --> C[Import desired pictures] C --> D[Enhance or modify images] D --> E[Apply filters or effects] E --> F[Export or save edited photos] F --> G[Close the software] G --> H[End]
+
+Input17: Turn on the air conditioner. Set the desired temperature and fan speed. Adjust air vents if necessary. Enjoy the cool air. Turn off the air conditioner.
+Output17: A[Start] --> B[Turn on the air conditioner] B --> C[Set desired temperature and fan speed] C --> D[Adjust air vents if necessary] D --> E[Enjoy cool air] E --> F[Turn off the air conditioner] F --> G[End]
+
+Input18: Open a video conferencing application. Log in to your account. Schedule or join a meeting. Engage in the conference. Leave the session and log out.
+Output18: A[Start] --> B[Open video conferencing application] B --> C[Log in to account] C --> D[Schedule or join meeting] D --> E[Engage in conference] E --> F[Leave session and log out] F --> G[End]
+
+Input19: Put on your running shoes. Warm up by stretching. Start jogging or running. Maintain an appropriate pace. Cool down by walking. Stop the activity.
+Output19: A[Start] --> B[Put on running shoes] B --> C[Warm up by stretching] C --> D[Start jogging or running] D --> E[Maintain appropriate pace] E --> F[Cool down by walking] F --> G[Stop activity] G --> H[End]
+
+Input20: Turn on a handheld gaming console. Select a game or application. Play and enjoy the gameplay. Save progress if desired. Power off the console.
+Output20: A[Start] --> B[Turn on handheld gaming console] B --> C[Select game or application] C --> D[Play and enjoy gameplay] D --> E[Save progress if desired] E --> F[Power off console] F --> G[End]

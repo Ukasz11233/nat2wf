@@ -11,11 +11,11 @@ openai.api_key = apiKey
 
 
 
-for i in range(77, 82):
+for i in range(120, 130):
     messages = [
         {"role": "system", "content": "test"},
     ]
-    message =   "Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs"
+    message =    "Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Immerse yourself in different language learning resources. Practice speaking, writing, and listening in each language. Attain fluency and communicate confidently in various language Output: B --> C[Fluency in multiple languages achieved?] C -- No --> B C -- Yes --> D[Immerse yourself in different language learning resources] D --> E[Practice speaking, writing, and listening ineach language] E --> F[Attain fluency and communicate confidently in various languages] F --> G[End] .Remember to create various length graphs"
     if message:
         messages.append(
             {"role": "user", "content": message},

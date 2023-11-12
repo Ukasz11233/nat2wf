@@ -1,0 +1,61 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Wake up in the morning. Go to the bathroom and brush your teeth. Get dressed for the day. Have breakfast. Head out for work.
+Output1: A[Start] --> B[Wake up in the morning] B --> C[Go to the bathroom and brush your teeth] C --> D[Get dressed for the day] D --> E[Have breakfast] E --> F[Head out for work] F --> G[End].
+
+Input2: Order food from a restaurant. Choose desired items from the menu. Provide delivery address and contact information. Pay for the order. Wait for the food to be delivered.
+Output2: A[Start] --> B[Order food from a restaurant] B --> C[Choose desired items from the menu] C --> D[Provide delivery address and contact information] D --> E[Pay for the order] E --> F[Wait for the food to be delivered] F --> G[End].
+
+Input3: Start a fitness routine. Choose an exercise program. Warm up before exercising. Follow the program, performing each exercise. Cool down after the workout. Track progress and set goals for the next session.
+Output3: A[Start] --> B[Start a fitness routine] B --> C[Choose an exercise program] C --> D[Warm up before exercising] D --> E[Follow the program, performing each exercise] E --> F[Cool down after the workout] F --> G[Track progress and set goals for the next session] G --> H[End].
+
+Input4: Plan a vacation. Decide on a destination. Research flights and accommodations. Create an itinerary. Pack necessary items. Enjoy the trip. Return home.
+Output4: A[Start] --> B[Plan a vacation] B --> C[Decide on a destination] C --> D[Research flights and accommodations] D --> E[Create an itinerary] E --> F[Pack necessary items] F --> G[Enjoy the trip] G --> H[Return home] H --> I[End].
+
+Input5: Grow a plant. Choose a type of plant. Prepare the soil and pot. Plant the seeds or seedling. Water the plant regularly. Provide sunlight and nutrients. Watch the plant grow and bloom.
+Output5: A[Start] --> B[Grow a plant] B --> C[Choose a type of plant] C --> D[Prepare the soil and pot] D --> E[Plant the seeds or seedling] E --> F[Water the plant regularly] F --> G[Provide sunlight and nutrients] G --> H[Watch the plant grow and bloom] H --> I[End].
+
+Input6: Complete a crossword puzzle. Gather a crossword puzzle book. Find a suitable puzzle. Read the clues. Fill in the answers accordingly. Check for mistakes. Finish the puzzle.
+Output6: A[Start] --> B[Complete a crossword puzzle] B --> C[Gather a crossword puzzle book] C --> D[Find a suitable puzzle] D --> E[Read the clues] E --> F[Fill in the answers accordingly] F --> G[Check for mistakes] G --> H[Finish the puzzle] H --> I[End].
+
+Input7: Learn a new language. Choose a language to learn. Find learning resources or classes. Practice speaking and writing. Engage in conversations with native speakers. Master the language.
+Output7: A[Start] --> B[Learn a new language] B --> C[Choose a language to learn] C --> D[Find learning resources or classes] D --> E[Practice speaking and writing] E --> F[Engage in conversations with native speakers] F --> G[Master the language] G --> H[End].
+
+Input8: Prepare a cup of coffee. Grind coffee beans. Boil water. Pour hot water over the coffee grounds. Let it steep for a few minutes. Strain the coffee into a cup. Add desired flavors or sweeteners if desired. Enjoy the coffee.
+Output8: A[Start] --> B[Prepare a cup of coffee] B --> C[Grind coffee beans] C --> D[Boil water] D --> E[Pour hot water over the coffee grounds] E --> F[Let it steep for a few minutes] F --> G[Strain the coffee into a cup] G --> H[Add desired flavors or sweeteners if desired] H --> I[Enjoy the coffee] I --> J[End].
+
+Input9: Build a piece of furniture. Gather the necessary tools and materials. Read and understand the instructions. Assemble the parts according to the steps. Check for stability and functionality. Place the finished furniture in the desired location.
+Output9: A[Start] --> B[Build a piece of furniture] B --> C[Gather the necessary tools and materials] C --> D[Read and understand the instructions] D --> E[Assemble the parts according to the steps] E --> F[Check for stability and functionality] F --> G[Place the finished furniture in the desired location] G --> H[End].
+
+Input10: Write a book. Choose a genre or topic. Develop characters and a plot. Write the chapters and storyline. Edit and revise the content. Publish and share the book with readers.
+Output10: A[Start] --> B[Write a book] B --> C[Choose a genre or topic] C --> D[Develop characters and a plot] D --> E[Write the chapters and storyline] E --> F[Edit and revise the content] F --> G[Publish and share the book with readers] G --> H[End].
+
+Input11: Learn to play a musical instrument. Decide on an instrument to learn. Find a teacher or online tutorials. Practice regularly. Learn notes and chords. Perform songs and pieces.
+Output11: A[Start] --> B[Learn to play a musical instrument] B --> C[Decide on an instrument to learn] C --> D[Find a teacher or online tutorials] D --> E[Practice regularly] E --> F[Learn notes and chords] F --> G[Perform songs and pieces] G --> H[End].
+
+Input12: Start a blog. Choose a blog platform and domain name. Set up the blog layout and design. Write and publish blog posts. Promote the blog through social media. Engage with readers through comments and feedback.
+Output12: A[Start] --> B[Start a blog] B --> C[Choose a blog platform and domain name] C --> D[Set up the blog layout and design] D --> E[Write and publish blog posts] E --> F[Promote the blog through social media] F --> G[Engage with readers through comments and feedback] G --> H[End].
+
+Input13: Bake a cake. Gather the necessary ingredients and baking tools. Preheat the oven. Mix the ingredients according to the recipe. Pour the batter into a cake pan. Bake it in the oven for the specified time. Let the cake cool and decorate it if desired.
+Output13: A[Start] --> B[Bake a cake] B --> C[Gather the necessary ingredients and baking tools] C --> D[Preheat the oven] D --> E[Mix the ingredients according to the recipe] E --> F[Pour the batter into a cake pan] F --> G[Bake it in the oven for the specified time] G --> H[Let the cake cool and decorate it if desired] H --> I[End].
+
+Input14: Learn to swim. Find a swimming pool or aquatic center. Learn basic swimming techniques and strokes. Practice floating and treading water. Gradually increase swimming distances. Gain confidence in deep water.
+Output14: A[Start] --> B[Learn to swim] B --> C[Find a swimming pool or aquatic center] C --> D[Learn basic swimming techniques and strokes] D --> E[Practice floating and treading water] E --> F[Gradually increase swimming distances] F --> G[Gain confidence in deep water] G --> H[End].
+
+Input15: Renovate a room. Decide on a room to renovate. Plan the desired changes and improvements. Measure and purchase the necessary materials. Remove old furniture and fixtures. Paint the walls and install new elements. Decorate and organize the room.
+Output15: A[Start] --> B[Renovate a room] B --> C[Decide on a room to renovate] C --> D[Plan the desired changes and improvements] D --> E[Measure and purchase the necessary materials] E --> F[Remove old furniture and fixtures] F --> G[Paint the walls and install new elements] G --> H[Decorate and organize the room] H --> I[End].
+
+Input16: Learn to code. Choose a programming language to learn. Find online tutorials or enroll in coding courses. Practice coding exercises. Build simple programs or projects. Solve coding challenges and problems.
+Output16: A[Start] --> B[Learn to code] B --> C[Choose a programming language to learn] C --> D[Find online tutorials or enroll in coding courses] D --> E[Practice coding exercises] E --> F[Build simple programs or projects] F --> G[Solve coding challenges and problems] G --> H[End].
+
+Input17: Organize a birthday party. Choose a venue or location. Create a guest list. Send out invitations. Plan decorations and themes. Arrange food and drinks. Organize games or activities for entertainment. Celebrate the birthday with guests.
+Output17: A[Start] --> B[Organize a birthday party] B --> C[Choose a venue or location] C --> D[Create a guest list] D --> E[Send out invitations] E --> F[Plan decorations and themes] F --> G[Arrange food and drinks] G --> H[Organize games or activities for entertainment] H --> I[Celebrate the birthday with guests] I --> J[End].
+
+Input18: Start a business. Choose a business idea or niche. Conduct market research. Write a business plan. Acquire necessary licenses or permits. Set up operations and infrastructure. Launch the business and attract customers.
+Output18: A[Start] --> B[Start a business] B --> C[Choose a business idea or niche] C --> D[Conduct market research] D --> E[Write a business plan] E --> F[Acquire necessary licenses or permits] F --> G[Set up operations and infrastructure] G --> H[Launch the business and attract customers] H --> I[End].
+
+Input19: Learn to juggle. Begin with one ball or object. Practice throwing and catching. Add more balls gradually. Learn different juggling patterns. Perform juggling routines and tricks.
+Output19: A[Start] --> B[Learn to juggle] B --> C[Begin with one ball or object] C --> D[Practice throwing and catching] D --> E[Add more balls gradually] E --> F[Learn different juggling patterns] F --> G[Perform juggling routines and tricks] G --> H[End].
+
+Input20: Host a dinner party. Choose a date and invite guests. Plan a menu and shop for ingredients. Prepare and cook the meal. Set the table and arrange the dining area. Serve the food and enjoy the evening with guests. Clean up after the party.
+Output20: A[Start] --> B[Host a dinner party] B --> C[Choose a date and invite guests] C --> D[Plan a menu and shop for ingredients] D --> E[Prepare and cook the meal] E --> F[Set the table and arrange the dining area] F --> G[Serve the food and enjoy the evening with guests] G --> H[Clean up after the party] H --> I[End].

@@ -1,0 +1,46 @@
+system: test
+user: Give me 20 examples like this but with different input and output according to the input. Name then accordingly Input1... Output1..., Input2... Output2... . Input: Turn on the computer. Enter the username and password to log in. Open the desired software or application. Perform the required tasks. Save any changes made. Shut down the computer. Output: A[Start] --> B[Turn on the computer] B --> C[Enter username and password to log in] C --> D[Open desired software or application] D --> E[Perform required tasks] E --> F[Save any changes made] F --> G[Shut down the computer] G --> H[End]. Remember to create various length graphs
+assistant: Input1: Wake up from sleep. Brush your teeth and wash your face. Get dressed. Have breakfast. Leave for work.
+Output1: A[Start] --> B[Wake up from sleep] B --> C[Brush teeth and wash face] C --> D[Get dressed] D --> E[Have breakfast] E --> F[Leave for work] F --> G[End]
+
+Input2: Turn on the television. Choose a channel or streaming service. Select a show or movie to watch. Adjust the volume and picture settings. Sit back and enjoy.
+Output2: A[Start] --> B[Turn on the television] B --> C[Choose channel or streaming service] C --> D[Select show or movie to watch] D --> E[Adjust volume and picture settings] E --> F[Sit back and enjoy] F --> G[End]
+
+Input3: Open your email application. Enter your email address and password. Check for new messages. Reply or delete any necessary emails. Sign out of your email account.
+Output3: A[Start] --> B[Open email application] B --> C[Enter email address and password] C --> D[Check for new messages] D --> E[Reply or delete necessary emails] E --> F[Sign out of email account] F --> G[End]
+
+Input4: Unlock your smartphone. Open the camera app. Take photos or record videos. Edit or enhance the captured media. Share them with friends or save them to your gallery.
+Output4: A[Start] --> B[Unlock smartphone] B --> C[Open camera app] C --> D[Take photos or record videos] D --> E[Edit or enhance media] E --> F[Share with friends or save to gallery] F --> G[End]
+
+Input5: Start your car's engine. Adjust the mirrors and seat position. Fasten your seatbelt. Turn on some music. Drive to your destination. Turn off the engine and park.
+Output5: A[Start] --> B[Start car's engine] B --> C[Adjust mirrors and seat position] C --> D[Fasten seatbelt] D --> E[Turn on music] E --> F[Drive to destination] F --> G[Turn off engine and park] G --> H[End]
+
+Input6: Open your favorite book. Find a comfortable spot to read. Dive into the story. Flip through the pages. Take breaks if needed. Finish reading and close the book.
+Output6: A[Start] --> B[Open favorite book] B --> C[Find a comfortable spot] C --> D[Dive into the story] D --> E[Flip through the pages] E --> F[Take breaks if needed] F --> G[Finish reading and close the book] G --> H[End]
+
+Input7: Turn on the oven. Preheat it to the desired temperature. Prepare the ingredients for cooking. Follow the recipe instructions. Bake or cook the dish. Turn off the oven.
+Output7: A[Start] --> B[Turn on the oven] B --> C[Preheat to desired temperature] C --> D[Prepare ingredients for cooking] D --> E[Follow recipe instructions] E --> F[Bake or cook the dish] F --> G[Turn off the oven] G --> H[End]
+
+Input8: Set up the chessboard. Decide who goes first. Make the opening move. Take turns with your opponent. Capture or protect pieces strategically. Achieve checkmate. End the game.
+Output8: A[Start] --> B[Set up chessboard] B --> C[Decide who goes first] C --> D[Make opening move] D --> E[Take turns with opponent] E --> F[Capture or protect pieces] F --> G[Achieve checkmate] G --> H[End]
+
+Input9: Plug in your phone charger. Connect it to a power source. Wait for the device to reach a full charge. Disconnect and remove the charger. Start using your fully charged phone.
+Output9: A[Start] --> B[Plug in phone charger] B --> C[Connect to power source] C --> D[Wait for full charge] D --> E[Disconnect and remove charger] E --> F[Start using fully charged phone] F --> G[End]
+
+Input10: Unlock your front door. Step inside and close the door behind you. Take off your shoes and coat. Put your belongings in their respective places. Relax and unwind.
+Output10: A[Start] --> B[Unlock front door] B --> C[Step inside and close the door] C --> D[Take off shoes and coat] D --> E[Put belongings in respective places] E --> F[Relax and unwind] F --> G[End]
+
+Input11: Go to a grocery store. Grab a shopping cart or basket. Walk through the aisles and select the items you need. Check the prices and compare brands. Pay for your groceries at the checkout. Exit the store.
+Output11: A[Start] --> B[Go to grocery store] B --> C[Grab shopping cart or basket] C --> D[Walk through aisles and select items] D --> E[Check prices and compare brands] E --> F[Pay for groceries at checkout] F --> G[Exit the store] G --> H[End]
+
+Input12: Turn on your favorite video game console. Choose a game to play. Load the game and start playing. Navigate through levels or missions. Achieve objectives and earn points. Save the progress and quit the game.
+Output12: A[Start] --> B[Turn on video game console] B --> C[Choose game to play] C --> D[Load game and start playing] D --> E[Navigate through levels or missions] E --> F[Achieve objectives and earn points] F --> G[Save progress and quit game] G --> H[End]
+
+Input13: Open a new word processing document. Type or paste the content you want to write. Format the text, if needed. Add images or graphs to enhance the document. Proofread and edit the content. Save the document and close the editor.
+Output13: A[Start] --> B[Open new word processing document] B --> C[Type or paste content] C --> D[Format text, if needed] D --> E[Add images or graphs] E --> F[Proofread and edit content] F --> G[Save document and close editor] G --> H[End]
+
+Input14: Turn on your favorite music player. Choose a playlist or album to listen to. Adjust the volume and equalizer settings. Sit back and enjoy the music. Sing along or dance if desired. Stop the music player.
+Output14: A[Start] --> B[Turn on music player] B --> C[Choose playlist or album] C --> D[Adjust volume and equalizer settings] D --> E[Sit back and enjoy music] E --> F[Sing along or dance, if desired] F --> G[Stop music player] G --> H[End]
+
+Input15: Power on your desktop computer. Wait for the operating system to load. Open a web browser. Visit your favorite website or browse the internet. Perform online activities such as shopping, social media, or research. Shut down the computer when done.
+Output15: A[Start] --> B[Power on desktop computer] B --> C[Wait for OS to load] C --> D[Open web browser] D --> E[Visit favorite website or browse internet] E --> F[Perform online activities] F --> G[Shut down computer] G --> H[End]
