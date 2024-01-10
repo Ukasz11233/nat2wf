@@ -32,3 +32,11 @@ C -- Yes --> D[Immerse yourself in different language learning resources]
 D --> E[Practice speaking, writing, and listening ineach language]
 E --> F[Attain fluency and communicate confidently in various languages]
 F --> G[End] .Remember to create various length graphs"
+
+
+
+
+## HOW TO RUN FLASK
+
+
+python -m flask --app flaskr run --debug
