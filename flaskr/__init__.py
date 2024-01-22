@@ -14,7 +14,6 @@ def create_app(test_config=None):
         SECRET_KEY='dev',
         DATABASE=os.path.join(app.instance_path, 'flaskr.sqlite'),
     )
-
     if test_config is None:
         app.config.from_pyfile('config.py', silent=True)
     else:
@@ -37,10 +36,10 @@ def create_app(test_config=None):
 
     @app.route('/', methods=['GET', 'POST'])
     def main():
+        cleaned_prediction = ""
         global current_output
         if request.method == "POST":
             current_output = ''
-
             openai_api_key = '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'
             client = OpenAI(api_key=openai_api_key)
 
