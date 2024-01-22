@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Your Machine Learning App</title>
-        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    </head>
-    
-    <body>
-        <form class="input" name="form" method="POST">
-            <br>
-            <label for="message">Your text:</label>
-            <br>
-            <textarea type="text" name="text" placeholder="Your text" required rows="5" cols="80"></textarea>
-            <br><br>
-            <button>Run</button>
-        </form>
-        <div class="output" style="text-align: center;" id="output"></div>
+
+<head>
+    <title>Your Machine Learning App</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <form class="input" name="form" method="POST">
+        <br>
+        <label for="message">Your text:</label>
+        <br>
+        <textarea type="text" name="text" placeholder="Enter here your mermaid description" required rows="5" cols="80"></textarea>
+        <br><br>
+        <button>Run</button>
+    </form>
+    <div class="output">
         <pre class="mermaid image">
-            {{ output }}
-        </pre>
-        <script type="module">
-            import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-            mermaid.initialize({ startOnLoad: true });
-        </script>   
-    </body>
+                {{ output }}
+            </pre>
+    </div>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</body>
+
 </html>

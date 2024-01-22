@@ -55,7 +55,7 @@ button:hover {
 }
 
 .output {
-    text-align: left;
+    text-align: center;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -66,4 +66,8 @@ button:hover {
 pre.mermaid {
     background-color: transparent;
     border: none;
+}
+
+.image{
+    margin: 0 auto;
 }
