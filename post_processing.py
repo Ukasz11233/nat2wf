@@ -1,4 +1,5 @@
 import re
+from collections import defaultdict, deque
 
 def parse_mermaid_edges(mermaid_graph):
     edges = []
@@ -44,6 +45,50 @@ def has_cycle(graph_edges):
             if dfs(node, None):
                 return True
 
+    return False
+
+def has_vertex_with_multiple_edges(edges):
+    graph = defaultdict(list)
+    
+    # Dodawanie krawędzi do grafu
+    for edge in edges:
+        u, v = edge
+        graph[u].append(v)
+    
+    # Sprawdzenie każdego wierzchołka
+    for vertex in graph:
+        if len(graph[vertex]) >= 2:
+            return True
+    
+    return False
+
+
+def build_graph(edges):
+    graph = defaultdict(list)
+    for edge in edges:
+        u, v = edge
+        graph[u].append(v)
+    return graph
+
+def has_two_different_paths(graph):
+    for start in graph:
+        for end in graph:
+            if start != end:
+                if bfs_find_two_paths(graph, start, end):
+                    return True
+    return False
+
+def bfs_find_two_paths(graph, start, end):
+    queue = deque([(start, [])])
+    while queue:
+        current, path = queue.popleft()
+        if current == end:
+            if len(path) >= 2:
+                return True
+        else:
+            for neighbor in graph[current]:
+                if neighbor not in path:
+                    queue.append((neighbor, path + [current]))
     return False
 
 mermaid_graph = """
@@ -101,7 +146,7 @@ def print_all_edges(graph_edges):
         print(f"{edge[0]} --> {edge[1]}")
 
 
-graph_edges = parse_mermaid_edges(mermaid_graph3_without_loop)
+graph_edges = parse_mermaid_edges(mermaid_graph2)
 print_all_edges(graph_edges)
 print(graph_edges)
 
@@ -113,3 +158,17 @@ if has_cycle(graph_edges):
 else:
     print("The graph does not contain a cycle.")
 
+
+if has_vertex_with_multiple_edges(graph_edges):
+    print("The graph contains an 'if' conditional")
+else:
+    print("The graph does not contains an 'if' conditional")
+
+
+graph = build_graph(graph_edges)
+
+result = has_two_different_paths(graph)
+if result:
+    print("The graph contains paralel paths")
+else:
+    print("The graph does not contains paralel paths")
