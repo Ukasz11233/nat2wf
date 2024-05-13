@@ -71,11 +71,10 @@ def build_graph(edges):
     return graph
 
 def has_two_different_paths(graph):
-    for start in graph:
-        for end in graph:
-            if start != end:
-                if bfs_find_two_paths(graph, start, end):
-                    return True
+    for node in graph:
+        for neighbor in graph[node]:
+            if bfs_find_two_paths(graph, node, neighbor):
+                return True
     return False
 
 def bfs_find_two_paths(graph, start, end):
@@ -146,7 +145,7 @@ def print_all_edges(graph_edges):
         print(f"{edge[0]} --> {edge[1]}")
 
 
-graph_edges = parse_mermaid_edges(mermaid_graph2)
+graph_edges = parse_mermaid_edges(mermaid_graph3_without_loop)
 print_all_edges(graph_edges)
 print(graph_edges)
 
