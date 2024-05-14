@@ -71,8 +71,9 @@ def build_graph(edges):
     return graph
 
 def has_two_different_paths(graph):
-    for node in graph:
-        for neighbor in graph[node]:
+    graph_copy = graph.copy()
+    for node in graph_copy:
+        for neighbor in graph_copy[node]:
             if bfs_find_two_paths(graph, node, neighbor):
                 return True
     return False
@@ -144,30 +145,28 @@ def print_all_edges(graph_edges):
     for edge in graph_edges:
         print(f"{edge[0]} --> {edge[1]}")
 
+for graph in [mermaid_graph, mermaid_graph2, mermaid_graph3_without_loop]:
+    graph_edges = parse_mermaid_edges(graph)
+    print_all_edges(graph_edges)
+    print(graph_edges)
 
-graph_edges = parse_mermaid_edges(mermaid_graph3_without_loop)
-print_all_edges(graph_edges)
-print(graph_edges)
-
-
-
-
-if has_cycle(graph_edges):
-    print("The graph contains a cycle.")
-else:
-    print("The graph does not contain a cycle.")
+    if has_cycle(graph_edges):
+        print("The graph contains a cycle.")
+    else:
+        print("The graph does not contain a cycle.")
 
 
-if has_vertex_with_multiple_edges(graph_edges):
-    print("The graph contains an 'if' conditional")
-else:
-    print("The graph does not contains an 'if' conditional")
+    if has_vertex_with_multiple_edges(graph_edges):
+        print("The graph contains an 'if' conditional")
+    else:
+        print("The graph does not contains an 'if' conditional")
 
 
-graph = build_graph(graph_edges)
+    graph = build_graph(graph_edges)
 
-result = has_two_different_paths(graph)
-if result:
-    print("The graph contains paralel paths")
-else:
-    print("The graph does not contains paralel paths")
+    result = has_two_different_paths(graph)
+    if result:
+        print("The graph contains paralel paths")
+    else:
+        print("The graph does not contains paralel paths")
+    print("\n\n")
