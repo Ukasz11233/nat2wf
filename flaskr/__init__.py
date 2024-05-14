@@ -60,8 +60,9 @@ def create_app(test_config=None):
             current_output = cleaned_prediction
             print(cleaned_prediction)
 
-        return render_template("website.html", output=cleaned_prediction)
-
+        if cleaned_prediction:
+            return render_template("website.html", output=cleaned_prediction)
+        return render_template("no_input.html")
     return app
 
 if __name__ == "__main__":

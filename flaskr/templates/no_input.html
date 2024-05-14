@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Your Machine Learning App</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <form class="input" name="form" method="POST">
+        <br>
+        <label for="message">Your text:</label>
+        <br>
+        <textarea type="text" name="text" placeholder="Enter here your mermaid description" required rows="5" cols="80"></textarea>
+        <br><br>
+        <button>Run</button>
+    </form>
+</body>
+
+</html>
