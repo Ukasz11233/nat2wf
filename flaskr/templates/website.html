@@ -18,8 +18,16 @@
     </form>
     <div class="output">
         <pre class="mermaid image">
-                {{ output }}
-            </pre>
+            {{ output }}
+        </pre>
+    </div>
+    <div class="analysis-results">
+        <h2>Graph Analysis Results:</h2>
+        <ul>
+            <li>Contains cycle: {{ 'Yes' if analysis_results.cycle else 'No' }}</li>
+            <li>Contains 'if' conditional (vertex with multiple edges): {{ 'Yes' if analysis_results.multiple_edges else 'No' }}</li>
+            <li>Contains parallel paths: {{ 'Yes' if analysis_results.parallel_paths else 'No' }}</li>
+        </ul>
     </div>
     <script type="module">
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';

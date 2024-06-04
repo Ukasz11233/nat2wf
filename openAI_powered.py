@@ -5,7 +5,8 @@ client = OpenAI(api_key='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')
 
 workflow_to_be_converted = input("Enter the workflow to be converted:\n")
 print('\n\n\n')
-query = "Create a mermaid TD graph that describes provided workflow. Do not label edges (except for the if block), all necessary information should be included in nodes. Please include the code only. Use proper block shapes."
+# query = "Create a mermaid TD graph that describes provided workflow. Do not label edges (except for the if block), all necessary information should be included in nodes. Please include the code only. Use proper block shapes."
+query = "Create a mermaid TD graph that describes provided workflow. If provided text contains: loop/conditional/pararelism add proper tag to that block. Do not label edges (except for the if block), all necessary information should be included in nodes. Please include the code only. Use proper block shapes."
 
 
 completion = client.chat.completions.create(

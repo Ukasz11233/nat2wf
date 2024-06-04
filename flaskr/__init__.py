@@ -3,6 +3,7 @@ import pickle
 from flask import Flask, render_template, request, jsonify
 from openai import OpenAI
 import numpy as np
+import post_processing
 
 current_output = ''
 
@@ -38,6 +39,11 @@ def create_app(test_config=None):
     def main():
         cleaned_prediction = ""
         global current_output
+        analysis_results = {
+            "cycle": False,
+            "multiple_edges": False,
+            "parallel_paths": False
+        }
         if request.method == "POST":
             current_output = ''
             openai_api_key = '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'
@@ -46,7 +52,7 @@ def create_app(test_config=None):
             input_text = request.form.get("text")
             workflow_to_be_converted = input_text
 
-            query = "Create a mermaid TD graph that describes provided workflow. Do not label edges (except for the if block), all necessary information should be included in nodes. Please include the code only. Use proper block shapes."
+            query = "Create a mermaid TD graph that describes provided workflow. Do not label edges (except for the if block), all necessary information should be included in nodes. Please include the code only. Use proper block shapes. Name nodes as letters. Make it contain conditional"
 
             completion = client.chat.completions.create(
                 model="gpt-3.5-turbo",
@@ -61,7 +67,13 @@ def create_app(test_config=None):
             print(cleaned_prediction)
 
         if cleaned_prediction:
-            return render_template("website.html", output=cleaned_prediction)
+            graph_edges = post_processing.parse_mermaid_edges(cleaned_prediction)
+            post_processing.print_all_edges(graph_edges)
+            analysis_results["cycle"] = post_processing.has_cycle(graph_edges)
+            analysis_results["multiple_edges"] = post_processing.has_vertex_with_multiple_edges(graph_edges)
+            # graph = post_processing.build_graph(graph_edges)
+            # analysis_results["parallel_paths"] = post_processing.has_two_different_paths(graph)
+            return render_template("website.html", output=cleaned_prediction, analysis_results=analysis_results)
         return render_template("no_input.html")
     return app
 

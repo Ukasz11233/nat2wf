@@ -2,16 +2,19 @@ import re
 from collections import defaultdict, deque
 
 def parse_mermaid_edges(mermaid_graph):
+    # Remove comments such as "|yes|" or "|no|"
+    mermaid_graph = re.sub(r'\|[^|]*\|', '', mermaid_graph)
     edges = []
+    mermaid_graph = mermaid_graph.replace("|", "")
     lines = mermaid_graph.replace(" ", "").split('\n')
     for line in lines:
         edge = []
-        if(line and line[0].isupper()):
+        if line and line[0].isupper():
             edge.append(line[0])
             index = line.find(">")
-            if(index > 0 and index < len(line)):
-                edge.append(line[index+1])
-        if(len(edge) == 2):
+            if index > 0 and index < len(line):
+                edge.append(line[index + 1])
+        if len(edge) == 2:
             edges.append(edge)
     return edges
 
@@ -141,6 +144,15 @@ D –> E;
 E –> F;
 """
 
+
+test_graph = """
+A --> B
+B --> C
+C --> B
+C --> D
+D --> E
+"""
+
 def print_all_edges(graph_edges):
     for edge in graph_edges:
         print(f"{edge[0]} --> {edge[1]}")
@@ -170,3 +182,4 @@ for graph in [mermaid_graph, mermaid_graph2, mermaid_graph3_without_loop]:
     else:
         print("The graph does not contains paralel paths")
     print("\n\n")
+
