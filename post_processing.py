@@ -50,6 +50,40 @@ def has_cycle(graph_edges):
 
     return False
 
+def has_cycle_directed(graph_edges):
+    graph = {}
+    visited = set()
+    rec_stack = set()
+
+    def dfs(node):
+        visited.add(node)
+        rec_stack.add(node)
+
+        if graph.get(node) is None:
+            return False
+
+        for neighbor in graph[node]:
+            if neighbor not in visited:
+                if dfs(neighbor):
+                    return True
+            elif neighbor in rec_stack:
+                return True
+
+        rec_stack.remove(node)
+        return False
+
+    for edge in graph_edges:
+        if edge[0] not in graph:
+            graph[edge[0]] = []
+        graph[edge[0]].append(edge[1])
+
+    for node in graph:
+        if node not in visited:
+            if dfs(node):
+                return True
+
+    return False
+
 def has_vertex_with_multiple_edges(edges):
     graph = defaultdict(list)
     
@@ -157,29 +191,30 @@ def print_all_edges(graph_edges):
     for edge in graph_edges:
         print(f"{edge[0]} --> {edge[1]}")
 
-for graph in [mermaid_graph, mermaid_graph2, mermaid_graph3_without_loop]:
-    graph_edges = parse_mermaid_edges(graph)
-    print_all_edges(graph_edges)
-    print(graph_edges)
+def show():
+    for graph in [mermaid_graph, mermaid_graph2, mermaid_graph3_without_loop]:
+        graph_edges = parse_mermaid_edges(graph)
+        print_all_edges(graph_edges)
+        print(graph_edges)
 
-    if has_cycle(graph_edges):
-        print("The graph contains a cycle.")
-    else:
-        print("The graph does not contain a cycle.")
-
-
-    if has_vertex_with_multiple_edges(graph_edges):
-        print("The graph contains an 'if' conditional")
-    else:
-        print("The graph does not contains an 'if' conditional")
+        if has_cycle(graph_edges):
+            print("The graph contains a cycle.")
+        else:
+            print("The graph does not contain a cycle.")
 
 
-    graph = build_graph(graph_edges)
+        if has_vertex_with_multiple_edges(graph_edges):
+            print("The graph contains an 'if' conditional")
+        else:
+            print("The graph does not contains an 'if' conditional")
 
-    result = has_two_different_paths(graph)
-    if result:
-        print("The graph contains paralel paths")
-    else:
-        print("The graph does not contains paralel paths")
-    print("\n\n")
+
+        graph = build_graph(graph_edges)
+
+        result = has_two_different_paths(graph)
+        if result:
+            print("The graph contains paralel paths")
+        else:
+            print("The graph does not contains paralel paths")
+        print("\n\n")
 

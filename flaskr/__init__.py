@@ -69,7 +69,7 @@ def create_app(test_config=None):
         if cleaned_prediction:
             graph_edges = post_processing.parse_mermaid_edges(cleaned_prediction)
             post_processing.print_all_edges(graph_edges)
-            analysis_results["cycle"] = post_processing.has_cycle(graph_edges)
+            analysis_results["cycle"] = post_processing.has_cycle_directed(graph_edges)
             analysis_results["multiple_edges"] = post_processing.has_vertex_with_multiple_edges(graph_edges)
             # graph = post_processing.build_graph(graph_edges)
             # analysis_results["parallel_paths"] = post_processing.has_two_different_paths(graph)
