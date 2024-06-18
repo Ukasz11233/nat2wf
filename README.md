@@ -4,6 +4,12 @@ Nat2wf to prototyp prostej strony internetowej, która generuje grafy przepływu
 
 Obecnie program korzysta z modelu LLM, który przetwarza zapytania w języku naturalnym na grafy w formacie mermaid. W efekcie otrzymane grafy nie są deternimistyczne, a jedynie przybliżone do zadanego tekstu. Czasami mogą zawierać błędy.
 
+## Środowsisko
+
+W celu zainstalowania lokalnie niezbędnych bibliotek, należy uruchomić 
+```bash
+pip install -r requirements.txt
+```
 
 ## Uruchamianie
 
