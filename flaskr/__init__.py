@@ -1,8 +1,6 @@
 import os
-import pickle
 from flask import Flask, render_template, request, jsonify
 from openai import OpenAI
-import numpy as np
 import post_processing
 
 current_output = ''
